@@ -30,15 +30,19 @@
   <g id="attributes">
     <g id="initiative">
       <rect x="7" y="7" rx="3" ry="3" width="14" height="14" fill="white" />
-      <text x="11" y="18" font-size="12">D</text>
+      <text x="10.5" y="18" font-size="12">D</text>
     </g>
     <g id="hit">
       <rect x="79" y="7" rx="3" ry="3" width="14" height="14" fill="white" />
-      <text x="82" y="18" font-size="12">4</text>
+      <text x="82.5" y="18" font-size="12">4</text>
     </g>
     <g id="movement">
       <rect x="79" y="79" rx="3" ry="3" width="14" height="14" fill="white" />
-      <text x="82" y="90" font-size="12">4</text>
+      <text x="82.5" y="90" font-size="12">4</text>
+    </g>
+    <g id="arrival">
+      <rect x="7" y="79" rx="8" ry="4" width="14" height="14" fill="white" />
+      <text x="10" y="90" font-size="12">F</text>
     </g>
   </g>
 
