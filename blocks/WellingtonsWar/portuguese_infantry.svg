@@ -1,0 +1,59 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <g id="background">
+    <rect
+      id="Baccellar"
+      class="Portuguese"
+      x="0"
+      y="0"
+      width="100%"
+      height="100%"
+      fill="darkgreen"
+      stroke="darkred"
+      stroke-width="9"
+    />
+  </g>
+
+  <g id="border">
+    <line x1="0" y1="1" x2="100" y2="1" stroke="black" />
+    <line x1="1" y1="1" x2="1" y2="100" stroke="black" />
+    <line x1="0" y1="99" x2="100" y2="99" stroke="black" />
+    <line x1="99" y1="1" x2="99" y2="100" stroke="black" />
+  </g>
+
+  <g id="symbol">
+    <text x="24" y="32" font-size="10">BACCELLAR</text>
+    <rect x="32" y="36" width="34" height="34" fill="rgb(123, 63, 0)" stroke="white"/>
+    <line x1="32" y1="36" x2="66" y2="70" stroke="white" />
+    <line x1="32" y1="70" x2="66" y2="36" stroke="white" />
+  </g>
+
+  <g id="attributes" fill="white">
+    <g id="initiative">
+      <circle cx="14" cy="14" r="8" />
+      <text x="10.5" y="18" font-size="12" fill="black">C</text>
+    </g>
+    <g id="firepower">
+      <circle cx="86" cy="14" r="8"  />
+      <text x="83" y="18" font-size="12" fill="black">1</text>
+    </g>
+    <g id="movement">
+      <circle cx="86" cy="86" r="8" />
+      <text x="83" y="90" font-size="12" fill="black">4</text>
+    </g>
+    <g id="arrival">
+      <circle cx="14" cy="86" r="8" />
+      <text x="8.5" y="90" font-size="10" fill="black">T1</text>
+    </g>
+  </g>
+
+  <g id="pips" stroke="black" fill="white">
+    <g id="strength2">
+      <circle id="bottomleft" cx="44" cy="12" r="5" />
+      <circle id="bottomright" cx="56" cy="12" r="5" />
+    </g>
+
+    <g id="strength1">
+      <circle id="leftcenter" cx="88" cy="50" r="5" />
+    </g>
+  </g>
+</svg> 
