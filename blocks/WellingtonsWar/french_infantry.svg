@@ -20,8 +20,8 @@
   </g>
 
   <g id="symbol">
-    <text x="29" y="30" font-size="8">IMPERIAL</text>
-    <text x="36" y="74" font-size="8">GUARD</text>
+    <text x="30" y="30" font-size="8">IMPERIAL</text>
+    <text x="37" y="74" font-size="8">GUARD</text>
     <rect x="32" y="32" width="34" height="34" fill="white" stroke="black"/>
     <line x1="32" y1="32" x2="66" y2="66" stroke="black" />
     <line x1="32" y1="66" x2="66" y2="32" stroke="black" />
