@@ -31,22 +31,22 @@
     <line x1="32" y1="66" x2="66" y2="32" stroke="black" />
   </g>
 
-  <g id="attributes">
+  <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
     <g id="initiative">
       <circle cx="14" cy="14" r="8" fill="white" />
-      <text x="10.5" y="18" font-size="12">B</text>
+      <text x="14" y="14">B</text>
     </g>
     <g id="firepower">
       <circle cx="86" cy="14" r="8" fill="white" />
-      <text x="83" y="18" font-size="12">3</text>
+      <text x="86" y="14">3</text>
     </g>
     <g id="movement">
       <circle cx="86" cy="86" r="8" fill="white" />
-      <text x="83" y="90" font-size="12">4</text>
+      <text x="86" y="86">4</text>
     </g>
     <g id="arrival">
       <circle cx="14" cy="86" r="8" fill="white" />
-      <text x="10" y="90" font-size="12">C</text>
+      <text x="14" y="86">C</text>
     </g>
   </g>
 
