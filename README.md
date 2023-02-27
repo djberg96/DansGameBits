@@ -23,3 +23,4 @@ the top level `svg` tag.
 * NATO style unit generator: https://spatialillusions.com/unitgenerator/
 * Free and open source icon library: https://icons.getbootstrap.com/
 * Miscellaneous SVG objects: https://commons.wikimedia.org/wiki/Category:SVG_objects
+* More miscellaneous images under CCO license: https://svgsilh.com/
