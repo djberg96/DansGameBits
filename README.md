@@ -16,3 +16,7 @@ https://www.w3.org/TR/2015/WD-SVG2-20150709/intro.html#Namespace
 
 Instead, set the "xmlns" attribute to "http://www.w3.org/2000/svg" within
 the top level `svg` tag.
+
+# External Resources
+
+* Country Flags: https://github.com/hampusborgos/country-flags/tree/main/svg
