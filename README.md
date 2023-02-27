@@ -20,4 +20,5 @@ the top level `svg` tag.
 # External Resources
 
 * Country flags: https://github.com/hampusborgos/country-flags/tree/main/svg
-* NATO style unit generator: https://spatialillusions.com/unitgenerator
+* NATO style unit generator: https://spatialillusions.com/unitgenerator/
+* Free and open source icon library: https://icons.getbootstrap.com/
