@@ -1,7 +1,7 @@
 <svg width="250" height="350" xmlns="http://www.w3.org/2000/svg">
   <rect id="card_background" width="100%" height="100%" fill="black" stroke="white" stroke-width="15"/>
   <g id="card_name" text-anchor="middle" dominant-baseline="central">
-    <rect id="name" x="20" y="20" width="210" height="50"/>
+    <rect id="name" x="20" y="20" width="210"/>
     <text x="125" y="45" fill="white" font-size="28" font-family="stop">A CALL TO ARMS</text>
   </g>
   <g id="when" text-anchor="middle" dominant-baseline="central">
@@ -10,11 +10,13 @@
   </g>
   <g id="description">
     <rect x="20" y="120" width="210" height="210" fill="lightgrey"/>
-    <g id="text" text-anchor="middle" dominant-baseline="central" font-size="12">
-      <text x="125" dy="40%">Ships in an adjacent,</text>
-      <text x="125" dy="45%">connected system may join a</text>
-      <text x="125" dy="50%">battle at the start of the</text>
-      <text x="125" dy="55%">2nd round of combat.</text>
+    <g id="text" text-anchor="middle" font-size="12">
+      <text id="main_text">
+        <tspan x="50%" dy="140">Ships in an adjacent</tspan>
+        <tspan x="50%" dy="1.2em">connected system may join a</tspan>
+        <tspan x="50%" dy="1.2em">battle at the start of the</tspan>
+        <tspan x="50%" dy="1.2em">2nd round of combat.</tspan>
+      </text>
     </g>
   </g>
 </svg>
