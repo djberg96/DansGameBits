@@ -5,14 +5,14 @@
     <text x="125" y="45" fill="white" font-size="28" font-family="stop">A CALL TO ARMS</text>
   </g>
   <g id="when" text-anchor="middle" dominant-baseline="central">
-    <rect x="85" y="70" rx="8" ry="4" width="80" height="20" fill="red"/>
+    <rect x="80" y="68" rx="8" ry="4" width="90" height="22" fill="red"/>
     <text x="125" y="80" fill="white" font-size="18">COMBAT</text>
   </g>
   <g id="description">
     <rect x="20" y="120" width="210" height="210" fill="lightgrey"/>
     <g id="text" text-anchor="middle" font-size="16">
       <text id="main_text">
-        <tspan x="50%" dy="160">Your ships from a single, </tspan>
+        <tspan x="50%" dy="150">Your ships from a single, </tspan>
         <tspan x="50%" dy="1.2em">adjacent, connected system</tspan>
         <tspan x="50%" dy="1.2em">may join a battle at the start of</tspan>
         <tspan x="50%" dy="1.2em">the 2nd round of combat.</tspan>
