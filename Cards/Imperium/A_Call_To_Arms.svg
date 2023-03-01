@@ -9,7 +9,7 @@
     <text x="125" y="80" fill="white" font-size="18">COMBAT</text>
   </g>
   <g id="description">
-    <rect x="20" y="120" width="210" height="210" fill="lightgrey"/>
+    <rect x="20" y="120" width="210" height="210" fill="lightgrey" stroke="white" stroke-width="3"/>
     <g id="text" text-anchor="middle" font-size="16">
       <text id="main_text">
         <tspan x="50%" dy="150">Your ships from a single, </tspan>
