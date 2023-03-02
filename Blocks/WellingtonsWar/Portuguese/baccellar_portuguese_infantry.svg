@@ -20,8 +20,8 @@
     <line x1="99" y1="1" x2="99" y2="100" stroke="black" />
   </g>
 
-  <g id="symbol">
-    <text x="24" y="32" font-size="10">BACCELLAR</text>
+  <g id="symbol" text-anchor="middle">
+    <text x="50%" y="32" font-size="10">BACCELLAR</text>
     <rect x="32" y="36" width="34" height="34" fill="rgb(123, 63, 0)" stroke="white"/>
     <line x1="32" y1="36" x2="66" y2="70" stroke="white" />
     <line x1="32" y1="70" x2="66" y2="36" stroke="white" />
