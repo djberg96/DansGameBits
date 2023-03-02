@@ -23,12 +23,12 @@
     <line x1="99" y1="1" x2="99" y2="100" stroke="black" />
   </g>
 
-  <g id="symbol">
-    <text x="32" y="30" font-size="8">SPENCER</text>
-    <text x="28" y="74" font-size="6">1st DIVISION</text>
-    <rect x="32" y="32" width="34" height="34" fill="white" stroke="black"/>
-    <line x1="32" y1="32" x2="66" y2="66" stroke="black" />
-    <line x1="32" y1="66" x2="66" y2="32" stroke="black" />
+  <g id="symbol" text-anchor="middle">
+    <text x="50%" y="30" font-size="8">SPENCER</text>
+    <text x="50%" y="74" font-size="6">1st DIVISION</text>
+    <rect x="33" y="33" width="34" height="34" fill="white" stroke="black"/>
+    <line x1="33" y1="33" x2="67" y2="67" stroke="black" />
+    <line x1="33" y1="67" x2="67" y2="33" stroke="black" />
   </g>
 
   <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
