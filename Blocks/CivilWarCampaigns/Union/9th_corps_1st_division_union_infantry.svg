@@ -20,15 +20,16 @@
   </g>
 
   <g id="parent_corps" text-anchor="middle">
-    <rect x="30" y="21" width="40" height="9" fill="darkred"/>
-    <text x="50%" y="28" font-size="8" fill="white">IX CORPS</text>
+    <rect x="30" y="25" width="40" height="9" fill="darkred"/>
+    <text x="50%" y="32" font-size="8" fill="white">IX CORPS</text>
   </g>
 
   <g id="symbol" text-anchor="middle">
-    <text x="50%" y="74" font-size="7">1st Division</text>
-    <rect x="26" y="32" width="48" height="34" fill="white" stroke="black"/>
-    <line x1="26" y1="32" x2="74" y2="66" stroke="black" />
-    <line x1="26" y1="66" x2="74" y2="32" stroke="black" />
+    <text x="50%" y="77" font-size="7">1st Division</text>
+    <rect x="26" y="36" width="48" height="34" fill="white" stroke="black"/>
+    <line x1="26" y1="36" x2="74" y2="70" stroke="black" />
+    <line x1="26" y1="70" x2="74" y2="36" stroke="black" />
+    <text x="24" y="50%" font-size="6" transform="rotate(90,21,50)">XX</text>
   </g>
 
   <g id="pips" stroke="black" fill="white">
