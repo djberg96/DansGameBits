@@ -12,11 +12,11 @@
     />
   </g>
 
-  <g id="border">
-    <line x1="0" y1="1" x2="100" y2="1" stroke="black" />
-    <line x1="1" y1="1" x2="1" y2="100" stroke="black" />
-    <line x1="0" y1="99" x2="100" y2="99" stroke="black" />
-    <line x1="99" y1="1" x2="99" y2="100" stroke="black" />
+  <g id="border" stroke="black" stroke-width="2">
+    <line x1="0" y1="1%" x2="100%" y2="1%" />
+    <line x1="1%" y1="1%" x2="1%" y2="100%" />
+    <line x1="0" y1="99%" x2="100%" y2="99%" />
+    <line x1="99%" y1="1%" x2="99%" y2="100%" />
   </g>
 
   <g id="symbol" text-anchor="middle">
