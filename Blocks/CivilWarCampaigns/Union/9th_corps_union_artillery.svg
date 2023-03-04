@@ -29,7 +29,7 @@
 
   <g id="symbol" text-anchor="middle">
     <rect x="26" y="36" width="48" height="34" fill="white" stroke="black"/>
-    <circle cx="50%" cy="52.5" r="7">
+    <circle cx="50%" cy="52.5" r="7"/>
   </g>
 
   <g id="pips" stroke="black" fill="white">
