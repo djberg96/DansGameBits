@@ -25,12 +25,13 @@
     <text x="50%" y="29" font-size="8" fill="white">IX CORPS</text>
   </g>
 
+  <text x="18" y="50" font-size="6" transform="rotate(270 25,50)">XX</text>
+
   <g id="symbol" text-anchor="middle">
     <text x="50%" y="78" font-size="7" fill="white">2nd Division</text>
     <rect x="26" y="36" width="48" height="34" fill="white" stroke="black"/>
     <line x1="26" y1="36" x2="74" y2="70" stroke="black" />
     <line x1="26" y1="70" x2="74" y2="36" stroke="black" />
-    <text x="50%" y="68%" font-size="6">XX</text>
   </g>
 
   <g id="breakdown_symbol">
