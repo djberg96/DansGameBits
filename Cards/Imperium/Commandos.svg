@@ -13,7 +13,7 @@
     <rect x="20" y="120" width="210" height="210" fill="lightgrey" stroke="white" stroke-width="3"/>
     <g id="text" text-anchor="middle" font-size="16">
       <text id="main_text">
-        <tspan x="50%" dy="150">During this combat your</tspan>
+        <tspan x="50%" dy="170">During this combat your</tspan>
         <tspan x="50%" dy="1.2em">regular troops may land</tspan>
         <tspan x="50%" dy="1.2em">without a transport.</tspan>
 
