@@ -1,0 +1,26 @@
+<svg width="250" height="350" xmlns="http://www.w3.org/2000/svg">
+  <rect id="card_background" width="100%" height="100%" fill="black" stroke="white" stroke-width="15"/>
+  <g id="card_name" text-anchor="middle" dominant-baseline="central">
+    <rect id="name" x="20" y="20" width="210"/>
+    <text x="125" y="45" fill="white" font-size="28" font-family="stop">CLOSE THE RANGE</text>
+  </g>
+  <g id="when" text-anchor="middle" dominant-baseline="central">
+    <rect x="80" y="68" rx="8" ry="4" width="90" height="22" fill="red"/>
+    <text x="125" y="80" fill="white" font-size="18">COMBAT</text>
+  </g>
+  <g id="description">
+    <rect x="20" y="120" width="210" height="210" fill="lightgrey" stroke="white" stroke-width="3"/>
+    <g id="text" text-anchor="middle" font-size="14">
+      <text id="main_text">
+        <tspan x="50%" dy="150">Treat all missile fire</tspan>
+        <tspan x="50%" dy="1.2em">by your opponent as</tspan>
+        <tspan x="50%" dy="1.2em">short range missile</tspan>
+        <tspan x="50%" dy="1.2em">fire during this space</tspan>
+        <tspan x="50%" dy="1.2em">combat when at long</tspan>
+        <tspan x="50%" dy="1.2em">range.</tspan>
+        <tspan x="50%" dy="2.4em">This event has no</tspan>
+        <tspan x="50%" dy="1.2em">effect at short range.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
