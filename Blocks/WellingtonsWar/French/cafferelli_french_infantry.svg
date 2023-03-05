@@ -1,0 +1,65 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <title>Cafferelli</title>
+  <desc>French Cavalry</desc>
+
+  <g id="background">
+    <rect
+      id="french_background"
+      width="100%"
+      height="100%"
+      fill="rgb(51,133,205)"
+      stroke="rgb(9,71,168)"
+      stroke-width="9"
+    />
+  </g>
+
+  <g id="border" stroke="black" stroke-width="2">
+    <line x1="0" y1="1%" x2="100%" y2="1%" />
+    <line x1="1%" y1="1%" x2="1%" y2="100%" />
+    <line x1="0" y1="99%" x2="100%" y2="99%" />
+    <line x1="99%" y1="1%" x2="99%" y2="100%" />
+  </g>
+
+  <g id="symbol" text-anchor="middle">
+    <text x="50%" y="30" font-size="8">CAFFERELLI</text>
+    <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+    <line x1="33" y1="32" x2="67" y2="66" stroke="black" />
+    <line x1="33" y1="66" x2="67" y2="32" stroke="black" />
+  </g>
+
+  <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+    <g id="initiative">
+      <circle cx="14" cy="14" r="8" fill="white" />
+      <text x="14" y="14">B</text>
+    </g>
+    <g id="firepower">
+      <circle cx="86" cy="14" r="8" fill="white" />
+      <text x="86" y="14">2</text>
+    </g>
+    <g id="movement">
+      <circle cx="86" cy="86" r="8" fill="white" />
+      <text x="86" y="86">4</text>
+    </g>
+    <g id="arrival">
+      <ellipse cx="16" cy="86" rx="9" ry="7" fill="white" />
+      <text x="16" y="86" font-size="10">T2</text>
+    </g>
+  </g>
+
+  <g id="pips" stroke="black" fill="white">
+    <g id="strength3">
+      <circle id="topleft" cx="38" cy="12" r="5"  />
+      <circle id="topmiddle" cx="50" cy="12" r="5" />
+      <circle id="topright" cx="62" cy="12" r="5" />
+    </g>
+
+    <g id="strength2">
+      <circle id="righttop" cx="88" cy="44" r="5" />
+      <circle id="rightcenter" cx="88" cy="56" r="5" />
+    </g>
+
+    <g id="strength1">
+      <circle id="bottomleft" cx="50" cy="88" r="5" />
+    </g>
+  </g>
+</svg> 
