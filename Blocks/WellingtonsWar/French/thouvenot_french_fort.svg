@@ -1,0 +1,61 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <title>Thouvenot</title>
+  <desc>French fort</desc>
+  <g id="background">
+    <rect
+      id="french_unit_one_strength"
+      x="0"
+      y="0"
+      width="100%"
+      height="100%"
+      fill="rgb(51,133,205)"
+      stroke="rgb(9,71,168)"
+      stroke-width="9"
+    />
+  </g>
+
+  <g id="border" stroke="black" stroke-width="2">
+    <line x1="0" y1="1%" x2="100%" y2="1%" />
+    <line x1="1%" y1="1%" x2="1%" y2="100%" />
+    <line x1="0" y1="99%" x2="100%" y2="99%" />
+    <line x1="99%" y1="1%" x2="99%" y2="100%" />
+  </g>
+
+  <g id="pips" stroke="black" fill="white">
+    <g id="strength1">
+      <circle id="topcenter" cx="50" cy="12" r="5"  />
+    </g>
+  </g>
+
+  <g id="symbol" text-anchor="middle">
+    <text x="50%" y="30" font-size="8" fill="black">THOUVENOT</text>
+    <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" fill="white" stroke="black" stroke-width="1" />
+    <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" fill="white" stroke="black" stroke-width="1" />
+    <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="black"/>
+    <line x1="33" y1="50" x2="35.7" y2="50" stroke="black"/>
+    <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+    <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+    <line x1="58" y1="36" x2="57" y2="38.5" stroke="black"/>
+    <line x1="67" y1="50" x2="64.3" y2="50" stroke="black"/>
+    <line x1="58" y1="64" x2="57" y2="61.5" stroke="black"/>
+  </g>
+
+  <g id="attributes" text-anchor="middle" font-size="12">
+    <g id="initiative">
+      <circle cx="14" cy="14" r="8" fill="white" />
+      <text x="14" y="18">A</text>
+    </g>
+    <g id="firepower">
+      <circle cx="86" cy="14" r="8" fill="white" />
+      <text x="86" y="18">6</text>
+    </g>
+    <g id="movement">
+      <circle cx="86" cy="86" r="8" fill="white" />
+      <text x="86" y="90">0</text>
+    </g>
+    <g id="arrival">
+      <ellipse cx="18" cy="87" rx="12" ry="7" fill="white" />
+      <text x="18" y="90" font-size="8">1213</text>
+    </g>
+  </g>
+</svg> 
