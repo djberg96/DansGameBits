@@ -1,0 +1,76 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <title>Balesteros</title>
+  <desc>Spanish Infantry</desc>
+
+  <g id="background">
+    <rect
+      id="spanish_background"
+      width="100%"
+      height="100%"
+      fill="yellow"
+      stroke="darkred"
+      stroke-width="9"
+    />
+  </g>
+
+  <g id="border" stroke="black" stroke-width="2">
+    <line x1="0" y1="1%" x2="100%" y2="1%" />
+    <line x1="1%" y1="1%" x2="1%" y2="100%" />
+    <line x1="0" y1="99%" x2="100%" y2="99%" />
+    <line x1="99%" y1="1%" x2="99%" y2="100%" />
+  </g>
+
+  <g id="symbol" text-anchor="middle">
+    <text x="50%" y="36" font-size="9">BALESTEROS</text>
+    <rect x="33" y="38" width="34" height="34" fill="darkred" stroke="black"/>
+    <line x1="33" y1="38" x2="67" y2="72" stroke="black" />
+    <line x1="33" y1="72" x2="67" y2="38" stroke="black" />
+  </g>
+
+  <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12" fill="black">
+    <g id="initiative">
+      <circle cx="14" cy="14" r="8" />
+      <text x="14" y="14" fill="white">C</text>
+    </g>
+    <g id="firepower">
+      <circle cx="86" cy="14" r="8"  />
+      <text x="86" y="14" fill="white">1</text>
+    </g>
+    <g id="movement">
+      <circle cx="86" cy="86" r="8" />
+      <text x="86" y="86" fill="white">4</text>
+    </g>
+    <g id="arrival">
+      <circle cx="14" cy="86" r="8" />
+      <text x="14" y="86" font-size="8" fill="white">T1</text>
+    </g>
+  </g>
+
+  <g id="pips" stroke="black" fill="darkred">
+    <g id="strength5">
+      <circle id="topleft" cx="44" cy="12" r="5" />
+      <circle id="topright" cx="56" cy="12" r="5" />
+      <circle id="bottomleft" cx="38" cy="22" r="5"  />
+      <circle id="bottommiddle" cx="50" cy="22" r="5" />
+      <circle id="bottomright" cx="62" cy="22" r="5" />
+    </g>
+
+    <g id="strength4">
+      <circle id="righttop" cx="88" cy="32" r="5" />
+      <circle id="rightmidtop" cx="88" cy="44" r="5" />
+      <circle id="rightmidbottom" cx="88" cy="56" r="5" />
+      <circle id="rightbottom" cx="88" cy="68" r="5" />
+    </g>
+
+    <g id="strength3">
+      <circle id="bottomleft" cx="38" cy="88" r="5"  />
+      <circle id="bottommiddle" cx="50" cy="88" r="5" />
+      <circle id="bottomright" cx="62" cy="88" r="5" />
+    </g>
+
+    <g id="strength2">
+      <circle id="lefttop" cx="12" cy="44" r="5" />
+      <circle id="leftbottom" cx="12" cy="56" r="5" />
+    </g>
+  </g>
+</svg> 
