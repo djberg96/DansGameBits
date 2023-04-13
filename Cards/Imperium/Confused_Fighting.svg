@@ -3,7 +3,7 @@
   <rect id="card_background" width="100%" height="100%" fill="black" stroke="white" stroke-width="15"/>
   <g id="card_name" text-anchor="middle" dominant-baseline="central">
     <rect id="name" x="20" y="20" width="210"/>
-    <text x="125" y="45" fill="white" font-size="28" font-family="stop">CLOSE THE RANGE</text>
+    <text x="125" y="45" fill="white" font-size="24" font-family="stop">CONFUSED FIGHTING</text>
   </g>
   <g id="when" text-anchor="middle" dominant-baseline="central">
     <rect x="80" y="68" rx="8" ry="4" width="90" height="22" fill="red"/>
