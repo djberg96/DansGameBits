@@ -1,28 +1,35 @@
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
   <title>Lines of Torres Vedras</title>
   <desc>British Fort</desc>
 
-  <g id="background">
+  <defs>
     <rect
-      id="british_background"
-      width="100%"
-      height="100%"
+      id="background"
+      width="100"
+      height="100"
       fill="red"
       stroke="darkred"
-      stroke-width="9"
+      stroke-width="11"
     />
-  </g>
 
-  <g id="border" stroke="black" stroke-width="2">
-    <line x1="0" y1="1%" x2="100%" y2="1%" />
-    <line x1="1%" y1="1%" x2="1%" y2="100%" />
-    <line x1="0" y1="99%" x2="100%" y2="99%" />
-    <line x1="99%" y1="1%" x2="99%" y2="100%" />
-  </g>
+    <g id="border" stroke="black" stroke-width="2">
+      <line x1="0" y1="1" x2="100" y2="1" />
+      <line x1="1" y1="1" x2="1" y2="100" />
+      <line x1="0" y1="99" x2="100" y2="99" />
+      <line x1="99" y1="1" x2="99" y2="100" />
+    </g>
+
+    <clipPath id="block">
+      <use href="#background">
+    </clipPath>
+  </defs>
+
+  <use href="#background" clip-path="url(#block)"/>
+  <use href="#border" clip-path="url(#block)"/>
 
   <g id="symbol" text-anchor="middle" transform="translate(0,4)">
-    <text x="50%" y="34" font-size="8" fill="black">LINES OF</text>
-    <text x="50%" y="72" font-size="8" fill="black">TORRES VEDRAS</text>
+    <text x="50" y="34" font-size="8" fill=white>LINES OF</text>
+    <text x="50" y="72" font-size="8" fill=white>TORRES VEDRAS</text>
     <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" stroke="white" stroke-width="1" />
     <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" stroke="white" stroke-width="1" />
     <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="white"/>
@@ -36,20 +43,20 @@
 
   <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
     <g id="initiative">
-      <circle cx="14" cy="14" r="8" fill="white" stroke="black" stroke-width="0.5" />
-      <text x="14" y="14">A</text>
+      <circle cx="15" cy="15" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+      <text x="15" y="15">A</text>
     </g>
     <g id="firepower">
-      <circle cx="86" cy="14" r="8" fill="white" stroke="black" stroke-width="0.5" />
-      <text x="86" y="14">3</text>
+      <circle cx="85" cy="15" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+      <text x="85" y="15">3</text>
     </g>
     <g id="movement">
-      <circle cx="86" cy="86" r="8" fill="white" stroke="black" stroke-width="0.5" />
-      <text x="86" y="86">0</text>
+      <circle cx="85" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+      <text x="85" y="85">0</text>
     </g>
     <g id="arrival">
-      <circle cx="14" cy="86" r="8" fill="white" stroke="black" stroke-width="0.5" />
-      <text x="14" y="86" font-size="10">E8</text>
+      <circle cx="15" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+      <text x="15" y="85" font-size="9">E8</text>
     </g>
   </g>
 
