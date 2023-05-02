@@ -1,43 +1,50 @@
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Hill</title>
   <desc>British Leader</desc>
 
-  <g id="background">
+  <defs>
     <rect
-      id="british_background"
-      width="100%"
-      height="100%"
+      id="background"
+      width="100"
+      height="100"
       fill="red"
       stroke="darkred"
-      stroke-width="9"
+      stroke-width="11"
     />
-  </g>
 
-  <g id="border" stroke="black" stroke-width="2">
-    <line x1="0" y1="1%" x2="100%" y2="1%" />
-    <line x1="1%" y1="1%" x2="1%" y2="100%" />
-    <line x1="0" y1="99%" x2="100%" y2="99%" />
-    <line x1="99%" y1="1%" x2="99%" y2="100%" />
-  </g>
+    <g id="border" stroke="black" stroke-width="2">
+      <line x1="0" y1="1" x2="100" y2="1" />
+      <line x1="1" y1="1" x2="1" y2="100" />
+      <line x1="0" y1="99" x2="100" y2="99" />
+      <line x1="99" y1="1" x2="99" y2="100" />
+    </g>
+
+    <clipPath id="block">
+      <use href="#background">
+    </clipPath>
+  </defs>
+
+  <use href="#background" clip-path="url(#block)"/>
+  <use href="#border" clip-path="url(#block)"/>
 
   <g id="symbol" text-anchor="middle">
-    <text x="50%" y="30" font-size="8">HILL</text>
+    <text x="50" y="30" font-size="8" fill="white">HILL</text>
     <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
-    <text x="50%" y="53" font-size="12">HQ</text>
+    <text x="50" y="53" font-size="12">HQ</text>
     <line x1="33" y1="38" x2="67" y2="38" stroke="black" />
     <line x1="33" y1="60" x2="67" y2="60" stroke="black" />
   </g>
 
   <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
     <g id="movement">
-      <circle cx="86" cy="86" r="8" fill="white" stroke="black" stroke-width="0.5"/>
-      <text x="86" y="86">5</text>
+      <circle cx="85" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5"/>
+      <text x="85" y="85">5</text>
     </g>
     <g id="arrival">
-      <ellipse cx="16" cy="84" rx="8" ry="10" fill="white" stroke="black" stroke-width="0.5" />
-      <line x1="8" y1="84" x2="24" y2="84" stroke="black"/>
-      <text x="16" y="80" font-size="7">T4</text>
-      <text x="16" y="89" font-size="7">E8</text>
+      <ellipse cx="16" cy="83" rx="8" ry="10" fill="white" stroke="black" stroke-width="0.5" />
+      <line x1="8" y1="83" x2="24" y2="83" stroke="black"/>
+      <text x="16" y="79" font-size="7">T4</text>
+      <text x="16" y="88" font-size="7">E8</text>
     </g>
   </g>
 
