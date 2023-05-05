@@ -20,7 +20,7 @@
     </g>
 
     <clipPath id="block">
-      <use href="#background">
+      <use href="#background"/>
     </clipPath>
   </defs>
 
