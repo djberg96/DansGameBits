@@ -20,7 +20,7 @@
     </g>
 
     <clipPath id="block">
-      <use href="#background">
+      <use href="#background"/>
     </clipPath>
   </defs>
 
@@ -28,8 +28,8 @@
   <use href="#border" clip-path="url(#block)"/>
 
   <g id="symbol" text-anchor="middle" transform="translate(0,4)">
-    <text x="50" y="34" font-size="8" fill=white>LINES OF</text>
-    <text x="50" y="72" font-size="8" fill=white>TORRES VEDRAS</text>
+    <text x="50" y="34" font-size="8" fill="white">LINES OF</text>
+    <text x="50" y="72" font-size="8" fill="white">TORRES VEDRAS</text>
     <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" stroke="white" stroke-width="1" />
     <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" stroke="white" stroke-width="1" />
     <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="white"/>
