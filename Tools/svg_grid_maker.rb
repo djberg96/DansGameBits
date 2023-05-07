@@ -23,8 +23,8 @@ excl = opts['e'].to_s.split(',')
 hspace = opts.fetch('h'){ 10 }
 vspace = opts.fetch('v'){ 10 }
 
-width  = (100 * cols) + (hspace * cols)
-height = (100 * rows) + (vspace * rows)
+width  = (100 * cols) + (hspace * cols) + hspace
+height = (100 * rows) + (vspace * rows) + vspace
 
 start_string = "<svg viewBox='0 0 #{width} #{height}' xmlns='http://www.w3.org/2000/svg'>"
 end_string = "</svg>"
@@ -59,7 +59,7 @@ begin
       unit_name = File.basename(file).split('_').first
 
       # Assume size 100 for now, fix this to use viewbox
-      x = (hspace * current_col) + (100 * current_col)
+      x = (hspace * current_col) + (100 * current_col) + hspace
       y = (vspace * current_row) + (100 * current_row)
 
       current_col += 1
