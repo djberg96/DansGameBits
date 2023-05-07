@@ -3,12 +3,25 @@ require 'nokogiri'
 
 opts = Getopt::Std.getopts('d:r:c:e:o:')
 
-rows = opts['r'].to_i
-cols = opts['c'].to_i
-dir  = opts['d']
+# Rows and columns
+rows = opts.fetch('r'){ 1 }.to_i
+cols = opts.fetch('c'){ 1 }.to_i
+
+# Directory to search
+dir  = opts.fetch('d'){ Dir.pwd }
+
+# Fetch content within this group key
+key  = opts.fetch('k'){ 'unit' }
+
+# Output file
+out  = opts.fetch('o'){ 'temp.svg' }
+
+# Ignore these comma separated files when parsing
 excl = opts['e'].to_s.split(',')
-out  = opts['o'] || 'temp.svg'
-key  = opts['k'] || 'unit'
+
+# Horizontal and Vertical Spacing
+hspace = opts.fetch('h'){ 10 }
+vspace = opts.fetch('v'){ 10 }
 
 start_string = "<svg xmlns='http://www.w3.org/2000/svg'>"
 end_string = "</svg>"
