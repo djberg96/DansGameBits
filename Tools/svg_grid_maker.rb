@@ -64,7 +64,7 @@ begin
 
       current_col += 1
 
-      if current_col > cols
+      if current_col >= cols
         current_col = 0
         current_row += 1
       end
