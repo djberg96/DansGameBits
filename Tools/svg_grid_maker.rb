@@ -23,13 +23,19 @@ excl = opts['e'].to_s.split(',')
 hspace = opts.fetch('h'){ 10 }
 vspace = opts.fetch('v'){ 10 }
 
-start_string = "<svg xmlns='http://www.w3.org/2000/svg'>"
+width  = (100 * cols) + (hspace * cols)
+height = (100 * rows) + (vspace * rows)
+
+start_string = "<svg viewBox='0 0 #{width} #{height}' xmlns='http://www.w3.org/2000/svg'>"
 end_string = "</svg>"
 
 begin
   ohandle = File.open(out, 'w')
 
   ohandle.puts(start_string)
+
+  current_row = 0
+  current_col = 0
 
   Dir["#{dir}/*.svg"].each do |file|
     begin
@@ -45,7 +51,21 @@ begin
       xml = document.xpath("//g[@id='#{key}']").to_xml
 
       unit_name = File.basename(file).split('_').first
-      ohandle.puts("  <g id=\"#{unit_name}\">")
+
+      # Assume size 100 for now, fix this to use viewbox
+      x = (hspace * current_col) + (100 * current_col)
+      y = (vspace * current_row) + (100 * current_row)
+
+      current_col += 1
+
+      if current_col > cols
+        current_col = 0
+        current_row += 1
+      end
+
+      break if current_row > rows
+
+      ohandle.puts("  <g id=\"#{unit_name}\" transform=\"translate(#{x},#{y})\">")
       ohandle.puts(xml)
       ohandle.puts("  </g>")
     ensure
