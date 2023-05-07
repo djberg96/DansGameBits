@@ -2,7 +2,7 @@
   <title>Picton</title>
   <desc>British Infantry</desc>
 
-  <defs>
+  <defs id="common">
     <rect
       id="background"
       width="100"
@@ -24,50 +24,52 @@
     </clipPath>
   </defs>
 
-  <use href="#background" clip-path="url(#block)"/>
-  <use href="#border" clip-path="url(#block)"/>
+  <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
 
-  <g id="symbol" text-anchor="middle">
-    <text x="50" y="30" font-size="8" fill="white">PICTON</text>
-    <text x="50" y="74" font-size="6" fill="white">3rd DIVISION</text>
-    <rect x="33" y="33" width="34" height="34" fill="white" stroke="black"/>
-    <line x1="33" y1="33" x2="67" y2="67" stroke="black" />
-    <line x1="33" y1="67" x2="67" y2="33" stroke="black" />
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">PICTON</text>
+      <text x="50" y="74" font-size="6" fill="white">3rd DIVISION</text>
+      <rect x="33" y="33" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="33" x2="67" y2="67" stroke="black" />
+      <line x1="33" y1="67" x2="67" y2="33" stroke="black" />
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="15" cy="15" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+        <text x="15" y="15">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="85" cy="15" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+        <text x="85" y="15">3</text>
+      </g>
+      <g id="movement">
+        <circle cx="85" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+        <text x="85" y="85">4</text>
+      </g>
+      <g id="arrival">
+        <circle cx="15" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+        <text x="15" y="85" font-size="9">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3" fill="green">
+        <circle id="topleftouter" cx="38" cy="12" r="5"  />
+        <circle id="topleftinner" cx="50" cy="12" r="5" />
+        <circle id="toprightinner" cx="62" cy="12" r="5" />
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5" />
+        <circle id="rightbottom" cx="88" cy="56" r="5" />
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5" />
+      </g>
+    </g>
   </g>
-
-  <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
-    <g id="initiative">
-      <circle cx="15" cy="15" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
-      <text x="15" y="15">B</text>
-    </g>
-    <g id="firepower">
-      <circle cx="85" cy="15" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
-      <text x="85" y="15">3</text>
-    </g>
-    <g id="movement">
-      <circle cx="85" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
-      <text x="85" y="85">4</text>
-    </g>
-    <g id="arrival">
-      <circle cx="15" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
-      <text x="15" y="85" font-size="9">T1</text>
-    </g>
-  </g>
-
-  <g id="pips" stroke="black" fill="white">
-    <g id="strength3" fill="green">
-      <circle id="topleftouter" cx="38" cy="12" r="5"  />
-      <circle id="topleftinner" cx="50" cy="12" r="5" />
-      <circle id="toprightinner" cx="62" cy="12" r="5" />
-    </g>
-
-    <g id="strength2">
-      <circle id="righttop" cx="88" cy="44" r="5" />
-      <circle id="rightbottom" cx="88" cy="56" r="5" />
-    </g>
-
-    <g id="strength1">
-      <circle id="bottomleft" cx="50" cy="88" r="5" />
-    </g>
-  </g>
-</svg> 
+</svg>
