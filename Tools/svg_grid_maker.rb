@@ -48,6 +48,12 @@ begin
       end
 
       document.remove_namespaces!
+
+      if current_col == 0
+        common_defs = document.xpath("//defs[@id='common']").to_xml
+        ohandle.puts("  #{common_defs}")
+      end
+
       xml = document.xpath("//g[@id='#{key}']").to_xml
 
       unit_name = File.basename(file).split('_').first
@@ -66,7 +72,7 @@ begin
       break if current_row > rows
 
       ohandle.puts("  <g id=\"#{unit_name}\" transform=\"translate(#{x},#{y})\">")
-      ohandle.puts(xml)
+      ohandle.puts("    #{xml}")
       ohandle.puts("  </g>")
     ensure
       handle.close if handle
