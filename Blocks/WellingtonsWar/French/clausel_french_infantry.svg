@@ -46,7 +46,7 @@
       </g>
       <g id="movement">
         <circle cx="86" cy="86" r="8" fill="white" />
-        <text x="86" y="86">5</text>
+        <text x="86" y="86">4</text>
       </g>
       <g id="arrival">
         <ellipse cx="16" cy="86" rx="9" ry="7" fill="white" />
