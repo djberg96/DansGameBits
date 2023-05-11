@@ -70,7 +70,8 @@ begin
 
       document.remove_namespaces!
 
-      if current_col == 0
+      # Only write this once
+      if current_col == 0 && current_row == 0
         common_defs = document.xpath("//defs[@id='common']").to_xml
         ohandle.puts("  #{common_defs}")
       end
