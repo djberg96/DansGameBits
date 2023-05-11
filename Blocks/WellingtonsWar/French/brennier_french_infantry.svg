@@ -1,5 +1,5 @@
 <svg viewBox="0 0 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <title>Bonet</title>
+  <title>Brennier</title>
   <desc>French Infantry</desc>
 
   <defs id="common">
@@ -29,7 +29,7 @@
     <use href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
-      <text x="50" y="30" font-size="8" fill="white">BONET</text>
+      <text x="50" y="30" font-size="8" fill="white">BRENNIER</text>
       <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
       <line x1="33" y1="32" x2="67" y2="66" stroke="black" />
       <line x1="33" y1="66" x2="67" y2="32" stroke="black" />
