@@ -24,7 +24,7 @@
     </clipPath>
   </defs>
 
-  <g id="common">
+  <g id="unit">
     <use href="#background" clip-path="url(#block)"/>
     <use href="#border" clip-path="url(#block)"/>
 
