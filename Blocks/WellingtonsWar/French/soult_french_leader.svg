@@ -29,9 +29,9 @@
     <use href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
-      <text x="50%" y="30" font-size="8">SOULT</text>
+      <text x="50" y="30" font-size="8" fill="white">SOULT</text>
       <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
-      <text x="50%" y="53" font-size="12">HQ</text>
+      <text x="50" y="53" font-size="12">HQ</text>
       <line x1="33" y1="38" x2="67" y2="38" stroke="black" />
       <line x1="33" y1="60" x2="67" y2="60" stroke="black" />
     </g>
