@@ -1,27 +1,48 @@
 require 'getopt/std'
 require 'nokogiri'
 
-opts = Getopt::Std.getopts('d:r:c:e:o:')
+opts = Getopt::Std.getopts('x:y:d:r:c:e:o:h')
+
+if opts['h']
+  doc = <<-HELP
+
+    # Generate a grid of svg files. Looks for all .svg files in specified directory.
+    ruby svg_grid_maker.rb <options>
+
+    -c columns (default: 1)
+    -d directory (default: pwd)
+    -e files to exclude, comma separated (default: none)
+    -h help
+    -k key/primary content id (default: 'unit')
+    -o output filename (default: temp.svg)
+    -r rows (default: 1)
+    -x horizontal spacing (default: 10)
+    -y vertical spacing (default: 10)
+
+  HELP
+  warn doc
+  exit
+end
 
 # Rows and columns
 rows = opts.fetch('r'){ 1 }.to_i
 cols = opts.fetch('c'){ 1 }.to_i
 
 # Directory to search
-dir  = opts.fetch('d'){ Dir.pwd }
+dir = opts.fetch('d'){ Dir.pwd }
 
 # Fetch content within this group key
-key  = opts.fetch('k'){ 'unit' }
+key = opts.fetch('k'){ 'unit' }
 
 # Output file
-out  = opts.fetch('o'){ 'temp.svg' }
+out = opts.fetch('o'){ 'temp.svg' }
 
 # Ignore these comma separated files when parsing
 excl = opts['e'].to_s.split(',')
 
 # Horizontal and Vertical Spacing
-hspace = opts.fetch('h'){ 10 }
-vspace = opts.fetch('v'){ 10 }
+hspace = opts.fetch('x'){ 10 }
+vspace = opts.fetch('y'){ 10 }
 
 width  = (100 * cols) + (hspace * cols) + hspace
 height = (100 * rows) + (vspace * rows) + vspace
