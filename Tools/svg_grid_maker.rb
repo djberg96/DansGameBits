@@ -47,7 +47,7 @@ vspace = opts.fetch('y'){ 10 }
 width  = (100 * cols) + (hspace * cols) + hspace
 height = (100 * rows) + (vspace * rows) + vspace
 
-start_string = "<svg viewBox='0 0 #{width} #{height}' xmlns='http://www.w3.org/2000/svg'>"
+start_string = "<svg viewBox=\"0 0 #{width} #{height}\" width=\"#{width}\" height=\"#{height}\" xmlns=\"http://www.w3.org/2000/svg\">"
 end_string = "</svg>"
 
 begin
@@ -82,7 +82,7 @@ begin
 
       # Assume size 100 for now, fix this to use viewbox
       x = (hspace * current_col) + (100 * current_col) + hspace
-      y = (vspace * current_row) + (100 * current_row)
+      y = (vspace * current_row) + (100 * current_row) + vspace
 
       current_col += 1
 
