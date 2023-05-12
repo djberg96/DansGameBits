@@ -1,0 +1,2642 @@
+<svg viewBox="0 0 890 890" width="890" height="890" xmlns="http://www.w3.org/2000/svg">
+  <defs id="common">
+    <rect id="background" width="100" height="100" fill="rgb(51,133,205)" stroke="rgb(9,71,168)" stroke-width="9"/>
+
+    <g id="border" stroke="black" stroke-width="2">
+      <line x1="0" y1="1" x2="100" y2="1"/>
+      <line x1="1" y1="1" x2="1" y2="100"/>
+      <line x1="0" y1="99" x2="100" y2="99"/>
+      <line x1="99" y1="1" x2="99" y2="100"/>
+    </g>
+
+    <clipPath id="block">
+      <use href="#background"/>
+    </clipPath>
+  </defs>
+  <g id="army" transform="translate(10,10)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">ARMY OF</text>
+      <text x="50" y="74" font-size="8" fill="white">THE EBRO</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <ellipse cx="15" cy="17" rx="8" ry="11" fill="white"/>
+        <text x="15" y="12" font-size="10">A</text>
+        <line x1="7" y1="17.5" x2="23" y2="17.5" stroke="black"/>
+        <text x="15" y="23" font-size="10">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">E5</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="augereau" transform="translate(120,10)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">AUGEREAU</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">C</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="barrie" transform="translate(230,10)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength1">
+        <circle id="topcenter" cx="50" cy="12" r="5"/>
+      </g>
+    </g>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">BARRIE</text>
+      <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" fill="white" stroke="black" stroke-width="1"/>
+      <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" fill="white" stroke="black" stroke-width="1"/>
+      <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="black"/>
+      <line x1="33" y1="50" x2="35.7" y2="50" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="58" y1="36" x2="57" y2="38.5" stroke="black"/>
+      <line x1="67" y1="50" x2="64.3" y2="50" stroke="black"/>
+      <line x1="58" y1="64" x2="57" y2="61.5" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="18">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="18">6</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="90">0</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="90" font-size="10">T2</text>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="bessierres" transform="translate(340,10)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">BESSIERRES</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">1509</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="bonet" transform="translate(450,10)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">BONET</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="brennier" transform="translate(560,10)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">BRENNIER</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="cafferelli" transform="translate(670,10)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">CAFFERELLI</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="cassan" transform="translate(780,10)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength1">
+        <circle id="topcenter" cx="50" cy="12" r="5"/>
+      </g>
+    </g>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">CASSAN</text>
+      <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" fill="white" stroke="black" stroke-width="1"/>
+      <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" fill="white" stroke="black" stroke-width="1"/>
+      <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="black"/>
+      <line x1="33" y1="50" x2="35.7" y2="50" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="58" y1="36" x2="57" y2="38.5" stroke="black"/>
+      <line x1="67" y1="50" x2="64.3" y2="50" stroke="black"/>
+      <line x1="58" y1="64" x2="57" y2="61.5" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="18">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="18">6</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="90">0</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="90" font-size="8">1413</text>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="clausel" transform="translate(10,120)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">CLAUSEL</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="d" transform="translate(120,120)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">D'ERLON</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="decan" transform="translate(230,120)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">DECAN</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="delaborde" transform="translate(340,120)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">DELABORDE</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">2201</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5" fill="black"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="deshesme" transform="translate(450,120)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">DESHESME</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">1717</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="dorsenne" transform="translate(560,120)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">DORSENNE</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">3</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">1509</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="dubreton" transform="translate(670,120)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength1">
+        <circle id="topcenter" cx="50" cy="12" r="5"/>
+      </g>
+    </g>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">DUBRETON</text>
+      <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" fill="white" stroke="black" stroke-width="1"/>
+      <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" fill="white" stroke="black" stroke-width="1"/>
+      <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="black"/>
+      <line x1="33" y1="50" x2="35.7" y2="50" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="58" y1="36" x2="57" y2="38.5" stroke="black"/>
+      <line x1="67" y1="50" x2="64.3" y2="50" stroke="black"/>
+      <line x1="58" y1="64" x2="57" y2="61.5" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="18">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="18">6</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="90">0</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="90" font-size="8">1509</text>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="dupont" transform="translate(780,120)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">DUPONT</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">1</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">2407</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="foy" transform="translate(10,230)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">FOY</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="gazan" transform="translate(120,230)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">GAZAN</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="gendarmes" transform="translate(230,230)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">GENDARMES</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">5</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">E2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="habert" transform="translate(340,230)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength1">
+        <circle id="topcenter" cx="50" cy="12" r="5"/>
+      </g>
+    </g>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">HABERT</text>
+      <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" fill="white" stroke="black" stroke-width="1"/>
+      <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" fill="white" stroke="black" stroke-width="1"/>
+      <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="black"/>
+      <line x1="33" y1="50" x2="35.7" y2="50" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="58" y1="36" x2="57" y2="38.5" stroke="black"/>
+      <line x1="67" y1="50" x2="64.3" y2="50" stroke="black"/>
+      <line x1="58" y1="64" x2="57" y2="61.5" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="18">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="18">6</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="90">0</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="90" font-size="10">T2</text>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="hudelet" transform="translate(450,230)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">HUDELET</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="hugo" transform="translate(560,230)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">HUGO</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <ellipse cx="15" cy="17" rx="8" ry="11" fill="white"/>
+        <text x="15" y="12" font-size="10">A</text>
+        <line x1="7" y1="17.5" x2="23" y2="17.5" stroke="black"/>
+        <text x="15" y="23" font-size="10">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">1</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival" font-size="7">
+        <ellipse cx="15" cy="82" rx="9" ry="11" fill="white"/>
+        <text x="15" y="77">E5</text>
+        <line x1="7" y1="82" x2="23" y2="82" stroke="black"/>
+        <text x="15" y="87">E10</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="imperial" transform="translate(670,230)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">IMPERIAL</text>
+      <text x="50" y="74" font-size="8" fill="white">GUARD</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">D</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">4</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <circle cx="14" cy="86" r="8" fill="white"/>
+        <text x="14" y="86">F</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="joseph" transform="translate(780,230)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">JOSEPH</text>
+      <rect x="33" y="32" width="34" height="34" fill="yellow" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">C</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">1</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">E3</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="junot" transform="translate(10,340)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="black">JUNOT</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">1</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">2201</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3" fill="black">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="kellerman" transform="translate(120,340)">
+    <g id="unit">  
+    <use href="#border" clip-path="url(#block)"/>
+    <use href="#background" clip-path="url(#block)"/>
+  
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">KELLERMAN</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">5</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="lannes" transform="translate(230,340)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">LANNES</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">3</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="lefebrve" transform="translate(340,340)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">LEFEBRVE</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">C</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="leval" transform="translate(450,340)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">LEVAL</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="loison" transform="translate(560,340)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">LOISON</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">2403</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1" fill="black">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="macdonald" transform="translate(670,340)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">MACDONALD</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="marcone" transform="translate(780,340)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">MARCONE</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="marmont" transform="translate(10,450)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">MARMONT</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <text x="50" y="53" font-size="12">HQ</text>
+      <line x1="33" y1="38" x2="67" y2="38" stroke="black"/>
+      <line x1="33" y1="60" x2="67" y2="60" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">5</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <defs>
+      <g id="french_flag">
+        <linearGradient id="french_flag_colors" x2="100%" y2="0%">
+          <stop offset="33.3%" stop-color="blue"/>
+          <stop offset="33.3%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="red"/>
+        </linearGradient>
+        <rect id="french_flag_rectangle" width="18" height="12" fill="url(#french_flag_colors)" stroke="black" stroke-width="1"/>
+      </g>
+    </defs>
+
+    <g id="strength2">
+      <use href="#french_flag" x="29" y="8"/>
+      <use href="#french_flag" x="53" y="8"/>
+    </g>
+
+    <g id="strength1">
+      <use href="#french_flag" x="80" y="48" transform="rotate(90, 90 50)"/>
+    </g>
+  </g>
+  </g>
+  <g id="massena" transform="translate(120,450)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">MASSENA</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <text x="50" y="53" font-size="12">HQ</text>
+      <line x1="33" y1="38" x2="67" y2="38" stroke="black"/>
+      <line x1="33" y1="60" x2="67" y2="60" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">5</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <defs>
+      <g id="french_flag">
+        <linearGradient id="french_flag_colors" x2="100%" y2="0%">
+          <stop offset="33.3%" stop-color="blue"/>
+          <stop offset="33.3%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="red"/>
+        </linearGradient>
+        <rect id="french_flag_rectangle" width="18" height="12" fill="url(#french_flag_colors)" stroke="black" stroke-width="1"/>
+      </g>
+    </defs>
+
+    <g id="strength2">
+      <use href="#french_flag" x="29" y="8"/>
+      <use href="#french_flag" x="53" y="8"/>
+    </g>
+
+    <g id="strength1">
+      <use href="#french_flag" x="80" y="48" transform="rotate(90, 90 50)"/>
+    </g>
+  </g>
+  </g>
+  <g id="milhaud" transform="translate(230,450)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">MILHAUD</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">5</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="moncey" transform="translate(340,450)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">MONCEY</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">1</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">1909</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="montbrun" transform="translate(450,450)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">MONTBRUN</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">5</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="mortier" transform="translate(560,450)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">MORTIER</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="napoleon" transform="translate(670,450)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">NAPOLEON</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <text x="50" y="53" font-size="12">HQ</text>
+      <line x1="33" y1="38" x2="67" y2="38" stroke="black"/>
+      <line x1="33" y1="60" x2="67" y2="60" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">5</text>
+      </g>
+      <g id="arrival">
+        <circle cx="16" cy="86" r="8" fill="white"/>
+        <text x="16" y="86" font-size="10">F</text>
+      </g>
+    </g>
+
+    <defs>
+      <g id="french_flag">
+        <linearGradient id="french_flag_colors" x2="100%" y2="0%">
+          <stop offset="33.3%" stop-color="blue"/>
+          <stop offset="33.3%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="red"/>
+        </linearGradient>
+        <rect id="french_flag_rectangle" width="18" height="12" fill="url(#french_flag_colors)" stroke="black" stroke-width="1"/>
+      </g>
+    </defs>
+
+    <g id="strength3">
+      <use href="#french_flag" x="18" y="8"/>
+      <use href="#french_flag" x="40" y="8"/>
+      <use href="#french_flag" x="62" y="8"/>
+    </g>
+
+    <g id="strength2">
+      <use href="#french_flag" x="82" y="48" transform="rotate(90, 96 44)"/>
+      <use href="#french_flag" x="104" y="48" transform="rotate(90, 96 44)"/>
+    </g>
+
+    <g id="strength1">
+      <use href="#french_flag" x="40" y="80"/>
+    </g>
+  </g>
+  </g>
+  <g id="national" transform="translate(780,450)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">NATIONAL</text>
+      <text x="50" y="74" font-size="8" fill="white">GUARD</text>
+      <rect x="33" y="32" width="34" height="34" fill="#1338BE" stroke="white"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="white"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="white"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">C</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">1</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <circle cx="14" cy="86" r="8" fill="white"/>
+        <text x="14" y="86">F</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="ney" transform="translate(10,560)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">NEY</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">3</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="phillipon" transform="translate(120,560)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength1">
+        <circle id="topcenter" cx="50" cy="12" r="5"/>
+      </g>
+    </g>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">PHILLIPON</text>
+      <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" fill="white" stroke="black" stroke-width="1"/>
+      <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" fill="white" stroke="black" stroke-width="1"/>
+      <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="black"/>
+      <line x1="33" y1="50" x2="35.7" y2="50" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="58" y1="36" x2="57" y2="38.5" stroke="black"/>
+      <line x1="67" y1="50" x2="64.3" y2="50" stroke="black"/>
+      <line x1="58" y1="64" x2="57" y2="61.5" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="18">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="18">6</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="90">0</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="90" font-size="10">T2</text>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="reille" transform="translate(230,560)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">REILLE</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">1</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">1418</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="rey" transform="translate(340,560)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength1">
+        <circle id="topcenter" cx="50" cy="12" r="5"/>
+      </g>
+    </g>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">REY</text>
+      <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" fill="white" stroke="black" stroke-width="1"/>
+      <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" fill="white" stroke="black" stroke-width="1"/>
+      <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="black"/>
+      <line x1="33" y1="50" x2="35.7" y2="50" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="58" y1="36" x2="57" y2="38.5" stroke="black"/>
+      <line x1="67" y1="50" x2="64.3" y2="50" stroke="black"/>
+      <line x1="58" y1="64" x2="57" y2="61.5" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="18">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="18">6</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="90">0</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="90" font-size="8">1311</text>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="reynier" transform="translate(450,560)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">REYNIER</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="savary" transform="translate(560,560)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">SAVARY</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">1909</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="sebastiani" transform="translate(670,560)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">SEBASTIANI</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength3">
+        <circle id="topleft" cx="38" cy="12" r="5"/>
+        <circle id="topmiddle" cx="50" cy="12" r="5"/>
+        <circle id="topright" cx="62" cy="12" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="righttop" cx="88" cy="44" r="5"/>
+        <circle id="rightcenter" cx="88" cy="56" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="bottomleft" cx="50" cy="88" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="serras" transform="translate(780,560)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">SERRAS</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="souham" transform="translate(10,670)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">SOUHAM</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="soult" transform="translate(120,670)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">SOULT</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <text x="50" y="53" font-size="12">HQ</text>
+      <line x1="33" y1="38" x2="67" y2="38" stroke="black"/>
+      <line x1="33" y1="60" x2="67" y2="60" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">5</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <defs>
+      <g id="french_flag">
+        <linearGradient id="french_flag_colors" x2="100%" y2="0%">
+          <stop offset="33.3%" stop-color="blue"/>
+          <stop offset="33.3%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="red"/>
+        </linearGradient>
+        <rect id="french_flag_rectangle" width="18" height="12" fill="url(#french_flag_colors)" stroke="black" stroke-width="1"/>
+      </g>
+    </defs>
+
+    <g id="strength2">
+      <use href="#french_flag" x="29" y="8"/>
+      <use href="#french_flag" x="53" y="8"/>
+    </g>
+
+    <g id="strength1">
+      <use href="#french_flag" x="80" y="48" transform="rotate(90, 90 50)"/>
+    </g>
+  </g>
+  </g>
+  <g id="st" transform="translate(230,670)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">ST CYR</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="suchet" transform="translate(340,670)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">SUCHET</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <text x="50" y="53" font-size="12">HQ</text>
+      <line x1="33" y1="38" x2="67" y2="38" stroke="black"/>
+      <line x1="33" y1="60" x2="67" y2="60" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">5</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <defs>
+      <g id="french_flag">
+        <linearGradient id="french_flag_colors" x2="100%" y2="0%">
+          <stop offset="33.3%" stop-color="blue"/>
+          <stop offset="33.3%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="white"/>
+          <stop offset="66.7%" stop-color="red"/>
+        </linearGradient>
+        <rect id="french_flag_rectangle" width="18" height="12" fill="url(#french_flag_colors)" stroke="black" stroke-width="1"/>
+      </g>
+    </defs>
+
+    <g id="strength2">
+      <use href="#french_flag" x="29" y="8"/>
+      <use href="#french_flag" x="53" y="8"/>
+    </g>
+
+    <g id="strength1">
+      <use href="#french_flag" x="80" y="48" transform="rotate(90, 90 50)"/>
+    </g>
+  </g>
+  </g>
+  <g id="thouvenot" transform="translate(450,670)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength1">
+        <circle id="topcenter" cx="50" cy="12" r="5"/>
+      </g>
+    </g>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">THOUVENOT</text>
+      <polygon points="33,50 42,36 58,36 67,50 58,64 42,64" fill="white" stroke="black" stroke-width="1"/>
+      <polygon points="35.7,50 43.3,38.5 57,38.5 64.3,50 56.7,61.5 43.3,61.5" fill="white" stroke="black" stroke-width="1"/>
+      <line x1="42" y1="64" x2="43.3" y2="61.5" stroke="black"/>
+      <line x1="33" y1="50" x2="35.7" y2="50" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="42" y1="36" x2="43.3" y2="38.5" stroke="black"/>
+      <line x1="58" y1="36" x2="57" y2="38.5" stroke="black"/>
+      <line x1="67" y1="50" x2="64.3" y2="50" stroke="black"/>
+      <line x1="58" y1="64" x2="57" y2="61.5" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="18">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="18">6</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="90">0</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="90" font-size="8">1213</text>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="verdier" transform="translate(560,670)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">VERDIER</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="18" cy="87" rx="12" ry="7" fill="white"/>
+        <text x="18" y="87" font-size="8">1509</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5"/>
+        <circle id="topright" cx="56" cy="12" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+  <g id="victor" transform="translate(670,670)">
+    <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">VICTOR</text>
+      <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="32" x2="67" y2="66" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+    </g>
+
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white"/>
+        <text x="14" y="14">C</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white"/>
+        <text x="86" y="14">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="86" cy="86" r="8" fill="white"/>
+        <text x="86" y="86">4</text>
+      </g>
+      <g id="arrival">
+        <ellipse cx="16" cy="86" rx="9" ry="7" fill="white"/>
+        <text x="16" y="86" font-size="10">T1</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength4">
+        <circle id="topleftouter" cx="32" cy="12" r="5"/>
+        <circle id="topleftinner" cx="44" cy="12" r="5"/>
+        <circle id="toprightinner" cx="56" cy="12" r="5"/>
+        <circle id="toprightouter" cx="68" cy="12" r="5"/>
+      </g>
+
+      <g id="strength3">
+        <circle id="righttop" cx="88" cy="38" r="5"/>
+        <circle id="rightcenter" cx="88" cy="50" r="5"/>
+        <circle id="rightbottom" cx="88" cy="62" r="5"/>
+      </g>
+
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="88" r="5"/>
+        <circle id="bottomright" cx="56" cy="88" r="5"/>
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="12" cy="50" r="5"/>
+      </g>
+    </g>
+  </g>
+  </g>
+</svg>
