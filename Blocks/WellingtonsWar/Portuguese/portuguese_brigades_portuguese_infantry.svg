@@ -2,7 +2,7 @@
   <title>Portugues Brigades</title>
   <desc>Portuguese Infantry</desc>
 
-  <defs>
+  <defs id="common">
     <rect
       id="background"
       width="100"
@@ -24,44 +24,46 @@
     </clipPath>
   </defs>
 
-  <use href="#background" clip-path="url(#block)"/>
-  <use href="#border" clip-path="url(#block)"/>
+  <g id="unit">
+    <use href="#background" clip-path="url(#block)"/>
+    <use href="#border" clip-path="url(#block)"/>
 
-  <g id="symbol" text-anchor="middle">
-    <text x="50" y="34" font-size="10" fill="white">PORTUGUESE</text>
-    <text x="50" y="80" font-size="10" fill="white">BRIGADES</text>
-    <rect x="33" y="36" width="34" height="34" fill="rgb(123, 63, 0)" stroke="white"/>
-    <line x1="33" y1="36" x2="67" y2="70" stroke="white" />
-    <line x1="33" y1="70" x2="67" y2="36" stroke="white" />
-  </g>
-
-  <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12" fill="white">
-    <g id="initiative">
-      <circle cx="15" cy="15" r="7.5" />
-      <text x="15" y="15" fill="black">B</text>
-    </g>
-    <g id="firepower">
-      <circle cx="85" cy="15" r="7.5"  />
-      <text x="85" y="15" fill="black">2</text>
-    </g>
-    <g id="movement">
-      <circle cx="85" cy="85" r="7.5" />
-      <text x="85" y="85" fill="black">4</text>
-    </g>
-    <g id="arrival">
-      <circle cx="15" cy="85" r="7.5" />
-      <text x="15" y="85" font-size="8" fill="black">E7</text>
-    </g>
-  </g>
-
-  <g id="pips" stroke="black" fill="white">
-    <g id="strength2">
-      <circle id="bottomleft" cx="44" cy="12" r="5" />
-      <circle id="bottomright" cx="56" cy="12" r="5" />
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="34" font-size="10" fill="white">PORTUGUESE</text>
+      <text x="50" y="80" font-size="10" fill="white">BRIGADES</text>
+      <rect x="33" y="36" width="34" height="34" fill="rgb(123, 63, 0)" stroke="white"/>
+      <line x1="33" y1="36" x2="67" y2="70" stroke="white" />
+      <line x1="33" y1="70" x2="67" y2="36" stroke="white" />
     </g>
 
-    <g id="strength1">
-      <circle id="leftcenter" cx="88" cy="50" r="5" />
+    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12" fill="white">
+      <g id="initiative">
+        <circle cx="15" cy="15" r="7.5" />
+        <text x="15" y="15" fill="black">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="85" cy="15" r="7.5"  />
+        <text x="85" y="15" fill="black">2</text>
+      </g>
+      <g id="movement">
+        <circle cx="85" cy="85" r="7.5" />
+        <text x="85" y="85" fill="black">4</text>
+      </g>
+      <g id="arrival">
+        <circle cx="15" cy="85" r="7.5" />
+        <text x="15" y="85" font-size="8" fill="black">E7</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="bottomleft" cx="44" cy="12" r="5" />
+        <circle id="bottomright" cx="56" cy="12" r="5" />
+      </g>
+
+      <g id="strength1">
+        <circle id="leftcenter" cx="88" cy="50" r="5" />
+      </g>
     </g>
   </g>
 </svg> 
