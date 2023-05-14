@@ -1,0 +1,39 @@
+<svg viewBox="0 0 50 50" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+  <title>Spanish Commitment Level</title>
+  <desc>Spanish Commitment Level Marker</desc>
+
+  <defs id="common">
+     <g id="flag" >
+    <rect width="36" height="24" fill="red" />
+    <rect width="36" height="12" y="6" fill="yellow"/>
+    <rect width="36" height="24" fill="none" stroke="black" stroke-width="0.5"/>
+
+    <linearGradient id="symbol">
+      <stop offset="50%" stop-color="red" />
+      <stop offset="50%" stop-color="white" />
+    </linearGradient>
+
+    <ellipse
+      cx="12"
+      cy="13"
+      rx="3"
+      ry="4"
+      fill="url(#symbol)"
+      stroke="black"
+      stroke-width="0.2"
+    />
+
+    <circle cx="10.5" cy="12" r="1" fill="gold"/>
+    <circle cx="13.5" cy="14" r="1" fill="red"/>
+  </g>
+  </defs>
+
+  <g id="marker">
+    <rect width="50" height="50" fill="white" stroke="black" stroke-width="1"/>
+    <use href="#flag" x="7" y="3" clip-path="url(#clip)"/>
+    <text y="38" text-anchor="middle" font-size="7" fill="black">
+      <tspan x="27">COMMITMENT</tspan>
+      <tspan x="25" dy="1em">LEVEL</tspan>
+    </text>
+  </g>
+</svg>
