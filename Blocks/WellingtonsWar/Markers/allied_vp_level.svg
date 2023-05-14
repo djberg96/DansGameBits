@@ -3,7 +3,7 @@
   <desc>British Commitment Marker</desc>
 
   <defs id="common">
-    <g id="flag">
+    <g id="british_flag">
       <rect width="36" height="24" fill="#012169" />
       <line x1="0" y1="-1" x2="36" y2="25" stroke="white" stroke-width="4"/>
       <line x1="-1" y1="-1" x2="15" y2="10.5" stroke="#C8102E" stroke-width="1.5"/>
@@ -21,11 +21,34 @@
         <use href="#border"/>
       </clipPath>
     </g>
+    <g id="spanish_flag" >
+      <rect width="36" height="24" fill="red" />
+      <rect width="36" height="12" y="6" fill="yellow"/>
+      <rect width="36" height="24" fill="none" stroke="black" stroke-width="0.5"/>
+
+      <linearGradient id="symbol">
+        <stop offset="50%" stop-color="red" />
+        <stop offset="50%" stop-color="white" />
+      </linearGradient>
+
+      <ellipse
+        cx="12"
+        cy="13"
+        rx="3"
+        ry="4"
+        fill="url(#symbol)"
+        stroke="black"
+        stroke-width="0.2"
+      />
+
+      <circle cx="10.5" cy="12" r="1" fill="gold"/>
+      <circle cx="13.5" cy="14" r="1" fill="red"/>
+    </g>
   </defs>
 
   <g id="marker">
     <rect width="50" height="50" fill="white" stroke="black" stroke-width="1"/>
-    <use href="#flag" x="7" y="3" clip-path="url(#clip)"/>
+    <use href="#british_flag" x="7" y="3" clip-path="url(#clip)" transform="scale(0.5)"/>
     <text y="38" text-anchor="middle" font-size="8" fill="black">
       <tspan x="28">COMMITMENT</tspan>
       <tspan x="25" dy="1em">LEVEL</tspan>
