@@ -1,0 +1,31 @@
+<svg viewBox="0 0 50 50" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+  <title>French Force Level x1</title>
+  <desc>French Force Level x1 Marker</desc>
+
+  <defs id="common">
+    <g id="flag">
+      <linearGradient id="french_flag" x2="100%" y2="0%">
+        <stop offset="33.3%" stop-color="blue" />
+        <stop offset="33.3%" stop-color="white" />
+        <stop offset="66.7%" stop-color="white" />
+        <stop offset="66.7%" stop-color="red" />
+      </linearGradient>
+
+      <rect fill="url(#french_flag)" stroke="black" stroke-width="1" width="36" height="24"/>
+      <rect id="border" width="36" height="24" fill="none" stroke="black" stroke-width="0.5"/>
+
+      <clipPath id="clip">
+        <use href="#border"/>
+      </clipPath>
+    </g>
+  </defs>
+
+  <g id="marker">
+    <rect width="50" height="50" fill="white" stroke="black" stroke-width="1"/>
+    <use href="#flag" x="7" y="3" clip-path="url(#clip)"/>
+    <text y="38" text-anchor="middle" font-size="8" fill="black">
+      <tspan x="28">FORCE</tspan>
+      <tspan x="25" dy="1em">LEVEL x1</tspan>
+    </text>
+  </g>
+</svg>
