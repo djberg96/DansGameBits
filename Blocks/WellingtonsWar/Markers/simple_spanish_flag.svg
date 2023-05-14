@@ -1,0 +1,26 @@
+<svg width="36" height="24" xmlns="http://www.w3.org/2000/svg">
+  <title>Spanish Flag</title>
+  <desc>Simplified Flag</desc>
+
+  <!-- This is a simplified Spanish flag from the Napoleonic era -->
+  <g id="flag" >
+  <rect width="36" height="24" fill="red" />
+  <rect width="36" height="12" y="6" fill="yellow"/>
+  <rect width="36" height="24" fill="none" stroke="black" stroke-width="0.5"/>
+
+
+  <linearGradient id="symbol">
+    <stop offset="50%" stop-color="red" />
+    <stop offset="50%" stop-color="white" />
+  </linearGradient>
+
+  <ellipse
+    cx="12"
+    cy="13"
+    rx="3"
+    ry="4"
+    fill="url(#symbol)"
+    stroke="black"
+    stroke-width="0.2"
+  />
+</svg>
