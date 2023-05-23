@@ -35,7 +35,7 @@
       <line x1="33" y1="70" x2="67" y2="36" stroke="black" />
     </g>
 
-    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12" fill="black">
+    <g id="attributes" text-anchor="middle" font-size="12" fill="black">
       <g id="initiative">
         <circle cx="14" cy="14" r="8" />
         <text x="14" y="14" fill="white">C</text>
