@@ -1,4 +1,4 @@
-<svg viewBox="0 0 780 450" width="780" height="450" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 780 450" width="780" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs id="common">
     <rect id="background" width="100" height="100" fill="yellow" stroke="darkred" stroke-width="9"/>
 
@@ -10,13 +10,13 @@
     </g>
 
     <clipPath id="block">
-      <use href="#background"/>
+      <use xlink:href="#background"/>
     </clipPath>
   </defs>
   <g id="alvarez" transform="translate(10,10)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="30" font-size="8" fill="black">ALVAREZ</text>
@@ -59,8 +59,8 @@
   </g>
   <g id="ariezaga" transform="translate(120,10)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="36" font-size="9">ARIEZAGA</text>
@@ -119,8 +119,8 @@
   </g>
   <g id="balesteros" transform="translate(230,10)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="36" font-size="9">BALESTEROS</text>
@@ -179,8 +179,8 @@
   </g>
   <g id="blake" transform="translate(340,10)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="36" font-size="9">BLAKE</text>
@@ -239,8 +239,8 @@
   </g>
   <g id="campoverde" transform="translate(450,10)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="36" font-size="9">CAMPOVERDE</text>
@@ -295,8 +295,8 @@
   </g>
   <g id="castanos" transform="translate(560,10)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="36" font-size="9">CASTANOS</text>
@@ -355,8 +355,8 @@
   </g>
   <g id="cervellon" transform="translate(670,10)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">CERVELLON</text>
@@ -404,8 +404,8 @@
   </g>
   <g id="cuesta" transform="translate(10,120)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="36" font-size="9">CUESTA</text>
@@ -464,8 +464,8 @@
   </g>
   <g id="de" transform="translate(120,120)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">DE ESPA&#xD1;A</text>
@@ -507,8 +507,8 @@
   </g>
   <g id="del" transform="translate(230,120)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">DEL PALACIO</text>
@@ -550,8 +550,8 @@
   </g>
   <g id="del" transform="translate(340,120)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="36" font-size="9">DEL PARQUE</text>
@@ -610,8 +610,8 @@
   </g>
   <g id="empicinado" transform="translate(450,120)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="32" font-size="9">EMPICINADO</text>
@@ -661,8 +661,8 @@
   </g>
   <g id="friere" transform="translate(560,120)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>  
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">FRIERE</text>
@@ -710,8 +710,8 @@
   </g>
   <g id="galluzzo" transform="translate(670,120)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">GALLUZZO</text>
@@ -766,8 +766,8 @@
   </g>
   <g id="giron" transform="translate(10,230)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">GIRON</text>
@@ -822,8 +822,8 @@
   </g>
   <g id="infantado" transform="translate(120,230)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">INFANTADO</text>
@@ -871,8 +871,8 @@
   </g>
   <g id="la" transform="translate(230,230)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">LA ROMANA</text>
@@ -920,8 +920,8 @@
   </g>
   <g id="longa" transform="translate(340,230)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="32" font-size="10">LONGA</text>
@@ -965,8 +965,8 @@
   </g>
   <g id="marquista" transform="translate(450,230)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="32" font-size="10">MARQUISTA</text>
@@ -1016,8 +1016,8 @@
   </g>
   <g id="mina" transform="translate(560,230)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="32" font-size="10">MINA</text>
@@ -1074,8 +1074,8 @@
   </g>
   <g id="odonnell" transform="translate(670,230)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">O'DONNELL</text>
@@ -1130,8 +1130,8 @@
   </g>
   <g id="pallafox" transform="translate(10,340)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">PALLAFOX</text>
@@ -1186,8 +1186,8 @@
   </g>
   <g id="reding" transform="translate(120,340)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">REDING</text>
@@ -1235,8 +1235,8 @@
   </g>
   <g id="sanchez" transform="translate(230,340)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="32" font-size="10">SANCHEZ</text>
@@ -1293,8 +1293,8 @@
   </g>
   <g id="santocildes" transform="translate(340,340)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">SANTOCILDES</text>
@@ -1349,8 +1349,8 @@
   </g>
   <g id="venegas" transform="translate(450,340)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">VENEGAS</text>
@@ -1398,8 +1398,8 @@
   </g>
   <g id="vives" transform="translate(560,340)">
     <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="34" font-size="10">VIVES</text>
