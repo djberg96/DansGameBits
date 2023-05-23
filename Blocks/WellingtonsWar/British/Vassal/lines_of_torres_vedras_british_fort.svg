@@ -25,8 +25,8 @@
   </defs>
 
   <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle" transform="translate(0,4)">
       <text x="50" y="34" font-size="8" fill="white">LINES OF</text>
