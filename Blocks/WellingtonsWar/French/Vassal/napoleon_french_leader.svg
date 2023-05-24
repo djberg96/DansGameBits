@@ -67,18 +67,18 @@
     </defs>
 
     <g id="strength3">
-      <use xlink:xlink:href="#french_flag" x="18" y="8"/>
-      <use xlink:xlink:href="#french_flag" x="40" y="8"/>
-      <use xlink:xlink:href="#french_flag" x="62" y="8"/>
+      <use xlink:href="#french_flag" x="18" y="8"/>
+      <use xlink:href="#french_flag" x="40" y="8"/>
+      <use xlink:href="#french_flag" x="62" y="8"/>
     </g>
 
     <g id="strength2">
-      <use xlink:xlink:href="#french_flag" x="82" y="48" transform="rotate(90, 96 44)"/>
-      <use xlink:xlink:href="#french_flag" x="104" y="48" transform="rotate(90, 96 44)"/>
+      <use xlink:href="#french_flag" x="82" y="48" transform="rotate(90, 96 44)"/>
+      <use xlink:href="#french_flag" x="104" y="48" transform="rotate(90, 96 44)"/>
     </g>
 
     <g id="strength1">
-      <use xlink:xlink:href="#french_flag" x="40" y="80"/>
+      <use xlink:href="#french_flag" x="40" y="80"/>
     </g>
   </g>
 </svg> 
