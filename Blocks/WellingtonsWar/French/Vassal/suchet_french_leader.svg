@@ -20,13 +20,13 @@
     </g>
 
     <clipPath id="block">
-      <use href="#background"/>
+      <use xlink:href="#background"/>
     </clipPath>
   </defs>
 
   <g id="unit">
-    <use href="#background" clip-path="url(#block)"/>
-    <use href="#border" clip-path="url(#block)"/>
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="30" font-size="8" fill="white">SUCHET</text>
@@ -36,7 +36,7 @@
       <line x1="33" y1="60" x2="67" y2="60" stroke="black" />
     </g>
 
-    <g id="attributes" text-anchor="middle" dominant-baseline="central" font-size="12">
+    <g id="attributes" text-anchor="middle" font-size="12">
       <g id="movement">
         <circle cx="86" cy="86" r="8" fill="white" />
         <text x="86" y="86">5</text>
@@ -67,12 +67,12 @@
     </defs>
 
     <g id="strength2">
-      <use xlink:href="#french_flag" x="29" y="8"/>
-      <use xlink:href="#french_flag" x="53" y="8"/>
+      <use xlink:xlink:href="#french_flag" x="29" y="8"/>
+      <use xlink:xlink:href="#french_flag" x="53" y="8"/>
     </g>
 
     <g id="strength1">
-      <use xlink:href="#french_flag" x="80" y="48" transform="rotate(90, 90 50)"/>
+      <use xlink:xlink:href="#french_flag" x="80" y="48" transform="rotate(90, 90 50)"/>
     </g>
   </g>
 </svg> 
