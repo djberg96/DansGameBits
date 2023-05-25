@@ -18,6 +18,10 @@
       <line x1="0" y1="99" x2="100" y2="99" />
       <line x1="99" y1="1" x2="99" y2="100" />
     </g>
+
+    <clipPath id="block">
+      <use xlink:href="#background"/>
+    </clipPath>
   </defs>
 
   <g id="unit">
