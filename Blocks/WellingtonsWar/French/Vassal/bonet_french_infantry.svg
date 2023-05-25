@@ -34,19 +34,19 @@
     <g id="attributes" text-anchor="middle" font-size="12">
       <g id="initiative">
         <circle cx="14" cy="14" r="8" fill="white" />
-        <text x="14" y="14">B</text>
+        <text x="14" y="18">B</text>
       </g>
       <g id="firepower">
         <circle cx="86" cy="14" r="8" fill="white" />
-        <text x="86" y="14">2</text>
+        <text x="86" y="18">2</text>
       </g>
       <g id="movement">
         <circle cx="86" cy="86" r="8" fill="white" />
-        <text x="86" y="86">4</text>
+        <text x="86" y="90">4</text>
       </g>
       <g id="arrival">
         <ellipse cx="16" cy="86" rx="9" ry="7" fill="white" />
-        <text x="16" y="86" font-size="10">T2</text>
+        <text x="16" y="89.5" font-size="10">T2</text>
       </g>
     </g>
 

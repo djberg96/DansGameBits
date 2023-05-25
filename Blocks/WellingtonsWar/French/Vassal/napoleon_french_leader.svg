@@ -39,11 +39,11 @@
     <g id="attributes" text-anchor="middle" font-size="12">
       <g id="movement">
         <circle cx="86" cy="86" r="8" fill="white" />
-        <text x="86" y="86">5</text>
+        <text x="86" y="90">5</text>
       </g>
       <g id="arrival">
         <circle cx="16" cy="86" r="8" fill="white" />
-        <text x="16" y="86" font-size="10">F</text>
+        <text x="16" y="90" font-size="10">F</text>
       </g>
     </g>
 
