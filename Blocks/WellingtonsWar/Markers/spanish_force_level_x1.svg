@@ -3,29 +3,35 @@
   <desc>Spanish Force Level x1 Marker</desc>
 
   <defs id="common">
-     <g id="flag" >
-    <rect width="36" height="24" fill="red" />
-    <rect width="36" height="12" y="6" fill="yellow"/>
-    <rect width="36" height="24" fill="none" stroke="black" stroke-width="0.5"/>
+    <g id="flag" >
+      <rect width="36" height="24" fill="red" />
+      <rect width="36" height="12" y="6" fill="yellow"/>
+      <rect width="36" height="24" fill="none" stroke="black" stroke-width="0.5"/>
 
-    <linearGradient id="symbol">
-      <stop offset="50%" stop-color="red" />
-      <stop offset="50%" stop-color="white" />
-    </linearGradient>
+      <linearGradient id="symbol">
+        <stop offset="50%" stop-color="red" />
+        <stop offset="50%" stop-color="white" />
+      </linearGradient>
 
-    <ellipse
-      cx="12"
-      cy="13"
-      rx="3"
-      ry="4"
-      fill="url(#symbol)"
-      stroke="black"
-      stroke-width="0.2"
-    />
+      <rect id="border" width="36" height="24" fill="none" stroke="black" stroke-width="1"/>
 
-    <circle cx="10.5" cy="12" r="1" fill="gold"/>
-    <circle cx="13.5" cy="14" r="1" fill="red"/>
-  </g>
+      <ellipse
+        cx="12"
+        cy="13"
+        rx="3"
+        ry="4"
+        fill="url(#symbol)"
+        stroke="black"
+        stroke-width="0.2"
+      />
+
+      <circle cx="10.5" cy="12" r="1" fill="gold"/>
+      <circle cx="13.5" cy="14" r="1" fill="red"/>
+
+      <clipPath id="clip">
+        <use xlink:href="#border"/>
+      </clipPath>
+    </g>
   </defs>
 
   <g id="marker">
