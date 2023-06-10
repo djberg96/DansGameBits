@@ -1,0 +1,61 @@
+FAQ - Hands in the Sea, 2nd Edition
+
+== General Rules questions
+Q: Does a 0-strength elepant contribute to cavalry superiority?
+A: No. Cavalry superiority is based on combat strength points, not the number of cards.
+
+Q: Do I have to play a card to move a fleet?
+A: No, it only requires an action.
+
+Q: What card, if any, must be played to start the naval combat? Or is the declaration sufficient in itself?
+A: You must play a card with a ship symbol to initiate naval combat.
+
+Q: Can I move the Roman fleet from Africa to my Home port?
+A: Not in a single move. It would take 3 moves total.
+
+Q: Does a player win when he completes the requisite number of towns, cities, prestige points?
+A: No, that's only a game ending condition. Both players should add up VP to determine the winner.
+
+Q: Is an undefended town or city automatically captured if the owner does not have
+   a fortification or defend it with a card?
+A: No, all towns have an instrinsic defense strength that the attacker must overcome.
+
+Q: Where do combat losses go?
+A: Back to the empire deck, where they would have to be re-purchased.
+
+Q: If you use a location card in battle, does it return to the discard pile if not lost in battle?
+A: Location cards are never lost in battle. They always return to the discard pile after battle.
+
+Q: Can a fleet harbor at say, Panormus, Caralis?
+A: No. The only harbors are Rome for the Romans, and Carthage for the Carthaginians.
+
+Q: Does a fort add + 1 or +2 to the defense?
+A: A fort adds +2.
+
+Q: Do I gain prestige for winning a battle against a neutral Syracuse?
+A: No.
+
+Q: Is it possible to lose prestige points?
+A: No.
+
+Q: What is the definition of a mercenary exactly?
+A: Any card with the bribe symbol on it is considered a mercenary.
+
+Q: Are we allowed to return "S" cards to the Empire deck?
+A: Yes, except the Rome and Carthage cards.
+
+Q: Can any town be developed into a city?
+A: No, only those towns with a colonist symbol.
+
+== Card Questions
+Q: Is Roman Legion I already considered paid for? Or does the Roman player have to
+   pay the cost when it's first played.
+A: It's already considered paid for.
+
+Q: Does Seamanship affect supply for purposes of VP collection?
+A: No.
+
+Q: Do Roman legions that were committed to a naval battle via Corvus from reserve return
+   to the reserve upon victory, or go to the discard pile.
+A: To the discard pile or empire deck, depending on the outcome.
+
