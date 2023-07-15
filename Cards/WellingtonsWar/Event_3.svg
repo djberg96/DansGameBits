@@ -1,0 +1,57 @@
+<svg width="250" height="350" xmlns="http://www.w3.org/2000/svg">
+  <title>Event 3</title>
+  <desc>King Joseph</desc>
+
+  <rect
+    id="card_background"
+    width="100%"
+    height="100%"
+    fill="red"
+  />
+
+  <rect
+    id="white_background"
+    x="10"
+    y="10"
+    width="230"
+    height="330"
+    fill="white"
+    stroke="black"
+    stroke-width="3"
+  />
+
+  <g id="title" text-anchor="middle" fill="black">
+    <text font-family="Baskerville" x="125" y="50">
+      <tspan font-size="36">EVENT 3</tspan>
+      <tspan font-size="22" font-variant="small-caps" x="50%" dy="25">King Joseph</tspan>
+    </text>
+  </g>
+
+  <g id="text" font-family="Baskerville" fill="black">
+    <text id="prerequisite" x="14" y="110">
+      <tspan font-size="18" font-variant="small-caps">Prerequisite:</tspan>
+      <tspan font-size="15">At start</tspan>
+    </text>
+
+    <text id="cards" x="14" y="130">
+      <tspan font-size="18" font-variant="small-caps">Cards:</tspan>
+      <tspan font-size="15">Discard Event 3</tspan>
+      <tspan font-size="15" x="68" dy="14">Add Event 9, Event 10</tspan>
+    </text>
+
+    <text id="commitment" x="14" y="165">
+      <tspan font-size="18" font-variant="small-caps">Commitment:</tspan>
+      <tspan font-size="15">Spanish +1</tspan>
+      <tspan font-size="15" x="115" dy="14">French +1</tspan>
+    </text>
+
+    <text id="units" font-size="15" x="14" y="200">
+      <tspan font-size="18" font-variant="small-caps">Units:</tspan>
+      <tspan>Place Joseph Infantry block</tspan>
+      <tspan x="24" dy="14">in Madrid at full strength if</tspan>
+      <tspan x="24" dy="14">Madrid is French-controlled or add</tspan>
+      <tspan x="24" dy="14">to French Force Pool if Madrid is</tspan>
+      <tspan x="24" dy="14">Anglo-Allied controlled.</tspan>
+    </text>
+  </g>
+</svg>
