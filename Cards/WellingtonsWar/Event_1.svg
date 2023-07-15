@@ -27,7 +27,7 @@
     </text>
   </g>
 
-  <g id="text"font-family="Baskerville" fill="black">
+  <g id="text" font-family="Baskerville" fill="black">
     <text id="prerequisite" x="14" y="110">
       <tspan font-size="18" font-variant="small-caps">Prerequisite:</tspan>
       <tspan font-size="15">At start</tspan>
