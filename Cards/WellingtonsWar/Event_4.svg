@@ -23,36 +23,48 @@
   <g id="title" text-anchor="middle" fill="black">
     <text font-family="Baskerville" x="125" y="50">
       <tspan font-size="36">EVENT 4</tspan>
-      <tspan font-size="20" font-variant="small-caps" x="50%" dy="25">The Emperor Strikes Back</tspan>
+      <tspan font-size="20" font-variant="small-caps" x="50%" dy="25">The Emperor</tspan>
+      <tspan font-size="20" font-variant="small-caps" x="50%" dy="15">Strikes Back</tspan>
     </text>
   </g>
 
   <g id="text" font-family="Baskerville" fill="black">
-    <text id="prerequisite" x="14" y="110">
+    <text id="prerequisite" x="14" y="115">
       <tspan font-size="18" font-variant="small-caps">Prerequisite:</tspan>
       <tspan font-size="15">At start</tspan>
     </text>
 
-    <text id="cards" x="14" y="130">
+    <text id="cards" x="14" y="135">
       <tspan font-size="18" font-variant="small-caps">Cards:</tspan>
       <tspan font-size="15">Discard Event 4</tspan>
       <tspan font-size="15" x="68" dy="14">Add Event 11</tspan>
     </text>
 
-    <text id="commitment" x="14" y="165">
+    <text id="commitment" x="14" y="170">
       <tspan font-size="18" font-variant="small-caps">Commitment:</tspan>
       <tspan font-size="15">French to CL 5</tspan>
       <tspan font-size="15" x="115" dy="14">(if less than CL 5)</tspan>
     </text>
+  </g>
 
-    <text id="units" font-size="15" x="14" y="200">
-      <tspan font-size="18" font-variant="small-caps">Units:</tspan>
-      <tspan>Place Napoleon Leader and</tspan>
-      <tspan x="24" dy="15">Imperial Guard Infantry blocks in</tspan>
-      <tspan x="24" dy="15">any town in France. Draw and</tspan>
-      <tspan x="24" dy="15">place a number of French blocks</tspan>
-      <tspan x="24" dy="15">in any town in France equal to</tspan>
-      <tspan x="24" dy="15">a d6 die roll (minimum 2).</tspan>
-    </text>
+  <g id="unit">
+    <foreignObject x="15" y="185" width="220" height="320">
+      <div
+        xmlns="http://www.w3.org/1999/xhtml"
+        style="
+          text-align: left;
+          font-size: 15;
+          overflow-wrap: break-word;
+          color: black;
+          font-family: Baskerville;
+        "
+      >
+        <p>
+          UNITS: Place Napoleon Leader and and Imperial Guard Infantry blocks
+          in any town in France. Draw and place a number of French blocks
+          in any town in France equal to a d6 roll, minimum 2.
+        </p>
+      </div>
+    </foreignObject>
   </g>
 </svg>
