@@ -29,42 +29,31 @@
   </g>
 
   <g id="text" font-family="Baskerville" fill="black">
-    <text id="prerequisite" x="14" y="115">
+    <text id="prerequisite" x="14" y="120">
       <tspan font-size="18" font-variant="small-caps">Prerequisite:</tspan>
       <tspan font-size="15">At start</tspan>
     </text>
 
-    <text id="cards" x="14" y="135">
+    <text id="cards" x="14" y="140">
       <tspan font-size="18" font-variant="small-caps">Cards:</tspan>
       <tspan font-size="15">Discard Event 4</tspan>
       <tspan font-size="15" x="68" dy="14">Add Event 11</tspan>
     </text>
 
-    <text id="commitment" x="14" y="170">
+    <text id="commitment" x="14" y="175">
       <tspan font-size="18" font-variant="small-caps">Commitment:</tspan>
       <tspan font-size="15">French to CL 5</tspan>
       <tspan font-size="15" x="115" dy="14">(if less than CL 5)</tspan>
     </text>
-  </g>
 
-  <g id="unit">
-    <foreignObject x="15" y="185" width="220" height="320">
-      <div
-        xmlns="http://www.w3.org/1999/xhtml"
-        style="
-          text-align: justify;
-          overflow-wrap: break-word;
-          color: black;
-          font-family: Baskerville;
-          display: inline-block;
-        "
-      >
-        <p>
-          UNITS: Place Napoleon Leader and and Imperial Guard Infantry blocks
-          in any town in France. Draw and place a number of French blocks
-          in any town in France equal to a d6 roll, minimum 2.
-        </p>
-      </div>
-    </foreignObject>
+    <text id="units" font-size="15" x="14" y="220">
+      <tspan font-size="18" font-variant="small-caps">Units:</tspan>
+      <tspan>Place Napoleon Leader and</tspan>
+      <tspan x="24" dy="15">Imperial Guard Infantry blocks in</tspan>
+      <tspan x="24" dy="15">any town in France. Draw and</tspan>
+      <tspan x="24" dy="15">place a number of French blocks</tspan>
+      <tspan x="24" dy="15">in any town in France equal to</tspan>
+      <tspan x="24" dy="15">a d6 die roll (minimum 2).</tspan>
+    </text>
   </g>
 </svg>
