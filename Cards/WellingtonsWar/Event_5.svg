@@ -1,0 +1,72 @@
+<svg width="250" height="350" xmlns="http://www.w3.org/2000/svg">
+  <title>Event 5</title>
+  <desc>Supreme Junta</desc>
+
+  <rect
+    id="card_background"
+    width="100%"
+    height="100%"
+    fill="red"
+  />
+
+  <rect
+    id="white_background"
+    x="10"
+    y="10"
+    width="230"
+    height="330"
+    fill="white"
+    stroke="black"
+    stroke-width="3"
+  />
+
+  <g id="title" text-anchor="middle" fill="black">
+    <text font-family="Baskerville" x="125" y="50">
+      <tspan font-size="36">EVENT 5</tspan>
+      <tspan font-size="20" font-variant="small-caps" x="50%" dy="20">Supreme Junta</tspan>
+    </text>
+  </g>
+
+  <g id="text" font-family="Baskerville" fill="black">
+    <text id="prerequisite" x="14" y="105">
+      <tspan font-size="18" font-variant="small-caps">Prerequisite:</tspan>
+      <tspan font-size="15">At start</tspan>
+    </text>
+
+    <text id="cards" x="14" y="125">
+      <tspan font-size="18" font-variant="small-caps">Cards:</tspan>
+      <tspan font-size="15">Discard Event 5</tspan>
+      <tspan font-size="15" x="68" dy="14">Add Event 13, Event 27</tspan>
+    </text>
+
+    <text id="commitment" x="14" y="160">
+      <tspan font-size="18" font-variant="small-caps">Commitment:</tspan>
+      <tspan font-size="15">Spanish +1</tspan>
+    </text>
+  </g>
+
+  <g id="unit">
+    <foreignObject x="15" y="155" width="220" height="320">
+      <div
+        xmlns="http://www.w3.org/1999/xhtml"
+        style="
+          text-align: justify;
+          overflow-wrap: break-word;
+          color: black;
+          font-family: Baskerville;
+          display: inline-block;
+        "
+      >
+        <p>
+          UNITS: Add 5 Spanish <i>Guerilla Partida</i> blocks to
+          the Spanish Force Pool. Add French <i>Army of the Ebro</i>
+          and the Hugo Counter Guerilla Infantry blocks to the French
+          Force Pool.
+        </p>
+        <p>
+          British blocks may now land in Spanish ports.
+        </p>
+      </div>
+    </foreignObject>
+  </g>
+</svg>
