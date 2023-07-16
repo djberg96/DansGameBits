@@ -43,30 +43,20 @@
       <tspan font-size="18" font-variant="small-caps">Commitment:</tspan>
       <tspan font-size="15">Spanish +1</tspan>
     </text>
-  </g>
 
-  <g id="unit">
-    <foreignObject x="15" y="155" width="220" height="320">
-      <div
-        xmlns="http://www.w3.org/1999/xhtml"
-        style="
-          text-align: justify;
-          overflow-wrap: break-word;
-          color: black;
-          font-family: Baskerville;
-          display: inline-block;
-        "
-      >
-        <p>
-          UNITS: Add 5 Spanish <i>Guerilla Partida</i> blocks to
-          the Spanish Force Pool. Add French <i>Army of the Ebro</i>
-          and the Hugo Counter Guerilla Infantry blocks to the French
-          Force Pool.
-        </p>
-        <p>
-          British blocks may now land in Spanish ports.
-        </p>
-      </div>
-    </foreignObject>
+    <text id="units" font-size="15" x="14" y="180">
+      <tspan font-size="18" font-variant="small-caps">Units:</tspan>
+      <tspan>Add five Spanish</tspan>
+      <tspan font-style="italic">Guerilla</tspan>
+      <tspan x="24" dy="15" font-style="italic">Partida</tspan>
+      <tspan>Partida blocks to the</tspan>
+      <tspan x="24" dy="15">Spanish Force Pool. Add French</tspan>
+      <tspan x="24" dy="15" font-style="italic">Army of the Ebro</tspan>
+      <tspan>and Hugo Counter</tspan>
+      <tspan x="24" dy="15">Infantry blocks to the French Force</tspan>
+      <tspan x="24" dy="15">Pool.</tspan>
+      <tspan x="24" dy="25">British blocks may now land in</tspan>
+      <tspan x="24" dy="15">Spanish ports.</tspan>
+    </text>
   </g>
 </svg>
