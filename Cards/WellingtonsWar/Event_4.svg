@@ -24,7 +24,7 @@
     <text font-family="Baskerville" x="125" y="50">
       <tspan font-size="36">EVENT 4</tspan>
       <tspan font-size="20" font-variant="small-caps" x="50%" dy="25">The Emperor</tspan>
-      <tspan font-size="20" font-variant="small-caps" x="50%" dy="15">Strikes Back</tspan>
+      <tspan font-size="20" font-variant="small-caps" x="50%" dy="16">Strikes Back</tspan>
     </text>
   </g>
 
@@ -52,11 +52,11 @@
       <div
         xmlns="http://www.w3.org/1999/xhtml"
         style="
-          text-align: left;
-          font-size: 15;
+          text-align: justify;
           overflow-wrap: break-word;
           color: black;
           font-family: Baskerville;
+          display: inline-block;
         "
       >
         <p>
