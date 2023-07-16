@@ -44,7 +44,7 @@
       <tspan font-size="15">Spanish +1</tspan>
     </text>
 
-    <text id="units" font-size="15" x="14" y="180">
+    <text id="units" font-size="15" x="14" y="190">
       <tspan font-size="18" font-variant="small-caps">Units:</tspan>
       <tspan>Add five Spanish</tspan>
       <tspan font-style="italic">Guerilla</tspan>

@@ -54,7 +54,7 @@
       <tspan x="24" dy="15">in Lisbon.</tspan>
     </text>
 
-    <text id="units" font-size="13" x="14" y="250">
+    <text id="add" font-size="13" x="14" y="250">
       <tspan font-size="18" font-variant="small-caps">Add:</tspan>
       <tspan font-style="italic">Portuguese Brigades</tspan>
       <tspan>Infantry block</tspan>
