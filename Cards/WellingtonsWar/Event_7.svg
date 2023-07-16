@@ -31,8 +31,8 @@
   <g id="text" font-family="Baskerville" fill="black">
     <text id="prerequisite" font-size="13" x="14" y="120">
       <tspan font-size="18" font-variant="small-caps">Prerequisite:</tspan>
-      <tspan>Turn 2, play if Lisbon</tspan>
-      <tspan x="20" dy="15">is Anglo-Allied controlled.</tspan>
+      <tspan>Turn 2, play if</tspan>
+      <tspan x="20" dy="15">Lisbon is Anglo-Allied controlled.</tspan>
     </text>
 
     <text id="cards" font-size="13" x="14" y="160">
