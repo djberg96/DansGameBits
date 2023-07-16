@@ -1,0 +1,63 @@
+<svg width="250" height="350" xmlns="http://www.w3.org/2000/svg">
+  <title>Event 6</title>
+  <desc>Convention of Cintra</desc>
+
+  <rect
+    id="card_background"
+    width="100%"
+    height="100%"
+    fill="red"
+  />
+
+  <rect
+    id="white_background"
+    x="10"
+    y="10"
+    width="230"
+    height="330"
+    fill="white"
+    stroke="black"
+    stroke-width="3"
+  />
+
+  <g id="title" text-anchor="middle" fill="black">
+    <text font-family="Baskerville" x="125" y="50">
+      <tspan font-size="36">EVENT 6</tspan>
+      <tspan font-size="20" font-variant="small-caps" x="50%" dy="25">Convention</tspan>
+      <tspan font-size="20" font-variant="small-caps" x="50%" dy="16">Of Cintra</tspan>
+    </text>
+  </g>
+
+  <g id="text" font-family="Baskerville" fill="black">
+    <text id="prerequisite" font-size="12" x="14" y="115">
+      <tspan font-size="18" font-variant="small-caps">Prerequisite:</tspan>
+      <tspan>Turn 1</tspan>
+      <tspan x="20" dy="14">Play if British and French blocks are in</tspan>
+      <tspan x="20" dy="14">Portugal. Do not play if Napoleon is in</tspan>
+      <tspan x="20" dy="14">Portugal.</tspan>
+    </text>
+
+    <text id="cards" font-size="14" x="14" y="178">
+      <tspan font-size="18" font-variant="small-caps">Cards:</tspan>
+      <tspan>Discard Event 6</tspan>
+      <tspan x="68" dy="14">Add Event 8</tspan>
+    </text>
+
+    <text id="commitment" font-size="14" x="14" y="210">
+      <tspan font-size="18" font-variant="small-caps">Commitment:</tspan>
+      <tspan>French +1</tspan>
+      <tspan x="115" dy="14">British +1</tspan>
+    </text>
+
+    <text id="units" font-size="12" x="14" y="240">
+      <tspan font-size="18" font-variant="small-caps">Units:</tspan>
+      <tspan>If in Portugal, place Wellington in</tspan>
+      <tspan x="24" dy="15">the Britain Box. Place Moore in Portugal.</tspan>
+      <tspan x="24" dy="15">Move all French blocks in Portugal to the</tspan>
+      <tspan x="24" dy="15">the France Box. Reduce British Sea Lift</tspan>
+      <tspan x="24" dy="15">by the number of French blocks moved (up</tspan>
+      <tspan x="24" dy="15">to four, max). Remove French control</tspan>
+      <tspan x="24" dy="15">markers in Portugal.</tspan>
+    </text>
+  </g>
+</svg>
