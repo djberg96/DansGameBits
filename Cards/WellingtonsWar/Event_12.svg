@@ -1,0 +1,55 @@
+<svg width="250" height="350" xmlns="http://www.w3.org/2000/svg">
+  <title>Event 12</title>
+  <desc>Treaty of Schonbrunn</desc>
+
+  <rect
+    id="card_background"
+    width="100%"
+    height="100%"
+    fill="red"
+  />
+
+  <rect
+    id="white_background"
+    x="10"
+    y="10"
+    width="230"
+    height="330"
+    fill="white"
+    stroke="black"
+    stroke-width="3"
+  />
+
+  <g id="title" text-anchor="middle" fill="black">
+    <text font-family="Baskerville" x="125" y="50">
+      <tspan font-size="36">EVENT 12</tspan>
+      <tspan font-size="22" font-variant="small-caps" x="50%" dy="25">Treaty of Schonbrunn</tspan>
+    </text>
+  </g>
+
+  <g id="text" font-family="Baskerville" fill="black">
+    <text id="prerequisite" font-size="15" x="14" y="115">
+      <tspan font-size="18" font-variant="small-caps">Prerequisite:</tspan>
+      <tspan>Event 11</tspan>
+    </text>
+
+    <text id="cards" font-size="15" x="15" y="140">
+      <tspan font-size="18" font-variant="small-caps">Cards:</tspan>
+      <tspan>Discard Event 12</tspan>
+      <tspan x="68" dy="14">Add Event 19, Event 20</tspan>
+    </text>
+
+    <text id="commitment" font-size="15" x="14" y="180">
+      <tspan font-size="18" font-variant="small-caps">Commitment:</tspan>
+      <tspan>French +2</tspan>
+    </text>
+
+    <text id="units" font-size="15" x="14" y="210">
+      <tspan font-size="18" font-variant="small-caps">Units:</tspan>
+      <tspan>Place Napoleon and the</tspan>
+      <tspan x="24" dy="14" font-style="italic">Imperial Guard</tspan>
+      <tspan>Infantry blocks in</tspan>
+      <tspan x="24" dy="14">the France Box if not in play.</tspan>
+    </text>
+  </g>
+</svg>
