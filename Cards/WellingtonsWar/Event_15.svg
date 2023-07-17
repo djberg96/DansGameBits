@@ -1,0 +1,57 @@
+<svg width="250" height="350" xmlns="http://www.w3.org/2000/svg">
+  <title>Event 15</title>
+  <desc>Ministerial and Financial Crisis</desc>
+
+  <rect
+    id="card_background"
+    width="100%"
+    height="100%"
+    fill="red"
+  />
+
+  <rect
+    id="white_background"
+    x="10"
+    y="10"
+    width="230"
+    height="330"
+    fill="white"
+    stroke="black"
+    stroke-width="3"
+  />
+
+  <g id="title" text-anchor="middle" fill="black">
+    <text font-family="Baskerville" x="125" y="50">
+      <tspan font-size="36">EVENT 14</tspan>
+      <tspan font-size="22" font-variant="small-caps" x="50%" dy="25">Ministerial And</tspan>
+      <tspan font-size="22" font-variant="small-caps" x="50%" dy="18">Financial Crisis</tspan>
+    </text>
+  </g>
+
+  <g id="text" font-family="Baskerville" fill="black">
+    <text id="prerequisite" font-size="15" x="14" y="120">
+      <tspan font-size="18" font-variant="small-caps">Prerequisite:</tspan>
+      <tspan>Turn 4</tspan>
+    </text>
+
+    <text id="cards" font-size="15" x="15" y="150">
+      <tspan font-size="18" font-variant="small-caps">Cards:</tspan>
+      <tspan>Discard Event 15</tspan>
+      <tspan x="68" dy="14">Add Event 16</tspan>
+    </text>
+
+    <text id="commitment" font-size="15" x="14" y="190">
+      <tspan font-size="18" font-variant="small-caps">Commitment:</tspan>
+      <tspan>British -1</tspan>
+    </text>
+
+    <text id="units" font-size="15" x="14" y="220">
+      <tspan font-size="18" font-variant="small-caps">Units:</tspan>
+      <tspan>None</tspan>
+    </text>
+
+    <text id="notes" x="24" y="270">
+      Alternates with Event 16
+    </text>
+  </g>
+</svg>
