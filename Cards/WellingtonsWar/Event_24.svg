@@ -23,7 +23,7 @@
   <g id="title" text-anchor="middle" fill="black">
     <text font-family="Baskerville" x="125" y="50">
       <tspan font-size="36">EVENT 24</tspan>
-      <tspan font-size="22" font-variant="small-caps" x="50%" dy="25">Armistice of Plasswitz</tspan>
+      <tspan font-size="20" font-variant="small-caps" x="50%" dy="25">Armistice of Plasswitz</tspan>
     </text>
   </g>
 
@@ -41,7 +41,7 @@
     <text id="commitment" font-size="15" x="14" y="180">
       <tspan font-size="18" font-variant="small-caps">Commitment:</tspan>
       <tspan>French +1</tspan>
-      <tspan x="114" dy="14">British -1</tspan>
+      <tspan dx="-66" dy="14" text-anchor="end">British -1</tspan>
     </text>
 
     <text id="units" font-size="15" x="14" y="215">
