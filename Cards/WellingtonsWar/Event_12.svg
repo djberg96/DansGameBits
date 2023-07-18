@@ -23,7 +23,7 @@
   <g id="title" text-anchor="middle" fill="black">
     <text font-family="Baskerville" x="125" y="50">
       <tspan font-size="36">EVENT 12</tspan>
-      <tspan font-size="22" font-variant="small-caps" x="50%" dy="25">Treaty of Schonbrunn</tspan>
+      <tspan font-size="20" font-variant="small-caps" x="50%" dy="25">Treaty of Schonbrunn</tspan>
     </text>
   </g>
 
