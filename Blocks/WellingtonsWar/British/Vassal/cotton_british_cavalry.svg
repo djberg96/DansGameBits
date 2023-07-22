@@ -1,0 +1,67 @@
+<svg viewBox="0 0 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Cotton</title>
+  <desc>British Cavalry</desc>
+
+  <defs id="common">
+    <rect
+      id="background"
+      width="100"
+      height="100"
+      fill="red"
+      stroke="darkred"
+      stroke-width="11"
+    />
+
+    <g id="border" stroke="black" stroke-width="2">
+      <line x1="0" y1="1" x2="100" y2="1" />
+      <line x1="1" y1="1" x2="1" y2="100" />
+      <line x1="0" y1="99" x2="100" y2="99" />
+      <line x1="99" y1="1" x2="99" y2="100" />
+    </g>
+
+    <clipPath id="block">
+      <use xlink:href="#background"/>
+    </clipPath>
+  </defs>
+
+  <g id="unit">
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="30" font-size="8" fill="white">COTTON</text>
+      <rect x="33" y="33" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="67" x2="67" y2="33" stroke="black" />
+    </g>
+
+    <g id="attributes" text-anchor="middle" font-size="12">
+      <g id="initiative">
+        <circle cx="15" cy="15" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+        <text x="15" y="19">A</text>
+      </g>
+      <g id="firepower">
+        <circle cx="85" cy="15" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+        <text x="85" y="19">1</text>
+      </g>
+      <g id="movement">
+        <circle cx="85" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+        <text x="85" y="89">5</text>
+      </g>
+      <g id="arrival">
+        <circle cx="15" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+        <text x="15" y="88.5" font-size="10">T2</text>
+      </g>
+    </g>
+
+    <g id="pips" stroke="black" fill="white">
+      <g id="strength2">
+        <circle id="topleft" cx="44" cy="12" r="5" />
+        <circle id="topright" cx="56" cy="12" r="5" />
+      </g>
+
+      <g id="strength1">
+        <circle id="rightcenter" cx="88" cy="50" r="5" />
+      </g>
+    </g>
+  </g>
+</svg>
