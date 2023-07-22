@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <title>Contested</title>
+  <desc>Contested Marker</desc>
+
+  <g id="marker">
+    <rect width="50" height="50" fill="#36454f" stroke="black" stroke-width="1"/>
+    <text y="3" text-anchor="middle" font-size="10" fill="white" transform="rotate(45)">
+      <tspan x="35">Contested</tspan>
+    </text>
+  </g>
+</svg>
