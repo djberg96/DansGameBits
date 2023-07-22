@@ -54,6 +54,10 @@
         <circle cx="14" cy="86" r="8" />
         <text x="14" y="89" font-size="8" fill="white">T1</text>
       </g>
+      <g id="movement">
+        <circle cx="85" cy="85" r="7.5" fill="white" stroke="black" stroke-width="0.5" />
+        <text x="85" y="89">0</text>
+      </g>
     </g>
 
     <g id="pips" stroke="black" fill="darkred">
