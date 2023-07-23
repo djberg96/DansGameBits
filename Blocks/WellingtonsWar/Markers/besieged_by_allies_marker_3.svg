@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <polygon
+      id="triangle"
+      fill="white"
+      points="25,5 20.5,13.5 29.5,13.5"
+      stroke="black"
+      stroke-width="0.7"
+    />
+  </defs>
+
+  <rect
+    id="background"
+    height="50"
+    width="50"
+    fill="red"
+    stroke="black"
+    stroke-width="2"
+  />
+
+  <defs id="circular_viewbox">
+    <circle
+      id="background_circle"
+      cx="25"
+      cy="25"
+      r="20"
+      fill="white"
+      stroke="black"
+      stroke-width="0.7"
+    />
+
+    <circle
+      id="border"
+      cx="25"
+      cy="25"
+      r="20"
+      fill="none"
+      stroke="black"
+      stroke-width="0.7"
+    />
+
+    <polygon
+      id="point"
+      points="20,48 30,48 25,39"
+      fill="red"
+      stroke="#0e0e0e"
+      stroke-width="0.5"
+    />
+
+    <clipPath id="circle_clip">
+      <use href="#background_circle"/>
+    </clipPath>
+  </defs>
+
+  <use href="#background_circle" clip-path="url(#circle_clip)"/>
+
+  <defs id="pointy_stuff">
+    <g id="pointy_things">
+      <use href="#point" clip-path="url(#circle_clip)"/>
+      <use href="#border" clip-path="url(#circle_clip)"/>
+    </g>
+  </defs>
+
+  <use href="#pointy_things"/>
+  <use href="#pointy_things" transform="rotate(30,25,25)"/>
+  <use href="#pointy_things" transform="rotate(60,25,25)"/>
+  <use href="#pointy_things" transform="rotate(90,25,25)"/>
+  <use href="#pointy_things" transform="rotate(120,25,25)"/>
+  <use href="#pointy_things" transform="rotate(150,25,25)"/>
+  <use href="#pointy_things" transform="rotate(180,25,25)"/>
+  <use href="#pointy_things" transform="rotate(210,25,25)"/>
+  <use href="#pointy_things" transform="rotate(240,25,25)"/>
+  <use href="#pointy_things" transform="rotate(270,25,25)"/>
+  <use href="#pointy_things" transform="rotate(300,25,25)"/>
+  <use href="#pointy_things" transform="rotate(330,25,25)"/>
+
+  <polygon
+    fill="blue"
+    points="19,15 31,15 36.5,25 31,35 19,35 13.5,25"
+    stroke="black"
+    stroke-width="0.5"
+  />
+
+  <text text-anchor="middle" font-size="10" font-family="Avenir" fill="white">
+    <tspan x="25" y="28" >3</tspan>
+  </text>
+</svg>
