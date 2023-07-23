@@ -36,7 +36,7 @@
 
   <text text-anchor="middle" font-size="7" font-family="Avenir" fill="white">
     <tspan font-variant="small-caps" x="25" y="8">Elvas</tspan>
-    <tspan x="26" y="27" fill="black">2</tspan>
+    <tspan x="26" y="27" fill="black">1</tspan>
     <tspan x="25" y="46">2204</tspan>
   </text>
 </svg>
