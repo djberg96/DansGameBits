@@ -1,9 +1,33 @@
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <rect width="50" height="50" stroke="black" stroke-width="3" fill="white"/>
 
-  <text font-size="10" text-anchor="middle">
-    <tspan x="50%" y="15">Battle</tspan>
-    <tspan x="50%" dy="14">2</tspan>
-    <tspan x="50%" dy="14">Round</tspan>
+  <!--
+    Found this formula at https://stackoverflow.com/questions/5737975/circle-drawing-with-svgs-arc-path
+    Change sweep-flag setting to put text on inside.
+    <path
+      d="
+      M cx cy
+      m r, 0
+      a r,r 0 1,1 -(r * 2),0
+      a r,r 0 1,1  (r * 2),0
+      "
+    />
+  -->
+
+  <path
+    id="circle"
+    d="
+      M 25, 25
+      m 15, 0
+      a 15,15 0 1,1 -30,0
+      a 15,15 0 1,1  30,0
+    "
+    fill="none"
+  />
+
+  <text font-family="avenir" font-variant="small-caps" font-size="12" text-anchor="middle">
+    <textPath xlink:href="#circle" startOffset="75%" >Battle</textPath>
+    <tspan x="27" y="30" font-size="16">2</tspan>
+  <textPath xlink:href="#circle" startOffset="25%" >Round</textPath>
   </text>
 </svg>
