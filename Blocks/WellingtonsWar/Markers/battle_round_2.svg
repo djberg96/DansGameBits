@@ -1,0 +1,9 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <rect width="50" height="50" stroke="black" stroke-width="3" fill="white"/>
+
+  <text font-size="10" text-anchor="middle">
+    <tspan x="50%" y="15">Battle</tspan>
+    <tspan x="50%" dy="14">2</tspan>
+    <tspan x="50%" dy="14">Round</tspan>
+  </text>
+</svg>
