@@ -1,0 +1,38 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <title>Aragon</title>
+  <desc>Control marker for Aragon</desc>
+
+  <defs id="common">
+    <g id="flag">
+      <linearGradient id="french_flag" x2="100%" y2="0%">
+        <stop offset="33.3%" stop-color="blue" />
+        <stop offset="33.3%" stop-color="white" />
+        <stop offset="66.7%" stop-color="white" />
+        <stop offset="66.7%" stop-color="red" />
+      </linearGradient>
+
+      <rect fill="url(#french_flag)" stroke="black" stroke-width="1" width="36" height="24"/>
+      <rect id="border" width="36" height="24" fill="none" stroke="black" stroke-width="0.5"/>
+
+      <clipPath id="clip">
+        <use xlink:href="#border"/>
+      </clipPath>
+    </g>
+  </defs>
+
+  <g id="marker">
+    <rect width="50" height="50" fill="white" stroke="black" stroke-width="2"/>
+    
+    <text font-variant="small-caps" font-family="versica serif" text-anchor="middle">
+      <tspan x="27" y="10" font-size="10">Aragon</tspan>
+      <tspan x="25" y="46" font-size="12">2</tspan>
+    </text>
+    
+    <use
+      xlink:href="#flag"
+      x="7"
+      y="12"
+      clip-path="url(#clip)"
+    />
+  </g>
+</svg>
