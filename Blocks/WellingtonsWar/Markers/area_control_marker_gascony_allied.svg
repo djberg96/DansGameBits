@@ -1,0 +1,41 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <title>Gascony</title>
+  <desc>Control marker for Gascony</desc>
+
+  <defs id="common">
+    <g id="flag">
+      <rect width="36" height="24" fill="#012169" />
+      <line x1="0" y1="-1" x2="36" y2="25" stroke="white" stroke-width="4"/>
+      <line x1="-1" y1="-1" x2="15" y2="10.5" stroke="#C8102E" stroke-width="1.5"/>
+      <line x1="0" y1="25" x2="36" y2="-1" stroke="white" stroke-width="4"/>
+      <line x1="35" y1="-1" x2="20" y2="10" stroke="#C8102E" stroke-width="1.5"/>
+      <line x1="18" y1="0" x2="18" y2="24" stroke="white" stroke-width="8"/>
+      <line x1="1" y1="25" x2="24" y2="8" stroke="#C8102E" stroke-width="1.5"/>
+      <line x1="37" y1="25" x2="23" y2="15" stroke="#C8102E" stroke-width="1.5"/>
+      <line x1="0" y1="12" x2="36" y2="12" stroke="white" stroke-width="8"/>
+      <line x1="0" y1="12" x2="36" y2="12" stroke="#C8102E" stroke-width="5"/>
+      <line x1="18" y1="0" x2="18" y2="24" stroke="#C8102E" stroke-width="5"/>
+      <rect id="border" width="36" height="24" fill="none" stroke="black" stroke-width="0.5"/>
+
+      <clipPath id="clip">
+        <use xlink:href="#border"/>
+      </clipPath>
+    </g>
+  </defs>
+
+  <g id="marker">
+    <rect width="50" height="50" fill="white" stroke="black" stroke-width="2"/>
+    
+    <text font-variant="small-caps" font-family="versica serif" text-anchor="middle">
+      <tspan x="27" y="10" font-size="10">Gascony</tspan>
+      <tspan x="25" y="46" font-size="12">3</tspan>
+    </text>
+    
+    <use
+      xlink:href="#flag"
+      x="7"
+      y="12"
+      clip-path="url(#clip)"
+    />
+  </g>
+</svg>
