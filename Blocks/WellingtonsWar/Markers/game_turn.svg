@@ -4,7 +4,7 @@
 
   <g id="marker">
     <rect width="50" height="50" fill="white" stroke="black" stroke-width="2"/>
-    <text font-size="18" font-variant="small-caps" font-family="versica serif" text-anchor="middle">
+    <text font-size="16" font-variant="small-caps" font-family="versica serif" text-anchor="middle">
       <tspan x="27" y="20">Game</tspan>
       <tspan x="25" dy="20">Turn</tspan>
     </text>
