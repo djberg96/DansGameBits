@@ -24,7 +24,7 @@
     <rect width="50" height="50" fill="white" stroke="black" stroke-width="2"/>
     
     <text font-variant="small-caps" font-family="versica serif" text-anchor="middle">
-      <tspan x="27" y="10" font-size="8">Estremadura</tspan>
+      <tspan x="27" y="10" font-size="7">Estremadura</tspan>
       <tspan x="25" y="46" font-size="12">1</tspan>
     </text>
     
