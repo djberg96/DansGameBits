@@ -48,7 +48,7 @@
     />
 
     <clipPath id="circle_clip">
-      <use href="#background_circle"/>
+      <use xlink:href="#background_circle"/>
     </clipPath>
   </defs>
 
