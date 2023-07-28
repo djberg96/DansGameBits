@@ -52,27 +52,27 @@
     </clipPath>
   </defs>
 
-  <use href="#background_circle" clip-path="url(#circle_clip)"/>
+  <use xlink:href="#background_circle" clip-path="url(#circle_clip)"/>
 
   <defs id="pointy_stuff">
     <g id="pointy_things">
-      <use href="#point" clip-path="url(#circle_clip)"/>
-      <use href="#border" clip-path="url(#circle_clip)"/>
+      <use xlink:href="#point" clip-path="url(#circle_clip)"/>
+      <use xlink:href="#border" clip-path="url(#circle_clip)"/>
     </g>
   </defs>
 
-  <use href="#pointy_things"/>
-  <use href="#pointy_things" transform="rotate(30,25,25)"/>
-  <use href="#pointy_things" transform="rotate(60,25,25)"/>
-  <use href="#pointy_things" transform="rotate(90,25,25)"/>
-  <use href="#pointy_things" transform="rotate(120,25,25)"/>
-  <use href="#pointy_things" transform="rotate(150,25,25)"/>
-  <use href="#pointy_things" transform="rotate(180,25,25)"/>
-  <use href="#pointy_things" transform="rotate(210,25,25)"/>
-  <use href="#pointy_things" transform="rotate(240,25,25)"/>
-  <use href="#pointy_things" transform="rotate(270,25,25)"/>
-  <use href="#pointy_things" transform="rotate(300,25,25)"/>
-  <use href="#pointy_things" transform="rotate(330,25,25)"/>
+  <use xlink:href="#pointy_things"/>
+  <use xlink:href="#pointy_things" transform="rotate(30,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(60,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(90,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(120,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(150,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(180,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(210,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(240,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(270,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(300,25,25)"/>
+  <use xlink:href="#pointy_things" transform="rotate(330,25,25)"/>
 
   <polygon
     fill="blue"
