@@ -62,7 +62,7 @@
         <circle id="toprightouter" cx="68" cy="12" r="5" />
       </g>
 
-      <g id="strength3">
+      <g id="strength3" fill="black">
         <circle id="righttop" cx="88" cy="38" r="5" />
         <circle id="rightcenter" cx="88" cy="50" r="5" />
         <circle id="rightbottom" cx="88" cy="62" r="5" />
