@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="24" height="24">
+  <title>Game Turn</title>
+  <desc>Game Turn Marker</desc>
+
+  <g id="marker">
+    <rect width="24" height="24" fill="white" stroke="black" stroke-width="1"/>
+    <text font-size="7" font-variant="small-caps" font-family="versica serif" text-anchor="middle">
+      <tspan x="13" y="9">Game</tspan>
+      <tspan x="12" dy="10">Turn</tspan>
+    </text>
+  </g>
+</svg>
