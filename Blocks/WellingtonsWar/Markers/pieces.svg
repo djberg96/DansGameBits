@@ -27,18 +27,44 @@
     <use xlink:href="#background" clip-path="url(#block)"/>
     <use xlink:href="#border" clip-path="url(#block)"/>
 
-    <rect
-      id="background"
-      x="10%"
-      y="12%"
-      width="12"
-      height="12"
-      fill="red"
-      stroke="darkred"
-      stroke-width="1"
-    />
+    <g id="british_block">
+      <rect
+        id="british_block_background"
+        x="10%"
+        y="12%"
+        width="12"
+        height="12"
+        fill="red"
+        stroke="darkred"
+        stroke-width="1"
+      />
 
-    <g id="spanish">
+      <rect
+        id="infantry_symbol"
+        x="22%"
+        y="28%"
+        width="4"
+        height="4"
+        fill="white"
+        stroke="black"
+        stroke-width="0.2"
+      />
+
+      <g id="symbols" stroke="black">
+        <line x1="33%" y1="28%" x2="22%" y2="45%" stroke="black" stroke-width="0.2"/>
+      </g>
+
+      <g id="british_dots2" stroke="white" fill="black" stroke-width="0.15">
+        <circle cx="25%" cy="21%" r="0.7"/>
+        <circle cx="30%" cy="21%" r="0.7"/>
+      </g>
+
+      <g id="british_dots1" stroke="white" fill="black" stroke-width="0.15">
+        <circle cx="38%" cy="36%" r="0.7"/>
+      </g>
+    </g>
+
+    <g id="spanish_block">
       <rect
         id="background"
         x="55%"
@@ -49,17 +75,86 @@
         stroke="darkred"
         stroke-width="1"
       />
+
+      <circle
+        cx="72%"
+        cy="43%"
+        r="1.8"
+        fill="darkred"
+        stroke="black"
+        stroke-width="0.3"
+      />
+
+      <g id="symbol" stroke="black" stroke-width="0.2">
+        <line x1="72%" y1="36%" x2="72%" y2="51%"/>
+        <line x1="67%" y1="43%" x2="77%" y2="43%"/>
+      </g>
+
+      <g id="spanish_dots3" stroke="black" fill="darkred" stroke-width="0.15">
+        <circle cx="67%" cy="27%" r="0.7"/>
+        <circle cx="72%" cy="27%" r="0.7"/>
+        <circle cx="77%" cy="27%" r="0.7"/>
+      </g>
+
+      <g id="spanish_dots2" stroke="black" fill="darkred" stroke-width="0.15">
+        <circle cx="83%" cy="40%" r="0.7"/>
+        <circle cx="83%" cy="47%" r="0.7"/>
+      </g>
+
+      <g id="spanish_dots1" stroke="black" fill="darkred" stroke-width="0.15">
+        <circle cx="72%" cy="60%" r="0.7"/>
+      </g>
     </g>
 
-    <rect
-      id="background"
-      x="35%"
-      y="36%"
-      width="12"
-      height="12"
-      fill="rgb(51,133,205)"
-      stroke="rgb(9,71,168)"
-      stroke-width="1"
-    />
+    <g id="french_block">
+      <rect
+        id="background"
+        x="35%"
+        y="36%"
+        width="12"
+        height="12"
+        fill="rgb(51,133,205)"
+        stroke="rgb(9,71,168)"
+        stroke-width="1"
+      />
+
+      <rect
+        id="infantry_symbol"
+        x="46%"
+        y="52%"
+        width="4"
+        height="4"
+        fill="white"
+        stroke="black"
+        stroke-width="0.2"
+      />
+
+      <g id="symbols" stroke="black">
+        <line x1="46%" y1="52%" x2="57%" y2="68.5%" stroke="black" stroke-width="0.2"/>
+        <line x1="57%" y1="52%" x2="46%" y2="68.5%" stroke="black" stroke-width="0.2"/>
+      </g>
+
+      <g id="french_dots4" stroke="black" fill="white" stroke-width="0.15">
+        <circle cx="44%" cy="44%" r="0.7"/>
+        <circle cx="49%" cy="44%" r="0.7"/>
+        <circle cx="54%" cy="44%" r="0.7"/>
+        <circle cx="59%" cy="44%" r="0.7"/>
+      </g>
+
+      <g id="french_dots3" stroke="black" fill="white" stroke-width="0.15">
+        <circle cx="63%" cy="54%" r="0.7"/>
+        <circle cx="63%" cy="61%" r="0.7"/>
+        <circle cx="63%" cy="68%" r="0.7"/>
+      </g>
+
+      <g id="french_dots2" stroke="black" fill="white" stroke-width="0.15">
+        <circle cx="49%" cy="77%" r="0.7"/>
+        <circle cx="54%" cy="77%" r="0.7"/>
+      </g>
+
+       <g id="french_dots1" stroke="black" fill="white" stroke-width="0.15">
+        <circle cx="40%" cy="60%" r="0.7"/>
+      </g>
+    </g>
   </g>
 </svg>
