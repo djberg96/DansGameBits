@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="24" height="24">
+  <title>Step Forward</title>
+  <desc>Step Forward button for Vassal</desc>
+
+  <g id="button">
+    <rect width="100%" height="100%" fill="white" stroke="black"/>
+    <line x1="6" y1="4" x2="6" y2="20" stroke="black" stroke-width="4"/>
+    <polygon points="9,4 9,20 21,12" fill="black"/>
+  </g>
+</svg>
