@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <rect
+    id="background"
+    height="100%"
+    width="100%"
+    fill="rgb(9,71,168)"
+    stroke="black"
+    stroke-width="1"
+  />
+  <g transform="scale(0.48)">
+    <rect x="21" y="30" height="15" width="8" fill="white"/>
+    <path
+      fill="white"
+      d="
+        M 25,5
+        L 14,35
+        A 25,23, 0, 0, 0, 36,35
+      "
+    />
+  </g>
+</svg>
