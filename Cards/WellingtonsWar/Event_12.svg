@@ -46,7 +46,9 @@
 
     <text id="units" font-size="15" x="14" y="210">
       <tspan font-size="18" font-variant="small-caps">Units:</tspan>
-      <tspan>Place Napoleon and the</tspan>
+      <tspan>Place</tspan>
+      <tspan font-style="italic">Napoleon</tspan>
+      <tspan>and the</tspan>
       <tspan x="24" dy="14" font-style="italic">Imperial Guard</tspan>
       <tspan>Infantry blocks in</tspan>
       <tspan x="24" dy="14">the France Box if not in play.</tspan>
