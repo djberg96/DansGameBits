@@ -52,8 +52,9 @@
       <tspan x="24" dy="14">strength 1. Guerillas are deployed</tspan>
       <tspan x="24" dy="14">at full strength. See 9.321, 9.322.</tspan>
       <tspan x="24" dy="28">If not in play, deploy the French</tspan>
-      <tspan x="24" dy="14">Gensdarmes to the French Box at</tspan>
-      <tspan x="24" dy="14">full strength</tspan>
+      <tspan x="24" dy="14" font-style="italic">Gensdarmes</tspan>
+      <tspan>unit to the France Box</tspan>
+      <tspan x="24" dy="14">at full strength</tspan>
     </text>
   </g>
 </svg>
