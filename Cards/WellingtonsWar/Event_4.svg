@@ -48,12 +48,16 @@
 
     <text id="units" font-size="15" x="14" y="220">
       <tspan font-size="18" font-variant="small-caps">Units:</tspan>
-      <tspan>Place Napoleon Leader and</tspan>
-      <tspan x="24" dy="15">Imperial Guard Infantry blocks in</tspan>
-      <tspan x="24" dy="15">any town in France. Draw and</tspan>
-      <tspan x="24" dy="15">place a number of French blocks</tspan>
-      <tspan x="24" dy="15">in any town in France equal to</tspan>
-      <tspan x="24" dy="15">a d6 die roll (minimum 2).</tspan>
+      <tspan>Place the French </tspan>
+      <tspan font-style="italic">Napoleon</tspan>
+      <tspan x="24" dy="15">Leader and</tspan>
+      <tspan font-style="italic">Imperial Guard</tspan>
+      <tspan>Infantry</tspan>
+      <tspan x="24" dy="15">blocks in any town in France.</tspan>
+      <tspan x="24" dy="22">Draw and place a number of</tspan>
+      <tspan x="24" dy="15">French blocks in any town in</tspan>
+      <tspan x="24" dy="15">France equal to a d6 die roll</tspan>
+      <tspan x="24" dy="15">(minimum 2).</tspan>
     </text>
   </g>
 </svg>
