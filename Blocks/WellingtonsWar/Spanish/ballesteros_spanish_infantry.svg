@@ -29,7 +29,7 @@
     <use href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
-      <text x="50" y="36" font-size="9">BALLESTEROS</text>
+      <text x="50" y="36" font-size="8">BALLESTEROS</text>
       <rect x="33" y="38" width="34" height="34" fill="darkred" stroke="black"/>
       <line x1="33" y1="38" x2="67" y2="72" stroke="black" />
       <line x1="33" y1="72" x2="67" y2="38" stroke="black" />
