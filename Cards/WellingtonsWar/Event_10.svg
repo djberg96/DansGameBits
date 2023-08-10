@@ -46,13 +46,13 @@
 
     <text id="units" font-size="15" x="14" y="220">
       <tspan font-size="18" font-variant="small-caps">Units:</tspan>
-      <tspan font-size="14">Place the</tspan>
+      <tspan font-size="14">Place the French</tspan>
       <tspan font-style="italic">Hugo</tspan>
-      <tspan>Counter-</tspan>
-      <tspan x="24" dy="14" font-size="14">Guerilla Infantry block in Madrid if</tspan>
-      <tspan x="24" dy="14" font-size="14">French-controlled and the block is in</tspan>
-      <tspan x="24" dy="14" font-size="14">the French Force Pool (i.e not</tspan>
-      <tspan x="24" dy="14" font-size="14">permanently eliminatd or in play).</tspan>
+      <tspan x="24" dy="14" font-size="14">Counter-Guerilla Infantry block in</tspan>
+      <tspan x="24" dy="14" font-size="14">Madrid if French-controlled and the</tspan>
+      <tspan x="24" dy="14" font-size="14">block is in the French Force Pool (i.e</tspan>
+      <tspan x="24" dy="14" font-size="14">not permanently eliminated or in</tspan>
+      <tspan x="24" dy="14">play).</tspan>
     </text>
   </g>
 </svg>
