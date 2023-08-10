@@ -50,11 +50,13 @@
       <tspan font-style="italic">Guerilla</tspan>
       <tspan x="24" dy="15" font-style="italic">Partida</tspan>
       <tspan>Partida blocks to the</tspan>
-      <tspan x="24" dy="15">Spanish Force Pool. Add French</tspan>
-      <tspan x="24" dy="15" font-style="italic">Army of the Ebro</tspan>
-      <tspan>and Hugo Counter</tspan>
-      <tspan x="24" dy="15">Infantry blocks to the French Force</tspan>
-      <tspan x="24" dy="15">Pool.</tspan>
+      <tspan x="24" dy="15">Spanish Force Pool. Add the</tspan>
+      <tspan x="24" dy="15">French</tspan>
+      <tspan font-style="italic">Army of the Ebro</tspan>
+      <tspan>and</tspan>
+      <tspan font-style="italic">Hugo</tspan>
+      <tspan x="24" dy="15">Counter Guerilla Infantry blocks</tspan>
+      <tspan x="24" dy="15">to the French Force Pool.</tspan>
       <tspan x="24" dy="25">British blocks may now land in</tspan>
       <tspan x="24" dy="15">Spanish ports.</tspan>
     </text>
