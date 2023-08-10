@@ -1,5 +1,5 @@
 <svg viewBox="0 0 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>Balesteros</title>
+  <title>Ballesteros</title>
   <desc>Spanish Infantry</desc>
 
   <defs id="common">
@@ -29,7 +29,7 @@
     <use xlink:href="#border" clip-path="url(#block)"/>
 
     <g id="symbol" text-anchor="middle">
-      <text x="50" y="36" font-size="9">BALESTEROS</text>
+      <text x="50" y="36" font-size="9">BALLESTEROS</text>
       <rect x="33" y="38" width="34" height="34" fill="darkred" stroke="black"/>
       <line x1="33" y1="38" x2="67" y2="72" stroke="black" />
       <line x1="33" y1="72" x2="67" y2="38" stroke="black" />
