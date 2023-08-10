@@ -51,8 +51,12 @@
 
     <text id="units" font-size="12" x="14" y="240">
       <tspan font-size="18" font-variant="small-caps">Units:</tspan>
-      <tspan>If in Portugal, place Wellington in</tspan>
-      <tspan x="24" dy="15">the Britain Box. Place Moore in Portugal.</tspan>
+      <tspan>If in Portugal, place</tspan>
+      <tspan font-style="italic">Wellington</tspan>
+      <tspan>in</tspan>
+      <tspan x="24" dy="15">the Britain Box. Place
+      <tspan font-style="italic">Moore</tspan>
+      <tspan>in Portugal.</tspan>
       <tspan x="24" dy="15">Move all French blocks in Portugal to the</tspan>
       <tspan x="24" dy="15">the France Box. Reduce British Sea Lift</tspan>
       <tspan x="24" dy="15">by the number of French blocks moved (up</tspan>
