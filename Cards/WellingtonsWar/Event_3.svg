@@ -47,11 +47,13 @@
 
     <text id="units" font-size="15" x="14" y="200">
       <tspan font-size="18" font-variant="small-caps">Units:</tspan>
-      <tspan>Place Joseph Infantry block</tspan>
-      <tspan x="24" dy="14">in Madrid at full strength if</tspan>
-      <tspan x="24" dy="14">Madrid is French-controlled or add</tspan>
-      <tspan x="24" dy="14">to French Force Pool if Madrid is</tspan>
-      <tspan x="24" dy="14">Anglo-Allied controlled.</tspan>
+      <tspan>Place the French </tspan>
+      <tspan font-style="italic">Joseph</tspan>
+      <tspan x="24" dy="14">Infantry block in Madrid at full</tspan>
+      <tspan x="24" dy="14">strength if Madrid is French-</tspan>
+      <tspan x="24" dy="14">controlled or add it to the French</tspan>
+      <tspan x="24" dy="14">Force Pool if Madrid is Anglo</tspan>
+      <tspan x="24" dy="14">-Allied controlled.</tspan>
     </text>
   </g>
 </svg>
