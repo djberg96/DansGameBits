@@ -48,8 +48,8 @@
     <text id="units" font-size="15" x="14" y="205">
       <tspan font-size="18" font-variant="small-caps">Units:</tspan>
       <tspan>British Leader blocks may</tspan>
-      <tspan x="24" dy="14">apply Leader Actions to Spanish</tspan>
-      <tspan x="24" dy="14">Combat blocks.</tspan>
+      <tspan x="24" dy="15">apply Leader Actions to Spanish</tspan>
+      <tspan x="24" dy="15">Combat blocks.</tspan>
     </text>
   </g>
 </svg>
