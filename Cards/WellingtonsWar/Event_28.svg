@@ -44,8 +44,8 @@
     </text>
 
     <text id="units" font-size="15" x="14" y="235">
-      <tspan font-size="18" font-variant="small-caps">Units:</tspan>
-      <tspan>Increase British sea lift to 6.</tspan>
+      <tspan font-size="17" font-variant="small-caps">Units:</tspan>
+      <tspan>Increase British Sea Lift to 6.</tspan>
     </text>
   </g>
 </svg>
