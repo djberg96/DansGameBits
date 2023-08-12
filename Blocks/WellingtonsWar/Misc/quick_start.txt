@@ -18,10 +18,14 @@ this pool it will give you a random block, hidden by default.
 ## Scenarios
 
 There are two scenarios to choose from when you start the module, either the
-full Campaign Game or the shorter 1812 scenario. The Campaign Game is setup and
-ready to go, while the 1812 scenario includes some additional setup markers and
-has additional setup instructions you'll need to go through before you can start.
-See below for more details.
+full Campaign Game or the shorter 1812 scenario. The Campaign Game is mostly setup
+and ready to go. The only thing you need to do is drag the face-up units in the
+Force Pool areas into the actual pool. This is the area around the flag, you will
+see the black outline. I left these face up at the start so that both players who
+are not familiar with the scenario setup could see what each side has.
+
+The 1812 scenario includes some additional setup markers and has additional setup
+instructions you'll need to go through before you can start. See below for more details.
 
 ### 1812 Scenario
 
@@ -58,8 +62,14 @@ you can recreate them if an accident happens.
 ## Victory Points
 
 At this time the VP tracking must be done manually, i.e. you will have to calculate
-the totals at the end of each turn and mark the VP accordingly. In a future update
-I plan to automate this process.
+the totals at the end of each turn and mark the VP accordingly.
+
+## Future Plans
+
+* Automate the VP counting process via a button click.
+* Nicer hand windows for each player.
+* Possibly different rotation mechanism for the blocks so that only the pips rotate.
+* Pool, Hand and Deck counters.
 
 ## Problems?
 
