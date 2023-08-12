@@ -1,0 +1,69 @@
+Wellington's War: The Peninsular Campaign 1808-1814
+
+- Designed by Hans Von Stockhausen
+- Published by Pacific Rim in 2015
+- Vassal module by Daniel Berger
+
+## Force Pools
+
+Both the French player and Anglo-Allied player have their own force pools, with
+the Anglo-Allied player's units divided between the Spanish and British/Portuguese
+Force Pools. The Force Pool areas on the map are mostly just a place to put units.
+The actual "pool" (i.e. the place where you'll draw reinforcement blocks from) is the
+spot right above the flag for each nation. You will see the outline when it's empty.
+
+When you drag a unit here it will automatically turn face down. If you draw from
+this pool it will give you a random block, hidden by default.
+
+## Scenarios
+
+There are two scenarios to choose from when you start the module, either the
+full Campaign Game or the shorter 1812 scenario. The Campaign Game is setup and
+ready to go, while the 1812 scenario includes some additional setup markers and
+has additional setup instructions you'll need to go through before you can start.
+See below for more details.
+
+### 1812 Scenario
+
+For the Spanish setup I have put the four initial setup blocks in the force pool.
+Draw them one at a time and place them in the start areas which have been marked.
+Once that is complete, put the Spanish blocks that started face up into the Force
+Pool area into the actual force pool (i.e. on the Spanish flag).
+
+The French player has two initial setup groups. The first group starts in the
+force pool. Once those units have been placed, drag the units from the second
+initial group into the pool. Drag them out and set them one at a time as per the
+scenario setup instructions. Once both initial setup groups have been placed, put
+the remaining French blocks that started face up in the Force Pool area into the
+actual force pool (i.e. on the French flag).
+
+Some forces have variable setup. I have added a label to these units as a
+reminder. Simply remove the label once you've placed the unit.
+
+## Fortress Markers
+
+There are fortress markers, but it is difficult to mark units inside from those
+outside since they markers are on their own layer. I recommend using labels as
+an additional mnemonic for which units are inside a fortress.
+
+## Area Control Markers
+
+There are twenty total areas on the map, each with their own control marker. The
+control markers can be in one of three possible states - French controlled, Allied
+controlled, or contested. Simply "flip" the marker until it reaches the desired
+position. I have deliberately offset these markers so that the forage values for
+the area are not covered up. You should not move or delete these markers, though
+you can recreate them if an accident happens.
+
+## Victory Points
+
+At this time the VP tracking must be done manually, i.e. you will have to calculate
+the totals at the end of each turn and mark the VP accordingly. In a future update
+I plan to automate this process.
+
+## Problems?
+
+If you find any problems with the Vassal module, please contact me (Daniel Berger)
+via email (djberg96@gmail.com) or on BGG where my userid is "djberg96".
+
+For rules questions, please post your question on the BGG or CSW forum for this game.
