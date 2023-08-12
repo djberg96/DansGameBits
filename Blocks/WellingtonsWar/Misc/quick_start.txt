@@ -15,6 +15,13 @@ spot right above the flag for each nation. You will see the outline when it's em
 When you drag a unit here it will automatically turn face down. If you draw from
 this pool it will give you a random block, hidden by default.
 
+## Event and Command Card Decks
+
+Although there are spaces on the map for them, both the Event and Command decks
+have separate, dedicated windows where they are managed. It was just easier this way,
+and didn't require tricks with rotating the Command cards. I might change this
+in the future, but for now just use the dedicated windows.
+
 ## Scenarios
 
 There are two scenarios to choose from when you start the module, either the
