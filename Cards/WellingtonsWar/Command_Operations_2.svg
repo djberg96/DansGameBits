@@ -49,6 +49,8 @@
     fill="white"
     font-family="Garamond"
     font-size="36"
+    stroke="black"
+    stroke-width="0.5"
   >OPERATIONS
   </text>
 </svg>
