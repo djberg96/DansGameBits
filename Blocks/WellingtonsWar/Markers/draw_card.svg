@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75 75" width="75" height="75">
+  <title>Charts</title>
+  <desc>Charts icon for Vassal</desc>
+
+  <g id="marker">
+    <rect width="75" height="75" fill="white" stroke="black" stroke-width="1"/>
+    <text fill="black" font-size="24" font-variant="small-caps" font-family="versica serif" text-anchor="middle">
+      <tspan x="40" y="35">Draw</tspan>
+      <tspan x="36" dy="20">Card</tspan>
+    </text>
+  </g>
+</svg>
