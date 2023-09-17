@@ -54,7 +54,7 @@ reminder. Simply remove the label once you've placed the unit.
 ## Fortress Markers
 
 There are fortress markers, but it is difficult to mark units inside from those
-outside since they markers are on their own layer. I recommend using labels as
+outside since the markers are on their own layer. I recommend using labels as
 an additional mnemonic for which units are inside a fortress.
 
 ## Area Control Markers
@@ -74,9 +74,8 @@ the totals at the end of each turn and mark the VP accordingly.
 ## Future Plans
 
 * Automate the VP counting process via a button click.
-* Nicer hand windows for each player.
 * Possibly different rotation mechanism for the blocks so that only the pips rotate.
-* Pool, Hand and Deck counters.
+* Show the Pool, Hand and Deck counts.
 
 ## Problems?
 
