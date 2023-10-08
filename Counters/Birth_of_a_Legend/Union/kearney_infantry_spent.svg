@@ -32,19 +32,21 @@
     </clipPath>
   </defs>
 
-  <g id="unit">
+  <g id="unit" font-family="EB Garamond" >
     <use xlink:href="#background" clip-path="url(#block)"/>
     <use xlink:href="#border" clip-path="url(#block)"/>
-       <use xlink:href="#reduced"/>
+    <use xlink:href="#reduced"/>
 
-    <g id="symbol" text-anchor="middle" font-family="EB Garamond">
+    <text x="10" y="54" font-size="16" fill="black">III</text>
+
+    <g id="symbol" text-anchor="middle">
       <text x="50" y="25" font-size="14" fill="black">KEARNEY</text>
       <rect x="33" y="32" width="34" height="34" fill="rgb(0,60,120)" stroke="black"/>
       <line x1="33" y1="32" x2="67" y2="66" stroke="white"/>
       <line x1="33" y1="66" x2="67" y2="32" stroke="white"/>
     </g>
 
-    <g id="stats" text-anchor="middle" font-family="EB Garamond" font-size="32">
+    <g id="stats" text-anchor="middle" font-size="32">
       <text x="50" y="88" fill="rgb(0,60,120)">2-2-5</text>
     </g>
   </g>
