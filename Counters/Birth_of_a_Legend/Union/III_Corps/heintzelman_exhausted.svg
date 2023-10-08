@@ -46,6 +46,7 @@
         fill="rgb(0,60,120)"
         stroke="white"
         stroke-width="1.5"
+        transform="translate(20)"
       />
     </g>
   </g>
