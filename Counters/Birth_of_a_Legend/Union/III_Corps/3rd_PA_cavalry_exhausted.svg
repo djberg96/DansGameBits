@@ -42,7 +42,7 @@
     <g id="symbol" text-anchor="middle">
       <text x="50" y="25" font-size="14" fill="black">
         <tspan>3</tspan>
-        <tspan dx="-3" dy="2" font-size="10"baseline-shift="3" text-decoration="underline">rd</tspan>
+        <tspan dx="-3" dy="2" font-size="10" baseline-shift="3" text-decoration="underline">rd</tspan>
         <tspan>PA</tspan>
       </text>
       <rect x="33" y="32" width="34" height="34" fill="rgb(0,60,120)" stroke="black"/>
