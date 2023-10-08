@@ -11,7 +11,7 @@
     />
 
     <rect
-      id="reduced"
+      id="exhausted"
       x="2"
       y="40%"
       height="20%"
@@ -35,7 +35,7 @@
   <g id="unit" font-family="EB Garamond" >
     <use xlink:href="#background" clip-path="url(#block)"/>
     <use xlink:href="#border" clip-path="url(#block)"/>
-    <use xlink:href="#reduced"/>
+    <use xlink:href="#exhausted"/>
 
     <text x="10" y="54" font-size="16" fill="black">III</text>
 
