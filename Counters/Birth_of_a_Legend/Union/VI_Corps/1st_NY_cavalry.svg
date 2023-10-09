@@ -35,7 +35,7 @@
         <tspan>NY</tspan>
       </text>
       <rect x="33" y="32" width="34" height="34" fill="purple" stroke="black"/>
-      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="white"/>
     </g>
 
     <g id="stats" text-anchor="middle" font-size="32">
