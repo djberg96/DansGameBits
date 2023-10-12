@@ -26,16 +26,14 @@
     <use xlink:href="#background" clip-path="url(#block)"/>
     <use xlink:href="#border" clip-path="url(#block)"/>
 
-    <text x="7" y="54" font-size="10" fill="black">Ewell</text>
-
     <g id="symbol" text-anchor="middle" >
       <text x="50" y="25" font-size="14" fill="black">JOHNSON</text>
-      <rect x="33" y="32" width="34" height="34" fill="green" stroke="black"/>
+      <rect x="33" y="32" width="34" height="34" fill="black" stroke="black"/>
       <circle r="5" cx="50" cy="50" fill="white" stroke="black"/>
     </g>
 
     <g id="stats" text-anchor="middle" font-size="32">
-      <text x="50" y="88" fill="green">1-1-5</text>
+      <text x="50" y="88" fill="black">1-1-5</text>
     </g>
   </g>
 </svg>
