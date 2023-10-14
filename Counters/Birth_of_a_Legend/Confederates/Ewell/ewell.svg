@@ -36,7 +36,7 @@
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="21" font-size="12" fill="black">EWELL</text>
-      <use xlink:href="#star" transform="scale(0.6) translate(35,45)">
+      <use xlink:href="#star" transform="scale(0.6) translate(35,45)"/>
     </g>
 
     <g id="stats" text-anchor="middle" font-size="32">
