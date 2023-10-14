@@ -39,7 +39,7 @@
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="25" font-size="14" fill="black">A.P. HILL</text>
-      <rect x="33" y="32" width="34" height="34" fill="blue" stroke="white"/>
+      <rect x="33" y="32" width="34" height="34" fill="blue" stroke="black"/>
       <circle r="5" cx="50" cy="50" fill="white" stroke="black"/>
     </g>
 

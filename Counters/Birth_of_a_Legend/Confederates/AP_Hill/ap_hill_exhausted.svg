@@ -29,8 +29,9 @@
 
     <polygon
       id="star"
-      points="50,5 25,70 80,30 15,30 70,70"
-      fill="red"
+      points="50,0 63,38 100,38 69,62 82,100 50,75 18,100 31,62 0,38 37,38"
+      fill="blue"
+      stroke="black"
     />
 
     <clipPath id="block">
@@ -44,8 +45,8 @@
     <use xlink:href="#exhausted"/>
 
     <g id="symbol" text-anchor="middle">
-      <text x="50" y="21" font-size="12" fill="black">D.H. HILL</text>
-      <use xlink:href="#star" transform="scale(0.6) translate(75,45)">
+      <text x="50" y="21" font-size="12" fill="black">A.P. HILL</text>
+      <use xlink:href="#star" transform="scale(0.5) translate(85,55)">
     </g>
   </g>
 </svg>
