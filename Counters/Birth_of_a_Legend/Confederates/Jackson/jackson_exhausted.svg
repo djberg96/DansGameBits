@@ -46,7 +46,7 @@
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="21" font-size="12" fill="black">JACKSON</text>
-      <use xlink:href="#star" transform="scale(0.5) translate(85,55)">
+      <use xlink:href="#star" transform="scale(0.5) translate(85,55)"/>
     </g>
   </g>
 </svg>
