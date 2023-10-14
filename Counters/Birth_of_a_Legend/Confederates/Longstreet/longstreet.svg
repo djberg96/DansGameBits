@@ -19,8 +19,9 @@
 
     <polygon
       id="star"
-      points="50,5 25,70 80,30 15,30 70,70"
+      points="50,0 63,38 100,38 69,62 82,100 50,75 18,100 31,62 0,38 37,38"
       fill="yellow"
+      stroke="black"
     />
 
     <clipPath id="block">
@@ -34,7 +35,7 @@
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="21" font-size="12" fill="black">LONGSTREET</text>
-      <use xlink:href="#star" transform="scale(0.6) translate(35,45)"/>
+      <use xlink:href="#star" transform="scale(0.5) translate(40,55)"/>
     </g>
 
     <g id="stats" text-anchor="middle" font-size="32">
