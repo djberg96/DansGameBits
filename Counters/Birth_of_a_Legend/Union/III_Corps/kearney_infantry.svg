@@ -30,7 +30,7 @@
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="25" font-size="14" fill="black">KEARNEY</text>
-      <rect x="33" y="32" width="34" height="34" fill="rgb(0,60,120)" stroke="black"/>
+      <rect x="33" y="32" width="34" height="34" fill="rgb(0,60,120)" stroke="white"/>
       <line x1="33" y1="32" x2="67" y2="66" stroke="white"/>
       <line x1="33" y1="66" x2="67" y2="32" stroke="white"/>
     </g>
