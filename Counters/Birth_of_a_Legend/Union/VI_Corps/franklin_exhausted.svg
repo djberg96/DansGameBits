@@ -57,9 +57,9 @@
           43,46
         "
         fill="purple"
-        stroke="black"
+        stroke="white"
         stroke-width="1.5"
-        transform="translate(20)"
+        transform="translate(20,2)"
       />
     </g>
   </g>
