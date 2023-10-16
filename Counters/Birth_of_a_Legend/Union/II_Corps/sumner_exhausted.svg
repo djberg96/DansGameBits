@@ -41,13 +41,19 @@
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="21" font-size="12" fill="black">SUMNER</text>
-      <polygon
-        points="50,30 70,55 50,80 30,55"
-        fill="green"
-        stroke="white"
-        stroke-width="1.5"
-        transform="translate(20)"
-      />
+      <g id="club" transform="translate(35,15) scale(0.7)">
+        <rect x="45" y="55" width="10" height="25" fill="white" stroke="black"/>
+        <g id="background_club" fill="black">
+          <circle cx="50" cy="35" r="17" />
+          <circle cx="65" cy="55" r="17" />
+          <circle cx="35" cy="55" r="17" />
+        </g>
+        <g id="foreground_club" fill="green">
+          <circle cx="50" cy="35" r="16"/>
+          <circle cx="65" cy="55" r="16"/>
+          <circle cx="35" cy="55" r="16">
+        </g>
+      </g>
     </g>
   </g>
 </svg>
