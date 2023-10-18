@@ -26,9 +26,9 @@
     <use xlink:href="#background" clip-path="url(#block)"/>
     <use xlink:href="#border" clip-path="url(#block)"/>
 
-    <rect x="5" y="5" width="65" height="65" fill="dimgrey" stroke="black"/>
+    <rect x="5" y="5" width="65" height="65" fill="black" stroke="black"/>
 
-    <text x="37.5" y="35" font-size="22" text-anchor="middle">
+    <text x="37.5" y="35" font-size="22" text-anchor="middle" fill="white">
       <tspan>RAIN</tspan>
       <tspan x="37.5" dy="18">TURN</tspan>
     </text>
