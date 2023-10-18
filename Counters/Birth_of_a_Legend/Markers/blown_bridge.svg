@@ -1,0 +1,9 @@
+<svg viewBox="0 0 75 75" width="75" height="75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Blown Bridge</title>
+  <desc>Blown bridge marker for Birth of a Legend</desc>
+
+  <g id="blown-bridge" opacity="0.8">
+    <circle cx="37.5" cy="37.5" r="33" fill="none" stroke="red" stroke-width="7"/>
+    <line x1="5" y1="37.5" x2="70" y2="37.5" stroke="red" stroke-width="7" transform="rotate(45,37.5,37.5)"/>
+  </g>
+</svg>
