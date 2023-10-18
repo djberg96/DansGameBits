@@ -31,12 +31,12 @@
       <tspan x="48" dy="14">FLOTILLA</tspan>
     </text>
 
-    <g id="gunboat">
+    <g id="gunboat" stroke="grey" stroke-width="0.4">
       <polygon points="10,80 90,80 85,90 15,90"/>
       <rect x="49" y="66" width="5" height="14"/>
-      <rect x="38" y="73" width="10" height="14"/>
-      <rect x="27" y="77" width="10" height="4"/>
-      <rect x="74" y="75" width="10" height="6"/>
+      <rect x="38" y="73" width="10" height="7"/>
+      <rect x="27" y="76" width="10" height="4"/>
+      <rect x="74" y="74" width="10" height="6"/>
     </g>
 
     <use xlink:href="#gunboat" transform="translate(22,-5) scale(0.7)"/>
