@@ -29,7 +29,7 @@
     <text x="14" y="54" font-size="16" fill="black">I</text>
 
     <g id="symbol" text-anchor="middle" >
-      <text x="50" y="25" font-size="14" fill="black">BIRNEY</text>
+      <text x="50" y="25" font-size="14" fill="black">[BIRNEY]</text>
       <rect x="33" y="32" width="34" height="34" fill="brown" stroke="white"/>
       <circle r="5" cx="50" cy="50" fill="white" stroke="black"/>
     </g>
