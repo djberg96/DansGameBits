@@ -26,20 +26,18 @@
     <use xlink:href="#background" clip-path="url(#block)"/>
     <use xlink:href="#border" clip-path="url(#block)"/>
 
-    <text x="7" y="54" font-size="10" fill="black">Ewell</text>
-
     <g id="symbol" text-anchor="middle">
       <text x="50" y="23" font-size="18" fill="black">
         <tspan>2</tspan>
         <tspan dx="-3" dy="2" font-size="10" baseline-shift="3" text-decoration="underline">nd</tspan>
         <tspan>VA</tspan>
       </text>
-      <rect x="33" y="32" width="34" height="34" fill="green" stroke="black"/>
-      <line x1="33" y1="66" x2="67" y2="32" stroke="black"/>
+      <rect x="33" y="32" width="34" height="34" stroke="white"/>
+      <line x1="33" y1="66" x2="67" y2="32" stroke="white"/>
     </g>
 
     <g id="stats" text-anchor="middle" font-size="32">
-      <text x="50" y="87" fill="green">1-1-7</text>
+      <text x="50" y="87">1-1-7</text>
     </g>
   </g>
 </svg>
