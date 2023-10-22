@@ -37,6 +37,8 @@
     <use xlink:href="#border" clip-path="url(#block)"/>
     <use xlink:href="#exhausted"/>
 
+    <text x="7" y="54" font-size="7" transform="rotate(270,23,48)">Pendleton</text>
+
     <g id="symbol" text-anchor="middle" >
       <text x="50" y="25" font-size="14" fill="black">RANSOM</text>
       <rect x="33" y="32" width="34" height="34" fill="white" stroke="black"/>
