@@ -37,7 +37,7 @@
     <use xlink:href="#border" clip-path="url(#block)"/>
     <use xlink:href="#exhausted"/>
 
-    <text x="6" y="54" font-size="8" fill="black">Jackson</text>
+    <text x="8" y="54" font-size="9" transform="rotate(270,23,48)">Jackson</text>
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="25" font-size="14" fill="black">WHITING</text>
