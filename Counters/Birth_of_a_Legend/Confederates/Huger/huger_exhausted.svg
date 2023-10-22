@@ -30,7 +30,7 @@
     <polygon
       id="star"
       points="50,0 63,38 100,38 69,62 82,100 50,75 18,100 31,62 0,38 37,38"
-      fill="grey"
+      fill="dimgrey"
       stroke="black"
     />
 

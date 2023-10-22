@@ -39,12 +39,12 @@
 
     <g id="symbol" text-anchor="middle">
       <text x="50" y="25" font-size="14" fill="black">HUGER</text>
-      <rect x="33" y="32" width="34" height="34" fill="grey" stroke="black"/>
+      <rect x="33" y="32" width="34" height="34" fill="dimgrey" stroke="black"/>
       <circle r="5" cx="50" cy="50" fill="white" stroke="black"/>
     </g>
 
     <g id="stats" text-anchor="middle" font-size="32">
-      <text x="50" y="88" fill="grey">2-2-5</text>
+      <text x="50" y="88" fill="dimgrey">2-2-5</text>
     </g>
   </g>
 </svg>

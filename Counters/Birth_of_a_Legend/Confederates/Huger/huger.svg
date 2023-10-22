@@ -20,7 +20,7 @@
     <polygon
       id="star"
       points="50,0 63,38 100,38 69,62 82,100 50,75 18,100 31,62 0,38 37,38"
-      fill="grey"
+      fill="dimgrey"
       stroke="black"
     />
 
@@ -39,7 +39,7 @@
     </g>
 
     <g id="stats" text-anchor="middle" font-size="32">
-      <text x="83" y="45" fill="grey">6</text>
+      <text x="83" y="45" fill="dimgrey">6</text>
       <text x="83" y="78">3</text>
     </g>
   </g>
