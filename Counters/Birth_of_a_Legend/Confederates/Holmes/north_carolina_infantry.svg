@@ -26,6 +26,8 @@
     <use xlink:href="#background" clip-path="url(#block)"/>
     <use xlink:href="#border" clip-path="url(#block)"/>
 
+    <text x="8" y="54" font-size="9" transform="rotate(270,23,48)">Holmes</text>
+
     <g id="symbol" text-anchor="middle">
       <text x="50" y="25" font-size="14" fill="black">N.CAROLINA</text>
       <rect x="33" y="32" width="34" height="34" fill="teal" stroke="black"/>
