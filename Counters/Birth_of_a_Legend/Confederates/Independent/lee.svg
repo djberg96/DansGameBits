@@ -39,7 +39,7 @@
     </g>
 
     <g id="stats" text-anchor="middle" font-size="42">
-      <text x="50" y="85" fill="">3</text>
+      <text x="50" y="85">3</text>
     </g>
   </g>
 </svg>
