@@ -1,13 +1,13 @@
 <svg viewBox="0 0 75 75" width="75" height="75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>CSA Replacement x1 Marker</title>
-  <desc>Confederate Replacements x1 markerfor Birth of a Legend</desc>
+  <title>USA Replacement x10 Marker</title>
+  <desc>Union Replacements x10 markerfor Birth of a Legend</desc>
 
   <defs id="common">
     <rect
       id="background"
       width="75"
       height="75"
-      fill="rgb(180,160,100)"
+      fill="rgb(135,165,225)"
     />
 
     <g id="border" stroke="black" stroke-width="2">
@@ -31,10 +31,10 @@
     <circle cx="50" cy="22.5" r="12" fill="gold" stroke="black"/>
     <circle cx="37.5" cy="22.5" r="12" fill="gold" stroke="black"/>
 
-    <text x="29" y="27.5" letter-spacing="-1" font-size="14" font-family="Times New Roman">x10</text>
+    <text x="28" y="27.5" letter-spacing="-1" font-size="14" font-family="Times New Roman">x10</text>
 
     <text x="37.5" y="50" font-size="18" text-anchor="middle">
-      <tspan>CSA</tspan>
+      <tspan>USA</tspan>
       <tspan x="37.5" dy="14">REPL.</tspan>
     </text>
   </g>
