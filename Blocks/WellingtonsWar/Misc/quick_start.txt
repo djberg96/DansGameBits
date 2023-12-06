@@ -22,34 +22,24 @@ have separate, dedicated windows where they are managed. It was just easier this
 and didn't require tricks with rotating the Command cards. I might change this
 in the future, but for now just use the dedicated windows.
 
+The deck spaces on the board now show the total number of cards remaining
+in their respective decks.
+
 ## Scenarios
 
-There are two scenarios to choose from when you start the module, either the
-full Campaign Game or the shorter 1812 scenario. The Campaign Game is mostly setup
-and ready to go. The only thing you need to do is drag the face-up units in the
-Force Pool areas into the actual pool. This is the area around the flag, you will
-see the black outline. I left these face up at the start so that both players who
-are not familiar with the scenario setup could see what each side has.
+At this time there is one scenario to choose from when you start the module, the
+full Campaign Game. The Campaign Game is mostly setup and ready to go. The only thing
+you need to do is drag the appropriate face-up units in the Force Pool that are stacked
+next to the pool area into the actual pool. This is the area around the flag, you will
+see the black outline.
 
-The 1812 scenario includes some additional setup markers and has additional setup
-instructions you'll need to go through before you can start. See below for more details.
+I left these face up at the start so that both players who are not familiar with the
+scenario setup could see what each side has.
 
-### 1812 Scenario
-
-For the Spanish setup I have put the four initial setup blocks in the force pool.
-Draw them one at a time and place them in the start areas which have been marked.
-Once that is complete, put the Spanish blocks that started face up into the Force
-Pool area into the actual force pool (i.e. on the Spanish flag).
-
-The French player has two initial setup groups. The first group starts in the
-force pool. Once those units have been placed, drag the units from the second
-initial group into the pool. Drag them out and set them one at a time as per the
-scenario setup instructions. Once both initial setup groups have been placed, put
-the remaining French blocks that started face up in the Force Pool area into the
-actual force pool (i.e. on the French flag).
-
-Some forces have variable setup. I have added a label to these units as a
-reminder. Simply remove the label once you've placed the unit.
+The reinforcements have been organized into their own stacks based on the turn that
+they arrive and are also in the Force Pool area. Units that only arrive via events
+have not been placed in the force pool area. You will have to grab them out of the
+pieces palette as needed.
 
 ## Fortress Markers
 
@@ -66,6 +56,17 @@ position. I have deliberately offset these markers so that the forage values for
 the area are not covered up. You should not move or delete these markers, though
 you can recreate them if an accident happens.
 
+## Force Levels
+
+Force levels for each faction are now tracked automatically via a text label near
+the faction's home area. Note that the force level track marker is not automatically
+moved, but you are free to manually move it as needed.
+
+## Region Highlighting
+
+If you click on the name of a region on the main map it will highlight the area to
+show you exactly where the borders are. Simply click it again to remove the highlighting.
+
 ## Victory Points
 
 At this time the VP tracking must be done manually, i.e. you will have to calculate
@@ -75,7 +76,14 @@ the totals at the end of each turn and mark the VP accordingly.
 
 * Automate the VP counting process via a button click.
 * Possibly different rotation mechanism for the blocks so that only the pips rotate.
-* Show the Pool, Hand and Deck counts.
+* Show the Pool and Hand counts.
+* Add the 1812 scenario.
+
+## Version History
+
+1.0 - Initial private release.
+1.1 - Initial public release.
+1.2 - Added zone highlighting and automatic force pool calculations.
 
 ## Problems?
 
@@ -83,3 +91,6 @@ If you find any problems with the Vassal module, please contact me (Daniel Berge
 via email (djberg96@gmail.com) or on BGG where my userid is "djberg96".
 
 For rules questions, please post your question on the BGG or CSW forum for this game.
+
+The module itself can be found on github at https://github.com/djberg96/DansGameBits.
+Feel free to fork my repository and submit any change requests.
