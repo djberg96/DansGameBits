@@ -1,7 +1,7 @@
 require 'getopt/std'
 require 'nokogiri'
 
-opts = Getopt::Std.getopts('x:y:d:r:c:e:o:h:k')
+opts = Getopt::Std.getopts('x:y:d:r:c:e:o:h:k:')
 
 if opts['h']
   doc = <<-HELP
