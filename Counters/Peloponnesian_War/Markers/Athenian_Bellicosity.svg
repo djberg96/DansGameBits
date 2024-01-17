@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+  <title>Athenian Bellicosity</title>
+  <desc>The game marker for the Athenian Bellicosity level.</desc>
+
+  <rect width="100%" height="100%" fill="rgb(216,198,147)" stroke="black" stroke-width="3%"/>
+
+  <g transform="rotate(-45,26,20)">
+    <text text-anchor="middle" font-size="8" fill="green">
+      <tspan x="21" y="45%">Bellicosity</tspan>
+    </text>
+  </g>
+</svg>
