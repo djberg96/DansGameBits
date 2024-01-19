@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+  <title>Sparta Holds Athenian Hostages</title>
+  <desc>Sparta Holds Athenian Hostages</desc>
+
+  <rect width="100%" height="100%" fill="rgb(216,198,147)" stroke="black" stroke-width="3%"/>
+
+  <text text-anchor="middle" font-size="8" fill="red">
+    <tspan x="21" y="20%">Sparta</tspan>
+    <tspan x="21" dy="1.2em">Holds</tspan>
+    <tspan x="21" dy="1.2em">Athenian</tspan>
+    <tspan x="21" dy="1.2em">Hostages</tspan>
+  </text>
+</svg>
