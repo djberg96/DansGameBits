@@ -1,0 +1,76 @@
+Hands in the Sea
+Clarifications, Updates and Errata
+February 2024
+
+== Cards
+
+Q: Do you have to pay for the Roman Legion that starts as part of the
+   starting Roman deck when you first play it?
+A: No, it was already paid for. You only purchase cards from the Empire deck.
+
+Q: What is the definition of a mercenary? Do they have the word "mercenary" on them?
+A: Not necessarily. Any card with the "bribe coin" symbol on it is a mercenary.
+
+Q: Does the Leaders Quarrel stay in effect even after a Campaign Card has resolved?
+A: ???
+
+Q: When drawing the Bad Omens event, does it affect battles initiated by the opponent?
+A: It can affect any battle in progress. If there are two battles going on simultaneously,
+   then it modifies the batlte where the affected player is the attacker.
+
+Q: If you use a card during your opponent's turn (e.g., during a battle or blocking a raid, etc.,)    do you refresh your hand to 5 before your turn or do you start your turn short of cards?
+A: You start your turn short of cards.
+
+Q: Do you always reshuffle Storms at Sea or only if Corvus is in play? 
+A: It's always reshuffled.
+
+== General
+
+Q: Do you have to play a card to move your fleet?
+A: No, you only need a warship to engage in combat or raid.
+
+Q: Can a fleet harbor at a specific port besides the capitals?
+A: No, the only ports are Rome and Carthage.
+
+Q: Does a fort add +1 or +2 to the defense?
+A: A fort adds +2. This is cumulative with any defense modifier.
+
+Q: Can any town be developed into a city?
+A: No, only towns with a colonist symbol.
+
+Q: Are you limited by the number of dice included in the game?
+A: No, they are not meant as a hard limit. Use additional dice if necessary.
+
+== Victory
+
+Q: Does a player win if he completes the requisite number of towns, cities, etc?
+A: No, the only automatic victory is capture of your opponent's capital. Othewise,
+   you count points.
+
+Q: Do you gain prestige for conquering a neutral Syracuse?
+A: No.
+
+== Battle
+
+Q: Where do losses go?
+A: To the Empire deck. If you want them back, you'll have to re-purchase them.
+
+== Raids
+
+Q: Can you raid a neutral Syracuse?
+A: No.
+
+== Supply
+
+Q: How does supply tracing work for the attacker?
+A: When tracing supply by land to a location under attack, the attacker
+need only trace supply to a friendly or neutral area adjacent to the
+area under attack. The defender must trace to the actual location under
+attack, not just to an adjacent location.
+
+Q: Can I trace supply mixing both land and sea?
+A: Normally yes, though you may not combine a supply path across both a Sea Zone
+   and the Straits.
+
+Q: Is a besieged Lilybaeum still in supply?
+A: Yes, a supply point always supplies itself. 
