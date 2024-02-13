@@ -18,7 +18,8 @@ Q: When drawing the Bad Omens event, does it affect battles initiated by the opp
 A: It can affect any battle in progress. If there are two battles going on simultaneously,
    then it modifies the battle where the affected player is the attacker.
 
-Q: If you use a card during your opponent's turn (e.g., during a battle or blocking a raid, etc.,)    do you refresh your hand to 5 before your turn or do you start your turn short of cards?
+Q: If you use a card during your opponent's turn (e.g., during a battle or blocking a raid, etc)
+   do you refresh your hand to 5 before your turn or do you start your turn short of cards?
 A: You start your turn short of cards.
 
 Q: Do you always reshuffle Storms at Sea or only if Corvus is in play? 
