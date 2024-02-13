@@ -45,8 +45,8 @@ A: No, they are not meant as a hard limit. Use additional dice if necessary.
 == Victory
 
 Q: Does a player win if he completes the requisite number of towns, cities, etc?
-A: No, the only automatic victory is capture of your opponent's capital. Othewise,
-   you count points.
+A: No, the only automatic victory is capture of your opponent's capital. Otherwise,
+   you count points. Those are simply game-ending conditions, they don't guarantee victory.
 
 Q: Do you gain prestige for conquering a neutral Syracuse?
 A: No.
