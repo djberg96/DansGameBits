@@ -16,7 +16,7 @@ A: Yes. Its effect continues until the affected player's battle/siege is finishe
 
 Q: When drawing the Bad Omens event, does it affect battles initiated by the opponent?
 A: It can affect any battle in progress. If there are two battles going on simultaneously,
-   then it modifies the batlte where the affected player is the attacker.
+   then it modifies the battle where the affected player is the attacker.
 
 Q: If you use a card during your opponent's turn (e.g., during a battle or blocking a raid, etc.,)    do you refresh your hand to 5 before your turn or do you start your turn short of cards?
 A: You start your turn short of cards.
