@@ -1,4 +1,4 @@
-Hands in the Sea
+
 Clarifications, Updates and Errata
 February 2024
 
@@ -12,7 +12,7 @@ Q: What is the definition of a mercenary? Do they have the word "mercenary" on t
 A: Not necessarily. Any card with the "bribe coin" symbol on it is a mercenary.
 
 Q: Does the Leaders Quarrel stay in effect even after a Campaign Card has resolved?
-A: ???
+A: Yes. Its effect continues until the affected player's battle/siege is finished.
 
 Q: When drawing the Bad Omens event, does it affect battles initiated by the opponent?
 A: It can affect any battle in progress. If there are two battles going on simultaneously,
