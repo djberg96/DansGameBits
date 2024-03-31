@@ -10,6 +10,9 @@ A: No, it only requires an action.
 Q: What card, if any, must be played to start the naval combat? Or is the declaration sufficient in itself?
 A: You must play a card with a ship symbol to initiate naval combat.
 
+Q: If I play a card on my opponent's turn, e.g. block a raid, what happens to the card?
+A: It's discarded.
+
 Q: Can I move the Roman fleet from Africa to my Home port?
 A: Not in a single move. It would normally take 3 actions - first move the fleet to Corsica
    or Sicily, then Italy, and finally into the Roman Home port. The Seamanship strategy card
@@ -71,6 +74,13 @@ A: Any card with the bribe symbol on it is considered a mercenary for game purpo
 Q: Are we allowed to return "S" cards to the Empire deck?
 A: Yes, except for the Rome and Carthage location cards.
 
+Q: Are cards in the Empire deck face up or face down?
+A: Face up.
+
+Q: How do I reacquire a location card that I sent to the Empire deck?
+A: You draft it, assuming that you control the location. You cannot
+   draft it if it's neutral.
+
 Q: Can any town be developed into a city?
 A: No, only those towns with a colonist symbol.
 
@@ -84,6 +94,9 @@ A: It's already considered paid for.
 
 Q: Does Seamanship affect supply for purposes of VP collection?
 A: No.
+
+Q: Do the supply locations Lilybaeum or Syracuse need to trace back to ther capital?
+A: No, they are always in supply, i.e. they supply themselves.
 
 Q: Do Roman legions that were committed to a naval battle via Corvus from reserve return
    to the reserve upon victory, or go to the discard pile.
@@ -115,6 +128,9 @@ A: If you're playing with the optional events, then it refers to the optional
 * On the Leaders Quarrel event, remove the phrase "this turn". The effect of the event
   will remain in play for the affected player's next land or naval battle regardless
   of whether or not a new turn starts.
+
+* For the Bad Omens event, if there are two battles in progress, its effects are only
+  applied to the battle where the affected player is the attacker.
 
 === Suggested Changes
 * Add 1 town cube to each player. This should help a little bit with the
