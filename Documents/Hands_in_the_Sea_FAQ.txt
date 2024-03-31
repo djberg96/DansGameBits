@@ -13,6 +13,12 @@ A: You must play a card with a ship symbol to initiate naval combat.
 Q: If I play a card on my opponent's turn, e.g. block a raid, what happens to the card?
 A: It's discarded.
 
+Q: Can you block a raid if the location being raided is out of supply?
+A: Yes, but not with its location card.
+
+Q: Can you raid through enemy locations if you use multiple cards?
+A: Yes, assuming the locations aren't fortified.
+
 Q: Can I move the Roman fleet from Africa to my Home port?
 A: Not in a single move. It would normally take 3 actions - first move the fleet to Corsica
    or Sicily, then Italy, and finally into the Roman Home port. The Seamanship strategy card
@@ -87,6 +93,18 @@ A: No, only those towns with a colonist symbol.
 Q: Does settling a location after winning a land battle count as an action?
 A: No.
 
+Q: Are the dice included within the game meant to serve as a cap?
+A: No. If you need more dice, then either find some other dice or record your
+   results and re-roll as many dice as needed.
+
+Q: If the attacker has just one sword to bear to the battle, does the battle
+   end immediately on the defenders round, the defender as winner?
+A: Yes. Don't do that.
+
+Q: Is it possible to start a land battle through the sea even if the sea zone
+   is occupied by a enemy fleet?
+A: Yes, if your fleet is also in the sea zone.
+
 == Card Questions
 Q: Is Roman Legion I already considered paid for? Or does the Roman player have to
    pay the cost when it's first played.
@@ -109,6 +127,13 @@ Q: When playing the optional (toned down) Storms at Sea event, which one of the 
    does the Seamanship card refer to if there's a Naval Disaster?
 A: If you're playing with the optional events, then it refers to the optional
    Storms at Sea event, i.e. lose 1 ship on a 1-4, 2 on a 5-6.
+
+Q: Does Storms at Sea always cause a reshuffle, or only when Corvus is in play?
+A: Always.
+
+Q: When using the Administration strategy card's ability to draft 2 cards, can
+   I use emergency levy for both cards?
+A: Yes, if you can afford it.
 
 == Clarifications, Updates and Suggested Changes from the Designer
 
@@ -145,3 +170,5 @@ A: If you're playing with the optional events, then it refers to the optional
 * The number of cards you can hold in reserve is equal to the number of developed
   locations you own.
 * The Roman player has the option of starting with the Legion in Reserve.
+* The winner of a battle may refuse to take a Prestige point if the battle did not
+  last at least 2 rounds.
