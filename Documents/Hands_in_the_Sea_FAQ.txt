@@ -70,6 +70,14 @@ A: To the discard pile or empire deck, depending on the outcome.
 
 == Clarifications, Updates and Suggested Changes from the Designer
 
+=== Clarifications
+
+* When judging supply for purposes of initiating or reinforcing a battle, the
+  attacker need only trace supply to a friendly or neutral location ADJACENT
+  to the location being attacked, OR to the location under attack itself. The
+  defender must still trace supply to the location under attack itself in order
+  to reinforce it.
+
 * In the Engage Enemy Fleet rules (5.2.5) where the text currently says, "the loser
   of the naval battle must choose to either retreat his Fleet to an adjacent Sea Zone
   that contains a friendly port or send it to his Home Port.", change the words
