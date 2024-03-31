@@ -164,6 +164,12 @@ A: Yes, if you can afford it.
 * For the Bad Omens event, if there are two battles in progress, its effects are only
   applied to the battle where the affected player is the attacker.
 
+* For the alternate Rebellion event, any fortress present is eliminated and returned
+  to the pool, same as the regular event.
+
+* For the 25 VP auto victory (aka mercy rule) only the VP's on the VP track are
+  considered, not captured towns, prestige points, etc.
+
 === Suggested Changes
 * Add 1 town cube to each player. This should help a little bit with the
   Carthaginian Rush Strategy.
