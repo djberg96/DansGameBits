@@ -1,4 +1,4 @@
-FAQ - Hands in the Sea, 2nd Edition
+Q&A - Hands in the Sea, 2nd Edition
 
 == General Rules questions
 Q: Does a 0-strength elepant contribute to cavalry superiority?
@@ -11,7 +11,16 @@ Q: What card, if any, must be played to start the naval combat? Or is the declar
 A: You must play a card with a ship symbol to initiate naval combat.
 
 Q: Can I move the Roman fleet from Africa to my Home port?
-A: Not in a single move. It would take 3 moves total.
+A: Not in a single move. It would normally take 3 actions - first move the fleet to Corsica
+   or Sicily, then Italy, and finally into the Roman Home port. The Seamanship strategy card
+   could shorten this if you spend the silver.
+
+   The only way you could move your Roman fleet directly to your Home port from Africa if
+   its defeated in a naval battle, although such a retreat is neither a move, nor an action.
+
+Q: Can a fleet harbor at any friendly coastal location?
+A: No, any fleet not in its Home port is considered at sea. Note also the clarification on
+   naval retreats below.
 
 Q: Does a player win when he completes the requisite number of towns, cities, prestige points?
 A: No, that's only a game ending condition. Both players should add up VP to determine the winner.
@@ -42,7 +51,7 @@ Q: What is the definition of a mercenary exactly?
 A: Any card with the bribe symbol on it is considered a mercenary.
 
 Q: Are we allowed to return "S" cards to the Empire deck?
-A: Yes, except the Rome and Carthage cards.
+A: Yes, except for the Rome and Carthage location cards.
 
 Q: Can any town be developed into a city?
 A: No, only those towns with a colonist symbol.
@@ -58,4 +67,18 @@ A: No.
 Q: Do Roman legions that were committed to a naval battle via Corvus from reserve return
    to the reserve upon victory, or go to the discard pile.
 A: To the discard pile or empire deck, depending on the outcome.
+
+== Clarifications, Updates and Suggested Changes from the Designer
+
+* In the Engage Enemy Fleet rules (5.2.5) where the text currently says, "the loser
+  of the naval battle must choose to either retreat his Fleet to an adjacent Sea Zone
+  that contains a friendly port or send it to his Home Port.", change the words
+  "friendly port" to "friendly coastal location".
+
+=== Suggested Changes
+* Add 1 town cube to each player. This should help a little bit with the
+  Carthaginian Rush Strategy.
+* Make the Pillage track linear, i.e. the opposing player loses 1, 2, 3 or 4 VP
+  after the 2nd, 4th, 6th and 8th successful pillage, respectively. The 8th
+  successful pillage should be added as a game ending condition.
 
