@@ -81,4 +81,10 @@ A: To the discard pile or empire deck, depending on the outcome.
 * Make the Pillage track linear, i.e. the opposing player loses 1, 2, 3 or 4 VP
   after the 2nd, 4th, 6th and 8th successful pillage, respectively. The 8th
   successful pillage should be added as a game ending condition.
-
+* Add a 9th Prestige space, changing the game ending condition from 8 to 9.
+* You can discard a strategy card as a free action. However, puurchasing a strategy
+  card must be your last action. A player may take no more actions that round, including
+  free actions, after purchasing a strategy card.
+* The number of cards you can hold in reserve is equal to the number of developed
+  locations you own.
+* The Roman player has the option of starting with the Legion in Reserve.
