@@ -105,6 +105,10 @@ Q: Is it possible to start a land battle through the sea even if the sea zone
    is occupied by a enemy fleet?
 A: Yes, if your fleet is also in the sea zone.
 
+Q: Can you retrieve your reserve during your opponent's turn?
+A: No. The only exception to this is the Corvus strategy card, which would let
+   the Roman player commit infantry from the reserve.
+
 == Card Questions
 Q: Is Roman Legion I already considered paid for? Or does the Roman player have to
    pay the cost when it's first played.
@@ -141,7 +145,7 @@ A: Yes, if you can afford it.
 
 * When judging supply for purposes of initiating or reinforcing a battle, the
   attacker need only trace supply to a friendly or neutral location ADJACENT
-  to the location being attacked, OR to the location under attack itself. The
+  to the location being attacked (or to the location under attack itself). The
   defender must still trace supply to the location under attack itself in order
   to reinforce it.
 
