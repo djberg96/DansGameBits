@@ -35,26 +35,47 @@ A: Back to the empire deck, where they would have to be re-purchased.
 Q: If you use a location card in battle, does it return to the discard pile if not lost in battle?
 A: Location cards are never lost in battle. They always return to the discard pile after battle.
 
+Q: If you use a card during your opponent's turn, do you then start your own
+   turn short of a full hand, or do you refresh to your maximum hand size?
+A: You start your turn short of cards.
+
 Q: Can a fleet harbor at say, Panormus, Caralis?
 A: No. The only harbors are Rome for the Romans, and Carthage for the Carthaginians.
 
 Q: Does a fort add + 1 or +2 to the defense?
-A: A fort adds +2.
+A: A fort adds +2. This is cumulative with a location's default value of 1, as well
+   as any strength modifier, so most locations with a fort would start with a strength
+   of 3, while locations like Syracuse or Lilybaeum would start with strength 4.
 
 Q: Do I gain prestige for winning a battle against a neutral Syracuse?
+A: No.
+
+Q: Is Syracuse worth VP at the end of the game?
+A: No.
+
+Q: How strong is a neutral Syracuse?
+A: A neutral Syracuse starts at strength two, one for the default strength, and one
+   because of the strength symbol (sword) there.
+
+Q: Can you cavalry raid or pillage a neutral Syracuse?
 A: No.
 
 Q: Is it possible to lose prestige points?
 A: No.
 
 Q: What is the definition of a mercenary exactly?
-A: Any card with the bribe symbol on it is considered a mercenary.
+A: Any card with the bribe symbol on it is considered a mercenary for game purposes. It
+   doesn't necessarily have to have the word "mercenary" on it. In fact, the Carthaginian
+   Mercenary General is NOT bribeable! It's the symbol that matters.
 
 Q: Are we allowed to return "S" cards to the Empire deck?
 A: Yes, except for the Rome and Carthage location cards.
 
 Q: Can any town be developed into a city?
 A: No, only those towns with a colonist symbol.
+
+Q: Does settling a location after winning a land battle count as an action?
+A: No.
 
 == Card Questions
 Q: Is Roman Legion I already considered paid for? Or does the Roman player have to
@@ -68,9 +89,17 @@ Q: Do Roman legions that were committed to a naval battle via Corvus from reserv
    to the reserve upon victory, or go to the discard pile.
 A: To the discard pile or empire deck, depending on the outcome.
 
+Q: Is the effect of a Leaders Quarrel event still in play after it's discarded?
+A: Yes, ignore the "this turn" on the event. See the errata below.
+
+Q: When playing the optional (toned down) Storms at Sea event, which one of the two
+   does the Seamanship card refer to if there's a Naval Disaster?
+A: If you're playing with the optional events, then it refers to the optional
+   Storms at Sea event, i.e. lose 1 ship on a 1-4, 2 on a 5-6.
+
 == Clarifications, Updates and Suggested Changes from the Designer
 
-=== Clarifications
+=== Clarifications or Errata
 
 * When judging supply for purposes of initiating or reinforcing a battle, the
   attacker need only trace supply to a friendly or neutral location ADJACENT
@@ -82,6 +111,10 @@ A: To the discard pile or empire deck, depending on the outcome.
   of the naval battle must choose to either retreat his Fleet to an adjacent Sea Zone
   that contains a friendly port or send it to his Home Port.", change the words
   "friendly port" to "friendly coastal location".
+
+* On the Leaders Quarrel event, remove the phrase "this turn". The effect of the event
+  will remain in play for the affected player's next land or naval battle regardless
+  of whether or not a new turn starts.
 
 === Suggested Changes
 * Add 1 town cube to each player. This should help a little bit with the
