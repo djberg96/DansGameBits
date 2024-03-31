@@ -109,6 +109,9 @@ Q: Can you retrieve your reserve during your opponent's turn?
 A: No. The only exception to this is the Corvus strategy card, which would let
    the Roman player commit infantry from the reserve.
 
+Q: Are capitals considered cities?
+A: Yes.
+
 == Card Questions
 Q: Is Roman Legion I already considered paid for? Or does the Roman player have to
    pay the cost when it's first played.
@@ -176,3 +179,5 @@ A: Yes, if you can afford it.
 * The Roman player has the option of starting with the Legion in Reserve.
 * The winner of a battle may refuse to take a Prestige point if the battle did not
   last at least 2 rounds.
+* Rule 5.2.3: Under "Winning as the Attacker", immediately after the words "2 or more
+  at the start of the attacker's round" add the phrase, "or at the end of the battle".
