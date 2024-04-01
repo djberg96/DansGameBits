@@ -44,6 +44,12 @@ A: Back to the empire deck, where they would have to be re-purchased.
 Q: If you use a location card in battle, does it return to the discard pile if not lost in battle?
 A: Location cards are never lost in battle. They always return to the discard pile after battle.
 
+Q: Can you examine your discard pile?
+A: Yes, your discard pile is public knowledge.
+
+Q: Is my reserve public knowledge?
+A: Yes, unless you are playing with the Hidden Reserves optional rule.
+
 Q: If you use a card during your opponent's turn, do you then start your own
    turn short of a full hand, or do you refresh to your maximum hand size?
 A: You start your turn short of cards.
@@ -142,6 +148,13 @@ Q: When using the Administration strategy card's ability to draft 2 cards, can
    I use emergency levy for both cards?
 A: Yes, if you can afford it.
 
+Q: Can you use the half-price benefit of the Roman Magistrate in conjunction with
+   an Emergency Levy? In other words, pay regular price?
+A: No. The drafted card must go in your discard pile.
+
+Q: Do War Elephants count as cavalry for cavalry superiority and combined arms?
+A: Yes. Anything with a horse symbol on it does.
+
 == Clarifications, Updates and Suggested Changes from the Designer
 
 === Clarifications or Errata
@@ -186,4 +199,7 @@ A: Yes, if you can afford it.
 * The winner of a battle may refuse to take a Prestige point if the battle did not
   last at least 2 rounds.
 * Rule 5.2.3: Under "Winning as the Attacker", immediately after the words "2 or more
-  at the start of the attacker's round" add the phrase, "or at the end of the battle".
+  at the start of the attacker's round" add the phrase, "(or after the maximum number
+  of rounds have elapsed)".
+* Rule 4.4: At the end of the first paragraph under "Straits" after "see Figure 11",
+  add "You may not combine a supply path across both a Sea Zone and the Straits".
