@@ -1,0 +1,6 @@
+2.0
+- First release of updated version.
+
+2.1
+- Change highlighting of Corps leader units from a button activation to a right click option.
+- Add a button to refresh all Corps leaders and artillery.
