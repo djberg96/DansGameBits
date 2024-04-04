@@ -3,29 +3,37 @@ Q&A - Hands in the Sea, 2nd Edition
 == General Rules questions
 Q: Does a 0-strength elepant contribute to cavalry superiority?
 A: No. Cavalry superiority is based on combat strength points, not the number of cards.
+R: 5.2.3 - Resolving a Land Battle, under "Battle Losses and Cavalry Superiority".
 
 Q: Do I have to play a card to move a fleet?
 A: No, it only requires an action.
+R: 5.6.1 - Sea Move.
 
 Q: What card, if any, must be played to start the naval combat? Or is the declaration sufficient in itself?
 A: You must play a card with a ship symbol to initiate naval combat.
+R: 5.2.5 - Engage Enemy Fleet.
 
 Q: If I play a card on my opponent's turn, e.g. block a raid, what happens to the card?
 A: It's discarded.
+R: 5.2.4 - Cavalry Raid, where the options for the opposing player are discussed.
 
 Q: Can you block a raid if the location being raided is out of supply?
 A: Yes, but not with its location card.
+R: 5.2.4 - Cavalry Raid, in the "Clarification".
 
 Q: Can you raid through enemy locations if you use multiple cards?
 A: Yes, assuming the locations aren't fortified.
+R: 5.2.4 - Cavalry Raid, first paragraph.
 
 Q: Can I move the Roman fleet from Africa to my Home port?
 A: Not in a single move. It would normally take 3 actions - first move the fleet to Corsica
    or Sicily, then Italy, and finally into the Roman Home port. The Seamanship strategy card
-   could shorten this if you spend the silver.
+   could shorten this to two actions if you spend the silver.
 
-   The only way you could move your Roman fleet directly to your Home port from Africa if
-   its defeated in a naval battle, although such a retreat is neither a move, nor an action.
+   The only way you could move your Roman fleet directly to your Home port from Africa is if
+   it's defeated in a naval battle while in the Africa sea zone, although such a retreat is
+   neither a move nor an action.
+R: 5.6.1 - Sea Move.
 
 Q: Can a fleet harbor at any friendly coastal location?
 A: No, any fleet not in its Home port is considered at sea. Note also the clarification on
