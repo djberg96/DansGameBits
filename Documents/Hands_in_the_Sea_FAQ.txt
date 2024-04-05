@@ -38,25 +38,31 @@ R: 5.6.1 - Sea Move.
 Q: Can a fleet harbor at any friendly coastal location?
 A: No, any fleet not in its Home port is considered at sea. Note also the clarification on
    naval retreats below.
+R: 5.6.1 - Sea Move.
 
 Q: Does a player win when he completes the requisite number of towns, cities, prestige points?
 A: No, that's only a game ending condition. Both players should add up VP to determine the winner.
+R: 6.2 - Game Ending Conditions.
 
 Q: Is an undefended town or city automatically captured if the owner does not have
    a fortification or defend it with a card?
 A: No, all towns have an instrinsic defense strength that the attacker must overcome.
+R: 5.2.1 - Attack a Location.
 
 Q: Where do combat losses go?
 A: Back to the empire deck, where they would have to be re-purchased.
+R: 5.2.3 - Resolving a Land Battle, under Battle Losses and Cavalry Superiority.
 
 Q: If you use a location card in battle, does it return to the discard pile if not lost in battle?
 A: Location cards are never lost in battle. They always return to the discard pile after battle.
+R: 5.2.3 - Resolving a Land Battle, under Battle Losses and Cavalry Superiority.
 
 Q: Can you examine your discard pile?
 A: Yes, your discard pile is public knowledge.
 
 Q: Is my reserve public knowledge?
 A: Yes, unless you are playing with the Hidden Reserves optional rule.
+R: 5.4.4 - Reserve a Card.
 
 Q: If you use a card during your opponent's turn, do you then start your own
    turn short of a full hand, or do you refresh to your maximum hand size?
@@ -64,24 +70,30 @@ A: You start your turn short of cards.
 
 Q: Can a fleet harbor at say, Panormus, Caralis?
 A: No. The only harbors are Rome for the Romans, and Carthage for the Carthaginians.
+R: 5.6.1 - Sea Move.
 
 Q: Does a fort add + 1 or +2 to the defense?
 A: A fort adds +2. This is cumulative with a location's default value of 1, as well
    as any strength modifier, so most locations with a fort would start with a strength
    of 3, while locations like Syracuse or Lilybaeum would start with strength 4.
+R: 5.1.3 - Fortify a Location, and 5.2.1, Attack a Location.
 
 Q: Do I gain prestige for winning a battle against a neutral Syracuse?
 A: No.
+R: 4.5 - Syracuse.
 
 Q: Is Syracuse worth VP at the end of the game?
 A: No.
+R: 4.5 - Syracuse.
 
 Q: How strong is a neutral Syracuse?
 A: A neutral Syracuse starts at strength two, one for the default strength, and one
    because of the strength symbol (sword) there.
+R: 4.5 - Syracuse and 5.2.1, Attack a Location.
 
 Q: Can you cavalry raid or pillage a neutral Syracuse?
 A: No.
+R: 4.5 - Syracuse.
 
 Q: Is it possible to lose prestige points?
 A: No.
@@ -90,9 +102,11 @@ Q: What is the definition of a mercenary exactly?
 A: Any card with the bribe symbol on it is considered a mercenary for game purposes. It
    doesn't necessarily have to have the word "mercenary" on it. In fact, the Carthaginian
    Mercenary General is NOT bribeable! It's the symbol that matters.
+R: 2.0 - Game Components, under Game Card Symbols.
 
 Q: Are we allowed to return "S" cards to the Empire deck?
 A: Yes, except for the Rome and Carthage location cards.
+R: 5.4.3 - Return Card to Empire Deck.
 
 Q: Are cards in the Empire deck face up or face down?
 A: Face up.
