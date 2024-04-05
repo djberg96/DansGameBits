@@ -187,14 +187,22 @@ A: Yes. Anything with a horse symbol on it does.
   defender must still trace supply to the location under attack itself in order
   to reinforce it.
 
+  - Designer's Note: This update primarily affects the situation around the straits
+    and Syracuse for the Roman player, clarifying how the Roman player could attack
+    Syracuse (which is out of supply range by land) from Catana (which is within the
+    two-space supply range across the straits) if Carthage controls the Sicily sea
+    zone. But, it could matter elsewhere over the course of the game as well.
+
 * In the Engage Enemy Fleet rules (5.2.5) where the text currently says, "the loser
   of the naval battle must choose to either retreat his Fleet to an adjacent Sea Zone
   that contains a friendly port or send it to his Home Port.", change the words
   "friendly port" to "friendly coastal location".
 
-* On the Leaders Quarrel event, remove the phrase "this turn". The effect of the event
-  will remain in play for the affected player's next land or naval battle regardless
-  of whether or not a new turn starts.
+  - Designer's Note: The phrase "friendly port" thre suggested that you could base your
+    fleet in locations other than the Home port, which is not the case.
+
+* The effect of the Leader's Quarrel event remains in effect for any battle currently
+  in progress where it already applied.
 
 * For the Bad Omens event, if there are two battles in progress, its effects are only
   applied to the battle where the affected player is the attacker.
