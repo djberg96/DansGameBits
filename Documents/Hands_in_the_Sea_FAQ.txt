@@ -247,7 +247,8 @@ A: Yes. Anything with a horse symbol on it does.
     of combat, so this should mitigate that without significantly extending the
     playing time.
 
-* You can discard your strategy card as a free action.
+* You can discard your strategy card as a free action. You may not do this in the
+  same round that you purchased a strategy card.
 
   - Designer's Note: The idea here is to create a bit more churn with the strategy
     cards, since currently things are a bit too stagnant.
