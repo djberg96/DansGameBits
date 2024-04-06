@@ -110,16 +110,20 @@ R: 5.4.3 - Return Card to Empire Deck.
 
 Q: Are cards in the Empire deck face up or face down?
 A: Face up.
+R: 3.0 - Game Setup, under Place Draw Decks.
 
 Q: How do I reacquire a location card that I sent to the Empire deck?
 A: You draft it, assuming that you control the location. You cannot
    draft it if it's neutral.
+R: 5.4.1 - Draft an Empire Card.
 
 Q: Can any town be developed into a city?
-A: No, only those towns with a colonist symbol.
+A: No, only those towns with a colonist symbol, i.e. any town worth 2 or more VP.
+R: 5.1.2 - Develop a Location.
 
 Q: Does settling a location after winning a land battle count as an action?
 A: No.
+R: 5.2.3 - Resolving a Land Battle, under Winning as the Attacker.
 
 Q: Are the dice included within the game meant to serve as a cap?
 A: No. If you need more dice, then either find some other dice or record your
@@ -128,17 +132,22 @@ A: No. If you need more dice, then either find some other dice or record your
 Q: If the attacker has just one sword to bear to the battle, does the battle
    end immediately on the defenders round, the defender as winner?
 A: Yes. Don't do that.
+R: 5.2.3 Resolving a Land Battle, under Winning as the Defender. Note the
+   suggested change below where the Defender may refuse a Prestige point
+   if the battle does not last at least 2 rounds.
 
 Q: Is it possible to start a land battle through the sea even if the sea zone
    is occupied by a enemy fleet?
 A: Yes, if your fleet is also in the sea zone.
+R: 5.2.1 - Attack a Location, under Restrictions on Attacking.
 
 Q: Can you retrieve your reserve during your opponent's turn?
 A: No. The only exception to this is the Corvus strategy card, which would let
    the Roman player commit infantry from the reserve.
+R: 5.4.5 - Retrieve Your Reserve.
 
 Q: Are capitals considered cities?
-A: Yes.
+A: Yes. Note that they could be reduced to towns via a Cavalry Raid.
 
 == Card Questions
 Q: Is Roman Legion I already considered paid for? Or does the Roman player have to
@@ -204,6 +213,9 @@ A: Yes. Anything with a horse symbol on it does.
 * The effect of the Leader's Quarrel event remains in effect for any battle currently
   in progress where it already applied.
 
+  - Designer's Note: I recommend setting the event card next to the battle where its
+    effect is applied so that you don't forget.
+
 * For the Bad Omens event, if there are two battles in progress, its effects are only
   applied to the battle where the affected player is the attacker.
 
@@ -224,7 +236,7 @@ A: Yes. Anything with a horse symbol on it does.
   card must be your last action. A player may take no more actions that round, including
   free actions, after purchasing a strategy card.
 * The number of cards you can hold in reserve is equal to the number of developed
-  locations you own.
+  locations you own. This is already an optional rule in the Companion Guide.
 * The Roman player has the option of starting with the Legion in Reserve.
 * The winner of a battle may refuse to take a Prestige point if the battle did not
   last at least 2 rounds.
