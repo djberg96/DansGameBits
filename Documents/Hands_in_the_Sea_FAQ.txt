@@ -207,11 +207,11 @@ A: Yes. Anything with a horse symbol on it does.
   that contains a friendly port or send it to his Home Port.", change the words
   "friendly port" to "friendly coastal location".
 
-  - Designer's Note: The phrase "friendly port" thre suggested that you could base your
+  - Designer's Note: The phrase "friendly port" there suggested that you could base your
     fleet in locations other than the Home port, which is not the case.
 
 * The effect of the Leader's Quarrel event remains in effect for any battle currently
-  in progress where it already applied.
+  in progress where it already applied, even if the turn ends.
 
   - Designer's Note: I recommend setting the event card next to the battle where its
     effect is applied so that you don't forget.
@@ -228,20 +228,54 @@ A: Yes. Anything with a horse symbol on it does.
 === Suggested Changes
 * Add 1 town cube to each player. This should help a little bit with the
   Carthaginian Rush Strategy.
+
+  - Designer's Note: I originally had each player start with 2 more cubes, but
+    reduced it at the last minute. Adding 1 more back into the mix should help
+    a bit with the Carthaginian rush strategy that's somewhat prominent.
+
 * Make the Pillage track linear, i.e. the opposing player loses 1, 2, 3 or 4 VP
   after the 2nd, 4th, 6th and 8th successful pillage, respectively. The 8th
   successful pillage should be added as a game ending condition.
+
+  - Designer's Note: I was excessively worried about this track being abused,
+    especially in conjunction with the Pillaging strategy card, but it never
+    materialized in practice. This restores the track to the original implementation.
+
 * Add a 9th Prestige space, changing the game ending condition from 8 to 9.
-* You can discard a strategy card as a free action. However, puurchasing a strategy
+
+  - Designer's Note: Some players feel the game ends a bit too early as the result
+    of combat, so this should mitigate that without significantly extending the
+    playing time.
+
+* You can discard a strategy card as a free action. However, purchasing a strategy
   card must be your last action. A player may take no more actions that round, including
   free actions, after purchasing a strategy card.
+
+  - Designer's Note: The idea here is to create a bit more churn with the strategy
+    cards, since currently things are a bit too stagnant. However, it also means that
+    you cannot use a strategy card on the round that you purchase it.
+
 * The number of cards you can hold in reserve is equal to the number of developed
-  locations you own. This is already an optional rule in the Companion Guide.
+  locations you own.
+
+  - Designer's Note: This is already an optional rule in the Companion Guide, but one
+    that I think should be incorporated into the core rules since it creates greater
+    symmetry between investment in your empire with logistical capabilities.
+
 * The Roman player has the option of starting with the Legion in Reserve.
+
+  - Designer's Note: This is already an optional rule in the Companion Guide. The
+    idea here is to slow down the Carthaginian rush strategy a bit.
+
 * The winner of a battle may refuse to take a Prestige point if the battle did not
   last at least 2 rounds.
+
+  - Designer's Note: This is primarily designed to prevent a trick where a player ahead
+    on VP will deliberately lose a battle in order to end the game quickly.
+
 * Rule 5.2.3: Under "Winning as the Attacker", immediately after the words "2 or more
   at the start of the attacker's round" add the phrase, "(or after the maximum number
   of rounds have elapsed)".
+
 * Rule 4.4: At the end of the first paragraph under "Straits" after "see Figure 11",
   add "You may not combine a supply path across both a Sea Zone and the Straits".
