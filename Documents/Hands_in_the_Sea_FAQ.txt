@@ -247,13 +247,10 @@ A: Yes. Anything with a horse symbol on it does.
     of combat, so this should mitigate that without significantly extending the
     playing time.
 
-* You can discard a strategy card as a free action. However, purchasing a strategy
-  card must be your last action. A player may take no more actions that round, including
-  free actions, after purchasing a strategy card.
+* You can discard your strategy card as a free action.
 
   - Designer's Note: The idea here is to create a bit more churn with the strategy
-    cards, since currently things are a bit too stagnant. However, it also means that
-    you cannot use a strategy card on the round that you purchase it.
+    cards, since currently things are a bit too stagnant.
 
 * The number of cards you can hold in reserve is equal to the number of developed
   locations you own.
