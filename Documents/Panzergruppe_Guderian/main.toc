@@ -9,3 +9,9 @@
 \contentsline {section}{\numberline {4}SEQUENCE OF PLAY}{4}{}%
 \contentsline {subsection}{\numberline {4.1}THE GAME-TURN}{4}{}%
 \contentsline {subsection}{\numberline {4.2}GAME-TURN SEQUENCE OUTLINE}{4}{}%
+\contentsline {section}{\numberline {5}INITIAL SET-UP}{5}{}%
+\contentsline {subsection}{\numberline {5.1}SOVIET INITIAL DEPLOYMENT}{5}{}%
+\contentsline {subsection}{\numberline {5.2}SOVIET FIRST TURN SPECIAL RULES}{5}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}}{5}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}}{5}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}}{6}{}%
