@@ -6,3 +6,6 @@
 \contentsline {subsection}{\numberline {3.3}THE PLAYING PIECES}{3}{}%
 \contentsline {subsection}{\numberline {3.4}HOW TO READ THE UNITS}{3}{}%
 \contentsline {subsection}{\numberline {3.5}PARTS INVENTORY}{4}{}%
+\contentsline {section}{\numberline {4}SEQUENCE OF PLAY}{4}{}%
+\contentsline {subsection}{\numberline {4.1}THE GAME-TURN}{4}{}%
+\contentsline {subsection}{\numberline {4.2}GAME-TURN SEQUENCE OUTLINE}{4}{}%
