@@ -15,3 +15,13 @@
 \contentsline {subsubsection}{\numberline {5.2.1}}{5}{}%
 \contentsline {subsubsection}{\numberline {5.2.2}}{5}{}%
 \contentsline {subsubsection}{\numberline {5.2.3}}{6}{}%
+\contentsline {section}{\numberline {6}MOVEMENT}{6}{}%
+\contentsline {subsection}{\numberline {6.1}HOW TO MOVE UNITS}{6}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}}{6}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}}{6}{}%
+\contentsline {subsection}{\numberline {6.2}MOVEMENT INHIBITIONS AND PROHIBITIONS}{6}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}}{6}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}}{6}{}%
+\contentsline {subsubsection}{\numberline {6.2.3}}{6}{}%
+\contentsline {subsubsection}{\numberline {6.2.4}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.2.5}}{7}{}%
