@@ -1,2 +1,8 @@
 \contentsline {section}{\numberline {1}INTRODUCTION}{1}{}%
 \contentsline {section}{\numberline {2}HOW TO PLAY THE GAME}{1}{}%
+\contentsline {section}{\numberline {3}GAME EQUIPMENT}{3}{}%
+\contentsline {subsection}{\numberline {3.1}THE GAME MAP}{3}{}%
+\contentsline {subsection}{\numberline {3.2}GAME CHARTS AND TABLES}{3}{}%
+\contentsline {subsection}{\numberline {3.3}THE PLAYING PIECES}{3}{}%
+\contentsline {subsection}{\numberline {3.4}HOW TO READ THE UNITS}{3}{}%
+\contentsline {subsection}{\numberline {3.5}PARTS INVENTORY}{4}{}%
