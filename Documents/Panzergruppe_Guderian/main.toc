@@ -1,28 +1,28 @@
 \contentsline {section}{\numberline {1}INTRODUCTION}{1}{}%
-\contentsline {section}{\numberline {2}HOW TO PLAY THE GAME}{1}{}%
+\contentsline {section}{\numberline {2}HOW TO PLAY THE GAME}{2}{}%
 \contentsline {section}{\numberline {3}GAME EQUIPMENT}{3}{}%
 \contentsline {subsection}{\numberline {3.1}THE GAME MAP}{3}{}%
-\contentsline {subsection}{\numberline {3.2}GAME CHARTS AND TABLES}{3}{}%
-\contentsline {subsection}{\numberline {3.3}THE PLAYING PIECES}{3}{}%
-\contentsline {subsection}{\numberline {3.4}HOW TO READ THE UNITS}{3}{}%
+\contentsline {subsection}{\numberline {3.2}GAME CHARTS AND TABLES}{4}{}%
+\contentsline {subsection}{\numberline {3.3}THE PLAYING PIECES}{4}{}%
+\contentsline {subsection}{\numberline {3.4}HOW TO READ THE UNITS}{4}{}%
 \contentsline {subsection}{\numberline {3.5}PARTS INVENTORY}{4}{}%
 \contentsline {section}{\numberline {4}SEQUENCE OF PLAY}{4}{}%
 \contentsline {subsection}{\numberline {4.1}THE GAME-TURN}{4}{}%
-\contentsline {subsection}{\numberline {4.2}GAME-TURN SEQUENCE OUTLINE}{4}{}%
+\contentsline {subsection}{\numberline {4.2}GAME-TURN SEQUENCE OUTLINE}{5}{}%
 \contentsline {section}{\numberline {5}INITIAL SET-UP}{5}{}%
-\contentsline {subsection}{\numberline {5.1}SOVIET INITIAL DEPLOYMENT}{5}{}%
-\contentsline {subsection}{\numberline {5.2}SOVIET FIRST TURN SPECIAL RULES}{5}{}%
-\contentsline {subsubsection}{\numberline {5.2.1}}{5}{}%
+\contentsline {subsection}{\numberline {5.1}SOVIET INITIAL DEPLOYMENT}{6}{}%
+\contentsline {subsection}{\numberline {5.2}SOVIET FIRST TURN SPECIAL RULES}{6}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}}{6}{}%
 \contentsline {subsubsection}{\numberline {5.2.2}}{6}{}%
 \contentsline {subsubsection}{\numberline {5.2.3}}{6}{}%
 \contentsline {section}{\numberline {6}MOVEMENT}{6}{}%
 \contentsline {subsection}{\numberline {6.1}HOW TO MOVE UNITS}{6}{}%
 \contentsline {subsubsection}{\numberline {6.1.1}}{6}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}}{6}{}%
-\contentsline {subsection}{\numberline {6.2}MOVEMENT INHIBITIONS AND PROHIBITIONS}{6}{}%
-\contentsline {subsubsection}{\numberline {6.2.1}}{6}{}%
-\contentsline {subsubsection}{\numberline {6.2.2}}{6}{}%
-\contentsline {subsubsection}{\numberline {6.2.3}}{6}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}}{7}{}%
+\contentsline {subsection}{\numberline {6.2}MOVEMENT INHIBITIONS AND PROHIBITIONS}{7}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.2.3}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.2.4}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.2.5}}{7}{}%
 \contentsline {subsection}{\numberline {6.3}RAIL MOVEMENT}{7}{}%
@@ -30,15 +30,15 @@
 \contentsline {subsubsection}{\numberline {6.3.2}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.3.3}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.3.4}}{7}{}%
-\contentsline {subsubsection}{\numberline {6.3.5}}{7}{}%
-\contentsline {subsubsection}{\numberline {6.3.6}}{7}{}%
-\contentsline {subsection}{\numberline {6.4}SPECIAL SOVIET MOVEMENT RESTRICTIONS}{7}{}%
+\contentsline {subsubsection}{\numberline {6.3.5}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.3.6}}{8}{}%
+\contentsline {subsection}{\numberline {6.4}SPECIAL SOVIET MOVEMENT RESTRICTIONS}{8}{}%
 \contentsline {subsection}{\numberline {6.5}OVERRUN}{8}{}%
 \contentsline {subsubsection}{\numberline {6.5.1}}{8}{}%
 \contentsline {subsubsection}{\numberline {6.5.2}}{8}{}%
 \contentsline {subsubsection}{\numberline {6.5.3}}{8}{}%
-\contentsline {subsubsection}{\numberline {6.5.4}}{8}{}%
-\contentsline {subsubsection}{\numberline {6.5.5}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.5.4}}{9}{}%
+\contentsline {subsubsection}{\numberline {6.5.5}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.5.6}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.5.7}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.5.8}}{9}{}%
@@ -46,5 +46,9 @@
 \contentsline {subsubsection}{\numberline {6.6.1}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.6.2}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.6.3}}{9}{}%
-\contentsline {subsubsection}{\numberline {6.6.4}}{9}{}%
-\contentsline {subsection}{\numberline {6.7}TERRAIN EFFECTS CHART}{9}{}%
+\contentsline {subsubsection}{\numberline {6.6.4}}{10}{}%
+\contentsline {subsection}{\numberline {6.7}TERRAIN EFFECTS CHART}{10}{}%
+\contentsline {section}{\numberline {7}STACKING}{10}{}%
+\contentsline {subsection}{\numberline {7.1}SOVIET RESTRICTIONS}{10}{}%
+\contentsline {subsection}{\numberline {7.2}GERMAN RESTRICTIONS}{10}{}%
+\contentsline {subsection}{\numberline {7.3}GERMAN DIVISIONAL INTEGRATION}{10}{}%
