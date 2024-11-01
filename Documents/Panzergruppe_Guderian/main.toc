@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {5.1}SOVIET INITIAL DEPLOYMENT}{5}{}%
 \contentsline {subsection}{\numberline {5.2}SOVIET FIRST TURN SPECIAL RULES}{5}{}%
 \contentsline {subsubsection}{\numberline {5.2.1}}{5}{}%
-\contentsline {subsubsection}{\numberline {5.2.2}}{5}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}}{6}{}%
 \contentsline {subsubsection}{\numberline {5.2.3}}{6}{}%
 \contentsline {section}{\numberline {6}MOVEMENT}{6}{}%
 \contentsline {subsection}{\numberline {6.1}HOW TO MOVE UNITS}{6}{}%
@@ -25,3 +25,26 @@
 \contentsline {subsubsection}{\numberline {6.2.3}}{6}{}%
 \contentsline {subsubsection}{\numberline {6.2.4}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.2.5}}{7}{}%
+\contentsline {subsection}{\numberline {6.3}RAIL MOVEMENT}{7}{}%
+\contentsline {subsubsection}{\numberline {6.3.1}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.3.2}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.3.3}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.3.4}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.3.5}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.3.6}}{7}{}%
+\contentsline {subsection}{\numberline {6.4}SPECIAL SOVIET MOVEMENT RESTRICTIONS}{7}{}%
+\contentsline {subsection}{\numberline {6.5}OVERRUN}{8}{}%
+\contentsline {subsubsection}{\numberline {6.5.1}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.5.2}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.5.3}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.5.4}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.5.5}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.5.6}}{9}{}%
+\contentsline {subsubsection}{\numberline {6.5.7}}{9}{}%
+\contentsline {subsubsection}{\numberline {6.5.8}}{9}{}%
+\contentsline {subsection}{\numberline {6.6}DISRUPTION}{9}{}%
+\contentsline {subsubsection}{\numberline {6.6.1}}{9}{}%
+\contentsline {subsubsection}{\numberline {6.6.2}}{9}{}%
+\contentsline {subsubsection}{\numberline {6.6.3}}{9}{}%
+\contentsline {subsubsection}{\numberline {6.6.4}}{9}{}%
+\contentsline {subsection}{\numberline {6.7}TERRAIN EFFECTS CHART}{9}{}%
