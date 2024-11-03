@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}INTRODUCTION}{3}{}%
 \contentsline {section}{\numberline {2}HOW TO PLAY THE GAME}{3}{}%
-\contentsline {section}{\numberline {3}GAME EQUIPMENT}{4}{}%
-\contentsline {subsection}{\numberline {3.1}THE GAME MAP}{4}{}%
+\contentsline {section}{\numberline {3}GAME EQUIPMENT}{5}{}%
+\contentsline {subsection}{\numberline {3.1}THE GAME MAP}{5}{}%
 \contentsline {subsection}{\numberline {3.2}GAME CHARTS AND TABLES}{5}{}%
 \contentsline {subsection}{\numberline {3.3}THE PLAYING PIECES}{5}{}%
 \contentsline {subsection}{\numberline {3.4}HOW TO READ THE UNITS}{5}{}%
@@ -16,8 +16,8 @@
 \contentsline {subsubsection}{\numberline {5.2.2}}{7}{}%
 \contentsline {subsubsection}{\numberline {5.2.3}}{7}{}%
 \contentsline {section}{\numberline {6}MOVEMENT}{7}{}%
-\contentsline {subsection}{\numberline {6.1}HOW TO MOVE UNITS}{7}{}%
-\contentsline {subsubsection}{\numberline {6.1.1}}{7}{}%
+\contentsline {subsection}{\numberline {6.1}HOW TO MOVE UNITS}{8}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}}{8}{}%
 \contentsline {subsubsection}{\numberline {6.1.2}}{8}{}%
 \contentsline {subsection}{\numberline {6.2}MOVEMENT INHIBITIONS AND PROHIBITIONS}{8}{}%
 \contentsline {subsubsection}{\numberline {6.2.1}}{8}{}%
@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {6.3}RAIL MOVEMENT}{8}{}%
 \contentsline {subsubsection}{\numberline {6.3.1}}{8}{}%
 \contentsline {subsubsection}{\numberline {6.3.2}}{8}{}%
-\contentsline {subsubsection}{\numberline {6.3.3}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.3.3}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.3.4}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.3.5}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.3.6}}{9}{}%
@@ -63,7 +63,7 @@
 \contentsline {section}{\numberline {9}COMBAT}{12}{}%
 \contentsline {subsection}{\numberline {9.1}WHICH UNITS MAY ATTACK}{12}{}%
 \contentsline {subsubsection}{\numberline {9.1.1}}{12}{}%
-\contentsline {subsubsection}{\numberline {9.1.2}}{12}{}%
+\contentsline {subsubsection}{\numberline {9.1.2}}{13}{}%
 \contentsline {subsubsection}{\numberline {9.1.3}}{13}{}%
 \contentsline {subsubsection}{\numberline {9.1.4}}{13}{}%
 \contentsline {subsection}{\numberline {9.2}MULTIPLE UNIT AND MULTI-HEX COMBAT}{13}{}%
@@ -75,7 +75,7 @@
 \contentsline {subsubsection}{\numberline {9.3.1}}{13}{}%
 \contentsline {subsubsection}{\numberline {9.3.2}}{13}{}%
 \contentsline {subsubsection}{\numberline {9.3.3}}{13}{}%
-\contentsline {subsubsection}{\numberline {9.3.4}}{13}{}%
+\contentsline {subsubsection}{\numberline {9.3.4}}{14}{}%
 \contentsline {subsection}{\numberline {9.4}COMBAT RESULTS TABLE}{14}{}%
 \contentsline {subsection}{\numberline {9.5}EXPLANATION OF COMBAT RESULTS}{14}{}%
 \contentsline {subsubsection}{\numberline {9.5.1}}{14}{}%
@@ -96,7 +96,7 @@
 \contentsline {subsubsection}{\numberline {9.7.2}}{15}{}%
 \contentsline {subsubsection}{\numberline {9.7.3}}{15}{}%
 \contentsline {subsubsection}{\numberline {9.7.4}}{15}{}%
-\contentsline {subsubsection}{\numberline {9.7.5}}{15}{}%
+\contentsline {subsubsection}{\numberline {9.7.5}}{16}{}%
 \contentsline {subsubsection}{\numberline {9.7.6}}{16}{}%
 \contentsline {subsubsection}{\numberline {9.7.7}}{16}{}%
 \contentsline {subsubsection}{\numberline {9.7.8}}{16}{}%
@@ -115,7 +115,7 @@
 \contentsline {subsubsection}{\numberline {10.3.3}}{17}{}%
 \contentsline {subsubsection}{\numberline {10.3.4}}{17}{}%
 \contentsline {subsubsection}{\numberline {10.3.5}}{17}{}%
-\contentsline {subsubsection}{\numberline {10.3.6}}{17}{}%
+\contentsline {subsubsection}{\numberline {10.3.6}}{18}{}%
 \contentsline {subsection}{\numberline {10.4}EVACUATING SOVIET LEADERS}{18}{}%
 \contentsline {section}{\numberline {11}SUPPLY}{18}{}%
 \contentsline {subsection}{\numberline {11.1}GERMAN SUPPLY}{18}{}%
@@ -132,9 +132,24 @@
 \contentsline {subsubsection}{\numberline {11.3.2}}{19}{}%
 \contentsline {subsubsection}{\numberline {11.3.3}}{19}{}%
 \contentsline {subsubsection}{\numberline {11.3.4}}{19}{}%
-\contentsline {subsubsection}{\numberline {11.3.5}}{19}{}%
+\contentsline {subsubsection}{\numberline {11.3.5}}{20}{}%
 \contentsline {section}{\numberline {12}UNTRIED UNITS}{20}{}%
 \contentsline {subsection}{\numberline {12.1}PLACEMENT OF UNTRIED UNITS}{20}{}%
 \contentsline {subsection}{\numberline {12.2}HOW UNITS ARE REVEALED}{20}{}%
 \contentsline {subsection}{\numberline {12.3}"NO STRENGTH UNITS"}{20}{}%
 \contentsline {subsection}{\numberline {12.4}ELIMINATED UNTRIED UNITS}{20}{}%
+\contentsline {section}{\numberline {13}INTERDICTION}{20}{}%
+\contentsline {subsection}{\numberline {13.1}GERMAN AIR INTERDICTION MARKERS}{21}{}%
+\contentsline {subsection}{\numberline {13.2}USE OF GERMAN AIR INTERDICTION}{21}{}%
+\contentsline {subsection}{\numberline {13.3}EFFECTS OF GERMAN AIR INTERDICTION}{21}{}%
+\contentsline {subsubsection}{\numberline {13.3.1}}{21}{}%
+\contentsline {subsubsection}{\numberline {13.3.2}}{21}{}%
+\contentsline {subsubsection}{\numberline {13.3.3}}{21}{}%
+\contentsline {subsubsection}{\numberline {13.3.4}}{21}{}%
+\contentsline {subsection}{\numberline {13.4}SOVIET INTERDICTION}{21}{}%
+\contentsline {subsubsection}{\numberline {13.4.1}}{21}{}%
+\contentsline {subsubsection}{\numberline {13.4.2}}{21}{}%
+\contentsline {subsubsection}{\numberline {13.4.3}}{22}{}%
+\contentsline {subsubsection}{\numberline {13.4.4}}{22}{}%
+\contentsline {subsubsection}{\numberline {13.4.5}}{22}{}%
+\contentsline {subsubsection}{\numberline {13.4.6}}{22}{}%
