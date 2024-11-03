@@ -13,8 +13,8 @@
 \contentsline {subsection}{\numberline {5.1}SOVIET INITIAL DEPLOYMENT}{7}{}%
 \contentsline {subsection}{\numberline {5.2}SOVIET FIRST TURN SPECIAL RULES}{7}{}%
 \contentsline {subsubsection}{\numberline {5.2.1}}{7}{}%
-\contentsline {subsubsection}{\numberline {5.2.2}}{7}{}%
-\contentsline {subsubsection}{\numberline {5.2.3}}{7}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}}{8}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}}{8}{}%
 \contentsline {section}{\numberline {6}MOVEMENT}{8}{}%
 \contentsline {subsection}{\numberline {6.1}HOW TO MOVE UNITS}{8}{}%
 \contentsline {subsubsection}{\numberline {6.1.1}}{8}{}%
@@ -23,8 +23,8 @@
 \contentsline {subsubsection}{\numberline {6.2.1}}{8}{}%
 \contentsline {subsubsection}{\numberline {6.2.2}}{8}{}%
 \contentsline {subsubsection}{\numberline {6.2.3}}{8}{}%
-\contentsline {subsubsection}{\numberline {6.2.4}}{8}{}%
-\contentsline {subsubsection}{\numberline {6.2.5}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.2.4}}{9}{}%
+\contentsline {subsubsection}{\numberline {6.2.5}}{9}{}%
 \contentsline {subsection}{\numberline {6.3}RAIL MOVEMENT}{9}{}%
 \contentsline {subsubsection}{\numberline {6.3.1}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.3.2}}{9}{}%
@@ -33,13 +33,13 @@
 \contentsline {subsubsection}{\numberline {6.3.5}}{9}{}%
 \contentsline {subsubsection}{\numberline {6.3.6}}{9}{}%
 \contentsline {subsection}{\numberline {6.4}SPECIAL SOVIET MOVEMENT RESTRICTIONS}{9}{}%
-\contentsline {subsection}{\numberline {6.5}OVERRUN}{9}{}%
-\contentsline {subsubsection}{\numberline {6.5.1}}{9}{}%
+\contentsline {subsection}{\numberline {6.5}OVERRUN}{10}{}%
+\contentsline {subsubsection}{\numberline {6.5.1}}{10}{}%
 \contentsline {subsubsection}{\numberline {6.5.2}}{10}{}%
 \contentsline {subsubsection}{\numberline {6.5.3}}{10}{}%
 \contentsline {subsubsection}{\numberline {6.5.4}}{10}{}%
 \contentsline {subsubsection}{\numberline {6.5.5}}{10}{}%
-\contentsline {subsubsection}{\numberline {6.5.6}}{10}{}%
+\contentsline {subsubsection}{\numberline {6.5.6}}{11}{}%
 \contentsline {subsubsection}{\numberline {6.5.7}}{11}{}%
 \contentsline {subsubsection}{\numberline {6.5.8}}{11}{}%
 \contentsline {subsection}{\numberline {6.6}DISRUPTION}{11}{}%
@@ -50,7 +50,7 @@
 \contentsline {subsection}{\numberline {6.7}TERRAIN EFFECTS CHART}{11}{}%
 \contentsline {section}{\numberline {7}STACKING}{11}{}%
 \contentsline {subsection}{\numberline {7.1}SOVIET RESTRICTIONS}{11}{}%
-\contentsline {subsection}{\numberline {7.2}GERMAN RESTRICTIONS}{11}{}%
+\contentsline {subsection}{\numberline {7.2}GERMAN RESTRICTIONS}{12}{}%
 \contentsline {subsection}{\numberline {7.3}GERMAN DIVISIONAL INTEGRATION}{12}{}%
 \contentsline {section}{\numberline {8}ZONES OF CONTROL}{12}{}%
 \contentsline {subsection}{\numberline {8.1}EFFECTIVENESS OF ZONES OF CONTROL}{12}{}%
@@ -60,7 +60,7 @@
 \contentsline {subsubsection}{\numberline {8.1.4}}{12}{}%
 \contentsline {subsubsection}{\numberline {8.1.5}}{12}{}%
 \contentsline {subsubsection}{\numberline {8.1.6}}{12}{}%
-\contentsline {section}{\numberline {9}COMBAT}{12}{}%
+\contentsline {section}{\numberline {9}COMBAT}{13}{}%
 \contentsline {subsection}{\numberline {9.1}WHICH UNITS MAY ATTACK}{13}{}%
 \contentsline {subsubsection}{\numberline {9.1.1}}{13}{}%
 \contentsline {subsubsection}{\numberline {9.1.2}}{13}{}%
@@ -70,7 +70,7 @@
 \contentsline {subsubsection}{\numberline {9.2.1}}{13}{}%
 \contentsline {subsubsection}{\numberline {9.2.2}}{13}{}%
 \contentsline {subsubsection}{\numberline {9.2.3}}{13}{}%
-\contentsline {subsubsection}{\numberline {9.2.4}}{13}{}%
+\contentsline {subsubsection}{\numberline {9.2.4}}{14}{}%
 \contentsline {subsection}{\numberline {9.3}EFFECTS OF TERRAIN ON COMBAT}{14}{}%
 \contentsline {subsubsection}{\numberline {9.3.1}}{14}{}%
 \contentsline {subsubsection}{\numberline {9.3.2}}{14}{}%
@@ -90,7 +90,7 @@
 \contentsline {subsubsection}{\numberline {9.6.2}}{15}{}%
 \contentsline {subsubsection}{\numberline {9.6.3}}{15}{}%
 \contentsline {subsubsection}{\numberline {9.6.4}}{15}{}%
-\contentsline {subsubsection}{\numberline {9.6.5}}{15}{}%
+\contentsline {subsubsection}{\numberline {9.6.5}}{16}{}%
 \contentsline {subsection}{\numberline {9.7}ADVANCE AFTER COMBAT}{16}{}%
 \contentsline {subsubsection}{\numberline {9.7.1}}{16}{}%
 \contentsline {subsubsection}{\numberline {9.7.2}}{16}{}%
@@ -111,7 +111,7 @@
 \contentsline {subsubsection}{\numberline {10.2.6}}{17}{}%
 \contentsline {subsection}{\numberline {10.3}CAPABILITIES OF SOVIET LEADERS}{17}{}%
 \contentsline {subsubsection}{\numberline {10.3.1}}{17}{}%
-\contentsline {subsubsection}{\numberline {10.3.2}}{17}{}%
+\contentsline {subsubsection}{\numberline {10.3.2}}{18}{}%
 \contentsline {subsubsection}{\numberline {10.3.3}}{18}{}%
 \contentsline {subsubsection}{\numberline {10.3.4}}{18}{}%
 \contentsline {subsubsection}{\numberline {10.3.5}}{18}{}%
@@ -126,7 +126,7 @@
 \contentsline {subsubsection}{\numberline {11.2.1}}{19}{}%
 \contentsline {subsubsection}{\numberline {11.2.2}}{19}{}%
 \contentsline {subsubsection}{\numberline {11.2.3}}{19}{}%
-\contentsline {subsubsection}{\numberline {11.2.4}}{19}{}%
+\contentsline {subsubsection}{\numberline {11.2.4}}{20}{}%
 \contentsline {subsection}{\numberline {11.3}EFFECTS OF SUPPLY}{20}{}%
 \contentsline {subsubsection}{\numberline {11.3.1}}{20}{}%
 \contentsline {subsubsection}{\numberline {11.3.2}}{20}{}%
@@ -136,15 +136,15 @@
 \contentsline {section}{\numberline {12}UNTRIED UNITS}{20}{}%
 \contentsline {subsection}{\numberline {12.1}PLACEMENT OF UNTRIED UNITS}{20}{}%
 \contentsline {subsection}{\numberline {12.2}HOW UNITS ARE REVEALED}{20}{}%
-\contentsline {subsection}{\numberline {12.3}"NO STRENGTH UNITS"}{20}{}%
+\contentsline {subsection}{\numberline {12.3}"NO STRENGTH UNITS"}{21}{}%
 \contentsline {subsection}{\numberline {12.4}ELIMINATED UNTRIED UNITS}{21}{}%
 \contentsline {section}{\numberline {13}INTERDICTION}{21}{}%
 \contentsline {subsection}{\numberline {13.1}GERMAN AIR INTERDICTION MARKERS}{21}{}%
 \contentsline {subsection}{\numberline {13.2}USE OF GERMAN AIR INTERDICTION}{21}{}%
 \contentsline {subsection}{\numberline {13.3}EFFECTS OF GERMAN AIR INTERDICTION}{21}{}%
 \contentsline {subsubsection}{\numberline {13.3.1}}{21}{}%
-\contentsline {subsubsection}{\numberline {13.3.2}}{21}{}%
-\contentsline {subsubsection}{\numberline {13.3.3}}{21}{}%
+\contentsline {subsubsection}{\numberline {13.3.2}}{22}{}%
+\contentsline {subsubsection}{\numberline {13.3.3}}{22}{}%
 \contentsline {subsubsection}{\numberline {13.3.4}}{22}{}%
 \contentsline {subsection}{\numberline {13.4}SOVIET INTERDICTION}{22}{}%
 \contentsline {subsubsection}{\numberline {13.4.1}}{22}{}%
@@ -154,8 +154,8 @@
 \contentsline {subsubsection}{\numberline {13.4.5}}{22}{}%
 \contentsline {subsubsection}{\numberline {13.4.6}}{22}{}%
 \contentsline {section}{\numberline {14}REINFORCEMENTS}{22}{}%
-\contentsline {subsection}{\numberline {14.1}SOVIET PROVISIONAL REINFORCEMENTS}{22}{}%
-\contentsline {subsubsection}{\numberline {14.1.1}}{22}{}%
+\contentsline {subsection}{\numberline {14.1}SOVIET PROVISIONAL REINFORCEMENTS}{23}{}%
+\contentsline {subsubsection}{\numberline {14.1.1}}{23}{}%
 \contentsline {subsubsection}{\numberline {14.1.2}}{23}{}%
 \contentsline {subsubsection}{\numberline {14.1.3}}{23}{}%
 \contentsline {subsubsection}{\numberline {14.1.4}}{23}{}%
@@ -164,4 +164,9 @@
 \contentsline {subsubsection}{\numberline {14.2.2}}{23}{}%
 \contentsline {subsubsection}{\numberline {14.2.3}}{23}{}%
 \contentsline {subsubsection}{\numberline {14.2.4}}{23}{}%
-\contentsline {subsection}{\numberline {14.3}SCHEDULED REINFORCEMENTS}{23}{}%
+\contentsline {subsection}{\numberline {14.3}SCHEDULED REINFORCEMENTS}{24}{}%
+\contentsline {section}{\numberline {15}VICTORY CONDITIONS}{24}{}%
+\contentsline {subsection}{\numberline {15.1}VICTORY POINT SCHEDULE}{24}{}%
+\contentsline {subsubsection}{\numberline {15.1.1}Points Awarded to the German Player}{24}{}%
+\contentsline {subsubsection}{\numberline {15.1.2}Points Awarded to the Soviet Player}{24}{}%
+\contentsline {subsection}{\numberline {15.2}LEVELS OF VICTORY}{25}{}%
