@@ -174,3 +174,4 @@
 \contentsline {section}{\numberline {16}REINFORCEMENT SCHEDULES}{16}{}%
 \contentsline {subsection}{\numberline {16.1}SOVIET REINFORCEMENTS}{16}{}%
 \contentsline {subsection}{\numberline {16.2}GERMAN REINFORCEMENTS}{17}{}%
+\contentsline {section}{\numberline {17}CHARTS AND TABLES}{18}{}%
