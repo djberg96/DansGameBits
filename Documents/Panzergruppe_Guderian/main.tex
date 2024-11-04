@@ -5,6 +5,7 @@
 \usepackage[letterpaper,margin=0.5in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[titles]{tocloft}
+\usepackage{titlesec}
 
 \renewcommand\cftsecfont{\scriptsize}
 \renewcommand\cftsubsecfont{\tiny}
@@ -22,6 +23,30 @@
 
 \setlength{\columnsep}{2em}
 \setcounter{tocdepth}{2}
+
+\titleformat
+{\section}
+[hang]
+{\raggedright\Large\bfseries}
+{[\thesection.0]}
+{0.5em}
+{}
+
+\titleformat
+{\subsection}
+[hang]
+{\bfseries}
+{[\thesubsection]}
+{0.3em}
+{}
+
+\titleformat
+{\subsubsection}
+[runin]
+{\bfseries}
+{[\thesubsubsection]}
+{1em}
+{}
 
 \begin{document}
   \maketitle
