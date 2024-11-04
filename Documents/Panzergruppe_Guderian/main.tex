@@ -4,6 +4,12 @@
 \usepackage[utf8]{inputenc}
 \usepackage[letterpaper,margin=0.5in]{geometry}
 \usepackage[T1]{fontenc}
+\usepackage[titles]{tocloft}
+
+\renewcommand\cftsecfont{\scriptsize}
+\renewcommand\cftsubsecfont{\tiny}
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftbeforesubsecskip}{0pt}
 
 \title{
   Panzergruppe Guderian: \\
@@ -19,6 +25,7 @@
 
 \begin{document}
   \maketitle
+  \tableofcontents
   \input{introduction.tex}
   \input{how_to_play.tex}
   \input{game_equipment.tex}
@@ -35,5 +42,4 @@
   \input{reinforcements.tex}
   \input{victory_conditions.tex}
   \input{reinforcement_schedules.tex}
-  \tableofcontents
 \end{document}
