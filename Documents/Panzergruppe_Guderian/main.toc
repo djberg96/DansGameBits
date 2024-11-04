@@ -169,7 +169,7 @@
 \contentsline {section}{\numberline {15}VICTORY CONDITIONS}{16}{}%
 \contentsline {subsection}{\numberline {15.1}VICTORY POINT SCHEDULE}{16}{}%
 \contentsline {subsubsection}{\numberline {15.1.1}Points Awarded to the German Player}{16}{}%
-\contentsline {subsubsection}{\numberline {15.1.2}Points Awarded to the Soviet Player}{16}{}%
+\contentsline {subsubsection}{\numberline {15.1.2}Points Awarded to\\*the Soviet Player}{16}{}%
 \contentsline {subsection}{\numberline {15.2}LEVELS OF VICTORY}{16}{}%
 \contentsline {section}{\numberline {16}REINFORCEMENT SCHEDULES}{16}{}%
 \contentsline {subsection}{\numberline {16.1}SOVIET REINFORCEMENTS}{16}{}%
