@@ -1,0 +1,65 @@
+<svg width="280" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker fill="black" id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" />
+    </marker>
+  </defs>
+  
+  <g id="background">
+    <rect width="100%" height="100%" fill="white" stroke="black" stroke-width="2"/>
+  </g>
+
+  <g id="unit" transform="translate(90,10)">
+    <!-- Background rectangle -->
+    <rect width="100" height="100" fill="grey" stroke="black" stroke-width="2"/>
+
+    <!-- Unit size -->
+    <text x="50" y="20" font-family="Arial" font-size="14" text-anchor="middle" fill="black">XX</text>
+
+    <!-- Division number -->
+    <text x="-44" y="12" font-size="14" text-anchor="middle" dominant-baseline="central" transform="rotate(-90)">5</text>
+    
+    <!-- Unit symbol -->
+    <g>
+      <rect x="20" y="24" width="60" height="40" fill="none" stroke="black" stroke-width="2"/>
+      <line x1="20" y1="24" x2="80" y2="64" stroke="black" stroke-width="2"/>
+      <line x1="20" y1="64" x2="80" y2="24" stroke="black" stroke-width="2"/>
+    </g>
+
+    <!-- Unit designation -->
+    <text x="50" y="90" font-family="Arial" font-size="24" text-anchor="middle" fill="black">9-7</text>
+  </g>
+
+  <g id="arrows">
+    <line
+      x1="70"
+      y1="90"
+      x2="110"
+      y2="90"
+      stroke="black" 
+      stroke-width="1"
+      marker-end="url(#arrowhead)"
+    />
+
+    <text x="40" y="90" font-size="12" text-anchor="middle" font-style="italic">
+      <tspan>Combat</tspan>
+      <tspan x="40" dy="1.2em">Strength</tspan>
+    </text>
+
+    <line
+      x1="198"
+      y1="90"
+      x2="168"
+      y2="90"
+      stroke="black" 
+      stroke-width="1"
+      marker-end="url(#arrowhead)"
+    />
+
+    <text x="240" y="90" font-size="12" text-anchor="middle" font-style="italic">
+      <tspan>Movement</tspan>
+      <tspan x="240" dy="1.2em">Allowance</tspan>
+    </text>
+  </g>
+</svg>
