@@ -9,16 +9,16 @@
 \contentsline {section}{\numberline {4}SEQUENCE OF PLAY}{4}{}%
 \contentsline {subsection}{\numberline {4.1}THE GAME-TURN}{4}{}%
 \contentsline {subsection}{\numberline {4.2}GAME-TURN SEQUENCE OUTLINE}{4}{}%
-\contentsline {section}{\numberline {5}INITIAL SET-UP}{4}{}%
+\contentsline {section}{\numberline {5}INITIAL SET-UP}{5}{}%
 \contentsline {subsection}{\numberline {5.1}SOVIET INITIAL DEPLOYMENT}{5}{}%
 \contentsline {subsection}{\numberline {5.2}SOVIET FIRST TURN SPECIAL RULES}{5}{}%
 \contentsline {subsubsection}{\numberline {5.2.1}}{5}{}%
 \contentsline {subsubsection}{\numberline {5.2.2}}{5}{}%
 \contentsline {subsubsection}{\numberline {5.2.3}}{5}{}%
 \contentsline {section}{\numberline {6}MOVEMENT}{5}{}%
-\contentsline {subsection}{\numberline {6.1}HOW TO MOVE UNITS}{5}{}%
-\contentsline {subsubsection}{\numberline {6.1.1}}{5}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}}{5}{}%
+\contentsline {subsection}{\numberline {6.1}HOW TO MOVE UNITS}{6}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}}{6}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}}{6}{}%
 \contentsline {subsection}{\numberline {6.2}MOVEMENT INHIBITIONS\\*AND PROHIBITIONS}{6}{}%
 \contentsline {subsubsection}{\numberline {6.2.1}}{6}{}%
 \contentsline {subsubsection}{\numberline {6.2.2}}{6}{}%
@@ -34,7 +34,7 @@
 \contentsline {subsubsection}{\numberline {6.3.6}}{6}{}%
 \contentsline {subsection}{\numberline {6.4}SPECIAL SOVIET\\*MOVEMENT RESTRICTIONS}{6}{}%
 \contentsline {subsection}{\numberline {6.5}OVERRUN}{6}{}%
-\contentsline {subsubsection}{\numberline {6.5.1}}{6}{}%
+\contentsline {subsubsection}{\numberline {6.5.1}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.5.2}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.5.3}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.5.4}}{7}{}%
@@ -45,8 +45,8 @@
 \contentsline {subsection}{\numberline {6.6}DISRUPTION}{7}{}%
 \contentsline {subsubsection}{\numberline {6.6.1}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.6.2}}{7}{}%
-\contentsline {subsubsection}{\numberline {6.6.3}}{7}{}%
-\contentsline {subsubsection}{\numberline {6.6.4}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.6.3}}{8}{}%
+\contentsline {subsubsection}{\numberline {6.6.4}}{8}{}%
 \contentsline {subsection}{\numberline {6.7}TERRAIN EFFECTS CHART}{8}{}%
 \contentsline {section}{\numberline {7}STACKING}{8}{}%
 \contentsline {subsection}{\numberline {7.1}SOVIET RESTRICTIONS}{8}{}%
@@ -60,7 +60,7 @@
 \contentsline {subsubsection}{\numberline {8.1.4}}{8}{}%
 \contentsline {subsubsection}{\numberline {8.1.5}}{8}{}%
 \contentsline {subsubsection}{\numberline {8.1.6}}{8}{}%
-\contentsline {section}{\numberline {9}COMBAT}{8}{}%
+\contentsline {section}{\numberline {9}COMBAT}{9}{}%
 \contentsline {subsection}{\numberline {9.1}WHICH UNITS MAY ATTACK}{9}{}%
 \contentsline {subsubsection}{\numberline {9.1.1}}{9}{}%
 \contentsline {subsubsection}{\numberline {9.1.2}}{9}{}%
@@ -77,9 +77,9 @@
 \contentsline {subsubsection}{\numberline {9.3.3}}{9}{}%
 \contentsline {subsubsection}{\numberline {9.3.4}}{9}{}%
 \contentsline {subsection}{\numberline {9.4}COMBAT RESOLUTION}{9}{}%
-\contentsline {subsection}{\numberline {9.5}COMBAT RESULTS TABLE}{9}{}%
-\contentsline {subsection}{\numberline {9.6}EXPLANATION OF COMBAT RESULTS}{9}{}%
-\contentsline {subsubsection}{\numberline {9.6.1}}{9}{}%
+\contentsline {subsection}{\numberline {9.5}COMBAT RESULTS TABLE}{10}{}%
+\contentsline {subsection}{\numberline {9.6}EXPLANATION OF COMBAT RESULTS}{10}{}%
+\contentsline {subsubsection}{\numberline {9.6.1}}{10}{}%
 \contentsline {subsubsection}{\numberline {9.6.2}}{10}{}%
 \contentsline {subsubsection}{\numberline {9.6.3}}{10}{}%
 \contentsline {subsubsection}{\numberline {9.6.4}}{10}{}%
@@ -92,8 +92,8 @@
 \contentsline {subsubsection}{\numberline {9.7.3}}{10}{}%
 \contentsline {subsubsection}{\numberline {9.7.4}}{10}{}%
 \contentsline {subsubsection}{\numberline {9.7.5}}{10}{}%
-\contentsline {subsection}{\numberline {9.8}ADVANCE AFTER COMBAT}{10}{}%
-\contentsline {subsubsection}{\numberline {9.8.1}}{10}{}%
+\contentsline {subsection}{\numberline {9.8}ADVANCE AFTER COMBAT}{11}{}%
+\contentsline {subsubsection}{\numberline {9.8.1}}{11}{}%
 \contentsline {subsubsection}{\numberline {9.8.2}}{11}{}%
 \contentsline {subsubsection}{\numberline {9.8.3}}{11}{}%
 \contentsline {subsubsection}{\numberline {9.8.4}}{11}{}%
@@ -109,7 +109,7 @@
 \contentsline {subsubsection}{\numberline {10.2.3}}{11}{}%
 \contentsline {subsubsection}{\numberline {10.2.4}}{11}{}%
 \contentsline {subsubsection}{\numberline {10.2.5}}{11}{}%
-\contentsline {subsubsection}{\numberline {10.2.6}}{11}{}%
+\contentsline {subsubsection}{\numberline {10.2.6}}{12}{}%
 \contentsline {subsection}{\numberline {10.3}CAPABILITIES OF SOVIET LEADERS}{12}{}%
 \contentsline {subsubsection}{\numberline {10.3.1}}{12}{}%
 \contentsline {subsubsection}{\numberline {10.3.2}}{12}{}%
