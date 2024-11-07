@@ -33,7 +33,7 @@
 \contentsline {subsubsection}{\numberline {6.3.5}}{6}{}%
 \contentsline {subsubsection}{\numberline {6.3.6}}{6}{}%
 \contentsline {subsection}{\numberline {6.4}SPECIAL SOVIET\\*MOVEMENT RESTRICTIONS}{6}{}%
-\contentsline {subsection}{\numberline {6.5}OVERRUN}{6}{}%
+\contentsline {subsection}{\numberline {6.5}OVERRUN}{7}{}%
 \contentsline {subsubsection}{\numberline {6.5.1}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.5.2}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.5.3}}{7}{}%
@@ -44,7 +44,7 @@
 \contentsline {subsubsection}{\numberline {6.5.8}}{7}{}%
 \contentsline {subsection}{\numberline {6.6}DISRUPTION}{7}{}%
 \contentsline {subsubsection}{\numberline {6.6.1}}{7}{}%
-\contentsline {subsubsection}{\numberline {6.6.2}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.6.2}}{8}{}%
 \contentsline {subsubsection}{\numberline {6.6.3}}{8}{}%
 \contentsline {subsubsection}{\numberline {6.6.4}}{8}{}%
 \contentsline {subsection}{\numberline {6.7}TERRAIN EFFECTS CHART}{8}{}%
@@ -76,7 +76,7 @@
 \contentsline {subsubsection}{\numberline {9.3.2}}{9}{}%
 \contentsline {subsubsection}{\numberline {9.3.3}}{9}{}%
 \contentsline {subsubsection}{\numberline {9.3.4}}{9}{}%
-\contentsline {subsection}{\numberline {9.4}COMBAT RESOLUTION}{9}{}%
+\contentsline {subsection}{\numberline {9.4}COMBAT RESOLUTION}{10}{}%
 \contentsline {subsection}{\numberline {9.5}COMBAT RESULTS TABLE}{10}{}%
 \contentsline {subsection}{\numberline {9.6}EXPLANATION OF COMBAT RESULTS}{10}{}%
 \contentsline {subsubsection}{\numberline {9.6.1}}{10}{}%
@@ -91,7 +91,7 @@
 \contentsline {subsubsection}{\numberline {9.7.2}}{10}{}%
 \contentsline {subsubsection}{\numberline {9.7.3}}{10}{}%
 \contentsline {subsubsection}{\numberline {9.7.4}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.7.5}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.7.5}}{11}{}%
 \contentsline {subsection}{\numberline {9.8}ADVANCE AFTER COMBAT}{11}{}%
 \contentsline {subsubsection}{\numberline {9.8.1}}{11}{}%
 \contentsline {subsubsection}{\numberline {9.8.2}}{11}{}%
@@ -107,8 +107,8 @@
 \contentsline {subsubsection}{\numberline {10.2.1}}{11}{}%
 \contentsline {subsubsection}{\numberline {10.2.2}}{11}{}%
 \contentsline {subsubsection}{\numberline {10.2.3}}{11}{}%
-\contentsline {subsubsection}{\numberline {10.2.4}}{11}{}%
-\contentsline {subsubsection}{\numberline {10.2.5}}{11}{}%
+\contentsline {subsubsection}{\numberline {10.2.4}}{12}{}%
+\contentsline {subsubsection}{\numberline {10.2.5}}{12}{}%
 \contentsline {subsubsection}{\numberline {10.2.6}}{12}{}%
 \contentsline {subsection}{\numberline {10.3}CAPABILITIES OF SOVIET LEADERS}{12}{}%
 \contentsline {subsubsection}{\numberline {10.3.1}}{12}{}%
@@ -135,7 +135,7 @@
 \contentsline {subsubsection}{\numberline {11.3.4}}{13}{}%
 \contentsline {subsubsection}{\numberline {11.3.5}}{13}{}%
 \contentsline {section}{\numberline {12}UNTRIED UNITS}{13}{}%
-\contentsline {subsection}{\numberline {12.1}PLACEMENT OF UNTRIED UNITS}{13}{}%
+\contentsline {subsection}{\numberline {12.1}PLACEMENT OF UNTRIED UNITS}{14}{}%
 \contentsline {subsection}{\numberline {12.2}HOW UNITS ARE REVEALED}{14}{}%
 \contentsline {subsection}{\numberline {12.3}NO STRENGTH UNITS}{14}{}%
 \contentsline {subsection}{\numberline {12.4}ELIMINATED UNTRIED UNITS}{14}{}%
@@ -146,7 +146,7 @@
 \contentsline {subsubsection}{\numberline {13.3.1}}{14}{}%
 \contentsline {subsubsection}{\numberline {13.3.2}}{14}{}%
 \contentsline {subsubsection}{\numberline {13.3.3}}{14}{}%
-\contentsline {subsubsection}{\numberline {13.3.4}}{14}{}%
+\contentsline {subsubsection}{\numberline {13.3.4}}{15}{}%
 \contentsline {subsection}{\numberline {13.4}SOVIET INTERDICTION}{15}{}%
 \contentsline {subsubsection}{\numberline {13.4.1}}{15}{}%
 \contentsline {subsubsection}{\numberline {13.4.2}}{15}{}%
