@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {1}INTRODUCTION}{2}{}%
+\contentsline {section}{\numberline {1}INTRODUCTION}{1}{}%
 \contentsline {section}{\numberline {2}HOW TO PLAY THE GAME}{2}{}%
 \contentsline {section}{\numberline {3}GAME EQUIPMENT}{3}{}%
 \contentsline {subsection}{\numberline {3.1}THE GAME MAP}{3}{}%
@@ -32,6 +32,7 @@
 \contentsline {subsubsection}{\numberline {6.3.4}}{6}{}%
 \contentsline {subsubsection}{\numberline {6.3.5}}{6}{}%
 \contentsline {subsubsection}{\numberline {6.3.6}}{6}{}%
+\contentsline {subsubsection}{\numberline {6.3.7}}{6}{}%
 \contentsline {subsection}{\numberline {6.4}SPECIAL SOVIET\\*MOVEMENT RESTRICTIONS}{6}{}%
 \contentsline {subsection}{\numberline {6.5}OVERRUN}{7}{}%
 \contentsline {subsubsection}{\numberline {6.5.1}}{7}{}%
@@ -42,6 +43,7 @@
 \contentsline {subsubsection}{\numberline {6.5.6}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.5.7}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.5.8}}{7}{}%
+\contentsline {subsubsection}{\numberline {6.5.9}}{7}{}%
 \contentsline {subsection}{\numberline {6.6}DISRUPTION}{7}{}%
 \contentsline {subsubsection}{\numberline {6.6.1}}{7}{}%
 \contentsline {subsubsection}{\numberline {6.6.2}}{8}{}%
@@ -60,122 +62,122 @@
 \contentsline {subsubsection}{\numberline {8.1.4}}{8}{}%
 \contentsline {subsubsection}{\numberline {8.1.5}}{8}{}%
 \contentsline {subsubsection}{\numberline {8.1.6}}{8}{}%
-\contentsline {section}{\numberline {9}COMBAT}{10}{}%
-\contentsline {subsection}{\numberline {9.1}WHICH UNITS MAY ATTACK}{10}{}%
-\contentsline {subsubsection}{\numberline {9.1.1}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.1.2}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.1.3}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.1.4}}{10}{}%
-\contentsline {subsection}{\numberline {9.2}MULTIPLE UNIT AND\\MULTI-HEX COMBAT}{10}{}%
-\contentsline {subsubsection}{\numberline {9.2.1}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.2.2}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.2.3}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.2.4}}{10}{}%
-\contentsline {subsection}{\numberline {9.3}EFFECTS OF TERRAIN ON COMBAT}{10}{}%
-\contentsline {subsubsection}{\numberline {9.3.1}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.3.2}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.3.3}}{10}{}%
-\contentsline {subsubsection}{\numberline {9.3.4}}{10}{}%
-\contentsline {subsection}{\numberline {9.4}COMBAT RESOLUTION}{10}{}%
-\contentsline {subsection}{\numberline {9.5}COMBAT RESULTS TABLE}{11}{}%
-\contentsline {subsection}{\numberline {9.6}EXPLANATION OF COMBAT RESULTS}{11}{}%
-\contentsline {subsubsection}{\numberline {9.6.1}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.6.2}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.6.3}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.6.4}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.6.5}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.6.6}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.6.7}}{11}{}%
-\contentsline {subsection}{\numberline {9.7}RETREATS}{11}{}%
-\contentsline {subsubsection}{\numberline {9.7.1}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.7.2}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.7.3}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.7.4}}{11}{}%
-\contentsline {subsubsection}{\numberline {9.7.5}}{11}{}%
-\contentsline {subsection}{\numberline {9.8}ADVANCE AFTER COMBAT}{12}{}%
-\contentsline {subsubsection}{\numberline {9.8.1}}{12}{}%
-\contentsline {subsubsection}{\numberline {9.8.2}}{12}{}%
-\contentsline {subsubsection}{\numberline {9.8.3}}{12}{}%
-\contentsline {subsubsection}{\numberline {9.8.4}}{12}{}%
-\contentsline {subsubsection}{\numberline {9.8.5}}{12}{}%
-\contentsline {subsubsection}{\numberline {9.8.6}}{12}{}%
-\contentsline {subsubsection}{\numberline {9.8.7}}{12}{}%
-\contentsline {subsubsection}{\numberline {9.8.8}}{12}{}%
-\contentsline {section}{\numberline {10}SOVIET LEADERS}{12}{}%
-\contentsline {subsection}{\numberline {10.1}THE LEADERSHIP RATING}{12}{}%
-\contentsline {subsection}{\numberline {10.2}CHARACTERISTICS\\OF SOVIET LEADERS}{12}{}%
-\contentsline {subsubsection}{\numberline {10.2.1}}{12}{}%
-\contentsline {subsubsection}{\numberline {10.2.2}}{12}{}%
-\contentsline {subsubsection}{\numberline {10.2.3}}{12}{}%
-\contentsline {subsubsection}{\numberline {10.2.4}}{12}{}%
-\contentsline {subsubsection}{\numberline {10.2.5}}{12}{}%
-\contentsline {subsubsection}{\numberline {10.2.6}}{12}{}%
-\contentsline {subsection}{\numberline {10.3}CAPABILITIES OF SOVIET LEADERS}{13}{}%
-\contentsline {subsubsection}{\numberline {10.3.1}}{13}{}%
-\contentsline {subsubsection}{\numberline {10.3.2}}{13}{}%
-\contentsline {subsubsection}{\numberline {10.3.3}}{13}{}%
-\contentsline {subsubsection}{\numberline {10.3.4}}{13}{}%
-\contentsline {subsubsection}{\numberline {10.3.5}}{13}{}%
-\contentsline {subsubsection}{\numberline {10.3.6}}{13}{}%
-\contentsline {subsection}{\numberline {10.4}EVACUATING SOVIET LEADERS\\*{[}Optional Rule{]}}{13}{}%
-\contentsline {section}{\numberline {11}SUPPLY}{13}{}%
-\contentsline {subsection}{\numberline {11.1}GERMAN SUPPLY}{14}{}%
-\contentsline {subsubsection}{\numberline {11.1.1}}{14}{}%
-\contentsline {subsubsection}{\numberline {11.1.2}}{14}{}%
-\contentsline {subsubsection}{\numberline {11.1.3}}{14}{}%
-\contentsline {subsection}{\numberline {11.2}SOVIET SUPPLY}{14}{}%
-\contentsline {subsubsection}{\numberline {11.2.1}}{14}{}%
-\contentsline {subsubsection}{\numberline {11.2.2}}{14}{}%
-\contentsline {subsubsection}{\numberline {11.2.3}}{14}{}%
-\contentsline {subsubsection}{\numberline {11.2.4}}{14}{}%
-\contentsline {subsection}{\numberline {11.3}EFFECTS OF SUPPLY}{14}{}%
-\contentsline {subsubsection}{\numberline {11.3.1}}{14}{}%
-\contentsline {subsubsection}{\numberline {11.3.2}}{14}{}%
-\contentsline {subsubsection}{\numberline {11.3.3}}{14}{}%
-\contentsline {subsubsection}{\numberline {11.3.4}}{14}{}%
-\contentsline {subsubsection}{\numberline {11.3.5}}{14}{}%
-\contentsline {section}{\numberline {12}UNTRIED UNITS}{14}{}%
-\contentsline {subsection}{\numberline {12.1}PLACEMENT OF UNTRIED UNITS}{14}{}%
-\contentsline {subsection}{\numberline {12.2}HOW UNITS ARE REVEALED}{14}{}%
-\contentsline {subsection}{\numberline {12.3}NO STRENGTH UNITS}{15}{}%
-\contentsline {subsection}{\numberline {12.4}ELIMINATED UNTRIED UNITS}{15}{}%
-\contentsline {section}{\numberline {13}INTERDICTION}{15}{}%
-\contentsline {subsection}{\numberline {13.1}GERMAN AIR\\*INTERDICTION MARKERS}{15}{}%
-\contentsline {subsection}{\numberline {13.2}USE OF\\*GERMAN AIR INTERDICTION}{15}{}%
-\contentsline {subsection}{\numberline {13.3}EFFECTS OF\\*GERMAN AIR INTERDICTION}{15}{}%
-\contentsline {subsubsection}{\numberline {13.3.1}}{15}{}%
-\contentsline {subsubsection}{\numberline {13.3.2}}{15}{}%
-\contentsline {subsubsection}{\numberline {13.3.3}}{15}{}%
-\contentsline {subsubsection}{\numberline {13.3.4}}{15}{}%
-\contentsline {subsection}{\numberline {13.4}SOVIET INTERDICTION}{15}{}%
-\contentsline {subsubsection}{\numberline {13.4.1}}{15}{}%
-\contentsline {subsubsection}{\numberline {13.4.2}}{16}{}%
-\contentsline {subsubsection}{\numberline {13.4.3}}{16}{}%
-\contentsline {subsubsection}{\numberline {13.4.4}}{16}{}%
-\contentsline {subsubsection}{\numberline {13.4.5}}{16}{}%
-\contentsline {subsubsection}{\numberline {13.4.6}}{16}{}%
-\contentsline {section}{\numberline {14}REINFORCEMENTS}{16}{}%
-\contentsline {subsection}{\numberline {14.1}SOVIET PROVISIONAL\\*REINFORCEMENTS}{16}{}%
-\contentsline {subsubsection}{\numberline {14.1.1}}{16}{}%
-\contentsline {subsubsection}{\numberline {14.1.2}}{16}{}%
-\contentsline {subsubsection}{\numberline {14.1.3}}{16}{}%
-\contentsline {subsubsection}{\numberline {14.1.4}}{16}{}%
-\contentsline {subsection}{\numberline {14.2}SOVIET SOUTH-WESTERN FRONT REINFORCEMENTS}{16}{}%
-\contentsline {subsubsection}{\numberline {14.2.1}}{16}{}%
-\contentsline {subsubsection}{\numberline {14.2.2}}{16}{}%
-\contentsline {subsubsection}{\numberline {14.2.3}}{16}{}%
-\contentsline {subsubsection}{\numberline {14.2.4}}{17}{}%
-\contentsline {subsection}{\numberline {14.3}SCHEDULED REINFORCEMENTS}{17}{}%
-\contentsline {section}{\numberline {15}VICTORY CONDITIONS}{17}{}%
-\contentsline {subsection}{\numberline {15.1}VICTORY POINT SCHEDULE}{17}{}%
-\contentsline {subsubsection}{\numberline {15.1.1}Points Awarded to the German Player}{17}{}%
-\contentsline {subsubsection}{\numberline {15.1.2}Points Awarded to\\*the Soviet Player}{17}{}%
-\contentsline {subsection}{\numberline {15.2}LEVELS OF VICTORY}{17}{}%
-\contentsline {section}{\numberline {16}REINFORCEMENT SCHEDULES}{18}{}%
-\contentsline {subsection}{\numberline {16.1}SOVIET REINFORCEMENTS}{18}{}%
-\contentsline {subsection}{\numberline {16.2}GERMAN REINFORCEMENTS}{18}{}%
-\contentsline {section}{\numberline {17}CREDITS}{19}{}%
-\contentsline {subsection}{\numberline {17.1}DESIGN CREDITS}{19}{}%
-\contentsline {subsection}{\numberline {17.2}THIS DOCUMENT}{19}{}%
-\contentsline {subsection}{\numberline {17.3}COMMENTS ON THIS VERSION}{19}{}%
-\contentsline {section}{\numberline {18}CHARTS AND TABLES}{20}{}%
+\contentsline {section}{\numberline {9}COMBAT}{9}{}%
+\contentsline {subsection}{\numberline {9.1}WHICH UNITS MAY ATTACK}{9}{}%
+\contentsline {subsubsection}{\numberline {9.1.1}}{9}{}%
+\contentsline {subsubsection}{\numberline {9.1.2}}{9}{}%
+\contentsline {subsubsection}{\numberline {9.1.3}}{9}{}%
+\contentsline {subsubsection}{\numberline {9.1.4}}{9}{}%
+\contentsline {subsection}{\numberline {9.2}MULTIPLE UNIT AND\\MULTI-HEX COMBAT}{9}{}%
+\contentsline {subsubsection}{\numberline {9.2.1}}{9}{}%
+\contentsline {subsubsection}{\numberline {9.2.2}}{9}{}%
+\contentsline {subsubsection}{\numberline {9.2.3}}{9}{}%
+\contentsline {subsubsection}{\numberline {9.2.4}}{9}{}%
+\contentsline {subsection}{\numberline {9.3}EFFECTS OF TERRAIN ON COMBAT}{9}{}%
+\contentsline {subsubsection}{\numberline {9.3.1}}{9}{}%
+\contentsline {subsubsection}{\numberline {9.3.2}}{9}{}%
+\contentsline {subsubsection}{\numberline {9.3.3}}{9}{}%
+\contentsline {subsubsection}{\numberline {9.3.4}}{9}{}%
+\contentsline {subsection}{\numberline {9.4}COMBAT RESOLUTION}{9}{}%
+\contentsline {subsection}{\numberline {9.5}COMBAT RESULTS TABLE}{10}{}%
+\contentsline {subsection}{\numberline {9.6}EXPLANATION OF COMBAT RESULTS}{10}{}%
+\contentsline {subsubsection}{\numberline {9.6.1}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.6.2}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.6.3}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.6.4}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.6.5}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.6.6}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.6.7}}{10}{}%
+\contentsline {subsection}{\numberline {9.7}RETREATS}{10}{}%
+\contentsline {subsubsection}{\numberline {9.7.1}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.7.2}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.7.3}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.7.4}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.7.5}}{10}{}%
+\contentsline {subsection}{\numberline {9.8}ADVANCE AFTER COMBAT}{10}{}%
+\contentsline {subsubsection}{\numberline {9.8.1}}{10}{}%
+\contentsline {subsubsection}{\numberline {9.8.2}}{11}{}%
+\contentsline {subsubsection}{\numberline {9.8.3}}{11}{}%
+\contentsline {subsubsection}{\numberline {9.8.4}}{11}{}%
+\contentsline {subsubsection}{\numberline {9.8.5}}{11}{}%
+\contentsline {subsubsection}{\numberline {9.8.6}}{11}{}%
+\contentsline {subsubsection}{\numberline {9.8.7}}{11}{}%
+\contentsline {subsubsection}{\numberline {9.8.8}}{11}{}%
+\contentsline {section}{\numberline {10}SOVIET LEADERS}{11}{}%
+\contentsline {subsection}{\numberline {10.1}THE LEADERSHIP RATING}{11}{}%
+\contentsline {subsection}{\numberline {10.2}CHARACTERISTICS\\OF SOVIET LEADERS}{11}{}%
+\contentsline {subsubsection}{\numberline {10.2.1}}{11}{}%
+\contentsline {subsubsection}{\numberline {10.2.2}}{11}{}%
+\contentsline {subsubsection}{\numberline {10.2.3}}{11}{}%
+\contentsline {subsubsection}{\numberline {10.2.4}}{11}{}%
+\contentsline {subsubsection}{\numberline {10.2.5}}{11}{}%
+\contentsline {subsubsection}{\numberline {10.2.6}}{11}{}%
+\contentsline {subsection}{\numberline {10.3}CAPABILITIES OF SOVIET LEADERS}{11}{}%
+\contentsline {subsubsection}{\numberline {10.3.1}}{11}{}%
+\contentsline {subsubsection}{\numberline {10.3.2}}{12}{}%
+\contentsline {subsubsection}{\numberline {10.3.3}}{12}{}%
+\contentsline {subsubsection}{\numberline {10.3.4}}{12}{}%
+\contentsline {subsubsection}{\numberline {10.3.5}}{12}{}%
+\contentsline {subsubsection}{\numberline {10.3.6}}{12}{}%
+\contentsline {subsection}{\numberline {10.4}EVACUATING SOVIET LEADERS\\*{[}Optional Rule{]}}{12}{}%
+\contentsline {section}{\numberline {11}SUPPLY}{12}{}%
+\contentsline {subsection}{\numberline {11.1}GERMAN SUPPLY}{12}{}%
+\contentsline {subsubsection}{\numberline {11.1.1}}{12}{}%
+\contentsline {subsubsection}{\numberline {11.1.2}}{12}{}%
+\contentsline {subsubsection}{\numberline {11.1.3}}{13}{}%
+\contentsline {subsection}{\numberline {11.2}SOVIET SUPPLY}{13}{}%
+\contentsline {subsubsection}{\numberline {11.2.1}}{13}{}%
+\contentsline {subsubsection}{\numberline {11.2.2}}{13}{}%
+\contentsline {subsubsection}{\numberline {11.2.3}}{13}{}%
+\contentsline {subsubsection}{\numberline {11.2.4}}{13}{}%
+\contentsline {subsection}{\numberline {11.3}EFFECTS OF SUPPLY}{13}{}%
+\contentsline {subsubsection}{\numberline {11.3.1}}{13}{}%
+\contentsline {subsubsection}{\numberline {11.3.2}}{13}{}%
+\contentsline {subsubsection}{\numberline {11.3.3}}{13}{}%
+\contentsline {subsubsection}{\numberline {11.3.4}}{13}{}%
+\contentsline {subsubsection}{\numberline {11.3.5}}{13}{}%
+\contentsline {section}{\numberline {12}UNTRIED UNITS}{13}{}%
+\contentsline {subsection}{\numberline {12.1}PLACEMENT OF UNTRIED UNITS}{13}{}%
+\contentsline {subsection}{\numberline {12.2}HOW UNITS ARE REVEALED}{13}{}%
+\contentsline {subsection}{\numberline {12.3}NO STRENGTH UNITS}{13}{}%
+\contentsline {subsection}{\numberline {12.4}ELIMINATED UNTRIED UNITS}{14}{}%
+\contentsline {section}{\numberline {13}INTERDICTION}{14}{}%
+\contentsline {subsection}{\numberline {13.1}GERMAN AIR\\*INTERDICTION MARKERS}{14}{}%
+\contentsline {subsection}{\numberline {13.2}USE OF\\*GERMAN AIR INTERDICTION}{14}{}%
+\contentsline {subsection}{\numberline {13.3}EFFECTS OF\\*GERMAN AIR INTERDICTION}{14}{}%
+\contentsline {subsubsection}{\numberline {13.3.1}}{14}{}%
+\contentsline {subsubsection}{\numberline {13.3.2}}{14}{}%
+\contentsline {subsubsection}{\numberline {13.3.3}}{14}{}%
+\contentsline {subsubsection}{\numberline {13.3.4}}{14}{}%
+\contentsline {subsection}{\numberline {13.4}SOVIET INTERDICTION}{14}{}%
+\contentsline {subsubsection}{\numberline {13.4.1}}{14}{}%
+\contentsline {subsubsection}{\numberline {13.4.2}}{14}{}%
+\contentsline {subsubsection}{\numberline {13.4.3}}{14}{}%
+\contentsline {subsubsection}{\numberline {13.4.4}}{14}{}%
+\contentsline {subsubsection}{\numberline {13.4.5}}{15}{}%
+\contentsline {subsubsection}{\numberline {13.4.6}}{15}{}%
+\contentsline {section}{\numberline {14}REINFORCEMENTS}{15}{}%
+\contentsline {subsection}{\numberline {14.1}SOVIET PROVISIONAL\\*REINFORCEMENTS}{15}{}%
+\contentsline {subsubsection}{\numberline {14.1.1}}{15}{}%
+\contentsline {subsubsection}{\numberline {14.1.2}}{15}{}%
+\contentsline {subsubsection}{\numberline {14.1.3}}{15}{}%
+\contentsline {subsubsection}{\numberline {14.1.4}}{15}{}%
+\contentsline {subsection}{\numberline {14.2}SOVIET SOUTH-WESTERN FRONT REINFORCEMENTS}{15}{}%
+\contentsline {subsubsection}{\numberline {14.2.1}}{15}{}%
+\contentsline {subsubsection}{\numberline {14.2.2}}{15}{}%
+\contentsline {subsubsection}{\numberline {14.2.3}}{15}{}%
+\contentsline {subsubsection}{\numberline {14.2.4}}{15}{}%
+\contentsline {subsection}{\numberline {14.3}SCHEDULED REINFORCEMENTS}{15}{}%
+\contentsline {section}{\numberline {15}VICTORY CONDITIONS}{15}{}%
+\contentsline {subsection}{\numberline {15.1}VICTORY POINT SCHEDULE}{16}{}%
+\contentsline {subsubsection}{\numberline {15.1.1}Points Awarded to the German Player}{16}{}%
+\contentsline {subsubsection}{\numberline {15.1.2}Points Awarded to\\*the Soviet Player}{16}{}%
+\contentsline {subsection}{\numberline {15.2}LEVELS OF VICTORY}{16}{}%
+\contentsline {section}{\numberline {16}REINFORCEMENT SCHEDULES}{16}{}%
+\contentsline {subsection}{\numberline {16.1}SOVIET REINFORCEMENTS}{16}{}%
+\contentsline {subsection}{\numberline {16.2}GERMAN REINFORCEMENTS}{17}{}%
+\contentsline {section}{\numberline {17}CREDITS}{17}{}%
+\contentsline {subsection}{\numberline {17.1}DESIGN CREDITS}{17}{}%
+\contentsline {subsection}{\numberline {17.2}THIS DOCUMENT}{17}{}%
+\contentsline {subsection}{\numberline {17.3}COMMENTS ON THIS VERSION}{17}{}%
+\contentsline {section}{\numberline {18}CHARTS AND TABLES}{18}{}%
