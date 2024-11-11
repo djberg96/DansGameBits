@@ -70,5 +70,16 @@
   <use href="#hexagon" x="25" y="200"/>
 
   <!-- Arrows -->
+  <!-- Center to top -->
   <use href="#arrow" x="200" y="100"/>
+  <!-- Center to top right -->
+  <use href="#arrow" x="240" y="120" transform="rotate(60 240 180)"/>
+  <!-- Center to bottom right -->
+  <use href="#arrow" x="240" y="235" transform="rotate(120 260 260)"/>
+  <!-- Center to bottom -->
+  <use href="#arrow" x="200" y="300" transform="rotate(180 200 300)"/>
+  <!-- Center to bottom left -->
+  <use href="#arrow" x="190" y="215" transform="rotate(240 160 260)"/>
+  <!-- Center to top left -->
+  <use href="#arrow" x="160" y="120" transform="rotate(300 160 180)"/>
 </svg>
