@@ -45,7 +45,7 @@
     />
   </defs>
 
-  <rect id="background" x="0" y="0" width="400" height="400" fill="#f0f0f0"/>
+  <rect id="background" x="0" y="0" width="400" height="400" fill="none"/>
 
   <!-- Center hexagon -->
   <use href="#hexagon" x="130" y="140"/>
