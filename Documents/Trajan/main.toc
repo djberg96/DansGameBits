@@ -1,0 +1,150 @@
+\contentsline {section}{\numberline {1}INTRODUCTION}{2}{}%
+\contentsline {subsection}{\numberline {1.1}General Course of Play}{2}{}%
+\contentsline {section}{\numberline {2}COMPONENTS}{2}{}%
+\contentsline {subsection}{\numberline {2.1}The Board}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}The Strategic Map}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}The Turn Record Chart}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Terrain Key}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.4}Basic Game Battle Display}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.5}Siege Display}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.6}Client Forces Holding Area}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.7}Civis Holding Area}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.8}Advanced Game Battle Board}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Roman Charts}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Parthian Charts}{3}{}%
+\contentsline {subsection}{\numberline {2.4}The Units}{3}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Unit Information}{3}{}%
+\contentsline {subsection}{\numberline {2.5}Unit Types}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Heavy Infantry}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}Light Infantry}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.3}Heavy Cavalry}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.4}Light Cavalry}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.5}Elephants}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.6}Civis Milites}{3}{}%
+\contentsline {subsubsection}{\numberline {2.5.7}Impeditus}{3}{}%
+\contentsline {subsection}{\numberline {2.6}Unit Ratings}{3}{}%
+\contentsline {subsubsection}{\numberline {2.6.1}Leader Rating}{3}{}%
+\contentsline {subsubsection}{\numberline {2.6.2}Strength}{3}{}%
+\contentsline {subsubsection}{\numberline {2.6.3}Discipline}{3}{}%
+\contentsline {subsubsection}{\numberline {2.6.4}Strategic Movement}{3}{}%
+\contentsline {subsubsection}{\numberline {2.6.5}Battle Movement}{4}{}%
+\contentsline {subsubsection}{\numberline {2.6.6}Unit Size}{4}{}%
+\contentsline {subsection}{\numberline {2.7}Game Markers}{4}{}%
+\contentsline {subsubsection}{\numberline {2.7.1}Stratagem Markers}{4}{}%
+\contentsline {subsubsection}{\numberline {2.7.2}Exercitus (Army) Markers}{4}{}%
+\contentsline {subsubsection}{\numberline {2.7.3}Battle/Siege Marker}{4}{}%
+\contentsline {subsubsection}{\numberline {2.7.4}Year/Month Markers}{4}{}%
+\contentsline {subsection}{\numberline {2.8}Game Tables}{4}{}%
+\contentsline {subsection}{\numberline {2.9}Game Scale}{4}{}%
+\contentsline {section}{\numberline {3}SEQUENCE OF PLAY}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Game Years}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Campaign and Winter Turn segments}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Political Events Segment}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Roman Turn}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Parthian Turn}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Completion of the Turn}{5}{}%
+\contentsline {subsection}{\numberline {3.4}Winter Turns}{5}{}%
+\contentsline {section}{\numberline {4}VICTORY CONDITIONS}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Optimus Victory}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Treaty}{5}{}%
+\contentsline {section}{\numberline {5}LEADERS}{5}{}%
+\contentsline {subsection}{\numberline {5.1}Leaders and Stratagem Markers}{5}{}%
+\contentsline {subsection}{\numberline {5.2}Leaders and Discipline}{5}{}%
+\contentsline {subsection}{\numberline {5.3}Leaders and Units}{5}{}%
+\contentsline {subsection}{\numberline {5.4}Supreme Leaders}{6}{}%
+\contentsline {subsection}{\numberline {5.5}Death of a Supreme Leader}{6}{}%
+\contentsline {section}{\numberline {6}STRATAGEM MARKERS}{6}{}%
+\contentsline {subsection}{\numberline {6.1}Play of Stratagem Markers}{6}{}%
+\contentsline {subsection}{\numberline {6.2}Play of Stratagem Markers on the Enemy’s Turn}{6}{}%
+\contentsline {subsection}{\numberline {6.3}Guard Units}{6}{}%
+\contentsline {subsection}{\numberline {6.4}Types of Stratagem Markers}{7}{}%
+\contentsline {subsubsection}{\numberline {6.4.1}Stratagem Marker Example}{7}{}%
+\contentsline {subsection}{\numberline {6.5}Receiving Stratagem Markers}{7}{}%
+\contentsline {subsubsection}{\numberline {6.5.1}Supreme Leader}{7}{}%
+\contentsline {subsubsection}{\numberline {6.5.2}Winning battles or sieges}{7}{}%
+\contentsline {subsubsection}{\numberline {6.5.3}Roman Triumph}{7}{}%
+\contentsline {subsubsection}{\numberline {6.5.4}Parthians capture a Roman provincial capital}{7}{}%
+\contentsline {subsubsection}{\numberline {6.5.5}Pillaging (Advanced Game)}{7}{}%
+\contentsline {subsubsection}{\numberline {6.5.6}Other Events}{7}{}%
+\contentsline {subsection}{\numberline {6.6}Losing Stratagem Markers}{7}{}%
+\contentsline {subsubsection}{\numberline {6.6.1}Elimination of Supreme Leader}{7}{}%
+\contentsline {subsubsection}{\numberline {6.6.2}Losing battles or sieges}{7}{}%
+\contentsline {subsubsection}{\numberline {6.6.3}Events}{8}{}%
+\contentsline {subsection}{\numberline {6.7}Stratagem Marker Limit}{8}{}%
+\contentsline {section}{\numberline {7}FORCE ORGANIZATION}{8}{}%
+\contentsline {subsection}{\numberline {7.1}Stacking}{8}{}%
+\contentsline {subsection}{\numberline {7.2}Movement}{8}{}%
+\contentsline {subsection}{\numberline {7.3}Combat}{8}{}%
+\contentsline {subsection}{\numberline {7.4}Cities}{8}{}%
+\contentsline {subsection}{\numberline {7.5}Siege Organization}{8}{}%
+\contentsline {subsection}{\numberline {7.6}Siege Combat}{9}{}%
+\contentsline {section}{\numberline {8}INTELLIGENCE}{9}{}%
+\contentsline {subsection}{\numberline {8.1}Exercitus (Army) Markers}{9}{}%
+\contentsline {subsection}{\numberline {8.2}Battle Map Display}{9}{}%
+\contentsline {section}{\numberline {9}CONTROL}{10}{}%
+\contentsline {subsection}{\numberline {9.1}Definition of Control}{10}{}%
+\contentsline {subsection}{\numberline {9.2}Civis Units}{10}{}%
+\contentsline {subsection}{\numberline {9.3}Map Coding}{10}{}%
+\contentsline {section}{\numberline {10}DISCIPLINE}{10}{}%
+\contentsline {subsection}{\numberline {10.1}Types of Discipline}{10}{}%
+\contentsline {subsection}{\numberline {10.2}General Procedure For Discipline\\*Checks}{10}{}%
+\contentsline {section}{\numberline {11}POLITICAL EVENTS}{10}{}%
+\contentsline {section}{\numberline {12}MOVEMENT}{11}{}%
+\contentsline {subsection}{\numberline {12.1}March types}{11}{}%
+\contentsline {subsection}{\numberline {12.2}Forces}{11}{}%
+\contentsline {subsection}{\numberline {12.3}Movement Limitations}{11}{}%
+\contentsline {subsection}{\numberline {12.4}Forced March}{11}{}%
+\contentsline {subsection}{\numberline {12.5}Interception}{12}{}%
+\contentsline {subsection}{\numberline {12.6}Off-map Forces Box}{12}{}%
+\contentsline {subsubsection}{\numberline {12.6.1}Exiting the Off-Map Forces Box}{12}{}%
+\contentsline {subsection}{\numberline {12.7}Entering the Off-Map Forces Box}{12}{}%
+\contentsline {section}{\numberline {13}COMBAT}{12}{}%
+\contentsline {subsection}{\numberline {13.1}Civis units and combat}{12}{}%
+\contentsline {subsection}{\numberline {13.2}Basic Game Combat Displays}{13}{}%
+\contentsline {section}{\numberline {14}BASIC GAME BATTLE}{13}{}%
+\contentsline {subsection}{\numberline {14.1}Battle Procedure}{13}{}%
+\contentsline {subsection}{\numberline {14.2}Tactical Superiority Determination}{13}{}%
+\contentsline {subsection}{\numberline {14.3}Conduct of Rounds}{13}{}%
+\contentsline {subsection}{\numberline {14.4}Conduct of Combat}{13}{}%
+\contentsline {subsubsection}{\numberline {14.4.1}Fire Round}{13}{}%
+\contentsline {subsubsection}{\numberline {14.4.2}Melee Round}{13}{}%
+\contentsline {subsubsection}{\numberline {14.4.3}Pursuit Round}{13}{}%
+\contentsline {subsection}{\numberline {14.5}The Basic Game Combat\\*Results Table (CRT)}{13}{}%
+\contentsline {subsection}{\numberline {14.6}Discipline check results}{14}{}%
+\contentsline {subsection}{\numberline {14.7}Effects of Disruption}{14}{}%
+\contentsline {subsection}{\numberline {14.8}Heavy Units}{14}{}%
+\contentsline {subsection}{\numberline {14.9}Maneuver Advantage}{14}{}%
+\contentsline {subsection}{\numberline {14.10}Leaders and Combat}{14}{}%
+\contentsline {subsection}{\numberline {14.11}Rally}{14}{}%
+\contentsline {subsection}{\numberline {14.12}Effects of Terrain on Combat}{14}{}%
+\contentsline {subsection}{\numberline {14.13}Example of Combat}{15}{}%
+\contentsline {subsection}{\numberline {14.14}Winning/Losing Battles}{15}{}%
+\contentsline {subsection}{\numberline {14.15}Effects of Winning, Losing\\*and Draws}{15}{}%
+\contentsline {subsection}{\numberline {14.16}Size of Victory}{15}{}%
+\contentsline {section}{\numberline {15}SIEGES}{15}{}%
+\contentsline {subsection}{\numberline {15.1}Siege Combat}{16}{}%
+\contentsline {subsubsection}{\numberline {15.1.1}Blockade}{16}{}%
+\contentsline {subsubsection}{\numberline {15.1.2}Assault}{16}{}%
+\contentsline {subsubsection}{\numberline {15.1.3}Formal Siege}{16}{}%
+\contentsline {subsection}{\numberline {15.2}Defending Units}{16}{}%
+\contentsline {section}{\numberline {16}REVOLTS}{16}{}%
+\contentsline {subsection}{\numberline {16.1}Revolt Combat}{16}{}%
+\contentsline {section}{\numberline {17}RECRUITING}{16}{}%
+\contentsline {subsubsection}{\numberline {17.1.1}Reinforcements}{17}{}%
+\contentsline {subsubsection}{\numberline {17.1.2}Replacements}{17}{}%
+\contentsline {subsection}{\numberline {17.2}Roman Forces}{17}{}%
+\contentsline {subsection}{\numberline {17.3}Roman Replacements}{17}{}%
+\contentsline {subsection}{\numberline {17.4}Parthian Forces}{17}{}%
+\contentsline {subsubsection}{\numberline {17.4.1}Parthian Core Reinforcements}{17}{}%
+\contentsline {subsubsection}{\numberline {17.4.2}Parthian Core Replacements}{18}{}%
+\contentsline {subsubsection}{\numberline {17.4.3}Satrapy Reinforcements}{18}{}%
+\contentsline {subsubsection}{\numberline {17.4.4}Satrapy Replacements}{18}{}%
+\contentsline {subsection}{\numberline {17.5}Civis Units}{18}{}%
+\contentsline {subsubsection}{\numberline {17.5.1}Colonies}{18}{}%
+\contentsline {subsection}{\numberline {17.6}Leader units}{18}{}%
+\contentsline {section}{\numberline {18}CLIENT FORCES}{18}{}%
+\contentsline {subsection}{\numberline {18.1}Armenians}{18}{}%
+\contentsline {subsection}{\numberline {18.2}Arabs and Alani}{18}{}%
+\contentsline {subsection}{\numberline {18.3}Client Reinforcements\\*and Replacements}{18}{}%
+\contentsline {section}{\numberline {19}Credits:}{18}{}%
+\contentsline {section}{\numberline {20}CHARTS AND TABLES}{20}{}%
