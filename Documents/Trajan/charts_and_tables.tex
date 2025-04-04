@@ -182,7 +182,7 @@
     \begin{tabular}{|llcccccc|}
       \hline & & & & & & &\\[-2.0ex]
       \multicolumn{8}{|c|}{\textbf{ADVANCED GAME COMBAT RESULTS TABLE}}\\
-      \multicolumn{2}{|l}{\textbf{Tactic Unit Types}}& \multicolumn{6}{c|}{\textbf{Dice Roll}}\\
+      \textbf{Tactic} & \textbf{Unit Types} & \multicolumn{6}{c|}{\textbf{Dice Roll}}\\
       &  & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
       Phalanx & LE, LV, AU, HC, EQ, HA & B & L & - & - & - & A\\
       Wedge & LE, EQ, HC & B & B/A & L & L & - & A\\
@@ -195,3 +195,22 @@
     \end{tabular}
   }
 }
+
+\begin{minipage}{\textwidth}
+  \begin{itemize}
+    \item \textbf{Tactic:} The type of tactic.
+    \item \textbf{Unit Types:} The types of units which may use this tactic.
+    \item \textbf{D: Disruption -} Flip the defending unit over to its reverse side. Disrupted units may neither move nor conduct combat. If a unit which is disrupted receives a second \textbf{D} result, there is not further effect (it remains disrupted).
+    \item \textbf{B: Break -} If the defending unit is not disrupted, then it becomes disrupted. If the unit is disrupted, then it is eliminated.
+    \item \textbf{A: Attacker Disrupted -} The attacking unit is immediately disrupted (and may not conduct any more attacks until rallied).
+    \item \textbf{L: Light Unit Disruption -} If the unit is heavy armed (infantry or cavalry) it is not affected. Any other unit type is eliminated.
+    \item \textbf{E: } The defending unit is eliminated.
+    \item \textbf{C: } Cavalry Disordered: If the defending unit is a cavalry type (cataphract, equites, or horse archer) it is disrupted; if already disrupted, no further effect.
+    \item \textbf{M: Missiles Depleted -} The unit may not make any more missile attacks this combat segment. It may do so freely in future combat segments.
+    \item{B/A:} Defender receives a \textbf{Break} result; attacker is \textbf{Disrupted}.
+    \item{D/A:} Defender receives a \textbf{Disruption} result; attacker is \textbf{Disrupted}.
+    \item{-:} No effect.
+  \end{itemize}
+  \medskip
+  UNIT TYPES: LE=Legionary heavy infantry; AU=Auxiliary infantry; LV=Levy infantry; HC=Heavy-armed cavalry; HA=Horse archers; EL=elpehants.
+\end{minipage}
