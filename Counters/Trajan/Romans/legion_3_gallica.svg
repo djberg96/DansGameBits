@@ -35,6 +35,7 @@
     <rect x="35" y="28" width="30" height="44" fill="black" stroke="white" stroke-width="1" rx="6"/>
     <line x1="50" y1="31" x2="50" y2="67" stroke="white" stroke-width="0.9" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
     <use href="#shield_line" x="0" y="0" transform="rotate(0 50 50)"/>
+    <use href="#shield_line" x="0" y="0" transform="translate(100,100) scale(-1,-1)"/>
     <use href="#shield_line" x="0" y="0" transform="translate(100,0) scale(-1,1)"/>
     <use href="#shield_line" x="0" y="0" transform="translate(100,0) scale(-1,1) rotate(180 50 50)"/>
   </g>
