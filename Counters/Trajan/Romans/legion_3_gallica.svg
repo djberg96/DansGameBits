@@ -15,9 +15,7 @@
     </marker>
 
     <g id="shield_line">
-      <path d="M38 32 L45 38" stroke="white" stroke-width="0.9" fill="none" marker-start="url(#arrow)"/>
-      <path d="M45 38 L44 46" stroke="white" stroke-width="0.9" fill="none"/>
-      <path d="M44 46 L50 50" stroke="white" stroke-width="0.9" fill="none"/>
+      <path d="M38 32 L45 38 L44 46 L50 50" stroke="white" stroke-width="0.9" fill="none" marker-start="url(#arrow)"/>
     </g>
   </defs>
 
