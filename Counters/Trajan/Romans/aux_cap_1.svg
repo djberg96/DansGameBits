@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <title>I Cappadocia</title>
+  <desc>
+    Roman I Cap auxiliary unit for S&amp;T's Trajan.
+  </desc>
+  <defs>
+    <!-- A marker to be used as an arrowhead -->
+    <marker
+      id="arrow"
+      viewBox="0 0 10 10"
+      refX="5"
+      refY="5"
+      markerWidth="3"
+      markerHeight="3"
+      orient="auto-start-reverse"
+      fill="black"
+    >
+    <path d="M 0 0 L 10 5 L 0 10 z"/>
+    </marker>
+
+    <g id="shield_line">
+      <path d="M38 32 L45 38 L44 46 L50 50" stroke="white" stroke-width="0.9" fill="none" marker-start="url(#arrow)"/>
+    </g>
+  </defs>
+
+  <!-- Background rectangle -->
+  <rect width="100" height="100" fill="lightcoral" stroke="black" stroke-width="2"/>
+
+  <!-- Legion Name -->
+  <text x="50" y="20" font-family="Cinzel" font-size="18" text-anchor="middle" fill="black">I Cap</text>
+
+  <!-- Unit Stats -->
+  <text x="50" y="92" font-family="Cinzel" font-size="22" text-anchor="middle" fill="black">4-V-5</text>
+
+  <!-- Unit Symbol -->
+  <g id="unit-symbol">
+    <rect x="35" y="28" width="30" height="44" fill="rgb(185,185,110)" stroke="white" stroke-width="1" rx="6"/>
+    <line x1="44" y1="38" x2="44" y2="64" stroke="black" stroke-width="4" marker-start="url(#arrow)"/>
+    <line x1="56" y1="38" x2="56" y2="64" stroke="black" stroke-width="4" marker-start="url(#arrow)"/>
+    <line x1="40" y1="54" x2="60" y2="54" stroke="black" stroke-width="4"/>
+  </g>
+
+  <!-- Number -->
+  <text x="74" y="55" font-family="Cinzel" font-size="16" text-anchor="middle" fill="black">1</text>
+</svg>
