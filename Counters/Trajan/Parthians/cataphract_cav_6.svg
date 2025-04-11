@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <title>Parthian Cataphract Cavalry 6</title>
+  <desc>
+    Parthian cataphract cavalry unit for S&amp;T's Trajan.
+  </desc>
+  <defs>
+    <!-- A marker to be used as an arrowhead -->
+    <marker
+      id="arrow"
+      viewBox="0 0 10 10"
+      refX="5"
+      refY="5"
+      markerWidth="3"
+      markerHeight="3"
+      orient="auto-start-reverse"
+      fill="black"
+    >
+    <path d="M 0 0 L 10 5 L 0 10 z"/>
+    </marker>
+  </defs>
+
+  <!-- Background rectangle -->
+  <rect width="100" height="100" fill="lightgreen" stroke="black" stroke-width="2"/>
+
+  <!-- Unit Name -->
+  <text x="50" y="20" font-family="Cinzel" font-size="18" text-anchor="middle" fill="black">I</text>
+
+  <!-- Unit Stats -->
+  <text x="50" y="92" font-family="Cinzel" font-size="22" text-anchor="middle" fill="black">3-R-6</text>
+
+  <!-- Unit Symbol -->
+  <g id="unit-symbol">
+    <path d="
+        M 48 70
+        L 22 67
+        Q 35 25 55 30
+        L 60 50
+        L 46 46
+        Q 50 60 48 70
+        Z
+      "
+      fill="black"
+      stroke="white"
+      stroke-width="1"
+    />
+    <circle cx="50" cy="38" r="2" fill="white"/>
+    <line x1="42" y1="24" x2="20" y2="54" stroke="black" stroke-width="3" marker-start="url(#arrow)"/>
+  </g>
+
+  <!-- Number -->
+  <text x="74" y="55" font-family="Cinzel" font-size="16" text-anchor="middle" fill="black">2</text>
+</svg>
