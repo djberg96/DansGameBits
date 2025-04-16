@@ -247,6 +247,7 @@
 
 {
   \resizebox{\columnwidth}{!}{
+    \def\arraystretch{0.95}
     \begin{tabular}{|lcccccc|}
       \hline & & & & & &\\[-2.0ex]
       \multicolumn{7}{|c|}{\textbf{ADVANCED GAME SUPPLY TABLE}}\\
@@ -254,26 +255,28 @@
       & 1 & 2 & 3 & 4 & 5 & 6\\
       \hline
       Friendly City & & & & & &\\
-      (unbesieged) & S & S & S & S & S & S\\
-      \hline
-      City & & & & & &\\
-      (besieged) & S & S & S & S & F & X\\
+      - unbesieged & S & S & S & S & S & S\\
+      - besieged & S & S & S & S & F & X\\
       \hline
       Clear/Mountain/River & & & & & &\\
-      (with Impeditus) & S & S & S & S & S & S\\
-      \hline
-      Clear/Mountain/River & & & & & &\\
-      (no Impeditus) & S & S & S & S & F & X\\
+      - with Impeditus & S & S & S & S & S & S\\
+      - no Impeditus & S & S & S & S & F & X\\
       \hline
       Desert/Swamp/Pillaged & & & & & &\\
-      (with Impeditus) & S & S & S & S & X & X\\
+      - with Impeditus & S & S & S & S & X & X\\
+      - no Impeditus & S & S & F & X & X & X\\
       \hline
-      Desert/Swamp/Pillaged & & & & & &\\
-      (no Impeditus) & S & S & F & X & X & X\\
-      \hline
-      Winter & & & & & &\\
-      (not in friendly City) & S & S & F & X & X & X\\
+      Winter (not in friendly City) & S & S & F & X & X & X\\
       \hline
     \end{tabular}
   }
 }
+
+\begin{minipage}{\columnwidth}
+  \begin{itemize}
+    \item \textbf{X:} Out of Supply: Eliminate one half of the strength points in the hex (not counting leaders), rounded up.
+    \item \textbf{F:} Forage: If the force has 5 or less strength points, no effect. Otherwise, treat as "X".
+    \item \textbf{S:} In Supply, no effect.
+
+  \end{itemize}
+\end{minipage}
