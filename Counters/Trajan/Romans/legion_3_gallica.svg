@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
   <title>Legion III Gallica</title>
   <desc>
-    Roman Legion III Gallica unit for S&T's Trajan.
+    Roman Legion III Gallica unit for S&amp;T's Trajan.
   </desc>
   <defs>
     <!-- A marker to be used as an arrowhead -->
@@ -44,6 +44,6 @@
     <circle cx="50" cy="50" r="2.2" fill="black" stroke="white" stroke-width="0.4"/>
   </g>
 
-  <!-- Number -->
+  <!-- Tactical Movement -->
   <text x="74" y="55" font-family="Cinzel" font-size="16" text-anchor="middle" fill="black">1</text>
 </svg>
