@@ -45,11 +45,11 @@
     </g>
 
     <g id="horn">
-      <rect x="49" y="30" width="2" height="20" rx="2" ry="5" fill="yellow"/>
-      <path d="M49 46 Q50 46 52 44" fill="transparent" stroke="black" stroke-width="0.4"/>
-      <path d="M49 42 Q50 42 52 40" fill="transparent" stroke="black" stroke-width="0.4"/>
-      <path d="M49 38 Q50 38 52 36" fill="transparent" stroke="black" stroke-width="0.4"/>
-      <path d="M49 34 Q50 34 52 32" fill="transparent" stroke="black" stroke-width="0.4"/>
+      <path d="M48.5 50 L50 30 L51.5 50 L48.5 50" fill="yellow" stroke="yellow" stroke-width="0.6" stroke-linejoin="round"/>
+      <path d="M48 46 Q50 46 52 44" fill="transparent" stroke="black" stroke-width="0.3"/>
+      <path d="M48 42 Q50 42 52 40" fill="transparent" stroke="black" stroke-width="0.3"/>
+      <path d="M48 38 Q50 38 52 36" fill="transparent" stroke="black" stroke-width="0.3"/>
+      <path d="M48 34 Q50 34 52 32" fill="transparent" stroke="black" stroke-width="0.3"/>
     </g>
 
     <use href="#horn" transform="rotate(180 50 50)"/>
@@ -59,6 +59,7 @@
       <circle cx="50" cy="50" r="2.2" fill="black" stroke="white" stroke-width="0.4"/>
     </g>
   </g>
+  
 
   <!-- Tactical Movement -->
   <text x="74" y="55" font-family="Cinzel" font-size="16" text-anchor="middle" fill="black">1</text>
