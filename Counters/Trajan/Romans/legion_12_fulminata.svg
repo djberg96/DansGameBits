@@ -36,17 +36,28 @@
   <g id="unit-symbol">
     <rect x="35" y="28" width="30" height="44" fill="black" stroke="white" stroke-width="1" rx="6"/>
     <line x1="35" y1="50" x2="65" y2="50" stroke="white" stroke-width="0.9"/>
-    <rect x="49" y="30" width="2" height="40" rx="18" ry="15" fill="yellow"/>
-    <use href="#shield_line" x="0" y="0" transform="rotate(0 50 50)"/>
-    <use href="#shield_line" x="0" y="0" transform="translate(100,100) scale(-1,-1)"/>
-    <use href="#shield_line" x="0" y="0" transform="translate(100,0) scale(-1,1)"/>
-    <use href="#shield_line" x="0" y="0" transform="translate(100,0) scale(-1,1) rotate(180 50 50)"/>
-    <rect x="47" y="46" width="" height="8" fill="black" stroke="white" stroke-width="0.3" rx="1"/>
-    <circle cx="50" cy="50" r="2.2" fill="black" stroke="white" stroke-width="0.4"/>
-    <path d="M49 46 Q50 46 52 44" fill="transparent" stroke="black" stroke-width="0.4"/>
-    <path d="M49 42 Q50 42 52 40" fill="transparent" stroke="black" stroke-width="0.4"/>
-    <path d="M49 38 Q50 38 52 36" fill="transparent" stroke="black" stroke-width="0.4"/>
-    <path d="M49 34 Q50 34 52 32" fill="transparent" stroke="black" stroke-width="0.4"/>
+    
+    <g id="lightning">
+      <use href="#shield_line" x="0" y="0" transform="rotate(0 50 50)"/>
+      <use href="#shield_line" x="0" y="0" transform="translate(100,100) scale(-1,-1)"/>
+      <use href="#shield_line" x="0" y="0" transform="translate(100,0) scale(-1,1)"/>
+      <use href="#shield_line" x="0" y="0" transform="translate(100,0) scale(-1,1) rotate(180 50 50)"/>
+    </g>
+
+    <g id="horn">
+      <rect x="49" y="30" width="2" height="20" rx="2" ry="5" fill="yellow"/>
+      <path d="M49 46 Q50 46 52 44" fill="transparent" stroke="black" stroke-width="0.4"/>
+      <path d="M49 42 Q50 42 52 40" fill="transparent" stroke="black" stroke-width="0.4"/>
+      <path d="M49 38 Q50 38 52 36" fill="transparent" stroke="black" stroke-width="0.4"/>
+      <path d="M49 34 Q50 34 52 32" fill="transparent" stroke="black" stroke-width="0.4"/>
+    </g>
+
+    <use href="#horn" transform="rotate(180 50 50)"/>
+
+    <g id="center">
+      <rect x="47" y="46" width="6" height="8" fill="black" stroke="white" stroke-width="0.3" rx="1"/>
+      <circle cx="50" cy="50" r="2.2" fill="black" stroke="white" stroke-width="0.4"/>
+    </g>
   </g>
 
   <!-- Tactical Movement -->
