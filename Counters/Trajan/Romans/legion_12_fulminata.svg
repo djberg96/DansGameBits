@@ -19,7 +19,7 @@
     </marker>
 
     <g id="shield_line">
-      <path d="M38 32 L42 36 L39 39 L42 42 L45 39 L48 42 L45 45 L50 50" stroke="white" stroke-width="0.9" fill="none" marker-start="url(#arrow)"/>
+      <path d="M38 32 L41 35 L38 38 L41 41 L44 38 L47 41 L44 44 L50 50" stroke="white" stroke-width="0.9" fill="none" marker-start="url(#arrow)"/>
     </g>
   </defs>
 
