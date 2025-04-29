@@ -36,7 +36,7 @@
         Q 35 25 55 30
         Q 61 40 60 48
         L 58 50
-        L 46 46
+        L 44 45
         L 46 46
         Q 50 60 48 70
         Z
@@ -46,7 +46,7 @@
       stroke-width="1"
     />
     <circle cx="53" cy="38" r="2" fill="white"/>
-    <line x1="42" y1="26" x2="20" y2="54" stroke="black" stroke-width="3" marker-start="url(#arrow)"/>
+    <line id="lance" x1="39" y1="26" x2="20" y2="54" stroke="black" stroke-width="3" marker-start="url(#arrow)"/>
   </g>
 
   <!-- Number -->
