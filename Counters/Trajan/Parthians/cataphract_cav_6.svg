@@ -64,6 +64,7 @@
         L 16 37
         Z
       "
+      fill="grey"
     />
 
     <path
@@ -74,10 +75,11 @@
         L 16 37
         Z
       "
+      fill="grey"
       transform="scale(-1, 1) translate(-32, 0)"
     />
 
-    <line x1="16" y1="70" x2="16" y2="37" stroke="black" stroke-width="2"/>
+    <line x1="16" y1="72" x2="16" y2="37" stroke="saddlebrown" stroke-width="1.5"/>
   </g>
 
   <!-- Number -->
