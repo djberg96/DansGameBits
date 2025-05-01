@@ -76,6 +76,8 @@
       "
       transform="scale(-1, 1) translate(-32, 0)"
     />
+
+    <line x1="16" y1="70" x2="16" y2="37" stroke="black" stroke-width="2"/>
   </g>
 
   <!-- Number -->
