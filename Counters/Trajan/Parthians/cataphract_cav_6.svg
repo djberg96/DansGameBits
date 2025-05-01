@@ -62,21 +62,11 @@
         L 13 30
         Q 16 33, 15 37
         L 16 37
+        L 17 37
+        Q 16 33, 19 30
         Z
       "
       fill="grey"
-    />
-
-    <path
-      d="
-        M 16 19
-        L 13 30
-        Q 16 33, 15 37
-        L 16 37
-        Z
-      "
-      fill="grey"
-      transform="scale(-1, 1) translate(-32, 0)"
     />
 
     <line x1="16" y1="72" x2="16" y2="37" stroke="saddlebrown" stroke-width="1.5"/>
