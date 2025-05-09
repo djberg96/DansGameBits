@@ -24,3 +24,15 @@ the top level `svg` tag.
 * Free and open source icon library: https://icons.getbootstrap.com/
 * Miscellaneous SVG objects: https://commons.wikimedia.org/wiki/Category:SVG_objects
 * More miscellaneous images under CCO license: https://svgsilh.com/
+
+# Generating Images
+
+To convert SVG files into PNG or JPG files, I typically use 'magick' command on the terminal like so':
+
+`magick -density 1200 source_file.svg output_file.png` (or .jpg if desired).
+
+This gives you a nice, high resolution image that you can then scale up or down as desired.
+
+The 'magick' command can be installed via `brew install imagemagick` on a Mac, or `apt install imagemagick` on Linux. I don't use Windows, but I assume there's an installation package for it out there somewhere.
+
+There are other commands out there if you prefer: inkscape, rsvg-convert, svgexport, qlmanage, etc.
