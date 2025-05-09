@@ -27,7 +27,7 @@ the top level `svg` tag.
 
 # Generating Images
 
-To convert SVG files into PNG or JPG files, I typically use 'magick' command on the terminal like so':
+To convert SVG files into PNG or JPG files, I typically use the 'magick' command on the terminal like so':
 
 `magick -density 1200 source_file.svg output_file.png` (or .jpg if desired).
 
