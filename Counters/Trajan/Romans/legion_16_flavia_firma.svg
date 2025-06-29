@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <title>Legion XVI FF</title>
+  <desc>
+    Roman Legion XVI Flavia Firma unit for S&amp;T's Trajan.
+  </desc>
+  <defs>
+    <!-- A marker to be used as an arrowhead -->
+    <marker
+      id="arrow"
+      viewBox="0 0 10 10"
+      refX="5"
+      refY="5"
+      markerWidth="3"
+      markerHeight="3"
+      orient="auto-start-reverse"
+      fill="white"
+    >
+    <path d="M 0 0 L 10 5 L 0 10 z"/>
+    </marker>
+
+    <g id="shield_line">
+      <path d="M38 32 L41 35 L38 38 L41 41 L44 38 L47 41 L44 44 L50 50" stroke="white" stroke-width="0.9" fill="none" marker-start="url(#arrow)"/>
+    </g>
+  </defs>
+
+  <!-- Background rectangle -->
+  <rect width="100" height="100" fill="lightcoral" stroke="black" stroke-width="2"/>
+
+  <!-- Legion Name -->
+  <text x="50" y="20" font-family="Cinzel" font-size="18" text-anchor="middle" fill="black">XVI FF</text>
+
+  <!-- Unit Stats -->
+  <text x="50" y="92" font-family="Cinzel" font-size="22" text-anchor="middle" fill="black">5-V-5</text>
+
+  <!-- Unit Symbol -->
+  <g id="unit-symbol">
+    <rect x="35" y="28" width="30" height="44" fill="black" stroke="white" stroke-width="1" rx="6"/>
+    <line x1="37.5" y1="50" x2="62.5" y2="50" stroke="white" stroke-width="0.9" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+
+    <g id="lightning">
+      <use href="#shield_line" x="0" y="0" transform="rotate(0 50 50)"/>
+      <use href="#shield_line" x="0" y="0" transform="translate(100,100) scale(-1,-1)"/>
+      <use href="#shield_line" x="0" y="0" transform="translate(100,0) scale(-1,1)"/>
+      <use href="#shield_line" x="0" y="0" transform="translate(100,0) scale(-1,1) rotate(180 50 50)"/>
+    </g>
+
+    <g id="horn">
+      <path d="M48.5 50 L50 30 L51.5 50 L48.5 50" fill="yellow" stroke="yellow" stroke-width="0.6" stroke-linejoin="round"/>
+      <path d="M48 46 Q50 46 52 44" fill="transparent" stroke="black" stroke-width="0.3"/>
+      <path d="M48 42 Q50 42 52 40" fill="transparent" stroke="black" stroke-width="0.3"/>
+      <path d="M48 38 Q50 38 52 36" fill="transparent" stroke="black" stroke-width="0.3"/>
+      <path d="M48 34 Q50 34 52 32" fill="transparent" stroke="black" stroke-width="0.3"/>
+    </g>
+
+    <use href="#horn" transform="rotate(180 50 50)"/>
+
+    <g id="center">
+      <rect x="46" y="45.5" width="8" height="9" fill="black" stroke="white" stroke-width="0.3" rx="1"/>
+      <circle cx="50" cy="50" r="2.2" fill="black" stroke="white" stroke-width="0.4"/>
+    </g>
+  </g>
+
+  <!-- Tactical Movement -->
+  <text x="74" y="55" font-family="Cinzel" font-size="16" text-anchor="middle" fill="black">1</text>
+</svg>
