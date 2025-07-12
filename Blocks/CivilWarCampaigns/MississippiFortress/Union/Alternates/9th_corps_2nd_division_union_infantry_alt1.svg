@@ -1,0 +1,65 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <title>9th Corps, 2nd Division</title>
+  <g id="background">
+    <rect
+      id="union_infantry_background"
+      x="0"
+      y="0"
+      width="100%"
+      height="100%"
+      fill="#025fdd"
+      stroke="darkblue"
+      stroke-width="9"
+    />
+  </g>
+
+  <g id="border" stroke="black" stroke-width="2">
+    <line x1="0" y1="1%" x2="100%" y2="1%" />
+    <line x1="1%" y1="1%" x2="1%" y2="100%" />
+    <line x1="0" y1="99%" x2="100%" y2="99%" />
+    <line x1="99%" y1="1%" x2="99%" y2="100%" />
+  </g>
+
+  <g id="parent_corps" text-anchor="middle">
+    <text x="50%" y="32" font-size="10" fill="white">9 / 2</text>
+  </g>
+
+  <g id="symbol" text-anchor="middle">
+    <text x="50%" y="78" font-size="7" fill="white">XX</text>
+    <rect x="26" y="36" width="48" height="34" fill="white" stroke="black"/>
+    <line x1="26" y1="36" x2="74" y2="70" stroke="black" />
+    <line x1="26" y1="70" x2="74" y2="36" stroke="black" />
+  </g>
+
+  <g id="breakdown_symbol">
+    <polygon points="7,65 12,75 17,65"/>
+  </g>
+
+  <g id="pips" stroke="black" fill="white">
+    <g id="strength5">
+      <circle id="topleftouter" cx="26" cy="12" r="5" />
+      <circle id="topleftouter" cx="38" cy="12" r="5" />
+      <circle id="topleftinner" cx="50" cy="12" r="5" />
+      <circle id="toprightinner" cx="62" cy="12" r="5" />
+      <circle id="toprightouter" cx="74" cy="12" r="5" />
+    </g>
+
+    <g id="strength4">
+      <circle id="righttop" cx="88" cy="32" r="5" />
+      <circle id="rightcenter" cx="88" cy="44" r="5" />
+      <circle id="rightbottom" cx="88" cy="56" r="5" />
+      <circle id="rightbottom" cx="88" cy="68" r="5" />
+    </g>
+
+    <g id="strength3" fill-opacity="0.8">
+      <circle id="bottomleft" cx="38" cy="88" r="5" />
+      <circle id="bottomright" cx="50" cy="88" r="5" />
+      <circle id="bottomright" cx="62" cy="88" r="5" />
+    </g>
+
+    <g id="strength2" fill="yellow" fill-opacity="0.8">
+      <circle id="leftcenter" cx="12" cy="44" r="5" />
+      <circle id="leftcenter" cx="12" cy="56" r="5" />
+    </g>
+  </g>
+</svg>
