@@ -3,7 +3,6 @@
 \setlength{\arrayrulewidth}{0.6pt}
 
 {
-  \def\arraystretch{1.1}
   \resizebox{\textwidth}{!}{
     \begin{tabular}{|lll|}
       \hline & &\\[-2.0ex]
@@ -31,7 +30,6 @@
 }
 
 {
-  \def\arraystretch{1.1}
   \resizebox{\columnwidth}{!}{
     \begin{tabular}{|lcccccc|}
       \hline & & & & & &\\[-2.0ex]
@@ -53,11 +51,9 @@
 }
 
 {
-  \Huge
-  \def\arraystretch{1.1}
   \resizebox{\textwidth}{!}{
     \begin{tabular}{|lccccc|}
-      \hline & & & & &\\[-3.0ex]
+      \hline & & & & &\\[-2.5ex]
       \multicolumn{6}{|c|}{\textbf{BASIC GAME COMBAT SYSTEM SUMMARY OF UNIT STRENGTHS}}\\
       \textbf{Unit Type} & \textbf{Fire Round} & \textbf{Melee Round} & \textbf{Pursuit Round} & \textbf{Maneuver} & \textbf{Defense}\\
       Heavy Infantry & x0 & x2 & x1 & No & x2\\
@@ -68,20 +64,25 @@
       \rowcolor{BabyBlue}Elephants & x0 & x3 & x1 & No & x1\\
       Civis & x1 & x1 & x1 & No & x1\\
       \rowcolor{BabyBlue}Other Types & x0 & x0 & x0 & No & E\\
-      & & & & &\\
-      \textbf{x0:} Unit cannot attack (but defends normally). & & & & &\\
-      \textbf{x1:} Unit uses its printed strength. & & & & &\\
-      \textbf{x2:} Unit uses twice its printed strength when attacking. & & & & &\\
-      \textbf{x3:} Unit uses three times its printed strength when attacking. & & & & &\\
-      \textbf{Maneuver - Yes:} The unit type is used to determine maneuver combat. & & & & &\\
-      \hspace{6.5em}\textbf{No:} The unit type is not used to determine maneuver combat. & & & & &\\
-      \textbf{Defense - x1:} Use the unit's face value for extracting losses. & & & & &\\
-      \hspace{5em}\textbf{x2:} The unit counts as twice as many strength factors when extracting losses. & & & & &\\
-      \textbf{E:} Eliminated if all other friendly units are eliminated. & & & & &\\
       \hline
     \end{tabular}
   }
 }
+
+
+\begin{minipage}{\textwidth}
+  \begin{itemize}
+    \item \textbf{x0:} Unit cannot attack (but defends normally).
+    \item \textbf{x1:} Unit uses its printed strength.
+    \item \textbf{x2:} Unit uses twice its printed strength when attacking.
+    \item \textbf{x3:} Unit uses three times its printed strength when attacking.
+    \item \textbf{Maneuver - Yes:} The unit type is used to determine maneuver combat.
+    \item \hspace{6.5em}\textbf{No:} The unit type is not used to determine maneuver combat.
+    \item \textbf{Defense - x1:} Use the unit's face value for extracting losses.
+    \item \hspace{5em}\textbf{x2:} The unit counts as twice as many strength factors when extracting losses.
+    \item \textbf{E:} Eliminated if all other friendly units are eliminated.
+  \end{itemize}
+\end{minipage}
 
 \clearpage
 
