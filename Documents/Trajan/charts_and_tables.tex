@@ -87,109 +87,17 @@
 \clearpage
 
 {
-  \def\arraystretch{1.1}
+  \setlength\tabcolsep{1.8em}
   \resizebox{\textwidth}{!}{
     \begin{tabular}{|lcccccc|}
       \hline & & & & & &\\[-2.0ex]
-      \textbf{MARCH TABLE} & & & & & &\\
-      March Type & \multicolumn{5}{c}{Die Roll} &\\
+      \hspace{-1.5em}\textbf{MARCH TABLE} & & & & & &\\
+      \hspace{-1.5em}March Type & \multicolumn{5}{c}{Die Roll} &\\
       & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
-      Road / Trade Route & N & M/W & M2/A & M/F & M2/F & M2/W\\
-      Cross Country & N & M/S/W & M/S/A & M/A & M/F & M1/W\\
-      River & N & R/W & R/A & R/F & R/S & R/W\\
-      Sea & N & O/W & O/X & O/A & O/F & O/W\\
-      \hline
-    \end{tabular}
-  }
-}
-
-\begin{minipage}{\textwidth}
-\begin{itemize}
-  \item \textbf{N - No March:} The force may not move.
-  \item \textbf{March:} The force may move up to its Strategic Movement factor.
-  \item \textbf{M2 - Enhanced March 2:} The force may move one or two additional hexes along adjoining road/trade route hexes.
-  \item \textbf{M1 - Enhanced March 1:} The force may move one additional hex along any sort of non-prohibited hexes.
-  \item \textbf{R - River:} The force may move up to 10 hexes along the length of the river. It may move through any type of terrain along the river. It must stop if entering an enemy occupied hex.
-  \item \textbf{O - Sea Movement:} The force may move to any other coastal hex in the same sea.
-  \item \textbf{/S - Scatter:} In addition to the result before the slash, the force rolls one die at the end of its March. On a roll of "1" the force is placed in the hex immediately to the north of the destination hex, on a roll of "2" to the northeast, and so on, clockwise. This is regardless of terrain restrictions or presence of enemy units, except for all sea hexsides, which are re-rolled. Units that scatter may not play Strategem markers \textit{during} their movement, but may do so once their move is complete. If the hex being marched to is a friendly controlled city, then ignore the Scatter result (i.e. the city must be the final hex of the march).
-  \item \textbf{/A - Attrition:} In addition to the result before the slash, the player must eliminate any one unit among the marching units (not including leaders).
-  \item \textbf{/F - Forced March Attrition:} In addition to the result before the slash, if the player is making a Forced March, he must eliminate any one unit among the marching units (not including leaders).
-  \item \textbf{/W - Winter Attrition:} if this is a Winter turn, the player must eliminate one half the combat strength, rounded up, of marching units (not including leaders).
-  \item \textbf{/X - Wreckage:} the player must eliminate one half (rounded up) of the combat strength of marching units (not including leaders). Any remaining units scatter upon landing. The final scatter hex must be a land hex; re-roll a sea hex.
-\end{itemize}
-\end{minipage}
-
-\bigskip
-
-{
-  \def\arraystretch{1.2}
-  \resizebox{\columnwidth}{!}{
-    \begin{tabular}{|lcccccc|}
-      \hline & & & & & &\\[-3.0ex]
-      \multicolumn{7}{|c|}{\textbf{BASIC COMBAT RESULTS TABLE}}\\
-      Combat Factors & \multicolumn{5}{c}{Die Roll} &\\
-      & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
-      1-4 & C & C & - & - & - & -\\
-      5-9 & C & C & - & - & - & 2\\
-      10-14 & C & C & C & - & 2 & 2\\
-      15-19 & C & C & C & - & 2 & 5\\
-      20-29 & C & C & C & 5/C & 5 & 5\\
-      30-39 & C & C & C & 5/C & 5 & 5\\
-      40-49 & C & C & C & 5/C & 5 & 10\\
-      50-74 & C & C & 5/C & 5/C & 5 & 10\\
-      75-99 & C & 5/C & 5/C & 5/C & 10 & 15\\
-      100+ & C & 5/C & 10/C & 10/C & 10/C & 15\\
-      \hline
-    \end{tabular}
-  }
-}
-
-{\resizebox{\columnwidth}{!}{ }}
-
-\vfill
-
-{
-  \resizebox{\columnwidth}{!}{
-    \def\arraystretch{0.9}
-    \begin{tabular}{|lcccccc|}
-      \hline & & & & & &\\[-2.0ex]
-      \multicolumn{7}{|c|}{\textbf{FORMAL SIEGE TABLE}}\\
-      & \multicolumn{6}{c|}{Die Roll}\\
-      & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
-      Siege & B & B & B & S & - & -\\
-      Results: & & & & & &\\
-      \hline
-    \end{tabular}
-  }
-}
-
-\begin{minipage}{\columnwidth}
-  \begin{itemize}
-    \item \textbf{B:} Breach: normal siege assault combat, EXCEPT
-    \item (1) The combat goes for 3 rounds (fire-melee-pursuit) as normal and
-    \item (2) The defender takes losses for numerical (2/5/10/15) results.
-    \item \textbf{S:} Sortie: The besieging player must immediately eliminate any one besieging unit of his choice.
-    \item \textbf{-:} No effect. Resolve the siege as Blockade or Siege (attacker's choice).
-  \end{itemize}
-\end{minipage}
-
-\clearpage
-
-{
-  \resizebox{\textwidth}{!}{
-    \def\arraystretch{0.9}
-    \begin{tabular}{|llcccccc|}
-      \hline & & & & & & &\\[-2.0ex]
-      \multicolumn{8}{|c|}{\textbf{ADVANCED GAME COMBAT RESULTS TABLE}}\\
-      \textbf{Tactic} & \textbf{Unit Types} & \multicolumn{6}{c|}{\textbf{Dice Roll}}\\
-      &  & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
-      Phalanx & LE, LV, AU, HC, EQ, HA & B & L & - & - & - & A\\
-      Wedge & LE, EQ, HC & B & B/A & L & L & - & A\\
-      Quincunx & LE, AU & B & D & L & - & - & A\\
-      Testudo & LE, AU & B & - & - & - & - & -\\
-      Offensive Fire & AU, HA, EQ & D & D & - & - & - & M\\
-      Defensive Fire & AU, HA & D & D & - & - & - & M\\
-      Elephant & EL & E & B/A & D/A & C & C & A\\
+      \hspace{-1.5em}Road/Trade Route & N & M/W & M2/A & M/F & M2/F & M2/W\\
+      \rowcolor{BabyBlue}\hspace{-1.5em}Cross Country & N & M/S/W & M/S/A & M/A & M/F & M1/W\\
+      \hspace{-1.5em}River & N & R/W & R/A & R/F & R/S & R/W\\
+      \rowcolor{BabyBlue}\hspace{-1.5em}Sea & N & O/W & O/X & O/A & O/F & O/W\\
       \hline
     \end{tabular}
   }
@@ -197,85 +105,16 @@
 
 \begin{minipage}{\textwidth}
   \begin{itemize}
-    \item \textbf{Tactic:} The type of tactic.
-    \item \textbf{Unit Types:} The types of units which may use this tactic.
-    \item \textbf{D: Disruption -} Flip the defending unit over to its reverse side. Disrupted units may neither move nor conduct combat. If a unit which is disrupted receives a second \textbf{D} result, there is not further effect (it remains disrupted).
-    \item \textbf{B: Break -} If the defending unit is not disrupted, then it becomes disrupted. If the unit is disrupted, then it is eliminated.
-    \item \textbf{A: Attacker Disrupted -} The attacking unit is immediately disrupted (and may not conduct any more attacks until rallied).
-    \item \textbf{L: Light Unit Disruption -} If the unit is heavy armed (infantry or cavalry) it is not affected. Any other unit type is eliminated.
-    \item \textbf{E: } The defending unit is eliminated.
-    \item \textbf{C: } Cavalry Disordered: If the defending unit is a cavalry type (cataphract, equites, or horse archer) it is disrupted; if already disrupted, no further effect.
-    \item \textbf{M: Missiles Depleted -} The unit may not make any more missile attacks this combat segment. It may do so freely in future combat segments.
-    \item{B/A:} Defender receives a \textbf{Break} result; attacker is \textbf{Disrupted}.
-    \item{D/A:} Defender receives a \textbf{Disruption} result; attacker is \textbf{Disrupted}.
-    \item{-:} No effect.
-  \end{itemize}
-  \medskip
-  UNIT TYPES: LE=Legionary heavy infantry; AU=Auxiliary infantry; LV=Levy infantry; HC=Heavy-armed cavalry; HA=Horse archers; EL=elpehants.
-\end{minipage}
-
-\bigskip
-\vfill
-
-{
-  \resizebox{\columnwidth}{!}{
-    \def\arraystretch{1.2}
-    \begin{tabular}{|ccc|}
-      \hline & &\\[-2.0ex]
-      \multicolumn{3}{|c|}{\textbf{ADVANCED GAME BATTLE}}\\
-      \multicolumn{3}{|c|}{\textbf{DISCIPLINE CHECK SUMMARY}}\\
-      \textbf{Pre-Panic} & &\\
-      \textbf{Result} & \textbf{Command Check} & \textbf{Rally}\\
-      \textbf{P} & Move/attack freely & Undisrupt\\
-      \textbf{F} & May not move & Remain disrupt\\
-      \textbf{G} & Berserk move/attack (to nearest enemy) & Undisrupt\\
-      \textbf{Post-Panic} & &\\
-      \textbf{Result} & \textbf{Command Check} & \textbf{Rally}\\
-      \textbf{P} & Move/attack freely & Undisrupt\\
-      \textbf{F} & May not move/attack & Remain disrupted\\
-      \textbf{G} & Disrupt & Remain disrupted\\
-      \multicolumn{3}{|l|}{\textit{All disrupted units in a panicked army \textbf{route}}}\\
-      \hline
-    \end{tabular}
-  }
-}
-
-\newpage
-{\resizebox{\columnwidth}{!}{ }}
-\vfill
-
-{
-  \resizebox{\columnwidth}{!}{
-    \def\arraystretch{0.95}
-    \begin{tabular}{|lcccccc|}
-      \hline & & & & & &\\[-2.0ex]
-      \multicolumn{7}{|c|}{\textbf{ADVANCED GAME SUPPLY TABLE}}\\
-      & \multicolumn{6}{c|}{Dice Roll}\\
-      & 1 & 2 & 3 & 4 & 5 & 6\\
-      \hline
-      Friendly City & & & & & &\\
-      - unbesieged & S & S & S & S & S & S\\
-      - besieged & S & S & S & S & F & X\\
-      \hline
-      Clear/Mountain/River & & & & & &\\
-      - with Impeditus & S & S & S & S & S & S\\
-      - no Impeditus & S & S & S & S & F & X\\
-      \hline
-      Desert/Swamp/Pillaged & & & & & &\\
-      - with Impeditus & S & S & S & S & X & X\\
-      - no Impeditus & S & S & F & X & X & X\\
-      \hline
-      Winter (not in friendly City) & S & S & F & X & X & X\\
-      \hline
-    \end{tabular}
-  }
-}
-
-\begin{minipage}{\columnwidth}
-  \begin{itemize}
-    \item \textbf{X:} Out of Supply: Eliminate one half of the strength points in the hex (not counting leaders), rounded up.
-    \item \textbf{F:} Forage: If the force has 5 or less strength points, no effect. Otherwise, treat as "X".
-    \item \textbf{S:} In Supply, no effect.
-
+    \item \textbf{N - No March:} The force may not move.
+    \item \textbf{March:} The force may move up to its Strategic Movement factor.
+    \item \textbf{M2 - Enhanced March 2:} The force may move one or two additional hexes along adjoining road/trade route hexes.
+    \item \textbf{M1 - Enhanced March 1:} The force may move one additional hex along any sort of non-prohibited hexes.
+    \item \textbf{R - River:} The force may move up to 10 hexes along the length of the river. It may move through any type of terrain along the river. It must stop if entering an enemy occupied hex.
+    \item \textbf{O - Sea Movement:} The force may move to any other coastal hex in the same sea.
+    \item \textbf{/S - Scatter:} In addition to the result before the slash, the force rolls one die at the end of its March. On a roll of "1" the force is placed in the hex immediately to the north of the destination hex, on a roll of "2" to the northeast, and so on, clockwise. This is regardless of terrain restrictions or presence of enemy units, except for all sea hexsides, which are re-rolled. Units that scatter may not play Strategem markers \textit{during} their movement, but may do so once their move is complete. If the hex being marched to is a friendly controlled city, then ignore the Scatter result (i.e. the city must be the final hex of the march).
+    \item \textbf{/A - Attrition:} In addition to the result before the slash, the player must eliminate any one unit among the marching units (not including leaders).
+    \item \textbf{/F - Forced March Attrition:} In addition to the result before the slash, if the player is making a Forced March, he must eliminate any one unit among the marching units (not including leaders).
+    \item \textbf{/W - Winter Attrition:} if this is a Winter turn, the player must eliminate one half the combat strength, rounded up, of marching units (not including leaders).
+    \item \textbf{/X - Wreckage:} the player must eliminate one half (rounded up) of the combat strength of marching units (not including leaders). Any remaining units scatter upon landing. The final scatter hex must be a land hex; re-roll a sea hex.
   \end{itemize}
 \end{minipage}
