@@ -1,0 +1,61 @@
+<svg viewBox="0 0 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Cafferelli</title>
+  <desc>French Cavalry</desc>
+
+  <defs id="common">
+    <rect
+      id="background"
+      width="100"
+      height="100"
+      fill="rgb(51,133,205)"
+      stroke="rgb(9,71,168)"
+      stroke-width="9"
+    />
+
+    <g id="border" stroke="black" stroke-width="2">
+      <line x1="0" y1="1" x2="100" y2="1" />
+      <line x1="1" y1="1" x2="1" y2="100" />
+      <line x1="0" y1="99" x2="100" y2="99" />
+      <line x1="99" y1="1" x2="99" y2="100" />
+    </g>
+
+    <clipPath id="block">
+      <use xlink:href="#background"/>
+    </clipPath>
+  </defs>
+
+  <g id="unit">
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
+
+    <g id="symbol" text-anchor="middle">
+      <text x="50" y="32" font-size="8" fill="white">CAFFERELLI</text>
+      <rect x="33" y="34" width="34" height="34" fill="white" stroke="black"/>
+      <line x1="33" y1="34" x2="67" y2="68" stroke="black" />
+      <line x1="33" y1="68" x2="67" y2="34" stroke="black" />
+    </g>
+
+    <g id="attributes" text-anchor="middle" font-size="12">
+      <g id="initiative">
+        <circle cx="14" cy="14" r="8" fill="white" />
+        <text x="14" y="18">B</text>
+      </g>
+      <g id="firepower">
+        <circle cx="86" cy="14" r="8" fill="white" />
+        <text x="86" y="18">2</text>
+      </g>
+    </g>
+
+    <g
+    id="numbers"
+    text-anchor="middle"
+    dominant-baseline="central"
+    fill="white"
+    font-size="16"
+    font-family="CMU Classical Serif"
+  >
+    <text x="50" y="13">3</text>
+    <text x="85" y="50">2</text>
+    <text x="50" y="85">1</text>
+  </g>
+</svg>
