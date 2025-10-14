@@ -87,34 +87,50 @@
 
 {
   \Large
-    \def\arraystretch{1.1}
-    \begin{tabularx}{\textwidth}{|@{}>{\hspace{0.5em}}l *7{>{\centering\arraybackslash}X}@{\hspace{0.5em}}|}
-      \hline & & & & & & &\\[-2.5ex]
-      \textbf{MARCH TABLE} & & & & & & & \\
-      March Type & & \multicolumn{6}{c|}{Die Roll}\\
-      & & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
-      Road / Trade Route & & N & M/W & M2/A & M/F & M2/F & M2/W\\
-      Cross Country & & N & M/S/W & M/S/A & M/A & M/F & M1/W\\
-      River & & N & R/W & R/A & R/F & R/S & R/W\\
-      Sea & & N & O/W & O/X & O/A & O/F & O/W\\
-      \hline
-    \end{tabularx}
+  \begin{tabularx}{\textwidth}{|@{}>{\hspace{0.5em}}l *7{>{\centering\arraybackslash}X}@{\hspace{0.5em}}|}
+    \hline & & & & & & &\\[-2.5ex]
+    \textbf{MARCH TABLE} & & & & & & & \\
+    March Type & & \multicolumn{6}{c|}{Die Roll}\\
+    & & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
+    Road / Trade Route & & N & M/W & M2/A & M/F & M2/F & M2/W\\
+    Cross Country & & N & M/S/W & M/S/A & M/A & M/F & M1/W\\
+    River & & N & R/W & R/A & R/F & R/S & R/W\\
+    Sea & & N & O/W & O/X & O/A & O/F & O/W\\
+    \hline
+  \end{tabularx}
 }
 
-{
-  \def\arraystretch{1.1}
-  \resizebox{\textwidth}{!}{
-    \begin{tabular}{|lcccccc|}
-      \hline & & & & & &\\[-2.0ex]
-      \textbf{MARCH TABLE} & & & & & &\\
-      March Type & \multicolumn{5}{c}{Die Roll} &\\
-      & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
-      Road / Trade Route & N & M/W & M2/A & M/F & M2/F & M2/W\\
-      Cross Country & N & M/S/W & M/S/A & M/A & M/F & M1/W\\
-      River & N & R/W & R/A & R/F & R/S & R/W\\
-      Sea & N & O/W & O/X & O/A & O/F & O/W\\
-      \hline
-    \end{tabular}
-  }
-}
 
+\begin{minipage}{\textwidth}
+  \begin{itemize}
+    \item \textbf{N - No March:} The force may not move.
+    \item \textbf{March:} The force may move up to its Strategic Movement factor.
+    \item \textbf{M2 - Enhanced March 2:} The force may move one or two additional hexes along adjoining road/trade route hexes.
+    \item \textbf{M1 - Enhanced March 1:} The force may move one additional hex along any sort of non-prohibited hexes.
+    \item \textbf{R - River:} The force may move up to 10 hexes along the length of the river. It may move through any type of terrain along the river. It must stop if entering an enemy occupied hex.
+    \item \textbf{O - Sea Movement:} The force may move to any other coastal hex in the same sea.
+    \item \textbf{/S - Scatter:} In addition to the result before the slash, the force rolls one die at the end of its March. On a roll of "1" the force is placed in the hex immediately to the north of the destination hex, on a roll of "2" to the northeast, and so on, clockwise. This is regardless of terrain restrictions or presence of enemy units, except for all sea hexsides, which are re-rolled. Units that scatter may not play Strategem markers \textit{during} their movement, but may do so once their move is complete. If the hex being marched to is a friendly controlled city, then ignore the Scatter result (i.e. the city must be the final hex of the march).
+    \item \textbf{/A - Attrition:} In addition to the result before the slash, the player must eliminate any one unit among the marching units (not including leaders).
+    \item \textbf{/F - Forced March Attrition:} In addition to the result before the slash, if the player is making a Forced March, he must eliminate any one unit among the marching units (not including leaders).
+    \item \textbf{/W - Winter Attrition:} if this is a Winter turn, the player must eliminate one half the combat strength, rounded up, of marching units (not including leaders).
+    \item \textbf{/X - Wreckage:} the player must eliminate one half (rounded up) of the combat strength of marching units (not including leaders). Any remaining units scatter upon landing. The final scatter hex must be a land hex; re-roll a sea hex.
+  \end{itemize}
+\end{minipage}
+
+  \begin{tabular}{|lcccccc|}
+    \hline & & & & & &\\[-3.0ex]
+    \multicolumn{7}{|c|}{\textbf{BASIC COMBAT RESULTS TABLE}}\\
+    Combat Factors & \multicolumn{5}{c}{Die Roll} &\\
+    & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
+    1-4 & C & C & - & - & - & -\\
+    5-9 & C & C & - & - & - & 2\\
+    10-14 & C & C & C & - & 2 & 2\\
+    15-19 & C & C & C & - & 2 & 5\\
+    20-29 & C & C & C & 5/C & 5 & 5\\
+    30-39 & C & C & C & 5/C & 5 & 5\\
+    40-49 & C & C & C & 5/C & 5 & 10\\
+    50-74 & C & C & 5/C & 5/C & 5 & 10\\
+    75-99 & C & 5/C & 5/C & 5/C & 10 & 15\\
+    100+ & C & 5/C & 10/C & 10/C & 10/C & 15\\
+    \hline
+  \end{tabular}
