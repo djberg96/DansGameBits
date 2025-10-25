@@ -1,0 +1,69 @@
+\documentclass[a4paper,11pt,twocolumn]{article}
+\usepackage{tikz}
+\usepackage[parfill]{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,margin=0.5in,footskip=2em]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[titles]{tocloft}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{colortbl}
+\usepackage{cuted}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+\renewcommand\cftsecfont{\scriptsize}
+\renewcommand\cftsubsecfont{\tiny}
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftbeforesubsecskip}{0pt}
+
+\title{
+  \textbf{Pyrrhic Victory}
+  \linebreak
+  \textbf{Pyrrhus vs Rome, 280-275 BC}
+  \linebreak
+  A two-player variant for Sword of Rome
+  \linebreak
+  Version 1.0a
+}
+
+\author{Created by Daniel J. Berger}
+\date{\today}
+
+\setlength{\columnsep}{2em}
+\setcounter{tocdepth}{2}
+
+\titleformat
+{\section}
+[hang]
+{\raggedright\Large\bfseries}
+{\thesection.0}
+{0.5em}
+{}
+
+\titleformat
+{\subsection}
+[hang]
+{\bfseries}
+{\thesubsection}
+{0.3em}
+{}
+
+\titleformat
+{\subsubsection}
+[runin]
+{\bfseries}
+{\arabic{section}.\arabic{subsection}\arabic{subsubsection}}
+{0.3em}
+{}
+
+\titlespacing*{\section}{0pt}{2ex}{2ex}
+\titlespacing*{\subsection}{0pt}{2ex}{2ex}
+\titlespacing*{\subsubsection}{0pt}{1ex}{1ex}
+
+\definecolor{BabyBlue}{rgb}{0.54, 0.81, 0.94}
+
+\begin{document}
+  \maketitle
+\end{document}
