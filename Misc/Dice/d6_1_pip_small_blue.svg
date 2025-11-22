@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 24 24" width="24" height="24">
+  <metadata>
+    <dc:creator>Daniel J. Berger</dc:creator>
+  </metadata>
+
   <title>1d6</title>
   <desc>Dice Icon</desc>
 
