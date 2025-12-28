@@ -31,6 +31,10 @@ To convert SVG files into PNG or JPG files, I typically use the 'magick' command
 
 `magick -density 1200 source_file.svg output_file.png` (or .jpg if desired).
 
+If that doesn't work try:
+
+`magick -density 1200 source_file.svg -units PixelsPerInch -density 1200 output_file.png` (or .jpg if desired).
+
 This gives you a nice, high resolution image that you can then scale up or down as desired.
 
 The 'magick' command can be installed via `brew install imagemagick` on a Mac, or `apt install imagemagick` on Linux. I don't use Windows, but I assume there's an installation package for it out there somewhere.
