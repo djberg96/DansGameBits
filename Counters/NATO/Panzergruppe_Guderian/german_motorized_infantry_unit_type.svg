@@ -1,0 +1,20 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle -->
+  <rect width="100" height="100" fill="grey" stroke="black" stroke-width="2"/>
+
+  <!-- Unit size -->
+  <text x="50" y="20" font-family="Arial" font-size="14" text-anchor="middle" fill="black">III</text>
+
+  <!-- Division number -->
+  <text x="-44" y="16" font-size="12" text-anchor="middle" dominant-baseline="central" transform="rotate(-90)">30/18</text>
+
+  <!-- Unit symbol -->
+  <g>
+    <rect x="25" y="24" width="50" height="36" fill="none" stroke="black" stroke-width="2"/>
+    <line x1="25" y1="24" x2="75" y2="60" stroke="black" stroke-width="2"/>
+    <line x1="25" y1="60" x2="75" y2="24" stroke="black" stroke-width="2"/>
+  </g>
+
+  <!-- Unit designation -->
+  <text x="50" y="84" font-family="Arial" font-size="24" text-anchor="middle" fill="black">3-10</text>
+</svg>
