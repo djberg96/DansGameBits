@@ -1,22 +1,5 @@
-\documentclass[a4paper,11pt,twocolumn]{article}
-\usepackage{tikz}
-\usepackage[parfill]{parskip}
-\usepackage[utf8]{inputenc}
-\usepackage[letterpaper,margin=0.5in,footskip=2em]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage[titles]{tocloft}
+\documentclass[a4paper,12pt,twocolumn]{article}
 \usepackage{titlesec}
-\usepackage{fancyhdr}
-\usepackage{colortbl}
-\usepackage{cuted}
-\usepackage{multirow}
-\usepackage{graphicx}
-\usepackage{enumerate}
-
-\renewcommand\cftsecfont{\scriptsize}
-\renewcommand\cftsubsecfont{\tiny}
-\setlength{\cftbeforesecskip}{0pt}
-\setlength{\cftbeforesubsecskip}{0pt}
 
 \title{
   \textbf{Pyrrhic Victory}
@@ -44,7 +27,7 @@
 
 \titleformat
 {\subsection}
-[hang]
+[runin]
 {\bfseries}
 {\thesubsection}
 {0.3em}
@@ -62,10 +45,9 @@
 \titlespacing*{\subsection}{0pt}{2ex}{2ex}
 \titlespacing*{\subsubsection}{0pt}{1ex}{1ex}
 
-\definecolor{BabyBlue}{rgb}{0.54, 0.81, 0.94}
-
 \begin{document}
   \maketitle
   \input{introduction.tex}
   \input{belligerants.tex}
+  \input{victory_conditions.tex}
 \end{document}

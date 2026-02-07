@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 24 24" width="24" height="24">
   <metadata>
     <dc:creator>Daniel J. Berger</dc:creator>
+    <dc:date>2024-06-15</dc:date>
+    <dc:description>Icon of a blue six-sided die showing one pip</dc:description>
+    <dc:email>daniel.j.berger@example.com</dc:email>
   </metadata>
 
   <title>1d6</title>
-  <desc>Dice Icon</desc>
+  <desc>Dice Icon - One Pip</desc>
 
   <rect width="24" height="24" fill="rgb(135,165,225)" stroke="black"/>
   <circle cx="12" cy="12" r="3" fill="black"/>
