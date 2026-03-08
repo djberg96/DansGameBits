@@ -39,7 +39,9 @@
 
     <g id="unit_id">
       <rect x="5" y="80" width="14" height="14" fill="blue" stroke="white" stroke-width="0.3"/>
-      <text x="8" y="91" fill="white" font-size="12" font-weight="bold">W</text>
+      <text x="8" y="91" fill="white" font-size="12" font-weight="bold">B</text>
+      <rect x="5" y="60" width="14" height="14" fill="green" stroke="white" stroke-width="0.3"/>
+      <text x="5" y="60" fill="green" font-size="12" font-weight="bold">W</text>
     </g>
 
     <g id="initiative">
