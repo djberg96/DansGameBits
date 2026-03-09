@@ -1,5 +1,6 @@
 # DansGameBits
-Various SVG bits for virtual board games
+Various SVG bits for virtual board games, along with miscellaneous rules,
+variants, etc.
 
 # XML Versions
 
@@ -40,3 +41,8 @@ This gives you a nice, high resolution image that you can then scale up or down 
 The 'magick' command can be installed via `brew install imagemagick` on a Mac, or `apt install imagemagick` on Linux. I don't use Windows, but I assume there's an installation package for it out there somewhere.
 
 There are other commands out there if you prefer: inkscape, rsvg-convert, svgexport, qlmanage, etc.
+
+# Generating PDF's
+
+If you want to build one of the LaTeX documents, then cd to the desired directory
+and run `pdflatex main.tex`. Naturally you will need to install laTex first.
