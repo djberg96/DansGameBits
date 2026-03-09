@@ -1,5 +1,5 @@
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>Schenk's Brigade</title>
+  <title>Milroy's Brigade</title>
 
   <defs id="common">
     <rect
@@ -27,7 +27,7 @@
     </g>
 
     <g id="unit_name" text-anchor="middle">
-      <text x="16" y="25" font-size="8" fill="#001B48" transform="rotate(-90, 10, 25)">Schenk</text>
+      <text x="16" y="25" font-size="8" fill="#001B48" transform="rotate(-90, 10, 25)">Milroy</text>
     </g>
 
     <g id="combat_strength" font-size="20" fill="#001B48" text-anchor="middle" dominant-baseline="central">
