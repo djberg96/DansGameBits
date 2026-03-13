@@ -1,0 +1,62 @@
+\documentclass[a4paper,12pt,twocolumn]{article}
+\usepackage{tikz}
+\usepackage[parfill]{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,margin=0.5in,footskip=2em]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[titles]{tocloft}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{colortbl}
+\usepackage{cuted}
+\usepackage{multirow}
+
+\renewcommand\cftsecfont{\scriptsize}
+\renewcommand\cftsubsecfont{\tiny}
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftbeforesubsecskip}{0pt}
+
+\title{
+  Shenandoah: \\
+  A Civil War Game of the Valley Campaigns - 1862 and 1864
+}
+
+\author{This presentation of the rules created by: Daniel Berger - \today}
+
+\date{}
+
+\setlength{\columnsep}{2em}
+\setcounter{tocdepth}{2}
+
+\titleformat
+{\section}
+[hang]
+{\raggedright\Large\bfseries}
+{[\thesection.0]}
+{0.5em}
+{}
+
+\titleformat
+{\subsection}
+[hang]
+{\bfseries}
+{[\thesubsection]}
+{0.3em}
+{}
+
+\titleformat
+{\subsubsection}
+[hang]
+{\bfseries}
+{[\arabic{section}.\arabic{subsection}\arabic{subsubsection}]}
+{0.3em}
+{}
+
+\titlespacing*{\section}{0pt}{2ex}{2ex}
+\titlespacing*{\subsection}{0pt}{2ex}{2ex}
+\titlespacing*{\subsubsection}{0pt}{1ex}{1ex}
+
+\begin{document}
+  \maketitle
+  \input{introduction.tex}
+\end{document}
