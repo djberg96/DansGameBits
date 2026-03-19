@@ -117,7 +117,7 @@
     <text x="133" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
     <text x="125" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
     <text x="125" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="20">
-      <tspan text-decoration="underline">C</tspan><tspan>olumn / </tspan><tspan text-decoration="underline">B</tspan><tspan>attle</tspan>
+      <tspan text-decoration="underline">B</tspan><tspan>attle / </tspan><tspan text-decoration="underline">C</tspan><tspan>olumn</tspan>
     </text>
     <text x="470" y="388" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Unit Type</text>
     <text x="470" y="414" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18">(Infantry)</text>
