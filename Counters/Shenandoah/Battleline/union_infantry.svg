@@ -25,6 +25,17 @@
 
   <rect x="29" y="33" width="42" height="34" fill="none" stroke="#111111" stroke-width="3" />
 
+  <text
+    x="22"
+    y="50"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="12"
+    font-weight="700"
+    fill="#ffffff"
+  >C</text>
+
   <g stroke="#111111" stroke-width="5" stroke-linecap="round">
     <line x1="31" y1="35" x2="69" y2="65" />
     <line x1="69" y1="35" x2="31" y2="65" />
