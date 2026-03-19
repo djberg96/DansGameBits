@@ -1,7 +1,7 @@
 <svg
   width="8in"
-  height="4.5in"
-  viewBox="0 0 800 450"
+  height="7in"
+  viewBox="0 0 800 700"
   xmlns="http://www.w3.org/2000/svg"
 >
   <defs>
@@ -13,10 +13,13 @@
       <stop offset="0%" stop-color="#7ea9d8" />
       <stop offset="100%" stop-color="#5f89b9" />
     </linearGradient>
+    <linearGradient id="confederateGray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9c2b8" />
+      <stop offset="100%" stop-color="#a59c93" />
+    </linearGradient>
   </defs>
 
-  <rect width="800" height="450" fill="url(#paper)" />
-
+  <rect width="800" height="700" fill="url(#paper)" />
   <text
     x="50"
     y="58"
@@ -26,7 +29,7 @@
     fill="#1c1c1c"
   >Shenandoah Counter Key</text>
 
-  <g transform="translate(250, 120)">
+  <g transform="translate(335, 120)">
     <rect x="0" y="0" width="220" height="220" rx="10" fill="url(#unionBlue)" stroke="#111111" stroke-width="6" />
     <rect x="12" y="12" width="196" height="196" rx="4" fill="none" stroke="#e9f2ff" stroke-width="3" />
 
@@ -104,25 +107,107 @@
   </g>
 
   <g stroke="#3a3127" stroke-width="3" fill="none">
-    <line x1="268" y1="170" x2="185" y2="145" />
-    <line x1="280" y1="229" x2="185" y2="229" />
-    <line x1="448" y1="146" x2="600" y2="108" />
-    <line x1="438" y1="224" x2="541" y2="216" />
-    <line x1="360" y1="288" x2="300" y2="356" />
-    <line x1="452" y1="318" x2="596" y2="372" />
+    <line x1="353" y1="170" x2="270" y2="145" />
+    <line x1="365" y1="229" x2="270" y2="229" />
+    <line x1="534" y1="146" x2="600" y2="166" />
+    <line x1="445" y1="288" x2="470" y2="356" />
   </g>
 
   <g fill="#1f1a14">
-    <text x="48" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
-    <text x="40" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
-    <text x="40" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="20">
+    <text x="133" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
+    <text x="125" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
+    <text x="125" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="20">
       <tspan text-decoration="underline">C</tspan><tspan>olumn / </tspan><tspan text-decoration="underline">B</tspan><tspan>attle</tspan>
     </text>
-    <text x="282" y="388" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Unit Type</text>
-    <text x="282" y="414" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18">(Infantry)</text>
-    <text x="740" y="112" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Union Unit</text>
-    <text x="740" y="222" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
-    <text x="740" y="246" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="18">(per Combat Factor)</text>
-    <text x="740" y="392" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
+    <text x="470" y="388" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Unit Type</text>
+    <text x="470" y="414" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18">(Infantry)</text>
+    <text x="740" y="178" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Union Unit</text>
+    <text x="590" y="512" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
+    <text x="590" y="536" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="18">(per Combat Factor)</text>
+    <text x="725" y="636" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
   </g>
+
+  <g transform="translate(90, 405)">
+    <rect x="0" y="0" width="220" height="220" rx="10" fill="url(#confederateGray)" stroke="#111111" stroke-width="6" />
+    <rect x="12" y="12" width="196" height="196" rx="4" fill="none" stroke="#eee7dd" stroke-width="3" />
+
+    <g transform="translate(154, 18)">
+      <rect x="0" y="0" width="40" height="26" fill="#b22222" stroke="#111111" stroke-width="2" />
+      <g stroke="#f4f1ea" stroke-width="5.8" stroke-linecap="square">
+        <line x1="2.7" y1="2.7" x2="37.3" y2="23.3" />
+        <line x1="37.3" y1="2.7" x2="2.7" y2="23.3" />
+      </g>
+      <g stroke="#2b4f8f" stroke-width="2.9" stroke-linecap="square">
+        <line x1="2.7" y1="2.7" x2="37.3" y2="23.3" />
+        <line x1="37.3" y1="2.7" x2="2.7" y2="23.3" />
+      </g>
+      <g fill="#f4f1ea">
+        <circle cx="5.3" cy="4.1" r="1" />
+        <circle cx="13.6" cy="9.5" r="1" />
+        <circle cx="21.8" cy="14.5" r="1" />
+        <circle cx="30.0" cy="19.3" r="1" />
+        <circle cx="34.7" cy="4.1" r="1" />
+        <circle cx="26.4" cy="9.5" r="1" />
+        <circle cx="18.2" cy="14.5" r="1" />
+        <circle cx="9.8" cy="19.3" r="1" />
+      </g>
+    </g>
+
+    <text
+      x="18"
+      y="58"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="56"
+      font-weight="700"
+      fill="#9f1d20"
+    >5</text>
+
+    <rect x="48" y="86" width="123" height="48" fill="none" stroke="#9f1d20" stroke-width="6" />
+
+    <text
+      x="28"
+      y="110"
+      text-anchor="middle"
+      dominant-baseline="central"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="26"
+      font-weight="700"
+      fill="#9f1d20"
+    >B</text>
+
+    <g stroke="#9f1d20" stroke-width="8" stroke-linecap="round">
+      <line x1="53" y1="91" x2="166" y2="129" />
+      <line x1="166" y1="91" x2="53" y2="129" />
+    </g>
+
+    <text
+      x="186"
+      y="109"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="34"
+      font-weight="700"
+      fill="#9f1d20"
+    >1</text>
+
+    <rect x="162" y="164" width="32" height="32" rx="3" fill="#4d8f45" stroke="#111111" stroke-width="3" />
+
+    <text
+      x="178"
+      y="180"
+      text-anchor="middle"
+      dominant-baseline="central"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="22"
+      font-weight="700"
+      fill="#ffffff"
+    >6</text>
+  </g>
+
+  <g stroke="#3a3127" stroke-width="3" fill="none">
+    <line x1="284" y1="514" x2="388" y2="510" />
+    <line x1="289" y1="599" x2="365" y2="624" />
+  </g>
+
 </svg>
