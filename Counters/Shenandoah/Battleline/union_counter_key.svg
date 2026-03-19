@@ -104,16 +104,17 @@
   </g>
 
   <g stroke="#3a3127" stroke-width="3" fill="none">
-    <line x1="268" y1="178" x2="185" y2="145" />
-    <line x1="294" y1="229" x2="185" y2="229" />
-    <line x1="502" y1="229" x2="615" y2="229" />
-    <line x1="428" y1="300" x2="615" y2="326" />
+    <line x1="268" y1="170" x2="185" y2="145" />
+    <line x1="280" y1="229" x2="185" y2="229" />
+    <line x1="438" y1="224" x2="541" y2="216" />
+    <line x1="452" y1="318" x2="596" y2="372" />
   </g>
 
   <g fill="#1f1a14">
-    <text x="60" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
-    <text x="60" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
+    <text x="48" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
+    <text x="40" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
+    <text x="40" y="242" font-family="Georgia, 'Times New Roman', serif" font-size="16">Column / Battle</text>
     <text x="740" y="222" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
-    <text x="740" y="332" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
+    <text x="740" y="392" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
   </g>
 </svg>
