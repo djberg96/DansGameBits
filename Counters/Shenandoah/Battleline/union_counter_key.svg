@@ -112,32 +112,16 @@
   </g>
 
   <g stroke="#3a3127" stroke-width="3" fill="none">
-    <line x1="268" y1="178" x2="190" y2="138" />
-    <line x1="294" y1="229" x2="150" y2="229" />
-    <line x1="502" y1="229" x2="660" y2="229" />
-    <line x1="428" y1="300" x2="640" y2="338" />
+    <line x1="268" y1="178" x2="165" y2="128" />
+    <line x1="294" y1="229" x2="165" y2="229" />
+    <line x1="502" y1="229" x2="635" y2="229" />
+    <line x1="428" y1="300" x2="635" y2="332" />
   </g>
 
   <g fill="#1f1a14">
-    <text x="70" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
-    <text x="70" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="19">The value in the upper left corner.</text>
-
-    <text x="70" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
-    <text x="70" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="19">`C` stands for Column Formation.</text>
-    <text x="70" y="278" font-family="Georgia, 'Times New Roman', serif" font-size="19">`B` stands for Battle Formation.</text>
-
-    <text x="680" y="222" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
-    <text x="680" y="252" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="19">The number on the right side.</text>
-
-    <text x="680" y="336" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
-    <text x="680" y="366" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="19">The number in the lower right box.</text>
+    <text x="60" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
+    <text x="60" y="235" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
+    <text x="740" y="235" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
+    <text x="740" y="338" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
   </g>
-
-  <text
-    x="50"
-    y="404"
-    font-family="Georgia, 'Times New Roman', serif"
-    font-size="18"
-    fill="#3a3127"
-  >Unit symbol and flag identify the unit type and side, but the four labeled values above are the key game data fields.</text>
 </svg>
