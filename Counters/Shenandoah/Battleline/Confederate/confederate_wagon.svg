@@ -1,0 +1,83 @@
+<svg
+  width="0.5in"
+  height="0.5in"
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient id="confederateGray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9c2b8" />
+      <stop offset="100%" stop-color="#a59c93" />
+    </linearGradient>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="97" height="97" rx="4" fill="url(#confederateGray)" stroke="#111111" stroke-width="3" />
+  <rect x="7" y="7" width="86" height="86" rx="2" fill="none" stroke="#eee7dd" stroke-width="1.5" />
+
+  <g transform="translate(70, 10)">
+    <rect x="0" y="0" width="18" height="12" fill="#b22222" />
+    <g stroke="#f4f1ea" stroke-width="2.6" stroke-linecap="square">
+      <line x1="1.2" y1="1.2" x2="16.8" y2="10.8" />
+      <line x1="16.8" y1="1.2" x2="1.2" y2="10.8" />
+    </g>
+    <g stroke="#2b4f8f" stroke-width="1.3" stroke-linecap="square">
+      <line x1="1.2" y1="1.2" x2="16.8" y2="10.8" />
+      <line x1="16.8" y1="1.2" x2="1.2" y2="10.8" />
+    </g>
+    <g fill="#f4f1ea">
+      <circle cx="2.4" cy="1.9" r="0.45" />
+      <circle cx="6.2" cy="4.3" r="0.45" />
+      <circle cx="9.9" cy="6.6" r="0.45" />
+      <circle cx="13.6" cy="8.9" r="0.45" />
+      <circle cx="15.6" cy="1.9" r="0.45" />
+      <circle cx="11.8" cy="4.3" r="0.45" />
+      <circle cx="8.1" cy="6.6" r="0.45" />
+      <circle cx="4.4" cy="8.9" r="0.45" />
+    </g>
+    <rect x="0" y="0" width="18" height="12" fill="none" stroke="#111111" stroke-width="1" />
+  </g>
+
+  <g transform="translate(3, 0) scale(0.83)">
+    <g stroke="rgb(70, 50, 25)">
+      <polygon points="20,40 80,40 72,70 28,70" fill="white" />
+      <line x1="31" y1="40" x2="38" y2="70" />
+      <line x1="43" y1="40" x2="45" y2="70" />
+      <line x1="57" y1="40" x2="55" y2="70" />
+      <line x1="69" y1="40" x2="62" y2="70" />
+      <polygon points="22,55 78,55 75,68 25,68" fill="none" />
+      <line x1="23" y1="59" x2="78" y2="59" />
+      <line x1="30" y1="55" x2="30" y2="68" />
+      <line x1="40" y1="55" x2="40" y2="68" />
+      <line x1="50" y1="55" x2="50" y2="68" />
+      <line x1="60" y1="55" x2="60" y2="68" />
+      <line x1="70" y1="55" x2="70" y2="68" />
+    </g>
+    <g stroke="rgb(70,50,25)" fill="rgb(70,50,25)">
+      <g stroke-width="1.5">
+        <circle cx="30" cy="74" r="10" fill="none" stroke-width="2"/>
+        <circle cx="30" cy="74" r="2"/>
+        <line x1="20" y1="74" x2="40" y2="74"/>
+        <line x1="20" y1="74" x2="40" y2="74" transform="rotate(30,30,74)"/>
+        <line x1="20" y1="74" x2="40" y2="74" transform="rotate(60,30,74)"/>
+        <line x1="20" y1="74" x2="40" y2="74" transform="rotate(90,30,74)"/>
+        <line x1="20" y1="74" x2="40" y2="74" transform="rotate(120,30,74)"/>
+        <line x1="20" y1="74" x2="40" y2="74" transform="rotate(150,30,74)"/>
+        <circle cx="30" cy="74" r="2" fill="black"/>
+      </g>
+      <g stroke-width="1.5">
+        <circle cx="70" cy="74" r="10" fill="none" stroke-width="2"/>
+        <circle cx="70" cy="74" r="2"/>
+        <line x1="60" y1="74" x2="80" y2="74"/>
+        <line x1="60" y1="74" x2="80" y2="74" transform="rotate(30,70,74)"/>
+        <line x1="60" y1="74" x2="80" y2="74" transform="rotate(60,70,74)"/>
+        <line x1="60" y1="74" x2="80" y2="74" transform="rotate(90,70,74)"/>
+        <line x1="60" y1="74" x2="80" y2="74" transform="rotate(120,70,74)"/>
+        <line x1="60" y1="74" x2="80" y2="74" transform="rotate(150,70,74)"/>
+        <circle cx="70" cy="74" r="2" fill="black"/>
+      </g>
+    </g>
+  </g>
+
+  <rect x="74" y="74" width="14" height="14" rx="1.5" fill="#4d8f45" stroke="#111111" stroke-width="1.5" />
+  <text x="81" y="79.3" text-anchor="middle" dominant-baseline="central" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="700" fill="#ffffff">4</text>
+</svg>
