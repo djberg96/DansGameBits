@@ -108,6 +108,7 @@
     <line x1="280" y1="229" x2="185" y2="229" />
     <line x1="448" y1="146" x2="600" y2="108" />
     <line x1="438" y1="224" x2="541" y2="216" />
+    <line x1="360" y1="288" x2="300" y2="356" />
     <line x1="452" y1="318" x2="596" y2="372" />
   </g>
 
@@ -117,6 +118,8 @@
     <text x="40" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="20">
       <tspan text-decoration="underline">C</tspan><tspan>olumn / </tspan><tspan text-decoration="underline">B</tspan><tspan>attle</tspan>
     </text>
+    <text x="282" y="388" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Unit Type</text>
+    <text x="282" y="414" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18">(Infantry)</text>
     <text x="740" y="112" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Union Unit</text>
     <text x="740" y="222" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
     <text x="740" y="392" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
