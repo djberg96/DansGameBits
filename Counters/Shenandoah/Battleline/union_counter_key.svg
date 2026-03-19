@@ -26,14 +26,6 @@
     fill="#1c1c1c"
   >Shenandoah Counter Key</text>
 
-  <text
-    x="50"
-    y="88"
-    font-family="Georgia, 'Times New Roman', serif"
-    font-size="18"
-    fill="#3a3127"
-  >Union unit counters use the same anatomy regardless of unit type.</text>
-
   <g transform="translate(250, 120)">
     <rect x="0" y="0" width="220" height="220" rx="10" fill="url(#unionBlue)" stroke="#111111" stroke-width="6" />
     <rect x="12" y="12" width="196" height="196" rx="4" fill="none" stroke="#e9f2ff" stroke-width="3" />
@@ -112,16 +104,16 @@
   </g>
 
   <g stroke="#3a3127" stroke-width="3" fill="none">
-    <line x1="268" y1="178" x2="165" y2="128" />
-    <line x1="294" y1="229" x2="165" y2="229" />
-    <line x1="502" y1="229" x2="635" y2="229" />
-    <line x1="428" y1="300" x2="635" y2="332" />
+    <line x1="268" y1="178" x2="185" y2="145" />
+    <line x1="294" y1="229" x2="185" y2="229" />
+    <line x1="502" y1="229" x2="615" y2="229" />
+    <line x1="428" y1="300" x2="615" y2="326" />
   </g>
 
   <g fill="#1f1a14">
-    <text x="60" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
-    <text x="60" y="235" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
-    <text x="740" y="235" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
-    <text x="740" y="338" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
+    <text x="60" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
+    <text x="60" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
+    <text x="740" y="222" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
+    <text x="740" y="332" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
   </g>
 </svg>
