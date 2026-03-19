@@ -132,12 +132,12 @@
     <rect x="12" y="12" width="196" height="196" rx="4" fill="none" stroke="#eee7dd" stroke-width="3" />
 
     <g transform="translate(154, 18)">
-      <rect x="0" y="0" width="40" height="26" fill="#b22222" stroke="#111111" stroke-width="2" />
-      <g stroke="#f4f1ea" stroke-width="5.8" stroke-linecap="square">
+      <rect x="0" y="0" width="40" height="26" fill="#b22222" />
+      <g stroke="#f4f1ea" stroke-width="5.8" stroke-linecap="butt">
         <line x1="2.7" y1="2.7" x2="37.3" y2="23.3" />
         <line x1="37.3" y1="2.7" x2="2.7" y2="23.3" />
       </g>
-      <g stroke="#2b4f8f" stroke-width="2.9" stroke-linecap="square">
+      <g stroke="#2b4f8f" stroke-width="2.9" stroke-linecap="butt">
         <line x1="2.7" y1="2.7" x2="37.3" y2="23.3" />
         <line x1="37.3" y1="2.7" x2="2.7" y2="23.3" />
       </g>
@@ -151,6 +151,7 @@
         <circle cx="18.2" cy="14.5" r="1" />
         <circle cx="9.8" cy="19.3" r="1" />
       </g>
+      <rect x="0" y="0" width="40" height="26" fill="none" stroke="#111111" stroke-width="2" />
     </g>
 
     <text
