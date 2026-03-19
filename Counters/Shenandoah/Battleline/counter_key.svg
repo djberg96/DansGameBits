@@ -209,6 +209,7 @@
   <g stroke="#3a3127" stroke-width="3" fill="none">
     <line x1="284" y1="514" x2="388" y2="510" />
     <line x1="289" y1="599" x2="365" y2="624" />
+    <polyline points="118,212 58,212 58,515 106,515" />
   </g>
 
 </svg>
