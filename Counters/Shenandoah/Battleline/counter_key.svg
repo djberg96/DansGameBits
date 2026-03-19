@@ -122,6 +122,7 @@
     <text x="470" y="388" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Unit Type</text>
     <text x="470" y="414" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18">(Infantry)</text>
     <text x="740" y="178" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Union Unit</text>
+    <text x="235" y="392" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">CSA Unit</text>
     <text x="590" y="512" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
     <text x="590" y="536" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="18">(per Combat Factor)</text>
     <text x="725" y="636" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
@@ -210,6 +211,7 @@
     <line x1="284" y1="514" x2="388" y2="510" />
     <line x1="289" y1="599" x2="365" y2="624" />
     <polyline points="118,212 58,212 58,515 106,515" />
+    <line x1="231" y1="396" x2="248" y2="418" />
   </g>
 
 </svg>
