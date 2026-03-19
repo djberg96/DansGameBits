@@ -34,7 +34,7 @@
     fill="#3a3127"
   >Union unit counters use the same anatomy regardless of unit type.</text>
 
-  <g transform="translate(70, 125)">
+  <g transform="translate(250, 120)">
     <rect x="0" y="0" width="220" height="220" rx="10" fill="url(#unionBlue)" stroke="#111111" stroke-width="6" />
     <rect x="12" y="12" width="196" height="196" rx="4" fill="none" stroke="#e9f2ff" stroke-width="3" />
 
@@ -112,19 +112,25 @@
   </g>
 
   <g stroke="#3a3127" stroke-width="3" fill="none">
-    <line x1="182" y1="166" x2="350" y2="126" />
-    <line x1="115" y1="233" x2="350" y2="196" />
-    <line x1="246" y1="234" x2="350" y2="266" />
-    <line x1="110" y1="329" x2="350" y2="336" />
+    <line x1="268" y1="178" x2="190" y2="138" />
+    <line x1="294" y1="229" x2="150" y2="229" />
+    <line x1="502" y1="229" x2="660" y2="229" />
+    <line x1="428" y1="300" x2="640" y2="338" />
   </g>
 
   <g fill="#1f1a14">
-    <text x="370" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
-    <text x="370" y="202" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
-    <text x="370" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="20">`C` = Column Formation</text>
-    <text x="370" y="258" font-family="Georgia, 'Times New Roman', serif" font-size="20">`B` = Battle Formation</text>
-    <text x="370" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
-    <text x="370" y="342" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
+    <text x="70" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
+    <text x="70" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="19">The value in the upper left corner.</text>
+
+    <text x="70" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
+    <text x="70" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="19">`C` stands for Column Formation.</text>
+    <text x="70" y="278" font-family="Georgia, 'Times New Roman', serif" font-size="19">`B` stands for Battle Formation.</text>
+
+    <text x="680" y="222" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
+    <text x="680" y="252" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="19">The number on the right side.</text>
+
+    <text x="680" y="336" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
+    <text x="680" y="366" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="19">The number in the lower right box.</text>
   </g>
 
   <text
