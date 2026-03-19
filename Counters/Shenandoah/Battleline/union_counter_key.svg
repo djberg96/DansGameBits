@@ -122,6 +122,7 @@
     <text x="282" y="414" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18">(Infantry)</text>
     <text x="740" y="112" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Union Unit</text>
     <text x="740" y="222" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
+    <text x="740" y="246" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="18">(per Combat Factor)</text>
     <text x="740" y="392" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
   </g>
 </svg>
