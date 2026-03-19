@@ -114,7 +114,9 @@
   <g fill="#1f1a14">
     <text x="48" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
     <text x="40" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Formation</text>
-    <text x="40" y="242" font-family="Georgia, 'Times New Roman', serif" font-size="16">Column / Battle</text>
+    <text x="40" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="20">
+      <tspan text-decoration="underline">C</tspan><tspan>olumn / </tspan><tspan text-decoration="underline">B</tspan><tspan>attle</tspan>
+    </text>
     <text x="740" y="112" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Union Unit</text>
     <text x="740" y="222" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
     <text x="740" y="392" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
