@@ -101,8 +101,8 @@
     <text x="470" y="402" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18">(Infantry)</text>
     <text x="720" y="150" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Union Unit</text>
     <text x="45" y="388" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Confederate Unit</text>
-    <text x="355" y="500" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Battle Formation</text>
-    <text x="355" y="526" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="18">(default)</text>
+    <text x="355" y="520" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Battle Formation</text>
+    <text x="578" y="520" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="18">(default)</text>
     <text x="590" y="232" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
     <text x="590" y="256" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="18">(shown as xN)</text>
     <text x="725" y="636" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
