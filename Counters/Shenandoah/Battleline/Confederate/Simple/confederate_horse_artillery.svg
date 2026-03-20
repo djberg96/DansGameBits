@@ -14,8 +14,9 @@
   <rect x="1.5" y="1.5" width="97" height="97" rx="4" fill="url(#confederateGray)" stroke="#111111" stroke-width="3" />
   <text
     id="combat_factor"
-    x="10"
-    y="27"
+    x="50"
+    y="21"
+    text-anchor="middle"
     font-family="Georgia, 'Times New Roman', serif"
     font-size="28"
     font-weight="700"
