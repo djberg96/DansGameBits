@@ -1,0 +1,29 @@
+<svg
+  width="3.6in"
+  height="1.86in"
+  viewBox="0 0 1080 558"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect width="1080" height="558" fill="#ffffff" />
+
+  <image href="sample_sheet_simple_assets/union_infantry.png" x="30" y="30" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/union_infantry_battle_formation.png" x="204" y="30" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/union_cavalry.png" x="378" y="30" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/union_cavalry_battle_formation.png" x="552" y="30" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/union_artillery.png" x="726" y="30" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/union_artillery_battle_formation.png" x="900" y="30" width="150" height="150" />
+
+  <image href="sample_sheet_simple_assets/union_horse_artillery.png" x="30" y="204" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/union_horse_artillery_battle_formation.png" x="204" y="204" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/union_wagon.png" x="378" y="204" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/confederate_infantry.png" x="552" y="204" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/confederate_infantry_battle_formation.png" x="726" y="204" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/confederate_cavalry.png" x="900" y="204" width="150" height="150" />
+
+  <image href="sample_sheet_simple_assets/confederate_cavalry_battle_formation.png" x="30" y="378" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/confederate_artillery.png" x="204" y="378" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/confederate_artillery_battle_formation.png" x="378" y="378" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/confederate_horse_artillery.png" x="552" y="378" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/confederate_horse_artillery_battle_formation.png" x="726" y="378" width="150" height="150" />
+  <image href="sample_sheet_simple_assets/confederate_wagon.png" x="900" y="378" width="150" height="150" />
+</svg>
