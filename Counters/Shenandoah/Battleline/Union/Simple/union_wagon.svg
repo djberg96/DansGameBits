@@ -55,6 +55,7 @@
   </g>
 
   <text
+    id="movement_allowance_factor"
     x="81"
     y="80"
     text-anchor="middle"

@@ -13,6 +13,7 @@
 
   <rect x="1.5" y="1.5" width="97" height="97" rx="4" fill="url(#unionBlue)" stroke="#111111" stroke-width="3" />
   <text
+    id="combat_factor"
     x="10"
     y="27"
     font-family="Georgia, 'Times New Roman', serif"
@@ -24,6 +25,7 @@
   <rect x="22" y="39" width="56" height="22" fill="none" stroke="#111111" stroke-width="3" />
 
   <text
+    id="formation_type"
     x="50"
     y="28"
     text-anchor="middle"
@@ -41,6 +43,7 @@
   </g>
 
   <text
+    id="stacking_factor"
     x="50"
     y="69"
     text-anchor="middle"
@@ -52,6 +55,7 @@
   >x3</text>
 
   <text
+    id="movement_allowance_factor"
     x="81"
     y="81"
     text-anchor="middle"
