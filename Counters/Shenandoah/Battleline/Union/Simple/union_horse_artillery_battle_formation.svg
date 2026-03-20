@@ -54,16 +54,15 @@
     fill="#ffffff"
   >x3</text>
 
-  <text
-    id="movement_allowance_factor"
-    x="81"
-    y="81"
-    text-anchor="middle"
-    dominant-baseline="central"
-    font-family="Georgia, 'Times New Roman', serif"
-    font-size="20"
-    font-weight="600"
-    fill="#111111"
-    text-decoration="underline"
-  >9</text>
+  <foreignObject x="71" y="68" width="20" height="26">
+    <div
+      xmlns="http://www.w3.org/1999/xhtml"
+      style="width:20px;height:26px;display:flex;align-items:flex-start;justify-content:center;"
+    >
+      <span
+        id="movement_allowance_factor"
+        style="display:inline-block;font-family:Georgia, 'Times New Roman', serif;font-size:20px;font-weight:600;line-height:1;color:#111111;border-bottom:1.5px solid #111111;padding-bottom:2px;"
+      >9</span>
+    </div>
+  </foreignObject>
 </svg>
