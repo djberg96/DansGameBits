@@ -45,7 +45,7 @@
     <rect x="64" y="72" width="92" height="75" fill="none" stroke="#f7fbff" stroke-width="6" />
 
     <text
-      x="44"
+      x="34"
       y="109"
       text-anchor="middle"
       dominant-baseline="central"
@@ -66,7 +66,7 @@
       text-anchor="middle"
       dominant-baseline="middle"
       font-family="Georgia, 'Times New Roman', serif"
-      font-size="30"
+      font-size="40"
       font-weight="200"
       fill="#ffffff"
     >x1</text>
@@ -86,9 +86,9 @@
 
   <g stroke="#3a3127" stroke-width="3" fill="none">
     <line x1="420" y1="165" x2="270" y2="145" />
-    <line x1="355" y1="229" x2="270" y2="229" />
+    <line x1="349" y1="229" x2="270" y2="229" />
     <line x1="448" y1="278" x2="470" y2="356" />
-    <line x1="540" y1="226" x2="584" y2="226" />
+    <line x1="546" y1="226" x2="584" y2="226" />
   </g>
 
   <g fill="#1f1a14">
@@ -134,7 +134,7 @@
       text-anchor="middle"
       dominant-baseline="middle"
       font-family="Georgia, 'Times New Roman', serif"
-      font-size="30"
+      font-size="40"
       font-weight="200"
       fill="#9f1d20"
     >x1</text>
