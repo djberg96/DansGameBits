@@ -17,7 +17,7 @@
     x="10"
     y="27"
     font-family="Georgia, 'Times New Roman', serif"
-    font-size="28"
+    font-size="32"
     font-weight="700"
     fill="#f7fbff"
   >1</text>
@@ -59,7 +59,7 @@
     text-anchor="middle"
     dominant-baseline="central"
     font-family="Georgia, 'Times New Roman', serif"
-    font-size="18"
+    font-size="22"
     font-weight="600"
     fill="#f7fbff"
     text-decoration="underline"
