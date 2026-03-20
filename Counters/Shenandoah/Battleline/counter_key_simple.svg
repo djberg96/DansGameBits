@@ -99,7 +99,7 @@
     <text x="470" y="376" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Unit Type</text>
     <text x="470" y="402" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18">(Infantry)</text>
     <text x="720" y="150" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Union Unit</text>
-    <text x="360" y="495" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Confederate Unit</text>
+    <text x="335" y="518" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Confederate Unit</text>
     <text x="590" y="232" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
     <text x="590" y="256" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="18">(shown as xN)</text>
     <text x="725" y="636" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Movement Allowance Factor</text>
@@ -160,8 +160,8 @@
   </g>
 
   <g stroke="#3a3127" stroke-width="3" fill="none">
+    <line x1="200" y1="262" x2="200" y2="445" />
     <line x1="289" y1="599" x2="365" y2="624" />
-    <polyline points="118,212 58,212 58,515 106,515" />
   </g>
 
 </svg>
