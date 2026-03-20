@@ -13,13 +13,13 @@
 
   <rect x="1.5" y="1.5" width="97" height="97" rx="4" fill="url(#unionBlue)" stroke="#111111" stroke-width="3" />
   <text
-    x="7"
-    y="24"
+    x="10"
+    y="27"
     font-family="Georgia, 'Times New Roman', serif"
     font-size="28"
     font-weight="700"
     fill="#111111"
-  >5</text>
+  >1</text>
 
   <rect x="29" y="33" width="42" height="34" fill="none" stroke="#111111" stroke-width="3" />
 
@@ -35,8 +35,7 @@
   >C</text>
 
   <g stroke="#111111" stroke-width="5" stroke-linecap="round">
-    <line x1="31" y1="35" x2="69" y2="65" />
-    <line x1="69" y1="35" x2="31" y2="65" />
+    <line x1="31" y1="65" x2="69" y2="35" />
   </g>
 
   <text
@@ -48,7 +47,7 @@
     font-size="16"
     font-weight="200"
     fill="#ffffff"
-  >x1</text>
+  >x2</text>
 
   <text
     x="81"
@@ -56,10 +55,9 @@
     text-anchor="middle"
     dominant-baseline="central"
     font-family="Georgia, 'Times New Roman', serif"
-    font-size="20"
+    font-size="18"
     font-weight="600"
     fill="#111111"
     text-decoration="underline"
-  >6</text>
-
+  >10</text>
 </svg>
