@@ -1,0 +1,109 @@
+<svg
+  width="8in"
+  height="5.5in"
+  viewBox="0 0 800 550"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f2e6" />
+      <stop offset="100%" stop-color="#efe5d4" />
+    </linearGradient>
+    <linearGradient id="unionBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ea9d8" />
+      <stop offset="100%" stop-color="#5f89b9" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="550" fill="url(#paper)" />
+
+  <text
+    x="50"
+    y="58"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="34"
+    font-weight="700"
+    fill="#1c1c1c"
+  >Shenandoah Counter Key: Simple Style</text>
+
+  <g transform="translate(290, 145)">
+    <rect x="0" y="0" width="220" height="220" rx="10" fill="url(#unionBlue)" stroke="#111111" stroke-width="6" />
+
+    <text
+      x="110"
+      y="46"
+      text-anchor="middle"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="56"
+      font-weight="700"
+      fill="#f7fbff"
+    >5</text>
+
+    <rect x="64" y="72" width="92" height="75" fill="none" stroke="#f7fbff" stroke-width="6" />
+
+    <text
+      x="34"
+      y="109"
+      text-anchor="middle"
+      dominant-baseline="central"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="30"
+      font-weight="700"
+      fill="#ffffff"
+    >C</text>
+
+    <g stroke="#f7fbff" stroke-width="8" stroke-linecap="round">
+      <line x1="69" y1="77" x2="151" y2="142" />
+      <line x1="151" y1="77" x2="69" y2="142" />
+    </g>
+
+    <text
+      x="186"
+      y="109"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="40"
+      font-weight="200"
+      fill="#ffffff"
+    >x1</text>
+
+    <text
+      x="178"
+      y="180"
+      text-anchor="middle"
+      dominant-baseline="central"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="48"
+      font-weight="600"
+      fill="#f7fbff"
+      text-decoration="underline"
+    >6</text>
+  </g>
+
+  <g stroke="#3a3127" stroke-width="3" fill="none">
+    <line x1="365" y1="180" x2="220" y2="155" />
+    <line x1="304" y1="254" x2="210" y2="254" />
+    <line x1="372" y1="306" x2="250" y2="402" />
+    <line x1="496" y1="252" x2="556" y2="252" />
+    <line x1="490" y1="346" x2="544" y2="398" />
+  </g>
+
+  <g fill="#1f1a14">
+    <text x="82" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Combat Factor</text>
+    <text x="83" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">
+      <tspan x="83" y="248">Column</tspan>
+      <tspan x="83" y="276">Formation</tspan>
+    </text>
+    <text x="180" y="422" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Unit Type</text>
+    <text x="180" y="448" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18">(Infantry)</text>
+    <text x="560" y="258" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Stacking Factor</text>
+    <text x="560" y="282" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="18">(shown as xN)</text>
+    <text x="466" y="126" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Union Unit</text>
+    <text x="554" y="408" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">
+      <tspan x="554" y="408">Movement</tspan>
+      <tspan x="554" y="434">Allowance</tspan>
+      <tspan x="554" y="460">Factor</tspan>
+    </text>
+  </g>
+</svg>
