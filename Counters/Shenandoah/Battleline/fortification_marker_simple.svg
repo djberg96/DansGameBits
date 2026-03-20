@@ -1,0 +1,20 @@
+<svg
+  width="0.5in"
+  height="0.5in"
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient id="fortGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8eaf72" />
+      <stop offset="100%" stop-color="#5f7d46" />
+    </linearGradient>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="97" height="97" rx="4" fill="url(#fortGreen)" stroke="#111111" stroke-width="3" />
+
+  <g fill="none" stroke="#f4eedb" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="32,16 68,16 86,50 68,84 32,84 14,50" />
+    <path d="M24 56 L37 43 L50 56 L63 43 L76 56" />
+  </g>
+</svg>
