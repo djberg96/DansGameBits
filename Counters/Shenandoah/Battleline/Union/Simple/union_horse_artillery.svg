@@ -14,8 +14,9 @@
   <rect x="1.5" y="1.5" width="97" height="97" rx="4" fill="url(#unionBlue)" stroke="#111111" stroke-width="3" />
   <text
     id="combat_factor"
-    x="10"
-    y="27"
+    x="50"
+    y="21"
+    text-anchor="middle"
     font-family="Georgia, 'Times New Roman', serif"
     font-size="28"
     font-weight="700"
@@ -54,14 +55,14 @@
     fill="#ffffff"
   >x3</text>
 
-  <foreignObject x="69" y="66" width="24" height="30">
+  <foreignObject x="70" y="68" width="22" height="28">
     <div
       xmlns="http://www.w3.org/1999/xhtml"
-      style="width:24px;height:30px;display:flex;align-items:flex-start;justify-content:center;"
+      style="width:22px;height:28px;display:flex;align-items:flex-start;justify-content:center;"
     >
       <span
         id="movement_allowance_factor"
-        style="display:inline-block;font-family:Georgia, 'Times New Roman', serif;font-size:24px;font-weight:600;line-height:1;color:#f7fbff;border-bottom:1.5px solid #f7fbff;padding-bottom:2px;"
+        style="display:inline-block;font-family:Georgia, 'Times New Roman', serif;font-size:22px;font-weight:600;line-height:1;color:#f7fbff;border-bottom:1.5px solid #f7fbff;padding-bottom:2px;"
       >9</span>
     </div>
   </foreignObject>
