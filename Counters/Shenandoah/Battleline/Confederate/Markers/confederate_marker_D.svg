@@ -1,0 +1,5 @@
+<svg width="0.5in" height="0.5in" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="confederateGray" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c9c2b8" /><stop offset="100%" stop-color="#a59c93" /></linearGradient></defs>
+  <rect x="1.5" y="1.5" width="97" height="97" rx="4" fill="url(#confederateGray)" stroke="#111111" stroke-width="3" />
+  <text x="50" y="53" text-anchor="middle" dominant-baseline="central" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#9f1d20">D</text>
+</svg>
