@@ -54,15 +54,17 @@
     </g>
   </g>
 
-  <foreignObject x="69" y="65" width="24" height="30">
-    <div
-      xmlns="http://www.w3.org/1999/xhtml"
-      style="width:24px;height:30px;display:flex;align-items:flex-start;justify-content:center;"
-    >
-      <span
-        id="movement_allowance_factor"
-        style="display:inline-block;font-family:Georgia, 'Times New Roman', serif;font-size:24px;font-weight:600;line-height:1;color:#f7fbff;border-bottom:1.5px solid #f7fbff;padding-bottom:2px;"
-      >4</span>
-    </div>
-  </foreignObject>
+  <text
+    id="movement_allowance_factor"
+    x="81"
+    y="77"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="24"
+    font-weight="600"
+    fill="#f7fbff"
+  >4</text>
+
+  <line x1="74" y1="91.5" x2="88" y2="91.5" stroke="#f7fbff" stroke-width="1.5" stroke-linecap="round" />
 </svg>
