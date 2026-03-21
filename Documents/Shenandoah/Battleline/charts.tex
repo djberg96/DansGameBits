@@ -5,20 +5,22 @@
 
 \section{CHARTS AND TABLES}
 
-\subsection{Movement \& Terrain Effects Chart}
+\subsection{Movement \& Terrain Effects Chart (DRY)}
+
+\newcommand{\chartgroupbox}[2]{\parbox[c][3.2em][c]{#1}{\centering #2}}
 
 \noindent\footnotesize
 \setlength{\tabcolsep}{2.5pt}
-\renewcommand{\arraystretch}{1.1}
+\renewcommand{\arraystretch}{1.22}
 \begin{center}
 \resizebox{\linewidth}{!}{%
 \begin{tabular}{|p{1.55in}|*{17}{c|}}
 \hline
-\multirow{3}{1.55in}{\centering\textbf{Unit Type}} & \multirow{3}{*}{\shortstack{\textbf{Stacking}\\\textbf{Factor}}} & \multicolumn{16}{c|}{\textbf{Movement Costs}} \\
+\multirow{3}{1.55in}{\centering\textbf{Unit Type}} & \multirow{3}{*}[-0.8em]{\centering\shortstack{\textbf{Stacking}\\\textbf{Factor}}} & \multicolumn{16}{c|}{\textbf{Movement Costs}} \\
 \cline{3-18}
- &  & \multicolumn{2}{c|}{\shortstack{\textbf{Stacking and}\\\textbf{Unstacking}}} & \multicolumn{2}{c|}{\shortstack{\textbf{Changing}\\\textbf{Formation}}} & \multicolumn{5}{c|}{\textbf{Moving in Column Formation}} & \multicolumn{3}{c|}{\shortstack{\textbf{Moving in}\\\textbf{Battle Formation}}} & \multirow{2}{*}{\shortstack{\textbf{One}\\\textbf{Round}\\\textbf{of}\\\textbf{Combat}}} & \multirow{2}{*}{\shortstack{\textbf{Devast-}\\\textbf{ation}}} & \multirow{2}{*}{\shortstack{\textbf{Construct-}\\\textbf{ion and}\\\textbf{Repair}}} & \multirow{2}{*}{\shortstack{\textbf{Load,}\\\textbf{Unload}\\\textbf{Train}}} \\
+\rule{0pt}{2.8em} &  & \multicolumn{2}{c|}{\chartgroupbox{0.9in}{\textbf{Stacking and}\\[2pt]\textbf{Unstacking}}} & \multicolumn{2}{c|}{\chartgroupbox{0.9in}{\textbf{Changing}\\[2pt]\textbf{Formation}}} & \multicolumn{5}{c|}{\chartgroupbox{2.0in}{\textbf{Moving in}\\[2pt]\textbf{Column Formation}}} & \multicolumn{3}{c|}{\chartgroupbox{1.35in}{\textbf{Moving in}\\[2pt]\textbf{Battle Formation}}} & \multirow{2}{*}{\shortstack{\textbf{One}\\[2pt]\textbf{Round}\\[2pt]\textbf{of}\\[2pt]\textbf{Combat}}} & \multirow{2}{*}{\shortstack{\textbf{Devast-}\\[2pt]\textbf{ation}}} & \multirow{2}{*}{\shortstack{\textbf{Construct-}\\[2pt]\textbf{ion and}\\[2pt]\textbf{Repair}}} & \multirow{2}{*}{\shortstack{\textbf{Load,}\\[2pt]\textbf{Unload}\\[2pt]\textbf{Train}}} \\
 \cline{3-14}
- &  & \shortstack{\textbf{Clear,}\\\textbf{Town}} & \textbf{Slope} & \textbf{Clear} & \shortstack{\textbf{Town}\\\textbf{or Slope}} & \shortstack{\textbf{Clear, Town}\\\textbf{or Slope}} & \textbf{Stream} & \textbf{River} & \textbf{Road} & \textbf{Pike} & \textbf{Clear} & \shortstack{\textbf{Stream,}\\\textbf{River}} & \shortstack{\textbf{Town,}\\\textbf{Slope}} &  &  &  &  \\
+\rule{0pt}{2.2em} &  & \shortstack{\textbf{Clear,}\\\textbf{Town}} & \textbf{Slope} & \textbf{Clear} & \shortstack{\textbf{Town}\\\textbf{or Slope}} & \shortstack{\textbf{Clear, Town}\\\textbf{or Slope}} & \textbf{Stream} & \textbf{River} & \textbf{Road} & \textbf{Pike} & \textbf{Clear} & \shortstack{\textbf{Stream,}\\\textbf{River}} & \shortstack{\textbf{Town,}\\\textbf{Slope}} &  &  &  &  \\
 \hline
 Infantry & 1/CF & 1 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 & 1 & 2 & 3 (5) & 1 \\
 \hline
