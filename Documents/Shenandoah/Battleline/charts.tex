@@ -310,13 +310,27 @@ General Units & 0 & 2 & 3 & - & - & 3 & 5 & P & 3 & 1/2 & - & - & - & 2 & P & P 
 
 \vspace{0.35em}
 
-\noindent\scriptsize
-\textbf{Combat Results Key:}
-`N/E' = No Effect.
-`1' = 1 Combat Factor Eliminated.
-`A' = 1 Combat Factor Eliminated (Artillery Combat Factor, if possible).
-`D' = All engaged units Disordered. If in Battle Formation, change to Column Formation. If in Column Formation, units must retreat.
-`2' = 2 Combat Factors Eliminated.
-Results are cumulative.
+\hspace*{1.1in}\scriptsize\textbf{Combat Results Key:}
+
+\vspace{0.2em}
+
+\hspace*{1.1in}%
+\begin{tblr}{
+  width=\dimexpr\linewidth-1.1in\relax,
+  colspec={|Q[c,m,wd=0.8in]|Q[l,m]|},
+  row{1-Z}={font=\scriptsize},
+  hline{1,Z} = {-}{},
+  vlines,
+}
+\textbf{N/E} & No Effect \\
+\textbf{1} & 1 Combat Factor Eliminated \\
+\textbf{A} & 1 Combat Factor Eliminated (Artillery Combat Factor, if possible) \\
+\textbf{D} & All engaged units Disordered. If in Battle Formation, change to Column Formation. If in Column Formation, units must retreat. \\
+\textbf{2} & 2 Combat Factors Eliminated \\
+\end{tblr}
+
+\vspace{0.2em}
+
+\hspace*{1.1in}\scriptsize Results are cumulative, e.g. `1AD' = All units disordered, 2 Combat Factors eliminated, 1 Combat Factor of artillery if possible.
 
 \end{landscape}
