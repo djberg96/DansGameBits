@@ -246,6 +246,7 @@ General Units & 0 & 2 & 3 & - & - & 3 & 5 & P & 3 & 1/2 & - & - & - & 2 & P & P 
   colspec={|Q[c,m,wd=1.1in]|Q[l,m,wd=2.3in]|*{10}{X[0.85,c,m]|}},
   row{1}={font=\bfseries\scriptsize},
   row{2-Z}={font=\normalfont},
+  row{7}={ht=2.6em},
   hlines,
   vlines,
   cell{1}{1}={r=2,c=2}{},
@@ -256,8 +257,11 @@ General Units & 0 & 2 & 3 & - & - & 3 & 5 & P & 3 & 1/2 & - & - & - & 2 & P & P 
   cell{7}{1}={c=2}{},
   cell{7}{6}={c=7}{},
   hline{1}={1,2}{0pt},
+  hline{8}={1,2,6-12}{white},
   vline{1}={1,2}{0pt},
+  vline{1}={7}{white},
   vline{7}={7}{white},
+  vline{13}={7}{white},
 }
 \SetCell[r=2,c=2]{c}{\large\shortstack{\textbf{Combat Table}\\\textbf{Modifiers}}} & & \SetCell[c=8]{c}\textbf{Attacker's Combat Table Modifiers} & & & & & & & & \SetCell[c=2]{c}\textbf{Defender's Modifiers} & \\
 & & \shortstack{\textbf{From}\\\textbf{2}\\\textbf{hexes}} & \shortstack{\textbf{From}\\\textbf{3--4}\\\textbf{hexes}} & \shortstack{\textbf{From}\\\textbf{5--6}\\\textbf{hexes}} & \shortstack{\textbf{Fewer}\\\textbf{Artillery}\\\textbf{Factors}} & \shortstack{\textbf{Out}\\\textbf{of}\\\textbf{Supply}} & \shortstack{\textbf{Forced}\\\textbf{March}} & \shortstack{\textbf{Cavalry}\\\textbf{Raid}} & {\scriptsize\shortstack{\textbf{Opposing}\\\textbf{Generals}}} & \shortstack{\textbf{Out}\\\textbf{of}\\\textbf{Supply}} & \shortstack{\textbf{Forced}\\\textbf{March}} \\
@@ -265,7 +269,7 @@ General Units & 0 & 2 & 3 & - & - & 3 & 5 & P & 3 & 1/2 & - & - & - & 2 & P & P 
 & \textbf{Battle Formation (Clear, Town)} & -2 & -3 & -4 & -1 & -3 & -3 & +2 & & -2 & -2 \\
 & \textbf{Battle Formation (Slope)} & -3 & -4 & -5 & -2 & -3 & -3 & +2 & & -2 & -2 \\
 & \textbf{Battle Formation (Entrenched)} & -4 & -5 & -6 & -3 & -3 & -3 & +1 & & -2 & -2 \\
-\SetCell[c=2]{c,cmd=\null} & & \SetCell[c=3]{c}\textbf{\shortstack{Roll die. Add result\\to above number}} & & & \SetCell[c=7]{c,cmd=\null} & & & & & & \\
+\SetCell[c=2]{c,cmd=\null} & & \SetCell[c=3]{c}\shortstack{Roll die. Add result\\to above number} & & & \SetCell[c=7]{l,cmd=\null}\scriptsize\textbf{Note:} The number added or subtracted may not be greater than the Combat Factors used. & & & & & & \\
 \end{tblr}
 \end{center}
 
