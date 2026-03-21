@@ -73,4 +73,72 @@ General Units & 0 & 1 & 2 & - & - & 1 & 2 & 3 & 1/2 & 1/2 & - & - & - & 1 & P & 
 \end{tblr}
 \end{center}
 
+\subsection{Movement \& Terrain Effects Chart (MUD)}
+
+\noindent\footnotesize
+\begin{center}
+\begin{tblr}{
+  width=\linewidth,
+  colsep=2pt,
+  colspec={|Q[l,m,wd=1.55in]|Q[c,m,wd=.66in]|
+    X[0.95,c,m]|X[0.75,c,m]|
+    X[0.75,c,m]|X[1.05,c,m]|
+    X[1.12,c,m]|X[0.96,c,m]|X[0.72,c,m]|X[0.66,c,m]|X[0.66,c,m]|
+    X[0.69,c,m]|X[0.93,c,m]|X[0.86,c,m]|
+    X[1.08,c,m]|X[1.05,c,m]|X[1.31,c,m]|X[1.00,c,m]|},
+  row{1}={font=\bfseries\scriptsize},
+  row{2}={font=\bfseries\scriptsize,ht=3.5em},
+  row{3}={font=\bfseries\scriptsize,ht=2.8em},
+  row{4-Z}={font=\normalfont},
+  hlines,
+  vlines,
+  vline{2}={1-Z}{1.2pt},
+  vline{7}={1-Z}{1.2pt},
+  vline{12}={1-Z}{1.2pt},
+  vline{15}={1-Z}{1.2pt},
+  hline{4}={1-Z}{1.2pt},
+  cell{1}{1}={r=3}{},
+  cell{1}{2}={r=3}{},
+  cell{1}{3}={c=16}{},
+  cell{2}{3}={c=2}{},
+  cell{2}{5}={c=2}{},
+  cell{2}{7}={c=5}{},
+  cell{2}{12}={c=3}{},
+  cell{2}{15}={r=2}{},
+  cell{2}{16}={r=2}{},
+  cell{2}{17}={r=2}{},
+  cell{2}{18}={r=2}{},
+}
+\SetCell[r=3]{c}\textbf{Unit Type}
+& \SetCell[r=3]{c}\shortstack{\textbf{Stacking}\\\textbf{Factor}}
+& \SetCell[c=16]{c}\textbf{Movement Costs} & & & & & & & & & & & & & & & \\
+& & \SetCell[c=2]{c}\shortstack{\textbf{Stacking and}\\[2pt]\textbf{Unstacking}} & 
+& \SetCell[c=2]{c}\shortstack{\textbf{Changing}\\[2pt]\textbf{Formation}} &
+& \SetCell[c=5]{c}\shortstack{\textbf{Moving in}\\[2pt]\textbf{Column Formation}} & & & &
+& \SetCell[c=3]{c}\shortstack{\textbf{Moving in}\\[2pt]\textbf{Battle Formation}} & &
+& \SetCell[r=2]{c}{\scriptsize\shortstack{\textbf{One}\\[1pt]\textbf{Round}\\[1pt]\textbf{Combat}}}
+& \SetCell[r=2]{c}{\scriptsize\shortstack{\textbf{Devast-}\\[1pt]\textbf{ation}}}
+& \SetCell[r=2]{c}{\scriptsize\shortstack{\textbf{Construct}\\[1pt]\textbf{Repair}}}
+& \SetCell[r=2]{c}{\scriptsize\shortstack{\textbf{Load}\\[1pt]\textbf{Unload}\\[1pt]\textbf{Train}}} \\
+& & \shortstack{\textbf{Clear}\\[2pt]\textbf{Town}}
+& \textbf{Slope}
+& \textbf{Clear}
+& \shortstack{\textbf{Town}\\[2pt]\textbf{Slope}}
+& \shortstack{\textbf{Clear}\\[2pt]\textbf{Town}\\[2pt]\textbf{Slope}}
+& \textbf{Stream}
+& \textbf{River}
+& \textbf{Road}
+& \textbf{Pike}
+& \textbf{Clear}
+& \shortstack{\textbf{Stream}\\[2pt]\textbf{River}}
+& \shortstack{\textbf{Town}\\[2pt]\textbf{Slope}}
+& & & & \\
+Infantry & 1/CF & 2 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 & 1 & 2 & 3 (5) & 1 \\
+Cavalry and Partisans & 2/CF & 2 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 & 1 & 3 & P & 2 \\
+Artillery, Horse Artillery & 3/CF & 2 & 2 & 1 & 2 & 1 & 3 & 4 & 1/2 & 1/2 & 2 & P & 3 & 1 & P & P & 4 \\
+Wagon & 5/Unit & 2 & 2 & - & - & 1 & 3 & 4 & 1/2 & 1/2 & - & - & - & 1 & P & P & 4 \\
+General Units & 0 & 2 & 2 & - & - & 1 & 2 & 3 & 1/2 & 1/2 & - & - & - & 1 & P & P & 2 \\
+\end{tblr}
+\end{center}
+
 \end{landscape}
