@@ -7,29 +7,31 @@
 
 \subsection{Movement \& Terrain Effects Chart}
 
-\noindent\small
-\setlength{\tabcolsep}{4pt}
-\renewcommand{\arraystretch}{1.2}
+\noindent\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.1}
 \begin{center}
-\begin{tabular}{|p{1.8in}|*{17}{c|}}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{|p{1.55in}|*{17}{c|}}
 \hline
-\multirow{3}{1.8in}{\centering\textbf{Unit Type}} & \multirow{3}{*}{\shortstack{\textbf{Stacking}\\\textbf{Factor}}} & \multicolumn{12}{c|}{\textbf{Movement Costs}} & ? & ? & ? & ? \\
+\multirow{3}{1.55in}{\centering\textbf{Unit Type}} & \multirow{3}{*}{\shortstack{\textbf{Stacking}\\\textbf{Factor}}} & \multicolumn{16}{c|}{\textbf{Movement Costs}} \\
 \cline{3-18}
- &  & \multicolumn{2}{c|}{\shortstack{\textbf{Stacking and}\\\textbf{Unstacking}}} & \multicolumn{2}{c|}{\shortstack{\textbf{Changing}\\\textbf{Formation}}} & \multicolumn{5}{c|}{\textbf{Moving in Column Formation}} & \multicolumn{3}{c|}{\textbf{Moving in Battle Formation}} &  &  &  &  \\
-\cline{3-18}
+ &  & \multicolumn{2}{c|}{\shortstack{\textbf{Stacking and}\\\textbf{Unstacking}}} & \multicolumn{2}{c|}{\shortstack{\textbf{Changing}\\\textbf{Formation}}} & \multicolumn{5}{c|}{\textbf{Moving in Column Formation}} & \multicolumn{3}{c|}{\shortstack{\textbf{Moving in}\\\textbf{Battle Formation}}} & \multirow{2}{*}{\shortstack{\textbf{One}\\\textbf{Round}\\\textbf{of}\\\textbf{Combat}}} & \multirow{2}{*}{\shortstack{\textbf{Devast-}\\\textbf{ation}}} & \multirow{2}{*}{\shortstack{\textbf{Construct-}\\\textbf{ion and}\\\textbf{Repair}}} & \multirow{2}{*}{\shortstack{\textbf{Load,}\\\textbf{Unload}\\\textbf{Train}}} \\
+\cline{3-14}
  &  & \shortstack{\textbf{Clear,}\\\textbf{Town}} & \textbf{Slope} & \textbf{Clear} & \shortstack{\textbf{Town}\\\textbf{or Slope}} & \shortstack{\textbf{Clear, Town}\\\textbf{or Slope}} & \textbf{Stream} & \textbf{River} & \textbf{Road} & \textbf{Pike} & \textbf{Clear} & \shortstack{\textbf{Stream,}\\\textbf{River}} & \shortstack{\textbf{Town,}\\\textbf{Slope}} &  &  &  &  \\
 \hline
-Infantry & 1/CF & 1 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 &  &  &  &  \\
+Infantry & 1/CF & 1 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 & 1 & 2 & 3 (5) & 1 \\
 \hline
-Cavalry and Partisans & 2/CF & 1 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 &  &  &  &  \\
+Cavalry and Partisans & 2/CF & 1 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 & 1 & 3 & P & 2 \\
 \hline
-Artillery, Horse Artillery & 3/CF & 1 & 2 & 1 & 2 & 1 & 3 & 4 & 1/2 & 1/2 & 2 & P & 3 &  &  &  &  \\
+Artillery, Horse Artillery & 3/CF & 1 & 2 & 1 & 2 & 1 & 3 & 4 & 1/2 & 1/2 & 2 & P & 3 & 1 & P & P & 4 \\
 \hline
-Wagon & 5/Unit & 1 & 2 & - & - & 1 & 3 & 4 & 1/2 & 1/2 & - & - & - &  &  &  &  \\
+Wagon & 5/Unit & 1 & 2 & - & - & 1 & 3 & 4 & 1/2 & 1/2 & - & - & - & 1 & P & P & 4 \\
 \hline
-General Units & 0 & 1 & 2 & - & - & 1 & 2 & 3 & 1/2 & 1/2 & - & - & - &  &  &  &  \\
+General Units & 0 & 1 & 2 & - & - & 1 & 2 & 3 & 1/2 & 1/2 & - & - & - & 1 & P & P & 2 \\
 \hline
 \end{tabular}
+}
 \end{center}
 
 \end{landscape}
