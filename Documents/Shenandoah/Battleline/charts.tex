@@ -7,17 +7,20 @@
 
 \subsection{Movement \& Terrain Effects Chart (DRY)}
 
-\newcommand{\chartgroupbox}[2]{\parbox[c][3.2em][c]{#1}{\centering #2}}
-
 \noindent\footnotesize
 \begin{center}
-\resizebox{\linewidth}{!}{%
 \begin{tblr}{
   width=\linewidth,
-  colspec={|Q[c,m,wd=1.55in]|Q[c,m,wd=.72in]|*{16}{Q[c,m,wd=.43in]|}},
-  row{1}={font=\bfseries},
-  row{2}={font=\bfseries,ht=3.3em},
-  row{3}={font=\bfseries,ht=2.6em},
+  colsep=2pt,
+  colspec={|Q[c,m,wd=1.55in]|Q[c,m,wd=.72in]|
+    X[0.95,c,m]|X[0.75,c,m]|
+    X[0.75,c,m]|X[1.05,c,m]|
+    X[1.25,c,m]|X[0.8,c,m]|X[0.8,c,m]|X[0.7,c,m]|X[0.7,c,m]|
+    X[0.75,c,m]|X[1.05,c,m]|X[0.95,c,m]|
+    X[0.8,c,m]|X[0.8,c,m]|X[1.05,c,m]|X[0.95,c,m]|},
+  row{1}={font=\bfseries\scriptsize},
+  row{2}={font=\bfseries\scriptsize,ht=3.5em},
+  row{3}={font=\bfseries\scriptsize,ht=2.8em},
   row{4-Z}={font=\normalfont},
   hlines,
   vlines,
@@ -38,26 +41,26 @@
 \SetCell[r=3]{c}\textbf{Unit Type}
 & \SetCell[r=3]{c}\shortstack{\textbf{Stacking}\\\textbf{Factor}}
 & \SetCell[c=16]{c}\textbf{Movement Costs} & & & & & & & & & & & & & & & \\
-& & \SetCell[c=2]{c}\chartgroupbox{0.9in}{\textbf{Stacking and}\\[2pt]\textbf{Unstacking}} & 
-& \SetCell[c=2]{c}\chartgroupbox{0.9in}{\textbf{Changing}\\[2pt]\textbf{Formation}} &
-& \SetCell[c=5]{c}\chartgroupbox{2.0in}{\textbf{Moving in}\\[2pt]\textbf{Column Formation}} & & & &
-& \SetCell[c=3]{c}\chartgroupbox{1.35in}{\textbf{Moving in}\\[2pt]\textbf{Battle Formation}} & &
+& & \SetCell[c=2]{c}\shortstack{\textbf{Stacking and}\\[2pt]\textbf{Unstacking}} & 
+& \SetCell[c=2]{c}\shortstack{\textbf{Changing}\\[2pt]\textbf{Formation}} &
+& \SetCell[c=5]{c}\shortstack{\textbf{Moving in}\\[2pt]\textbf{Column Formation}} & & & &
+& \SetCell[c=3]{c}\shortstack{\textbf{Moving in}\\[2pt]\textbf{Battle Formation}} & &
 & \SetCell[r=2]{c}\shortstack{\textbf{One}\\[2pt]\textbf{Round}\\[2pt]\textbf{of}\\[2pt]\textbf{Combat}}
 & \SetCell[r=2]{c}\shortstack{\textbf{Devast-}\\[2pt]\textbf{ation}}
 & \SetCell[r=2]{c}\shortstack{\textbf{Construct-}\\[2pt]\textbf{ion and}\\[2pt]\textbf{Repair}}
 & \SetCell[r=2]{c}\shortstack{\textbf{Load,}\\[2pt]\textbf{Unload}\\[2pt]\textbf{Train}} \\
-& & \shortstack{\textbf{Clear,}\\\textbf{Town}}
+& & \shortstack{\textbf{Clear}\\\textbf{Town}}
 & \textbf{Slope}
 & \textbf{Clear}
-& \shortstack{\textbf{Town}\\\textbf{or Slope}}
-& \shortstack{\textbf{Clear, Town}\\\textbf{or Slope}}
+& \shortstack{\textbf{Town}\\\textbf{Slope}}
+& \shortstack{\textbf{Clear}\\\textbf{Town}\\\textbf{Slope}}
 & \textbf{Stream}
 & \textbf{River}
 & \textbf{Road}
 & \textbf{Pike}
 & \textbf{Clear}
-& \shortstack{\textbf{Stream,}\\\textbf{River}}
-& \shortstack{\textbf{Town,}\\\textbf{Slope}}
+& \shortstack{\textbf{Stream}\\\textbf{River}}
+& \shortstack{\textbf{Town}\\\textbf{Slope}}
 & & & & \\
 Infantry & 1/CF & 1 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 & 1 & 2 & 3 (5) & 1 \\
 Cavalry and Partisans & 2/CF & 1 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 & 1 & 3 & P & 2 \\
@@ -65,7 +68,6 @@ Artillery, Horse Artillery & 3/CF & 1 & 2 & 1 & 2 & 1 & 3 & 4 & 1/2 & 1/2 & 2 & 
 Wagon & 5/Unit & 1 & 2 & - & - & 1 & 3 & 4 & 1/2 & 1/2 & - & - & - & 1 & P & P & 4 \\
 General Units & 0 & 1 & 2 & - & - & 1 & 2 & 3 & 1/2 & 1/2 & - & - & - & 1 & P & P & 2 \\
 \end{tblr}
-}
 \end{center}
 
 \end{landscape}
