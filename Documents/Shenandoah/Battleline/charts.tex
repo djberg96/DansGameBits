@@ -10,29 +10,61 @@
 \newcommand{\chartgroupbox}[2]{\parbox[c][3.2em][c]{#1}{\centering #2}}
 
 \noindent\footnotesize
-\setlength{\tabcolsep}{2.5pt}
-\renewcommand{\arraystretch}{1.22}
 \begin{center}
 \resizebox{\linewidth}{!}{%
-\begin{tabular}{|p{1.55in}|*{17}{c|}}
-\hline
-\multirow{3}{1.55in}{\centering\textbf{Unit Type}} & \multirow{3}{*}[-0.8em]{\centering\shortstack{\textbf{Stacking}\\\textbf{Factor}}} & \multicolumn{16}{c|}{\textbf{Movement Costs}} \\
-\cline{3-18}
-\rule{0pt}{2.8em} &  & \multicolumn{2}{c|}{\chartgroupbox{0.9in}{\textbf{Stacking and}\\[2pt]\textbf{Unstacking}}} & \multicolumn{2}{c|}{\chartgroupbox{0.9in}{\textbf{Changing}\\[2pt]\textbf{Formation}}} & \multicolumn{5}{c|}{\chartgroupbox{2.0in}{\textbf{Moving in}\\[2pt]\textbf{Column Formation}}} & \multicolumn{3}{c|}{\chartgroupbox{1.35in}{\textbf{Moving in}\\[2pt]\textbf{Battle Formation}}} & \multirow{2}{*}{\shortstack{\textbf{One}\\[2pt]\textbf{Round}\\[2pt]\textbf{of}\\[2pt]\textbf{Combat}}} & \multirow{2}{*}{\shortstack{\textbf{Devast-}\\[2pt]\textbf{ation}}} & \multirow{2}{*}{\shortstack{\textbf{Construct-}\\[2pt]\textbf{ion and}\\[2pt]\textbf{Repair}}} & \multirow{2}{*}{\shortstack{\textbf{Load,}\\[2pt]\textbf{Unload}\\[2pt]\textbf{Train}}} \\
-\cline{3-14}
-\rule{0pt}{2.2em} &  & \shortstack{\textbf{Clear,}\\\textbf{Town}} & \textbf{Slope} & \textbf{Clear} & \shortstack{\textbf{Town}\\\textbf{or Slope}} & \shortstack{\textbf{Clear, Town}\\\textbf{or Slope}} & \textbf{Stream} & \textbf{River} & \textbf{Road} & \textbf{Pike} & \textbf{Clear} & \shortstack{\textbf{Stream,}\\\textbf{River}} & \shortstack{\textbf{Town,}\\\textbf{Slope}} &  &  &  &  \\
-\hline
+\begin{tblr}{
+  width=\linewidth,
+  colspec={|Q[c,m,wd=1.55in]|Q[c,m,wd=.72in]|*{16}{Q[c,m,wd=.43in]|}},
+  row{1}={font=\bfseries},
+  row{2}={font=\bfseries,ht=3.3em},
+  row{3}={font=\bfseries,ht=2.6em},
+  row{4-Z}={font=\normalfont},
+  hlines,
+  vlines,
+  vline{2}={1-Z}{1.2pt},
+  hline{4}={1-Z}{1.2pt},
+  cell{1}{1}={r=3}{},
+  cell{1}{2}={r=3}{},
+  cell{1}{3}={c=16}{},
+  cell{2}{3}={c=2}{},
+  cell{2}{5}={c=2}{},
+  cell{2}{7}={c=5}{},
+  cell{2}{12}={c=3}{},
+  cell{2}{15}={r=2}{},
+  cell{2}{16}={r=2}{},
+  cell{2}{17}={r=2}{},
+  cell{2}{18}={r=2}{},
+}
+\SetCell[r=3]{c}\textbf{Unit Type}
+& \SetCell[r=3]{c}\shortstack{\textbf{Stacking}\\\textbf{Factor}}
+& \SetCell[c=16]{c}\textbf{Movement Costs} & & & & & & & & & & & & & & & \\
+& & \SetCell[c=2]{c}\chartgroupbox{0.9in}{\textbf{Stacking and}\\[2pt]\textbf{Unstacking}} & 
+& \SetCell[c=2]{c}\chartgroupbox{0.9in}{\textbf{Changing}\\[2pt]\textbf{Formation}} &
+& \SetCell[c=5]{c}\chartgroupbox{2.0in}{\textbf{Moving in}\\[2pt]\textbf{Column Formation}} & & & &
+& \SetCell[c=3]{c}\chartgroupbox{1.35in}{\textbf{Moving in}\\[2pt]\textbf{Battle Formation}} & &
+& \SetCell[r=2]{c}\shortstack{\textbf{One}\\[2pt]\textbf{Round}\\[2pt]\textbf{of}\\[2pt]\textbf{Combat}}
+& \SetCell[r=2]{c}\shortstack{\textbf{Devast-}\\[2pt]\textbf{ation}}
+& \SetCell[r=2]{c}\shortstack{\textbf{Construct-}\\[2pt]\textbf{ion and}\\[2pt]\textbf{Repair}}
+& \SetCell[r=2]{c}\shortstack{\textbf{Load,}\\[2pt]\textbf{Unload}\\[2pt]\textbf{Train}} \\
+& & \shortstack{\textbf{Clear,}\\\textbf{Town}}
+& \textbf{Slope}
+& \textbf{Clear}
+& \shortstack{\textbf{Town}\\\textbf{or Slope}}
+& \shortstack{\textbf{Clear, Town}\\\textbf{or Slope}}
+& \textbf{Stream}
+& \textbf{River}
+& \textbf{Road}
+& \textbf{Pike}
+& \textbf{Clear}
+& \shortstack{\textbf{Stream,}\\\textbf{River}}
+& \shortstack{\textbf{Town,}\\\textbf{Slope}}
+& & & & \\
 Infantry & 1/CF & 1 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 & 1 & 2 & 3 (5) & 1 \\
-\hline
 Cavalry and Partisans & 2/CF & 1 & 2 & 1 & 2 & 1 & 2 & 3 & 1/2 & 1/2 & 2 & P & 3 & 1 & 3 & P & 2 \\
-\hline
 Artillery, Horse Artillery & 3/CF & 1 & 2 & 1 & 2 & 1 & 3 & 4 & 1/2 & 1/2 & 2 & P & 3 & 1 & P & P & 4 \\
-\hline
 Wagon & 5/Unit & 1 & 2 & - & - & 1 & 3 & 4 & 1/2 & 1/2 & - & - & - & 1 & P & P & 4 \\
-\hline
 General Units & 0 & 1 & 2 & - & - & 1 & 2 & 3 & 1/2 & 1/2 & - & - & - & 1 & P & P & 2 \\
-\hline
-\end{tabular}
+\end{tblr}
 }
 \end{center}
 
