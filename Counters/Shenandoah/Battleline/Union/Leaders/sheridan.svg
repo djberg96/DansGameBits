@@ -12,5 +12,5 @@
     <use href="#star" transform="translate(37 42) scale(1.18)"/>
     <use href="#star" transform="translate(63 42) scale(1.18)"/>
   </g>
-  <text x="50" y="87" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="white" font-weight="700">12</text>
+  <text x="50" y="87" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="white" font-weight="700" text-decoration="underline">12</text>
 </svg>
