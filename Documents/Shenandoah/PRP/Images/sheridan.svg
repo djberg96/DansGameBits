@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .name { font: 700 12px Georgia, "Times New Roman", serif; fill: #355f9c; }
+      .stat { font: 700 12px Georgia, "Times New Roman", serif; fill: #355f9c; }
+      .strength { font: 700 15px Georgia, "Times New Roman", serif; fill: #355f9c; }
+      .bandtext { font: 700 10px Georgia, "Times New Roman", serif; }
+    </style>
+    <symbol id="star" viewBox="0 0 20 20">
+      <polygon points="10,1.5 12.6,7 18.6,7.5 14,11.4 15.4,17.3 10,14.2 4.6,17.3 6,11.4 1.4,7.5 7.4,7" />
+    </symbol>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="97" height="97" fill="#ffffff" stroke="#111111" stroke-width="1.5"/>
+
+  <text x="50" y="22" text-anchor="middle" class="name">Sheridan</text>
+
+  <rect x="6" y="35" width="88" height="22" fill="#5f8fc6"/>
+  <use href="#star" x="17" y="38" width="16" height="16" fill="#ffffff"/>
+  <use href="#star" x="37" y="38" width="16" height="16" fill="#ffffff"/>
+  <use href="#star" x="57" y="38" width="16" height="16" fill="#ffffff"/>
+  <text x="87" y="49" text-anchor="middle" class="bandtext" fill="#111111">1</text>
+
+  <text x="12" y="91" text-anchor="start" class="strength">2</text>
+  <circle cx="26" cy="86.5" r="2.2" fill="#355f9c"/>
+  <text x="31" y="91" text-anchor="start" class="strength">3</text>
+  <text x="88" y="91" text-anchor="end" class="stat">+2</text>
+</svg>
