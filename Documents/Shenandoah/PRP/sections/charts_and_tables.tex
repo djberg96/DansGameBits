@@ -1,0 +1,306 @@
+\rulesection{24.0 Charts and Tables}
+
+The graphic illustrations from the original chart pages are omitted here for now. The tables below reconstruct the numeric and reference charts in a maintenance-friendly LaTeX format.
+
+\noindent
+\begin{minipage}[t]{0.56\textwidth}
+\textbf{24.1 Combat Results Table}
+
+\vspace{0.4em}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{c*{7}{c}}
+\toprule
+\textbf{Die Roll} & \textbf{1--5} & \textbf{6--16} & \textbf{17--25} & \textbf{26--35} & \textbf{36--45} & \textbf{46--55} & \textbf{56} \\
+\midrule
+0 & -- & -- & -- & -- & -- & 1 & 1 \\
+1 & -- & -- & -- & -- & -- & 1 & 2 \\
+2 & -- & -- & -- & -- & 1 & 2 & 3 \\
+3 & -- & -- & -- & 1 & 2 & 3 & 4 \\
+4 & -- & -- & 1 & 2 & 3 & 4 & 5 \\
+5 & -- & 1 & 1 & 2 & 3 & 4 & 5 \\
+6 & 1 & 1 & 2 & 3 & 4 & 5 & 6 \\
+7 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+8 & 2 & 2 & 3 & 4 & 6 & 7 & 8 \\
+9 & 2 & 3 & 4 & 5 & 6 & 8 & 9 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.5em}
+\raggedright
+\scriptsize
+If strength exceeds 56, roll again for the excess. The owning player decides which units suffer losses.
+
+\textbf{Strength Modifications}
+\begin{itemize}
+\item $\times \frac{1}{2}$ if a unit entered through an adjacent bridge or river hexside this turn.
+\item $\times \frac{1}{2}$ if combat occurs in a ridge hex and the unit entered from a non-road hex.
+\item $\times 2$ for a unit defending in an entrenchment.
+\item The attacker shifts one column left if the defender is entrenched.
+\end{itemize}
+
+\textbf{Die Roll Modifiers}
+\begin{itemize}
+\item + leader combat bonus
+\item +1 if the player chose \textit{Pitched Battle}
+\item -1 if the player chose \textit{Withdraw}
+\item +1 to the defender in all battles
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.40\textwidth}
+\textbf{24.2 Commitment Table}
+
+\vspace{0.4em}
+\centering
+\scriptsize
+\begin{tabular}{c*{4}{c}}
+\toprule
+\textbf{2d6} & \textbf{CR 1} & \textbf{CR 2} & \textbf{CR 3} & \textbf{CR 4} \\
+\midrule
+0 & 40\% & 20\% & 20\% & 10\% \\
+1 & 50\% & 30\% & 20\% & 20\% \\
+2 & 60\% & 30\% & 30\% & 20\% \\
+3 & 70\% & 40\% & 40\% & 30\% \\
+4 & 80\% & 50\% & 40\% & 30\% \\
+5 & 80\% & 60\% & 50\% & 40\% \\
+6 & 90\% & 70\% & 60\% & 50\% \\
+7 & 90\% & 80\% & 60\% & 60\% \\
+8 & 100\% & 80\% & 70\% & 60\% \\
+9 & 100\% & 90\% & 80\% & 70\% \\
+10 & 100\% & 100\% & 90\% & 80\% \\
+11 & 100\% & 100\% & 100\% & 90\% \\
+12+ & 100\% & 100\% & 100\% & 100\% \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.5em}
+\raggedright
+\scriptsize
+\textbf{Attacker}
+\begin{itemize}
+\item +1 if no attacker moved during the turn
+\item -2 if any attacker force marched during the turn
+\item +1 if the attacker chooses \textit{Pitched Battle}
+\item -1 if the attacker chooses \textit{Probe}
+\end{itemize}
+
+\textbf{Defender}
+\begin{itemize}
+\item +2 if no defender moved during the turn
+\item -1 if any defender attacked while entrained
+\item +3 if any defender is entrenched
+\item +1 if the defender chooses \textit{Pitched Battle}
+\item -1 if the defender chooses \textit{Withdrawal}
+\item -1 if any defender is demoralized
+\end{itemize}
+
+\textbf{Command Rating Modifier}
+\begin{itemize}
+\item +1 if 3 or more combat units are in the stack and the highest-ranking leader is not a department or corps leader
+\end{itemize}
+\end{minipage}
+
+\vspace{1em}
+
+\rulesubsection{24.3 Combat Options and Excess Losses}
+
+\begin{minipage}[t]{0.56\textwidth}
+\centering
+\small
+\textbf{Combat Options Chart}
+
+\vspace{0.4em}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Attacker's Option} & \textbf{Pitched Battle*} & \textbf{Stand} & \textbf{Withdraw} \\
+\midrule
+Probe & 1 & 1 & 1 \\
+Assault* & 2 & 2 & 1 \\
+Pitched Battle* & U & 2 & 1 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.6em}
+\raggedright
+\small
+* May not choose this option if unsupplied.
+
+Results:
+\begin{itemize}
+\item 1 or 2: combat lasts this number of rounds
+\item U: rounds continue until one or both sides become demoralized
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.38\textwidth}
+\centering
+\small
+\textbf{Excess Losses Table}
+
+\vspace{0.4em}
+\begin{tabular}{cc}
+\toprule
+\textbf{\shortstack{Modified\\Die Roll}} & \textbf{\shortstack{Uncommitted\\Points Removed}} \\
+\midrule
+5 or less & 0 \\
+6--7 & 1 \\
+8--9 & 2 \\
+10--11 & 3 \\
+12+ & 4 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.6em}
+\raggedright
+\small
+Die-roll modifier: add the number of excess losses.
+\end{minipage}
+
+\textbf{24.4 Movement Costs Chart}
+
+\vspace{0.4em}
+\begin{center}
+\scriptsize
+\begin{tabular}{lccc}
+\toprule
+\textbf{Terrain Type} & \textbf{Infantry} & \textbf{Cavalry} & \textbf{Wagon, Base} \\
+\midrule
+Clear & 2 & 1 & 3 \\
+Turnpike & 1/2 & 1/3 & 1/2 \\
+Road & 1 & 1/2 & 1 \\
+Railroad & \multicolumn{3}{c}{See 10.0} \\
+Slope & +3 & +3 & +3 \\
+Ridge & 2 & 2 & 3 \\
+Mountain Hexside & +3 & +3 & +3 \\
+River Hexside & +4 & +4 & Prohibited \\
+Stream Hexside & +2 & +2 & +3 \\
+Ford & +2 & +2 & +3 \\
+Bridge Hexside & \multicolumn{3}{c}{+0 if intact; same as river/stream if destroyed} \\
+City & \multicolumn{3}{c}{As other terrain in hex} \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.7em}
+\textbf{Movement Rates} (MPs)
+
+\vspace{0.3em}
+\begin{tabular}{lc}
+\toprule
+\textbf{Unit Type} & \textbf{MPs} \\
+\midrule
+Infantry, Leaders & 8 \\
+Cavalry, Cavalry Leaders & 10 \\
+Supply Wagons & 6 \\
+Base & 4 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{24.5 Action Costs}
+
+\vspace{0.4em}
+\begin{center}
+\scriptsize
+\begin{tabularx}{0.95\textwidth}{>{\raggedright\arraybackslash}p{0.33\textwidth}c>{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Action} & \textbf{Cost} & \textbf{Notes} \\
+\midrule
+Enter Enemy-Occupied Hex & +1 & Must roll the die less than or equal to the enemy leader initiative; apply +1 if the enemy is higher and -1 if lower \\
+Leave Enemy-Occupied Hex & +1 & Same initiative comparison as above \\
+Entrench & Two Movement Phases & See 15.1 \\
+Destroy Bridge & 4 & Add +2 if an enemy combat unit is adjacent \\
+Repair Bridge & 3 phases & 5+ SPs, infantry only \\
+Destroy Railroad & 3 & 5+ SPs \\
+Repair Railroad & 4 & 5+ SPs, infantry only \\
+Enter ZOC & +2 & CSA and 1864 Union cavalry \\
+Enter ZOC & +1 & 1862 cavalry \\
+Stacking & +1 & Each division already there \\
+Force March & Add'l MPs equal to leader initiative & Must be able to use 100\% of movement allowance; lose 10\% on a die roll of 5 or 6 \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\vspace{1em}
+
+\noindent
+\begin{minipage}[t]{0.28\textwidth}
+\textbf{24.6 Replacement Point Table}
+
+\vspace{0.4em}
+\centering
+\scriptsize
+\begin{tabular}{ccc}
+\toprule
+\textbf{Die Roll} & \textbf{Union} & \textbf{Confederate} \\
+\midrule
+1 & -- & -- \\
+2 & -- & -- \\
+3 & -- & -- \\
+4 & -- & 1 \\
+5 & 1 & 1 \\
+6 & 2 & 2 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.68\textwidth}
+\textbf{24.7 Command Tables (6.3, 6.4)}
+
+\vspace{0.2em}
+\centering
+\scriptsize
+Roll separately for each table. Rolls greater than 6 count as 6.
+
+\vspace{0.5em}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{cc*{5}{c}}
+\toprule
+\textbf{Command Point Table} & \textbf{Die Roll} & \textbf{1--4} & \textbf{5--8} & \textbf{9--12} & \textbf{13--16} & \textbf{17+} \\
+\midrule
+0 & 0 & -1 & -1 & -2 & -2 & -3 \\
+1 & 1 & -1 & -1 & -2 & -2 & -3 \\
+1 & 2 & -1 & -1 & -1 & -2 & -2 \\
+2 & 3 & 0 & -1 & -1 & -2 & -2 \\
+2 & 4 & 0 & 0 & -1 & -1 & -2 \\
+3 & 5 & 0 & 0 & 0 & 0 & -1 \\
+4 & 6 & 0 & 0 & 0 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.6em}
+\raggedright
+\small
+The broadcast-table result is the reduction of command points received by the subordinate.
+
+Die Roll Modifiers:
+\begin{itemize}
+\item -1 if there is no line of communication
+\item +1 in an 1864 scenario
+\end{itemize}
+\end{minipage}
+
+\begin{landscape}
+\rulesubsection{24.8 Percentage Chart}
+
+\begin{center}
+\scriptsize
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{c*{25}{c}}
+\toprule
+\textbf{\%} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} & \textbf{14} & \textbf{15} & \textbf{16} & \textbf{17} & \textbf{18} & \textbf{19} & \textbf{20} & \textbf{21} & \textbf{22} & \textbf{23} & \textbf{24} & \textbf{25} \\
+\midrule
+100\% & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & 23 & 24 & 25 \\
+90\% & 1 & 2 & 3 & 4 & 5 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & 23 \\
+80\% & 1 & 2 & 2 & 3 & 4 & 5 & 6 & 6 & 7 & 8 & 9 & 10 & 10 & 11 & 12 & 13 & 14 & 14 & 15 & 16 & 17 & 18 & 18 & 19 & 20 \\
+70\% & 1 & 1 & 2 & 3 & 4 & 4 & 5 & 6 & 6 & 7 & 8 & 8 & 9 & 10 & 11 & 11 & 12 & 13 & 13 & 14 & 15 & 15 & 16 & 17 & 18 \\
+60\% & 1 & 1 & 2 & 2 & 3 & 4 & 4 & 5 & 5 & 6 & 7 & 7 & 8 & 8 & 9 & 10 & 10 & 11 & 11 & 12 & 13 & 13 & 14 & 14 & 15 \\
+50\% & 1 & 1 & 2 & 2 & 3 & 3 & 4 & 4 & 5 & 5 & 6 & 6 & 7 & 7 & 8 & 8 & 9 & 9 & 10 & 10 & 11 & 11 & 12 & 12 & 13 \\
+40\% & 0 & 1 & 1 & 2 & 2 & 2 & 3 & 3 & 4 & 4 & 4 & 5 & 5 & 6 & 6 & 6 & 7 & 7 & 8 & 8 & 8 & 9 & 9 & 10 & 10 \\
+30\% & 0 & 1 & 1 & 1 & 2 & 2 & 2 & 2 & 3 & 3 & 3 & 4 & 4 & 4 & 5 & 5 & 5 & 5 & 6 & 6 & 6 & 7 & 7 & 7 & 8 \\
+20\% & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 2 & 2 & 2 & 2 & 2 & 3 & 3 & 3 & 3 & 3 & 4 & 4 & 4 & 4 & 4 & 5 & 5 & 5 \\
+10\% & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 3 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Values are reconstructed using nearest-whole rounding with halves rounded up, matching the example in rule 2.5.
+\end{landscape}
