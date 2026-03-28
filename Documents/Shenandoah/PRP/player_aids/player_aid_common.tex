@@ -1,4 +1,4 @@
-\usepackage[letterpaper,landscape,margin=0.45in]{geometry}
+\usepackage[letterpaper,landscape,margin=0.15in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
@@ -24,7 +24,7 @@
 \color{aidtext}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.35em}
-\setlist[itemize]{leftmargin=1.1em,itemsep=0.22em,topsep=0.14em}
+\setlist[itemize]{leftmargin=1.05em,itemsep=0.14em,topsep=0.1em}
 \pagestyle{empty}
 
 \titleformat{\section}
@@ -36,69 +36,69 @@
 \newcommand{\aidtitle}[2]{%
   {\centering
   {\fontsize{22}{24}\selectfont\bfseries #1\par}
-  \vspace{0.1em}
+  \vspace{0.05em}
   {\large\itshape Shenandoah: Valley of Fire\par}
-  \vspace{0.35em}
+  \vspace{0.2em}
   \color{#2}\rule{\textwidth}{1.2pt}\par
-  }\vspace{0.5em}
+  }\vspace{0.3em}
 }
 
 \newcommand{\sequencepanel}{%
   \begin{tikzpicture}
-    \node[draw=panelrule,rounded corners=4pt,fill=white,inner sep=10pt,text width=\textwidth-24pt] (panel) {%
-      {\Large\bfseries Sequence of Play}\par\vspace{0.25em}
-      \small
+    \node[draw=panelrule,rounded corners=4pt,fill=white,inner sep=8pt,text width=\textwidth-20pt] (panel) {%
+      {\Large\bfseries Sequence of Play}\par\vspace{0.12em}
+      \footnotesize
       \setlength{\multicolsep}{0pt}
-      \setlength{\columnsep}{18pt}
+      \setlength{\columnsep}{16pt}
       \begin{multicols}{2}
-      \setlength{\parskip}{0.18em}
+      \setlength{\parskip}{0.1em}
       \textbf{I. Initial Phase}\par
       \begin{itemize}
-      \item Reinforcements
-      \item Replacements
-      \item Wagon Creation
+      \item Reinforcements (18.0)
+      \item Replacements (18.0)
+      \item Wagon Creation (11.21)
       \end{itemize}
-      \vspace{0.26em}
+      \vspace{0.18em}
       \textbf{II. Initiative Phase}\par
-      Determine initiative for the turn.\par
+      Determine initiative for the turn (4.0)\par
 
-      \vspace{0.26em}
+      \vspace{0.18em}
       \textbf{III. First Command Phase}\par
       \begin{itemize}
-      \item Receive command points
-      \item Broadcast command points
+      \item Receive command points (6.3)
+      \item Broadcast command points (6.4)
       \end{itemize}
 
-      \vspace{0.26em}
+      \vspace{0.18em}
       \textbf{IV. First Movement Phase}\par
       \begin{itemize}
-      \item Move and receive reinforcements
-      \item Opponent may react
-      \item Destroy/repair bridges or rail; entrench
+      \item Move and receive reinforcements (7.0, 18.0)
+      \item Opponent may react (9.0)
+      \item Destroy/repair bridges or rail; entrench (16.0, 15.0)
       \end{itemize}
 
       \columnbreak
 
       \textbf{V. Second Command Phase}\par
-      Same as the first command phase, for the second player.\par
+      Same as the first command phase, for the second player (6.3--6.4)\par
 
-      \vspace{0.26em}
+      \vspace{0.24em}
       \textbf{VI. Second Movement Phase}\par
-      Same as the first movement phase, for the second player.\par
+      Same as the first movement phase, for the second player (7.0, 9.0, 15.0--16.0, 18.0)\par
 
-      \vspace{0.26em}
+      \vspace{0.24em}
       \textbf{VII. Combat Phase}\par
       \begin{itemize}
-      \item Combat
-      \item Depletion
+      \item Combat (12.0--14.0)
+      \item Depletion (11.4)
       \end{itemize}
 
-      \vspace{0.26em}
+      \vspace{0.18em}
       \textbf{VIII. Conclusion Phase}\par
       \begin{itemize}
-      \item Morale Recovery
-      \item Replenishment
-      \item Union Panic Track (1862 only)
+      \item Morale Recovery (13.5)
+      \item Replenishment (11.5)
+      \item Union Panic Track, 1862 only (21.0)
       \end{itemize}
       \end{multicols}
     };
@@ -106,20 +106,25 @@
 }
 
 \newcommand{\holdingbox}[3]{%
-  \begin{tikzpicture}
-    \node[
-      draw=#2,
-      line width=1.2pt,
-      rounded corners=4pt,
-      fill=#3,
-      minimum width=2.1in,
-      minimum height=1.35in,
-      inner sep=0pt
-    ] {\fontsize{18}{20}\selectfont\bfseries #1};
+  \begin{tikzpicture}[x=1in,y=1in]
+    \path[draw=#2,line width=1.2pt,rounded corners=4pt,fill=#3] (0,0) rectangle (2.28,1.42);
+    \path[draw=#2!65,line width=0.8pt,rounded corners=3pt] (0.08,0.08) rectangle (2.20,1.34);
+    \fill[#2!12] (0.08,1.00) rectangle (2.20,1.34);
+    \draw[#2!65,line width=0.8pt] (0.08,1.00) -- (2.20,1.00);
+    \draw[#2!50,line width=0.7pt] (0.16,0.16) -- (0.34,0.16);
+    \draw[#2!50,line width=0.7pt] (0.16,0.16) -- (0.16,0.34);
+    \draw[#2!50,line width=0.7pt] (2.12,0.16) -- (1.94,0.16);
+    \draw[#2!50,line width=0.7pt] (2.12,0.16) -- (2.12,0.34);
+    \draw[#2!50,line width=0.7pt] (0.16,1.26) -- (0.34,1.26);
+    \draw[#2!50,line width=0.7pt] (0.16,1.26) -- (0.16,1.08);
+    \draw[#2!50,line width=0.7pt] (2.12,1.26) -- (1.94,1.26);
+    \draw[#2!50,line width=0.7pt] (2.12,1.26) -- (2.12,1.08);
+    \node[font=\fontsize{7}{7}\selectfont\bfseries,text=#2!80] at (1.14,1.17) {HOLDING BOX};
+    \node[font=\fontsize{18}{20}\selectfont\bfseries,text=aidtext] at (1.14,0.60) {#1};
   \end{tikzpicture}%
 }
 
 \newcommand{\holdingnote}{%
-  \vspace{0.5em}
-  {\small Units placed in a holding box are considered to occupy the same hex as the named leader.}
+  \vspace{0.28em}
+  {\footnotesize Units placed in a holding box are considered to occupy the same hex as the named leader.}
 }
