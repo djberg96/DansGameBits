@@ -1,7 +1,5 @@
 \rulesection{24.0 Charts and Tables}
 
-The graphic illustrations from the original chart pages are omitted here for now. The tables below reconstruct the numeric and reference charts in a maintenance-friendly LaTeX format.
-
 \noindent
 \begin{minipage}[t]{0.56\textwidth}
 \textbf{24.1 Combat Results Table}
@@ -156,10 +154,15 @@ Results:
 Die-roll modifier: add the number of excess losses.
 \end{minipage}
 
+\par\medskip
+\noindent
+\begin{minipage}{\textwidth}
 \textbf{24.4 Movement Costs Chart}
 
 \vspace{0.4em}
-\begin{center}
+\noindent
+\begin{minipage}[t]{0.72\textwidth}
+\centering
 \scriptsize
 \begin{tabular}{lccc}
 \toprule
@@ -179,8 +182,10 @@ Bridge Hexside & \multicolumn{3}{c}{+0 if intact; same as river/stream if destro
 City & \multicolumn{3}{c}{As other terrain in hex} \\
 \bottomrule
 \end{tabular}
-
-\vspace{0.7em}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.24\textwidth}
+\centering
+\scriptsize
 \textbf{Movement Rates} (MPs)
 
 \vspace{0.3em}
@@ -194,8 +199,10 @@ Supply Wagons & 6 \\
 Base & 4 \\
 \bottomrule
 \end{tabular}
-\end{center}
+\end{minipage}
+\end{minipage}
 
+\par\medskip
 \textbf{24.5 Action Costs}
 
 \vspace{0.4em}
@@ -224,7 +231,8 @@ Force March & Add'l MPs equal to leader initiative & Must be able to use 100\% o
 
 \noindent
 \begin{minipage}[t]{0.28\textwidth}
-\textbf{24.6 Replacement Point Table}
+\centering
+{\scriptsize\textbf{24.6 Replacement Point Table}\par}
 
 \vspace{0.4em}
 \centering
@@ -252,6 +260,8 @@ Roll separately for each table. Rolls greater than 6 count as 6.
 
 \vspace{0.5em}
 \setlength{\tabcolsep}{4pt}
+\begin{minipage}{0.86\textwidth}
+\centering
 \begin{tabular}{cc*{5}{c}}
 \toprule
 \textbf{Command Point Table} & \textbf{Die Roll} & \textbf{1--4} & \textbf{5--8} & \textbf{9--12} & \textbf{13--16} & \textbf{17+} \\
@@ -265,8 +275,10 @@ Roll separately for each table. Rolls greater than 6 count as 6.
 4 & 6 & 0 & 0 & 0 & 0 & 0 \\
 \bottomrule
 \end{tabular}
+\end{minipage}
 
 \vspace{0.6em}
+\begin{minipage}{0.86\textwidth}
 \raggedright
 \small
 The broadcast-table result is the reduction of command points received by the subordinate.
@@ -276,6 +288,7 @@ Die Roll Modifiers:
 \item -1 if there is no line of communication
 \item +1 in an 1864 scenario
 \end{itemize}
+\end{minipage}
 \end{minipage}
 
 \begin{landscape}
