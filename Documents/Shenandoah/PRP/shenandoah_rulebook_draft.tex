@@ -1,0 +1,954 @@
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,margin=0.7in,includeheadfoot]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black
+}
+
+\definecolor{titleblack}{RGB}{28,28,28}
+\definecolor{rulegray}{RGB}{85,85,85}
+\definecolor{ruleaccent}{RGB}{120,35,24}
+
+\setlength{\columnsep}{18pt}
+\setlength{\columnseprule}{0.2pt}
+\renewcommand{\columnseprulecolor}{\color{gray}}
+\setlength{\parskip}{0.45em}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*,topsep=0.3em,itemsep=0.15em}
+
+\titleformat{\section}
+  {\large\bfseries\color{ruleaccent}}
+  {}
+  {0pt}
+  {}
+  [\vspace{-0.3em}\titlerule]
+
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{titleblack}}
+  {}
+  {0pt}
+  {}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textsc{Shenandoah: Valley of Fire}}
+\fancyhead[R]{\textsc{Pacific Rim Publishing Draft}}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+
+\newcommand{\rulesection}[1]{\section{#1}}
+\newcommand{\rulesubsection}[1]{\subsection{#1}}
+
+\begin{document}
+\pagenumbering{roman}
+
+\begin{titlepage}
+\centering
+\vspace*{2.3cm}
+
+{\Huge\bfseries\color{titleblack} JUST PLAIN WARGAMES\par}
+\vspace{0.8cm}
+{\LARGE\itshape Shenandoah: Valley of Fire\par}
+\vspace{0.5cm}
+{\large 1994 Pacific Rim Publishing Company\par}
+
+\vspace{1.2cm}
+\begin{minipage}{0.84\textwidth}
+\centering
+\color{rulegray}
+\large
+OCR-based LaTeX reconstruction of the rulebook.\par
+\normalsize
+This draft combines the scanned rule pages into a single, two-column booklet format. Pages 8 and 9 were intentionally omitted because they are charts. Images are also omitted for now.
+\end{minipage}
+
+\vfill
+{\small Compiled from local scan images named \texttt{Shenandoah\_Page1--7} and \texttt{Shenandoah\_Page10--16}.}
+\end{titlepage}
+
+\setcounter{page}{2}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+\begin{multicols*}{2}
+
+\rulesection{1.0 Introduction}
+
+\textit{Shenandoah: Valley of Fire} simulates the 1862 and 1864 campaigns for the Shenandoah Valley. The 1862 campaign featured the brilliant maneuvers of Thomas Jackson against a Union force roughly double his force's size. In 1864, Phil Sheridan would enter the fray and permanently remove the valley from the Confederacy's plans. The game shows both sides' command problems. The system is based on command points and leader command ratings, which together determine movement allowances.
+
+If you have never played a wargame before, the rules may seem long and complicated, but they merely cover simple concepts that should become clear after a few readings. The rules are not complex, but it is important that players read all of them before attempting to play.
+
+Each section of the rules is numbered, and important paragraphs within a section carry a second number, like \texttt{2.2}. When a section contains subsections, these are identified like \texttt{2.24}. When a rule refers to another related rule, the number of that rule appears in parentheses.
+
+\rulesection{2.0 Components}
+
+\textit{Shenandoah: Valley of Fire} includes these rules, one 22" by 34" map, a scenario record chart for each player, a holding box and chart card, and a set of 200 die-cut counters. If any component is defective, please return it for prompt replacement. You will also need two six-sided dice.
+
+\rulesubsection{2.1 Map}
+
+The map is divided into hexagons, called hexes, that define the units' positions like squares on a chessboard. The map depicts the area where the campaigns occurred.
+
+\textbf{2.11 River and Stream Hexes.} The map includes two kinds of waterways: rivers and streams. Effects described for rivers do not apply to streams.
+
+\rulesubsection{2.2 Counters}
+
+\textbf{2.21 Leaders.} A leader is a counter with an infantry, cavalry, or artillery symbol. A leader represents that commander with his accompanying troops. Each leader has a troop strength, made up of strength points (SPs) and recorded on the Player Record Sheet. SPs may be transferred from one leader to another only through detachment and reattachment. A leader can control only the troop type indicated by his symbol. If a unit loses all its SPs, remove it from play.
+
+\textbf{2.22 Commanders.} A commander is a counter with a name and one or more stars. It represents a high-ranking officer with no accompanying troops. Commanders include one supreme commander for each side, plus one cavalry commander for each side. In the 1862 scenarios the Union has more than one supreme commander. When a rule applies to both commanders and leaders, commanders will be called leaders as well. SPs may not be attached to commanders.
+
+\textbf{2.23 Unit Sizes.} Each infantry and cavalry unit, except detachments, represents a division. A detachment has no formal size, but is smaller than a division.
+
+\textbf{2.25 Marker Summary.} Markers include rail cut, constructing entrenchment, entrenchment, panic, command points received, bridge destroyed, entrained, and devastation.
+
+\rulesubsection{2.3 Game Scale}
+
+Each hex is approximately two miles across. Each SP represents 300 men. Each turn represents two days.
+
+\rulesubsection{2.4 Charts and Tables}
+
+These are used to determine movement allowances and costs, and to resolve combat.
+
+\textbf{2.41 Holding Boxes.} Often many pieces will be stacked together with a high-ranking leader such as Sheridan or Jackson. When this occurs, players may place all lower-ranking units in the holding box where the leader's name appears on the chart card. Units in a holding box are considered to occupy the same hex as the corresponding leader; units may be moved between the holding box and map at any time. The holding boxes are purely for convenience.
+
+\rulesubsection{2.5 Percentage Chart}
+
+Game procedures will require players to compute percentages of a unit's strength or movement allowance. Locate the row corresponding to the original value and cross-reference it with the needed percentage column. If the exact original value is not listed, choose two row numbers that total the original value, find the percentages separately, and add the results.
+
+\textbf{Example.} To find 50\% of a force whose original size is 27, use 25 plus 2. The chart gives 13 for the 25 row and 1 for the 2 row; together this yields 14.
+
+\rulesubsection{2.6 Player Record Sheets}
+
+Each player has a separate Player Record Sheet for the scenarios. The record sheet shows when and where each leader enters play. Players also use the sheet to record the current strengths of combat units. These should be photocopied before use. Each player's record sheet is kept secret from the opponent.
+
+\rulesubsection{2.7 Die Roll Modifiers}
+
+Many events in the game require one or two dice. Certain conditions add to or subtract from the result. These are called die roll modifiers, abbreviated DRMs.
+
+\rulesection{3.0 Sequence of Play}
+
+In each turn, both players move and attempt to react to enemy movement. Then all battles are resolved in one Combat Phase.
+
+\textbf{I. Initial Phase}
+\begin{itemize}
+\item Reinforcements: each player checks for reinforcements entering this turn.
+\item Replacements: each player rolls for replacements. There are no replacements on turn 1 of any scenario.
+\item Wagon Creation: each player may attempt to create wagons.
+\end{itemize}
+
+\textbf{II. Initiative Phase} Initiative for the turn is determined.
+
+\textbf{III. First Command Phase}
+\begin{itemize}
+\item The first player determines available command points.
+\item The first player may broadcast command points.
+\end{itemize}
+
+\textbf{IV. First Movement Phase}
+\begin{itemize}
+\item The first player moves his units and receives reinforcements.
+\item The second player may attempt reaction.
+\item The first player's units may destroy or repair bridges or rail hexes, and may entrench.
+\end{itemize}
+
+\textbf{V. Second Command Phase} Same as the first, with the second player receiving and broadcasting command points.
+
+\textbf{VI. Second Movement Phase} Same as the first, with the second player moving and the first player attempting reaction.
+
+\textbf{VII. Combat Phase}
+\begin{itemize}
+\item Combat: opposing units in the same hex resolve combat.
+\item Depletion: check for wagon depletion.
+\end{itemize}
+
+\textbf{VIII. Conclusion Phase}
+\begin{itemize}
+\item Morale Recovery: players may attempt to remove demoralization.
+\item Replenishment: eligible wagons are flipped to their undepleted sides.
+\item Union Panic Track: in 1862 scenarios only, the track is adjusted and results applied.
+\end{itemize}
+
+\rulesection{4.0 Initiative}
+
+In the 1864 scenarios, the Union player rolls the die and on a roll of 1--4 decides who will be first player for the turn. On a roll of 5 or 6, the Confederate player decides. In the 1862 scenarios, the Confederate player gains the initiative on a roll of 1--5, while the Union decides on a roll of 6.
+
+\rulesection{5.0 Leaders}
+
+Leaders are the heart of the system. To reflect individual qualities, leaders have four ratings:
+
+\begin{itemize}
+\item \textbf{Command rating} determines movement allowance together with command points.
+\item \textbf{Initiative} affects morale recovery, forced march, reaction movement, and the ability to leave enemy-occupied hexes.
+\item \textbf{Combat bonus} modifies combat die rolls.
+\item \textbf{Seniority rating} determines which leader's ratings are used when several are stacked together.
+\end{itemize}
+
+\rulesubsection{5.1 Supreme Commanders}
+
+Supreme commanders are fundamental because command points originate with them. Supreme commanders are:
+
+\begin{itemize}
+\item Union: Banks, Fremont, and Shields in the 1862 scenarios; Sigel in scenarios 4 and 5; Sheridan in scenario 6.
+\item Confederate: Jackson in all 1862 scenarios and Early in all 1864 scenarios except 5, where Breckenridge is supreme commander.
+\end{itemize}
+
+Supreme commanders broadcast CPs to other friendly leaders.
+
+\rulesubsection{5.2 Subordination}
+
+Certain leaders are subordinate to others, reflecting each army's organization. The Player Record Sheets list which leaders are subordinate to which others in each scenario. Subordination is indicated by color bands on the counters.
+
+\textbf{5.21} All units are subordinate to the supreme commander.
+
+\textbf{5.22} All cavalry units are subordinate to the cavalry commander, who is used to control cavalry at long distances from the supreme commander. Some cavalry are also subordinate to intermediate commanders as indicated by color bands. In addition, Union cavalry are subordinate to all army leaders.
+
+\textbf{5.23} All wagons are subordinate to all friendly leaders.
+
+\rulesubsection{5.3 Seniority}
+
+Each leader has a seniority rating. The leader rated 1 is senior, the leader rated 2 is next, and so on. Seniority determines which leader is in overall control when several are stacked together. A commander may control leaders who do not belong to his formation if he is the senior leader in the hex. Subordination does not affect seniority.
+
+\rulesection{6.0 Command}
+
+Command points (CPs) are received during the Command Phase and determine units' movement allowance.
+
+\rulesubsection{6.1 Command Points}
+
+Determine movement allowance as follows:
+\begin{itemize}
+\item Basic movement allowances for each unit type are listed on the Movement Costs Chart.
+\item During the Command Phase, supreme commanders and cavalry commanders receive CPs and broadcast CPs to subordinates.
+\item Each unit may use some proportion of its basic movement allowance. The number of CPs received by the senior leader in each hex determines the percentage for all units in the hex.
+\end{itemize}
+
+\rulesubsection{6.2 Stacking Effect}
+
+At the instant a unit moves, its movement allowance is modified for units that moved out of the hex previously in that turn.
+
+\rulesubsection{6.3 Receiving Command Points}
+
+During his Command Phase a player determines how many CPs the supreme commander and cavalry commander have for the current turn. Roll once for the supreme commander and once for the cavalry commander. Modify the die roll for line of communications and consult the Command Point Table. The result is the number of CPs received that turn.
+
+\rulesubsection{6.4 Broadcasting}
+
+In broadcast, a commander attempts to give a subordinate the same CPs he has received. The supreme commander and cavalry commander may broadcast the CPs they receive to other friendly leaders not in the same hex.
+
+Commanders never broadcast to units in the same hex; their own command ratings determine movement allowance there. Each commander may broadcast only to subordinates. The supreme commander may not broadcast to the cavalry commander.
+
+Only the senior leader in each hex receives CPs by broadcast. The number received determines movement allowances for every unit in the hex, even if the hex contains both infantry and cavalry.
+
+A commander always attempts to broadcast his full number of CPs and may attempt to broadcast to every hex containing subordinates.
+
+\textbf{6.41 Procedure.} Count the distance in cavalry movement points from the broadcasting commander to the subordinate. Locate the corresponding column on the Command Broadcast Table, roll one die, apply any modifiers for line of communications, and cross-reference the result.
+
+\textbf{6.42 Results.} Results of \texttt{-1}, \texttt{-2}, or \texttt{-3} mean that this many CPs did not get through. If the number lost is greater than or equal to the number broadcast, the subordinate receives no CPs. A result of \texttt{Full} means the subordinate receives the full number of CPs the broadcasting commander received.
+
+\textbf{6.43 Broadcast Range.} Broadcast range is counted in cavalry movement points, not hexes. Any distance traced along a friendly intact rail line counts as one hex regardless of distance or terrain. Movement costs for zones of control must be paid unless a friendly combat unit occupies the hex. There is no maximum broadcast distance. The broadcast path may not be traced through enemy units.
+
+\rulesubsection{6.5 Command Points and Movement}
+
+\textbf{6.51} Compare the supreme commander's CPs to his command rating and express the ratio as a percentage. This is the percentage of his basic movement allowance he may expend.
+
+\textbf{6.52} All units stacked with the supreme commander use the same percentage of their movement allowance, even if they do not remain with him during movement.
+
+\textbf{6.53} For all other units, use the senior leader in each hex. Modify his command rating if necessary and compare broadcast CPs to that rating. Every leader in the hex receives the same percentage of movement allowance as the senior leader.
+
+\textbf{6.54} If a wagon is stacked with a leader and the leader has a movement allowance of 6 or less, the wagon's movement allowance is 6. If it is not stacked with a leader, use the wagon's own command rating.
+
+\textbf{6.55 Minimum Movement Allowance.} A unit that remains more than six hexes from all enemy units during its entire move may always expend 50\% of its maximum movement allowance, regardless of CPs. This does not entitle it to entrench or destroy or repair.
+
+\rulesubsection{6.6 Modifier to Command Rating}
+
+If three or more combat units are together in a hex and no commander is present, add 1 to the senior leader's command rating when determining movement allowances or commitment.
+
+\rulesubsection{6.7 Restrictions}
+
+Leaders receiving more CPs than their command rating may not save them, nor does this increase movement allowance. Leaders may only increase movement allowance through force march. A unit may not move if its hex receives 0 CPs, except as provided by destination markers or the minimum movement allowance rule.
+
+\rulesubsection{6.8 Line of Communications}
+
+When using the Command Point Table, a player must check whether the commander being rolled for has a line of communications (LOC). When using the Command Broadcast Table, he must check whether the broadcasting commander has an LOC.
+
+\textbf{6.81} A supreme or cavalry commander traces an LOC to a friendly depot. The LOC may be traced over at most four non-road hexes to a road or rail hex, and then any distance along a continuous path of road or rail hexes to a friendly depot.
+
+\textbf{6.82} A commander traces an LOC to his supreme commander the same way the supreme commander traces one to a depot. The supreme commander must also be able to trace an LOC himself.
+
+\textbf{6.83} If a supreme or cavalry commander cannot trace an LOC, there is a \texttt{-1} DRM on both the Command Table and the Command Broadcast Table.
+
+\textbf{6.84} An LOC may not be traced through an enemy unit. Zones of control do not affect LOC. No portion of an LOC may be traced through an unbridged river, and the road or rail portion may not cross a destroyed bridge or destroyed rail hex.
+
+\rulesection{7.0 Movement}
+
+During a player's Movement Phase, he may move every unit whose movement allowance is greater than 0. Units may be moved singly or in stacks. Each expends movement points (MPs) to enter hexes depending on terrain.
+
+\rulesubsection{7.1 Terrain}
+
+The Movement Costs Chart lists the cost for each type of unit to enter each type of terrain or cross certain hexsides. A combat unit may not enter a hex if it cannot pay the full MP cost.
+
+\textbf{7.11} Units entering a hex through a road hexside may use road movement rates. A road negates slope costs but not ford costs.
+
+\textbf{7.12} Every rail line is also considered a road.
+
+\textbf{7.13} If two roads run parallel in a hex but do not connect, a unit may not enter on one and leave on the other in the same turn using road movement; it pays the full terrain cost for the second hex.
+
+\textbf{7.14} Units pay an additional cost to move in either direction across a slope hexside.
+
+\rulesubsection{7.2 Stacks}
+
+A stack of more than one unit moving together is called a force. If a stack of more than one type of unit moves together, each unit's movement allowance may be reduced. During the move, each unit pays the costs for its own type. Forces may not split up during movement or drop off units; units moving as a force must finish together.
+
+\rulesubsection{7.3 Modifications}
+
+Combat unit movement allowances are modified when units move together as stacks or when units leave a hex separately. This applies in both regular Movement Phases and Reaction Movement.
+
+\textbf{7.31} When more than two divisions move together as a force, reduce the force's movement allowance by 1 MP for each division after the second.
+
+\textbf{7.32} Every 25 or more SPs of cavalry or infantry detachments is treated as one division.
+
+\textbf{7.33} If units that begin stacked together move out separately, a combat unit loses 1 MP for each division already moved. Detachments and cavalry do not count for this purpose. There is no cost for enemy units. A wagon's movement allowance is never reduced for units that have left the hex.
+
+\textbf{7.34} Stacking can never reduce a unit's movement allowance to 0; it always retains 1 MP.
+
+\textbf{7.35} Stacking does not affect movement allowances of wagons or commanders.
+
+\rulesubsection{7.4 Enemy-Occupied Hexes}
+
+Units may enter enemy-occupied hexes and must do so in order to attack.
+
+\textbf{7.41} A unit must expend 1 additional MP to enter a hex occupied by an enemy combat unit, and may not expend any more MPs that Movement Phase. There is no additional cost to enter a hex occupied only by a non-combat unit.
+
+\textbf{7.42 Reaction.} If an enemy unit moves into a friendly unit's hex, the friendly unit may immediately attempt to leave through reaction. If an enemy combat unit using reaction movement enters the hex of a moving friendly unit, neither unit may expend more MPs in that Movement Phase.
+
+\textbf{7.43 Exiting Enemy-Occupied Hexes.} A unit beginning movement or reaction in a hex occupied by enemy combat units may attempt to leave. Roll one die and compare the initiative ratings of the senior friendly and enemy leaders. Add 1 if the enemy leader's initiative exceeds the friendly leader's; subtract 1 if it is lower. If the modified die roll is equal to or less than the senior moving leader's initiative, the force may leave, paying 1 additional MP. If the result exceeds the initiative rating, movement immediately ends. Before rolling, the player must declare exactly which units are attempting to leave.
+
+\textbf{7.44 Non-Combat Units.} If a commander or wagon occupies a hex with no friendly combat units, enemy combat units may enter at no additional movement cost. The friendly unit is eliminated. An unaccompanied commander or wagon may not enter a hex containing an enemy unit.
+
+\rulesubsection{7.5 Force March}
+
+Any unit entitled to use all of its printed movement allowance may force march if the senior leader in the stack received CPs equal to his command rating. Each unit may expend additional MPs equal to the senior leader's initiative. No die roll is required.
+
+\textbf{7.51} A unit may not force march and destroy things in the same Movement Phase.
+
+\textbf{7.52} Units that force march may lose SPs. Immediately after moving, roll one die. On 1--4, no SPs are lost. On 5 or 6, 10\% of the unit's strength is eliminated, rounding up.
+
+\rulesection{8.0 Zones of Control}
+
+Cavalry units only have a zone of control (ZOC), except when in a hex occupied by an enemy combat unit or when entrenched. All enemy units must pay 1 additional MP to enter a ZOC. The hexes a unit controls depend on its facing.
+
+\rulesubsection{8.1 Union Cavalry ZOCs --- 1862 Scenarios}
+
+Each Union cavalry unit exerts a ZOC into its three adjacent frontal hexes. All enemy units must pay 1 additional MP to enter a controlled hex.
+
+\rulesubsection{8.2 Confederate Cavalry ZOCs and Union Cavalry in 1864 Scenarios}
+
+Each 1864 Union and each Confederate cavalry unit's ZOC extends a distance of two hexes through its frontal hexsides. ZOCs extend into, but not through, hexes occupied by enemy combat units. Non-combat units do not block ZOCs. Units must pay 2 additional MPs to enter a cavalry unit's frontal hex and 1 additional MP to enter a ZOC hex two hexes away.
+
+\rulesubsection{8.3 Facing}
+
+Cavalry are the only units with facings. Each cavalry unit has three front hexsides, called frontal hexes. A player decides a unit's facing when he moves it into a hex, before the enemy declares reaction attempts. After a battle, including retreats, each player may orient the facings of involved cavalry however he wishes.
+
+\rulesubsection{8.4 Limits}
+
+If an enemy combat unit occupies its hex, a cavalry unit does not exert a ZOC. The ZOC disappears at the instant the enemy enters the hex and reappears when no enemy is present. ZOCs do not extend across rivers except at intact bridge hexsides, or into ridge hexes. Cavalry in entrenchments do not have ZOCs. Opposing ZOCs do not neutralize each other.
+
+\rulesubsection{8.5 Effects}
+
+A unit need not stop on entering an enemy ZOC, but must pay the additional MP cost for every such hex entered. A unit may move directly from one ZOC to another. ZOC costs are not cumulative: if more than one unit exerts a ZOC, use the greatest cost that applies.
+
+A friendly combat unit negates an enemy ZOC in that hex for purposes of command broadcast, but not for movement.
+
+\rulesection{9.0 Reaction}
+
+Leaders may attempt reaction movement during the enemy Movement Phase.
+
+\rulesubsection{9.1 Reaction Zones}
+
+Each leader has a reaction zone extending in all directions for a number of hexes equal to his initiative rating, including the hex he occupies.
+
+\textbf{9.11} Reaction zones are entirely separate from ZOCs. All leaders exert reaction zones; there is no MP cost to enter one.
+
+\textbf{9.12} Reaction zones do not extend into or through ridge hexes. They extend across a river hexside only if the hexside contains an intact bridge.
+
+\rulesubsection{9.2 Triggering Reaction}
+
+When any enemy unit enters a reaction zone, the player may attempt reaction movement immediately, before the enemy spends more MPs.
+
+\textbf{9.21} The player indicates the reacting stack and rolls one die. If the result is equal to or less than the initiative of the senior leader in the stack, the reaction succeeds.
+
+\textbf{9.22} If reaction succeeds, any or all units of that stack may immediately move as a stack up to 50\% of the basic movement allowance of the slowest type of unit in the force. Compute stacking effects first and then halve the result.
+
+\textbf{9.23} If an enemy unit is in the reacting stack's hex, units wishing to leave must use the procedure for leaving an enemy-occupied hex. If they fail, they may not leave and may not attempt reaction again during that Movement Phase while enemy units occupy the hex.
+
+\rulesubsection{9.3 Number of Attempts}
+
+A leader may attempt reaction and make reaction moves any number of times in the same Movement Phase, though a leader who enters an enemy-occupied hex during reaction may not move again that phase.
+
+\textbf{9.31} Any number of enemy leaders may react after each hex of friendly movement. A player must declare all attempts before resolving any of them.
+
+\textbf{9.32} A player may attempt reaction any number of times against the same enemy force.
+
+\textbf{9.33} Each stack may attempt reaction only once per hex of enemy movement.
+
+\rulesubsection{9.4 Stacks and Reaction}
+
+A player may attempt reaction with a stack only if enemy units have entered the reaction zone of the senior leader in the stack. Use the senior leader's initiative rating to resolve the attempt. Units beginning a reaction move in the same hex must move as a stack, though some may stay behind.
+
+\rulesubsection{9.5 Reaction from Enemy-Occupied Hexes}
+
+Units in an enemy-occupied hex may attempt reaction. If they succeed, they must still carry out the usual procedure to leave the hex. If they fail either attempt, they may not try again in the same phase while enemy units occupy the hex.
+
+If a unit makes a reaction move while stacked with enemy units that entered the hex in that same turn, it may not leave through any hexside by which those enemy units entered.
+
+\rulesubsection{9.6 Other Restrictions}
+
+\textbf{9.61} Leaders may not use reaction in their own Movement Phase and may not react to reaction movement.
+
+\textbf{9.62} Reaction may be attempted only after an enemy force has moved, not before it begins moving.
+
+\textbf{9.63} Entraining within a reaction zone does not allow reaction attempts.
+
+\textbf{9.64} Reaction may not be attempted during the Combat Phase.
+
+\textbf{9.65} Units may not entrench or destroy or repair things using reaction movement.
+
+\rulesection{10.0 Railroad Movement}
+
+Both players may move units by rail using friendly rail only. The Union may use rail starting at hex 1005 and ending at hexes 1601, 1901, and 2901. The Confederate player may use rail starting at hex 1043 and ending at hexes 1853, 4653, and 4831.
+
+\rulesubsection{10.1 Procedure}
+
+The unit must move to a rail hex and expend 1 MP to entrain. Place an Entrained marker on the unit. The unit then expends 1 MP for every 15 hexes it wishes to move by rail. It may detrain for 1 MP and then spend any remaining MPs on normal movement. If it does not detrain, the player may place a Destination marker.
+
+\rulesubsection{10.2 Restrictions}
+
+\textbf{10.21} A unit may remain entrained at the end of the Movement Phase and use rail movement again in the next phase without entraining again.
+
+\textbf{10.22} In a single Movement Phase a unit may move as many hexes by rail as its movement allowance permits.
+
+\textbf{10.23} A unit may not use rail movement during reaction. An entrained unit may not react.
+
+\textbf{10.24} An entrained unit does not pay additional MPs to enter an enemy-occupied hex or ZOC. It must stop upon entering an enemy-occupied hex and may detrain if it has at least 1 MP remaining.
+
+\textbf{10.25} An entrained unit must stop upon entering a hex with a destroyed rail marker.
+
+\textbf{10.26} An entrained unit must stop upon entering a hex containing an enemy non-combat unit. Unlike regular movement, this does not automatically eliminate that non-combat unit unless the entrained unit detrains.
+
+\rulesubsection{10.3 Rail Capacity}
+
+In a single Movement Phase a player may move any two divisions, detachments, or wagons by rail. Supreme and cavalry commanders may also move by rail in addition to those units. A unit that begins the phase entrained but does not move by rail does not count against capacity.
+
+\rulesubsection{10.4 Destination Markers}
+
+If the player leaves a unit entrained at the end of the Movement Phase, he may place a Destination marker. In the next friendly Movement Phase, the entrained unit may continue toward its destination without receiving a CP. It may move up to 60 hexes, equivalent to 4 MPs worth, per turn. The unit must move toward the destination by the most direct route. If the player wishes to move the unit differently, the unit must have a CP and the Destination marker is removed.
+
+\rulesubsection{10.5 Combat Effects}
+
+An entrained unit may not attack. If attacked, it immediately detrains. The owning player subtracts 1 from his commitment die roll if any such unit is involved.
+
+\rulesection{11.0 Supply}
+
+Units must be supplied to function normally during combat. Supply has no effect on any other game function. There are three types of supply sources: wagons, supply bases, and depots.
+
+\rulesubsection{11.1 Depots}
+
+Depots are listed for each scenario. See the specific scenario on the player record sheets.
+
+\textbf{11.12 Enemy Units.} If an enemy combat unit occupies a depot hex, friendly units not in that hex may not use it for supply or line of communications. Friendly units in the hex may use it normally. If the town holding the depot is devastated, the depot is permanently destroyed and its marker is removed.
+
+\rulesubsection{11.2 Wagons}
+
+Wagons carry a limited amount of supply and may become depleted due to combat. Depleted wagons have the same command, initiative, and combat bonus ratings as undepleted wagons.
+
+\textbf{11.21 Wagon Creation.} Leaders, including detachments, may create wagons. The leader must spend one full Movement Phase in a depot or base hex, must not move during that phase, and must have at least 1 CP. Place a Wagon Creation marker in the hex. During the Initial Phase of the following turn the player may place a wagon in the hex. If all friendly wagons are already in play, no more can be created.
+
+\textbf{11.22 Replenishing a Wagon.} To become undepleted, a wagon must remain stationary for one full turn on a road or rail hex and within four undestroyed rail and-or road hexes of a friendly depot or base. Only friendly rail hexes may be used. The four-hex path cannot be traced through enemy combat units; ZOCs have no effect. The wagon is flipped to its undepleted side during the Conclusion Phase.
+
+\rulesubsection{11.3 Supply Base}
+
+A supply base functions like a supply depot except that it can move. To move a supply base, flip it to its blank side during the Movement Phase and move it as a wagon. It may be flipped back to its base side at the beginning of any Movement Phase. While moving, it may not supply any units.
+
+\rulesection{12.0 Combat}
+
+During the Combat Phase, combat may occur in any hex occupied by both sides. The first player determines the order in which these battles are resolved.
+
+Compare initiative of each side's senior leader. The player with the higher initiative may decide whether to attack first. If initiatives are equal, the player moving into the hex second decides whether to attack first. If the player with first choice declines, his opponent may attack. If neither player attacks, there is no combat and all units remain in the hex. If there is combat, use the procedure below unless neither side has more than 10 strength points or both sides have only cavalry; in that case use skirmish combat.
+
+\rulesubsection{12.1 Procedure}
+
+\begin{itemize}
+\item Each player checks supply.
+\item Each player chooses a combat option and checks for wagon depletion.
+\item Players compare combat options and determine the number of rounds to be fought.
+\item Each player determines troop commitment.
+\item Rounds are fought.
+\item Retreats are executed. Each player may reorient facings of involved cavalry units.
+\item In some scenarios, the winner determines whether a major or minor victory was achieved.
+\end{itemize}
+
+\rulesubsection{12.2 Participating Units}
+
+If a player attacks, he may use some or all of his units, except that demoralized units may never attack. Units that do not attack are not affected by the battle. All defending units always take part.
+
+\rulesubsection{12.3 Combat Supply}
+
+A combat unit is in supply if an undepleted wagon is within 2 MPs, a supply base is within 4 MPs, or a depot is within 4 MPs. A single wagon, base, or depot may supply any number of units and any number of combats in a single Combat Phase.
+
+\textbf{12.31 Tracing Supply Lines.} Trace from the unit to the supply source. Count terrain costs using the combat unit's terrain and ZOC costs. Railroads count as roads, but rail movement may not be used for supply. A supply line may not include a hex occupied by an enemy combat unit other than the hex of the units being supplied.
+
+\textbf{12.32 Effects.} A combat unit unable to trace a supply line of the correct length is unsupplied.
+
+\textbf{12.321} If a player's units are unsupplied, he may not choose the \textit{Pitched Battle} or \textit{Assault} combat options.
+
+\textbf{12.322} Unsupplied units must retreat at the end of the final combat round unless the enemy is forced to retreat because of demoralization.
+
+\textbf{12.33 Wagon Depletion.} A wagon used to supply combat may become depleted. Immediately after choosing a combat option, roll one die. If the option is \textit{Pitched Battle}, a roll of 5 or 6 depletes the wagon. If any other option is chosen, only a roll of 6 depletes it. Place a Depletion marker on a wagon that becomes depleted. At the end of the Combat Phase the wagon is flipped to its depleted side and the marker removed. A player may not voluntarily choose to be unsupplied if a supply line is possible.
+
+\rulesubsection{12.4 Combat Options}
+
+In resolving each combat, both attacker and defender choose an option chit secretly and reveal after both have chosen.
+
+\begin{itemize}
+\item Attacker options: \textit{Probe}, \textit{Assault}, \textit{Pitched Battle}
+\item Defender options: \textit{Withdraw}, \textit{Stand}, \textit{Pitched Battle}
+\end{itemize}
+
+\textbf{12.41 Restrictions.} If a player's units are unsupplied, he may not choose \textit{Pitched Battle} or \textit{Assault}. If his units have no legal retreat path, he may not choose \textit{Withdraw}.
+
+\textbf{12.42 Effects.} Cross-reference the two choices on the Combat Options Chart. Results of \texttt{1} or \texttt{2} mean the combat lasts that many rounds. Result \texttt{U} means rounds continue until one or both sides become demoralized.
+
+\textbf{12.421} \textit{Pitched Battle} increases the player's Commitment Table die roll by 1 and also makes wagon depletion more likely.
+
+\textbf{12.422} A player who chooses \textit{Withdraw} must retreat at the end of the battle and reduces his Commitment Table die roll by 1.
+
+\textbf{12.423} \textit{Probe} reduces the player's Commitment Table die roll by 1.
+
+\rulesubsection{12.5 Commitment}
+
+Immediately before combat rounds begin, each player determines commitment. Select the senior friendly leader in the hex, modify his command rating if necessary, select the corresponding column on the Commitment Table, roll two dice, add any modifiers from the table, and cross-reference the result. The result is the percentage of the force's total SPs that may be used in the combat.
+
+Commitment occurs only once, before rounds begin, and represents the arrival of fresh troops throughout the battle as well as those initially sent into action.
+
+\rulesubsection{12.6 Resolving Rounds}
+
+To resolve a round, each player totals and modifies the strength of his committed units, locates the corresponding Combat Results Table column, and shifts one column left if his opponent is defending in an entrenchment. Each player then rolls one die, modifies the result as listed with the table, and cross-references with the proper column. The result is the number of enemy SPs eliminated. The enemy player chooses which of his units suffer losses.
+
+\textbf{12.61} Although it is easier to resolve fire in sequence, each round's results take effect simultaneously.
+
+\textbf{12.62 Strength Modifications.}
+\begin{itemize}
+\item Halve a unit if it entered the hex during the current turn through an adjacent bridge or river hexside.
+\item Halve a unit if combat occurs in a ridge hex and it entered during the current turn through a slope hexside.
+\item Double a unit if it is defending and entrenched.
+\end{itemize}
+
+Modifications are cumulative. Apply them to the total strength of all units to which they apply, rounding to the nearest whole number and rounding one-half up.
+
+\textbf{12.63 Die-Roll Modifiers.}
+\begin{itemize}
+\item Add the combat bonus of the senior leader on the firing side.
+\item Add 1 if the player chose \textit{Pitched Battle}.
+\item Subtract 1 if the player chose \textit{Withdrawal} or \textit{Probe}.
+\item Add 1 to all fire by the defender in all battles.
+\end{itemize}
+
+\textbf{12.64 Excess Strength.} If committed SPs exceed 56, roll once using the 56 column and again for the excess. A player with more than 56 committed SPs must use the 56 column.
+
+\textbf{12.65 Excess Losses.} If losses exceed committed SPs, some of the excess may be removed from uncommitted SPs. The other player rolls a die, adds the number of excess losses, and consults the Excess Losses Table to determine additional losses.
+
+\rulesubsection{12.7 Skirmish Combat}
+
+When both sides in a combat are cavalry or 10 SPs or less of infantry, use skirmish combat:
+\begin{itemize}
+\item Each player totals his force's SPs.
+\item Each player rolls on the Combat Results Table and applies the result.
+\item Each side that lost at least one SP checks for demoralization. Units that become demoralized must retreat.
+\item Units without supply must retreat. Wagons are never depleted due to skirmish combat.
+\item Combat is completed after a single round.
+\end{itemize}
+
+\rulesection{13.0 Demoralization}
+
+At the end of the combat round in which a force's losses first total 10\% or more of the initial committed strength, and every subsequent round, that player checks for demoralization with a single die roll for all participating units in the hex.
+
+\rulesubsection{13.1 Procedure}
+
+Roll one die and add the following modifiers:
+\begin{itemize}
+\item +1 for every 10\% of the initial committed force lost, ignoring fractions.
+\item +1 if the senior leader has a command rating of 4.
+\item -1 if the highest-ranking leader has a command rating of 1.
+\item -1 for the defender if any units in his force are entrenched.
+\item +1 if any units begin the battle demoralized.
+\end{itemize}
+
+If the modified die roll is 6 or more, all participating friendly combat units in the hex immediately become demoralized. Units in the same hex but not taking part are unaffected.
+
+\rulesubsection{13.2 Effects}
+
+If a force fails a demoralization check, all participating friendly units in the hex must immediately retreat. If a force includes demoralized units at the start of battle, it retreats only when it fails a check during that battle.
+
+\textbf{13.21} Demoralized units may not attack.
+
+\textbf{13.22} If any defending units are demoralized, the defender subtracts 1 from his commitment die roll and may not choose \textit{Pitched Battle}.
+
+\textbf{13.23} If any units begin combat demoralized, the owning player adds 1 to all demoralization die rolls.
+
+\textbf{13.24} Demoralization does not affect reaction.
+
+\textbf{13.25} There is no additional penalty if a demoralized unit becomes demoralized again.
+
+\rulesubsection{13.3 Recovery}
+
+During the Morale Recovery Phase each player attempts to restore demoralized units, including those demoralized in the same turn.
+
+\textbf{13.31} Add 1 to the leader's initiative and roll one die. If the result is equal to or less than the modified initiative, the unit returns to good order.
+
+\textbf{13.32} If a supreme commander is stacked with a demoralized unit, the player may use the supreme commander's initiative instead of the demoralized leader's. A cavalry commander may give this benefit only to cavalry units.
+
+\rulesection{14.0 Retreats}
+
+\rulesubsection{14.1 Required Retreats}
+
+Units must retreat:
+\begin{itemize}
+\item immediately when demoralized;
+\item at the end of combat if unsupplied, unless the enemy retreats because of demoralization;
+\item at the end of combat if the player chose \textit{Withdrawal}.
+\end{itemize}
+
+Units in the same hex but not participating in the combat need not retreat. If both sides retreat, the player whose senior leader has the greater command rating retreats first; if equal, the attacker retreats first.
+
+\rulesubsection{14.2 Procedure}
+
+A player retreats his own units on any path he wishes, subject to restrictions. Different units may retreat to different hexes.
+
+\textbf{14.21} Retreating units move 4 MPs without paying ZOC costs. If no path exactly 4 MPs long is available, they may expend more, but as few extra MPs as possible.
+
+\textbf{14.22} A unit that must retreat but has no legal route at least 4 MPs long is removed from play.
+
+\rulesubsection{14.3 Enemy Units}
+
+With one exception, retreating units may not enter hexes occupied by enemy combat units, nor exit the combat hex by a hexside through which enemy units entered the battle unless those enemy units retreated first.
+
+Exception: enemy units totaling less than 20\% of the strength of the retreating force do not block retreat. At a bridge hexside, enemy units totaling at least 10\% block retreat. Units may retreat through any enemy-occupied hex only if there is no alternative.
+
+\rulesubsection{14.4 Other Restrictions}
+
+\textbf{14.41} Retreating units may not cross unbridged river hexsides.
+
+\textbf{14.42} A unit retreating because of demoralization must end in a hex from which it can trace a shorter supply line than from the combat hex, if possible. If not, it must retreat to a hex closer to another friendly force than the combat hex, if possible.
+
+\textbf{14.43} Units retreating because of supply or \textit{Withdrawal} must retreat to a hex that is closer to another friendly force than the combat hex, if possible.
+
+\rulesubsection{14.5 Wagons}
+
+Wagons stacked with a retreating force may accompany that force for the full length of its retreat, ignoring wagon terrain costs. Likewise, any wagon in a hex a force retreats through may accompany that force.
+
+\rulesection{15.0 Entrenchments}
+
+Combat units may entrench to gain defensive benefits.
+
+\rulesubsection{15.1 Entrenchments}
+
+Entrenchment requires two full friendly Movement Phases. During each of those phases the unit must not expend MPs and must have at least 1 CP. At the end of the first Movement Phase, place a Constructing Entrenchment marker. At the end of the second, flip it to its Entrenchment side.
+
+The two phases must occur on consecutive turns. If a unit with a Constructing Entrenchment marker fails to meet the conditions on the following turn, remove the marker.
+
+\textbf{15.11} Each unit must entrench for itself. A unit entering a hex with an entrenched unit does not also become entrenched. One unit cannot take over another unit's Constructing Entrenchment marker. If an entrenched unit moves, remove its Entrenchment marker.
+
+\textbf{15.12} A unit that attacks remains entrenched if it still occupies the hex after combat, but gains no benefit from entrenchments during that battle.
+
+\rulesubsection{15.2 Effects}
+
+Defending units in entrenchments are doubled when defending and receive a modifier to demoralization die rolls. Cavalry in entrenchments have no ZOC. In addition, the attacker shifts one column left on the Combat Results Table if the defender is entrenched.
+
+\rulesection{16.0 Destruction and Repair}
+
+\rulesubsection{16.1 Destroying Bridges}
+
+A force totaling five or more SPs may destroy a bridged hexside by expending MPs in an adjoining hex:
+\begin{itemize}
+\item 4 MPs to destroy a rail bridge;
+\item 3 MPs to destroy any other bridge;
+\item +2 MPs to either cost if an enemy combat unit occupies a hex adjoining the bridge.
+\end{itemize}
+
+Before a bridge is destroyed, enemy combat units may attempt reaction and, if successful, may enter the hex of the unit attempting the destruction. If this occurs, the bridge may not be destroyed.
+
+\textbf{16.12} Place a Bridge Destroyed marker on the destroyed hexside. If a rail bridge is destroyed, also place a Destroyed Rail marker in the hex occupied by the destroying unit.
+
+\textbf{16.13} Units may not destroy bridges during force march or if stacked with an enemy combat unit.
+
+\rulesubsection{16.2 Repairing Bridges}
+
+A force totaling five or more infantry SPs may repair a bridge. Cavalry may not repair bridges.
+
+Repair requires one full friendly Movement Phase. During that phase the unit must remain adjacent to the hexside, no enemy unit may be adjacent to it, the unit may not move, and it must have at least 1 CP. At the end of the phase remove the Bridge Destroyed marker.
+
+Repairing a rail bridge does not remove the Destroyed Rail marker placed when the bridge was destroyed; that must be repaired separately after the bridge is repaired. Players may not build new bridges, only repair printed bridges that have been destroyed.
+
+\rulesubsection{16.3 Destroying Rail Lines}
+
+A force totaling five or more infantry SPs may destroy a rail line by expending 3 additional MPs in the hex. Place a Destroyed Rail marker. Rails may not be destroyed if enemy units are in the hex.
+
+\rulesubsection{16.4 Repairing Rail Lines}
+
+A force totaling five or more infantry SPs may repair a friendly rail hex by expending 4 additional MPs in the hex and removing the Destroyed Rail marker.
+
+\textbf{16.41} Rail lines may not be repaired if enemy units are in the hex.
+
+\textbf{16.42} The same unit may not simultaneously repair rail lines and a bridge.
+
+\textbf{16.43} Only lines in friendly territory, meaning lines the player's units could use for rail movement, can be repaired.
+
+\textbf{16.44} Cavalry may not repair rail lines.
+
+\rulesection{17.0 Detachments}
+
+\rulesubsection{17.1 Creating Detachments}
+
+Detachments may be created at the start of each unit's movement. Place a detachment counter in the hex, decide how many SPs to assign to it, note that on the Player Record Sheet, subtract those SPs from the detaching unit, and also note the formation to which the detachment is subordinate.
+
+\textbf{17.11} The detachment's movement allowance in the current turn is the same as the detaching unit's, but the detachment must pay an additional cost of 1 MP.
+
+\textbf{17.12} Only one unit may contribute SPs to each detachment.
+
+\textbf{17.13} A detachment may not receive more than one-third of the detaching unit's current SPs.
+
+\textbf{17.14} A detachment can include only one troop type: infantry or cavalry.
+
+\textbf{17.15} A detachment is treated in every way like a named leader using the printed ratings. Cavalry detachments are subordinate to the cavalry commander; infantry detachments are subordinate to the same commander as the detaching unit.
+
+\textbf{17.16} If players run out of detachment counters, they may make additional pieces.
+
+\rulesubsection{17.2 Reattaching}
+
+A detachment may rejoin any leader of the same troop type. Both units must begin the Movement Phase in the same hex. The leader must pay 1 additional MP. The leader may not absorb detachment strength in excess of his original starting strength; any excess is forfeited. A division leader may absorb a detachment from a different leader.
+
+\rulesection{18.0 Reinforcements and Replacements}
+
+During the Initial Phase both sides receive replacement points (RPs) and may receive reinforcements depending on the scenario.
+
+\rulesubsection{18.1 Replacement Points}
+
+Each turn, both players roll on the Replacement Table. Then both may spend RPs to add strength to combat units. One infantry SP costs 1 RP. One cavalry SP costs 2 RPs. Each player notes the increase on his Player Record Sheet. Players may add RPs in excess of a unit's original strength.
+
+\rulesubsection{18.2 Restrictions}
+
+To receive RPs, a unit must have an LOC. A demoralized unit cannot receive RPs, nor can a completely eliminated unit be brought back into play with RPs. RPs cannot be saved for another turn.
+
+\rulesubsection{18.3 Reinforcements}
+
+Reinforcements are placed on their entry hexes during the Initial Phase. If the entry hex is occupied by enemy units, the reinforcements may enter that hex or wait until a later turn. Reinforcements are considered in command their first turn and may move their full movement allowance.
+
+\rulesection{19.0 Leader Casualties}
+
+Whenever combat occurs, if a player rolls an unmodified 6, there is a chance of a leader casualty.
+
+After all combat has been completed, roll one die. The result is the number of leaders possibly killed, up to the number of leaders present. Place all leaders present in an opaque container, select the indicated number at random, and for each selected leader roll two dice. On a result of 2, 3, or 12, that leader is killed and removed from play.
+
+Replace dead division leaders with detachment leaders. For supreme commanders and cavalry commanders, promote the next senior leader not already at that level. Example: if Jackson is killed, Ashby becomes supreme commander, and Ashby is then replaced by a detachment leader.
+
+\rulesection{20.0 Optional Rules}
+
+\rulesubsection{20.1 Solitaire Play}
+
+The game can be played by one player moving both sides. The main obstacle is choosing combat options.
+
+To resolve this, first choose an option for the attacker. Then roll one die. If the senior defending leader has a combat bonus of 2 or 3, subtract 1 from the die roll. Choose the defender's option as follows:
+\begin{itemize}
+\item 1--2: \textit{Pitched Battle} (if the defender is unsupplied, roll again)
+\item 3--4: \textit{Stand}
+\item 5--6: \textit{Withdraw}
+\end{itemize}
+
+\rulesubsection{20.2 Surprise Attacks}
+
+A player may attempt a surprise attack if he force marches units into an enemy-occupied hex and all enemy units in the hex either fail to react or do not attempt reaction. Roll one die. If the result is less than the initiative of the senior moving leader, the player may make a surprise attack.
+
+\textbf{20.21} The surprise attack is resolved immediately during the Movement Phase. Players do not choose combat options. The combat lasts two rounds unless one side is demoralized in the first. The defender applies none of the usual commitment modifiers. The attacker shifts one column right on the Combat Results Table. The defender may not fire during the first round.
+
+\textbf{20.22} Units that have made a surprise attack may not move for the remainder of the phase.
+
+\textbf{20.23} If both sides have units in the hex at the start of the Combat Phase, combat may occur there as usual.
+
+\rulesection{21.0 Victory Conditions}
+
+Victory conditions vary by scenario. Some scenarios use victory points (VPs).
+
+\rulesubsection{21.1 Major or Minor Victory}
+
+If only one side retreats after a battle, the other has won a minor victory. If the retreating side lost at least 15 SPs, the battle is a major victory. Losses during all consecutive turns of combat in one hex count as one battle when determining victory.
+
+\rulesubsection{21.2 Territorial Control}
+
+In some scenarios, players are awarded VPs for controlling certain hexes, usually those with key towns. To control a hex, at least 5 infantry SPs must occupy it with no enemy units present. The scenario instructions list the number of VPs awarded.
+
+\rulesubsection{21.3 Devastation}
+
+Certain scenarios allow players to devastate town hexes. During the Movement Phase, either player may devastate a town hex if 10 friendly infantry SPs expend 2 MPs in the hex, no enemy units are present, and those 10 SPs do not move for the entire turn. If no combat takes place there during the Combat Phase, the hex is marked devastated at the start of the Conclusion Phase. Once devastated, the marker is never removed. A supply depot in a devastated hex is permanently removed from the map.
+
+\rulesection{22.0 Scenarios}
+
+\rulesubsection{22.1 Set Up}
+
+\textit{Shenandoah: Valley of Fire} has six scenarios. There is a Player Record Sheet for each scenario listing starting hexes or arrival turns for all units.
+
+\rulesubsection{22.2 The 1862 Scenarios (1, 2, and 3)}
+
+The first three scenarios deal with Jackson's campaigns in the valley during 1862. The purpose of his campaign was to draw as many Union forces as possible away from McClellan and Richmond. To simulate this, the Union Panic Track is used for VPs and also to regulate Union forces. In these scenarios, Banks, Fremont, and Shields are all treated as supreme commanders. This is the only instance in the game where one side has more than one supreme commander.
+
+\textbf{22.21 Victory Conditions.} During the Conclusion Phase of each turn, adjust the Union Panic Track using the listed shifts. Check the current box for VPs and record any earned that turn. At the end of the game, subtract the Union player's VP total from the Confederate player's total and compare the result:
+\begin{itemize}
+\item 10+ Confederate Overwhelming Victory
+\item 8 or 9 Confederate Substantive Victory
+\item 7 Confederate Marginal Victory
+\item 5 or 6 Draw
+\item 3 or 4 Union Marginal Victory
+\item 2 Union Substantive Victory
+\item 1 or less Union Overwhelming Victory
+\end{itemize}
+
+\textbf{22.22 Scenario 1. Kernstown to McDowell (21 March -- 8 May, 1862).}
+\begin{itemize}
+\item \textbf{22.221 Scenario Length:} 25 turns.
+\item \textbf{22.222 Initiative:} Confederate has the initiative on 1--5; Union on 6.
+\item \textbf{22.223 Union Panic Track:} Place marker in box 2.
+\item \textbf{22.224 Special Rules:} The Confederate player may not destroy the supply base that begins at Mount Jackson. The Confederate player earns one VP if the base is moved to Staunton. Milroy, Schenk, and Detachment E may not move until Fremont enters on turn 4, though they may use reaction movement.
+\end{itemize}
+
+\textbf{22.23 Scenario 2. McDowell to Harper's Ferry (8 May -- 29 May, 1862).}
+\begin{itemize}
+\item \textbf{22.231 Scenario Length:} 11 turns.
+\item \textbf{22.232 Initiative:} Confederate has the initiative on 1--5; Union on 6.
+\item \textbf{22.233 Union Panic Track:} Place marker in box 3.
+\item \textbf{22.234 Special Rules:} None.
+\end{itemize}
+
+\textbf{22.24 Scenario 3. Harper's Ferry to Port Republic (29 May -- 9 June, 1862).}
+\begin{itemize}
+\item \textbf{22.241 Scenario Length:} 6 turns.
+\item \textbf{22.242 Initiative:} Confederate has the initiative on 1--5; Union on 6.
+\item \textbf{22.243 Union Panic Track:} Place marker in box 4.
+\item \textbf{22.244 Special Rules:} None.
+\end{itemize}
+
+\rulesubsection{22.3 Scenario 4. Early in the Valley (26 June -- 6 July, 1864)}
+
+\textbf{22.31 Victory Conditions.} The Confederates win if they have 8 or more VPs at the end of the game; otherwise the Union wins.
+
+If Confederate combat units control the following at any time, they receive:
+\begin{itemize}
+\item Martinsburg: 1 VP
+\item Harper's Ferry: 3 VP
+\item Williamsport: 2 VP
+\item Winchester: 1 VP
+\end{itemize}
+
+Each side receives 3 VPs for a major victory and 0 for a minor victory.
+
+\textbf{22.32 Scenario Length:} 7 turns.
+
+\textbf{22.33 Initiative:} Confederate has the initiative on 1--5; Union on 6.
+
+\textbf{22.34 Special Rules:} On the first game turn only, the Confederate player may not roll on the Command Table, and the Union may use only reaction movement.
+
+\rulesubsection{22.4 Scenario 5. Sigel in the Valley (5 May -- 6 June, 1864)}
+
+\textbf{22.41 Victory Conditions.} The Confederate player wins if he has devastated the hex containing Staunton (1243) by the end of the game. Otherwise the Union player wins.
+
+\textbf{22.42 Scenario Length:} 16 turns.
+
+\textbf{22.43 Initiative:} The Union player has the initiative on 1--4; the Confederate player on 5 or 6.
+
+\textbf{22.44 Special Rules.} Beginning with Confederate movement on turn 8, Breckinridge and all Confederate infantry must move as quickly and directly as possible to Staunton and then be removed from play. Replacement points begin on turn 10. If Sigel loses a major battle, he is removed from play and replaced by Hunter; the SPs with Sigel are transferred to Hunter.
+
+\rulesubsection{22.5 Scenario 6. Sheridan in the Valley (9 August -- 23 September, 1864)}
+
+\textbf{22.51 Victory Conditions.} The Union player receives VPs for devastating these town hexes:
+\begin{itemize}
+\item Strasburg (3218): 1 VP
+\item Woodstock (2624): 1 VP
+\item New Market (2326): 1 VP
+\item Luray (2827): 1 VP
+\item Harrisonburg (1835): 2 VP
+\item Cross Keys (1838): 2 VP
+\item Honeyville (2532): 1 VP
+\item Waynesboro (1644): 2 VP
+\item Staunton (1243): 3 VP
+\item Mechum River Station (2245): 3 VP
+\item Charlottesville (2646): 3 VP
+\end{itemize}
+
+The Confederate player receives VPs for devastating:
+\begin{itemize}
+\item Romney (2110): 2 VP
+\item Williamsport (4502): 3 VP
+\item Harper's Ferry (4610): 5 VP
+\end{itemize}
+
+Both players receive 5 VPs for each major victory.
+
+At the end of the game, subtract Confederate VPs from Union VPs and compare:
+\begin{itemize}
+\item 20+ Union Overwhelming Victory
+\item 15 to 19 Union Substantive Victory
+\item 10 to 14 Union Marginal Victory
+\item 8 to 9 Draw
+\item 5 to 7 Confederate Marginal Victory
+\item 3 to 4 Confederate Substantive Victory
+\item 2 or less Confederate Overwhelming Victory
+\end{itemize}
+
+\textbf{22.52 Scenario Length:} 23 turns.
+
+\textbf{22.53 Initiative:} Union has the initiative on 1--4; Confederate on 5 or 6.
+
+\textbf{22.54 Special Rules.} For the first 6 turns, Sheridan has a \texttt{-2} DRM on the Command Point Table. Replacement points begin on game turn 10.
+
+\textbf{22.55 Scenario Extension.} To extend the scenario to 30 turns, have Rosser enter on turn 27 at Staunton and have Wilson replace Averill on turn 25. Add 6 points to each victory level before comparing earned victory points.
+
+\rulesection{23.0 Credits}
+
+\begin{itemize}
+\item Design: Robert G. Markham
+\item Initial Development: Mike Bennighof
+\item Final Development: Jeffry Tibbetts
+\item Playtest: Mark Seaman, Brian Mulvihill, Alex Kachevsky, Tom Hannah, Richard Everill
+\item Map: Tom Hannah
+\item Rules Editing, Counters, and Production: Jeffry Tibbetts
+\item Additional graphics and typesetting: Stephanie Tibbetts
+\item Map and counter printing: Joyce Printing, Albany, California
+\item Die-cutting: Rapid Mounting \& Finishing
+\item Assembly: Blood, Sweat, in Tiers
+\end{itemize}
+
+This product was proudly manufactured in the United States of America.
+
+\textbf{Trivia.} The supply base counter illustration contains thirteen levels of circles and takes up 300K of disk storage, more than the rest of the counter illustrations combined.
+
+Other challenging games published by Pacific Rim Publishing in this system are \textit{Lee Invades the North} and \textit{To Make Georgia HOWL!}
+
+For a copy of the current catalogue, write to:
+
+Pacific Rim Publishing Company\\
+Post Office Box 23651\\
+Oakland, CA 94623-0651
+
+\end{multicols*}
+
+\end{document}
