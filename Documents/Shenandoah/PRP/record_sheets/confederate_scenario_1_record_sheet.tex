@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+\input{record_sheet_common.tex}
+
+\begin{document}
+\recordtitle
+  {Confederate Record Sheet}
+  {Scenario 1: 21 March -- 8 May 1862}
+  {confaccent}
+  {25 turns}
+
+\begin{minipage}[t]{0.66\textwidth}
+  {\large\bfseries\color{confaccent} Unit Roster\par}
+  \vspace{0.12em}
+
+  {\small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}L{1.45in} C{0.78in} C{1.00in} L{1.18in} C{1.28in}@{}}
+    \toprule
+    \rosterheader{confaccent}
+    \midrule
+    \rosterrow{Jackson}{2624}{---}{---}{\nafield}
+    \rosterrow{Garnett}{2624}{11 Inf}{Jackson}{\strengthbox}
+    \rosterrow{Ashby}{2624}{2 Cav}{Jackson}{\strengthbox}
+    \rosterrow{E Johnson}{1243}{9 Cav}{Jackson}{\strengthbox}
+    \rosterrow{Detach F}{---}{---}{---}{\strengthbox}
+    \rosterrow{Detach G}{---}{---}{---}{\strengthbox}
+    \rosterrow{Detach H}{---}{---}{---}{\strengthbox}
+    \rosterrow{Detach E}{4633}{3 Inf}{Jackson}{\strengthbox}
+    \rosterrow{Ewell}{1833}{23 Inf}{Jackson}{\strengthbox}
+    \rosterrow{Branch}{4633}{3 Inf}{---}{\strengthbox}
+    \bottomrule
+  \end{tabular}}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.31\textwidth}
+  \summarybox{confaccent}{On-Map Assets}{%
+    \textbf{Depots:} 1243, 2646, 3847\\
+    \textbf{Base:} 2326\\
+    \textbf{Wagon:} 2624\\
+    \textbf{Entrenchments:} 1243, 2646, 3847
+  }
+
+  \vspace{0.45em}
+  \summarybox{confaccent}{Reinforcements}{%
+    \textbf{Turn 14}\\
+    Detach E enters at 4633 with 3 Inf, subordinate to Jackson\\[0.35em]
+    \textbf{Turn 18}\\
+    Ewell enters at 1833 with 23 Inf, subordinate to Jackson\\[0.35em]
+    \textbf{Turn 22}\\
+    Branch enters at 4633 with 3 Inf
+  }
+
+  \vspace{0.45em}
+  \summarybox{confaccent}{Player Notes}{%
+    Use the current-strength boxes for pencil updates during detachments, combat losses, replenishment, and withdrawals
+  }
+\end{minipage}
+
+\recordsheetfooter
+\end{document}

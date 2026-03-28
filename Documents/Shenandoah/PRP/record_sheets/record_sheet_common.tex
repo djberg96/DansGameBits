@@ -1,0 +1,83 @@
+\usepackage[letterpaper,landscape,margin=0.35in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{pagecolor}
+\usepackage{multicol}
+
+\definecolor{sheetbg}{RGB}{248,246,239}
+\definecolor{sheettext}{RGB}{26,26,26}
+\definecolor{unionaccent}{RGB}{58,96,145}
+\definecolor{unionfill}{RGB}{232,238,247}
+\definecolor{confaccent}{RGB}{131,44,39}
+\definecolor{conffill}{RGB}{233,223,217}
+\definecolor{panelrule}{RGB}{122,116,108}
+\definecolor{rowrule}{RGB}{205,198,187}
+
+\pagecolor{sheetbg}
+\color{sheettext}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.1em,itemsep=0.2em,topsep=0.2em}
+\renewcommand{\arraystretch}{1.42}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\newcommand{\recordtitle}[4]{%
+  {\centering
+  {\fontsize{23}{25}\selectfont\bfseries #1\par}
+  \vspace{0.15em}
+  {\Large\bfseries\color{#3} #2\par}
+  \vspace{0.2em}
+  {\normalsize #4\par}
+  \vspace{0.28em}
+  \color{#3}\rule{\textwidth}{1.3pt}\par
+  }\vspace{0.45em}
+}
+
+\newcommand{\summarybox}[3]{%
+  \begin{tikzpicture}
+    \node[
+      draw=#1!70,
+      rounded corners=4pt,
+      fill=#1!12,
+      inner sep=8pt,
+      text width=\linewidth-18pt
+    ] {%
+      {\small\bfseries #2\par}
+      \vspace{0.2em}
+      {\small #3}
+    };
+  \end{tikzpicture}%
+}
+
+\newcommand{\strengthbox}{%
+  \begin{tikzpicture}[baseline=(current bounding box.center)]
+    \draw[rounded corners=2pt,line width=0.7pt,draw=panelrule!80,fill=white] (0,0) rectangle (1.18,0.64);
+  \end{tikzpicture}%
+}
+
+\newcommand{\nafield}{{\centering\color{panelrule!85}\rule{1.0em}{0.5pt}\par}}
+
+\newcommand{\rosterheader}[1]{%
+  \rowcolor{#1!16}
+  \bfseries Leader/Unit & \bfseries Start Hex & \bfseries Initial Strength & \bfseries Subordinate To & \bfseries Current Strength \\
+}
+
+\newcommand{\rosterrow}[5]{#1 & #2 & #3 & #4 & #5 \\}
+
+\newcommand{\recordsheetfooter}{%
+  \vfill
+  {\footnotesize\itshape Current-strength boxes are intentionally oversized for pencil tracking during play.}
+}
