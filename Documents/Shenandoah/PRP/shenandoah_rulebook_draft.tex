@@ -8,6 +8,7 @@
 \usepackage{multicol}
 \usepackage{xcolor}
 \usepackage{titlesec}
+\usepackage{titletoc}
 \usepackage{fancyhdr}
 \usepackage{parskip}
 \usepackage{enumitem}
@@ -28,7 +29,23 @@
 \renewcommand{\columnseprulecolor}{\color{gray}}
 \setlength{\parskip}{0.45em}
 \setlength{\parindent}{0pt}
+\setcounter{secnumdepth}{0}
 \setlist[itemize]{leftmargin=*,topsep=0.3em,itemsep=0.15em}
+
+\contentsmargin{0pt}
+\titlecontents{section}
+  [0pt]
+  {\small}
+  {}
+  {}
+  {\titlerule*[0.4pc]{.}\contentspage}
+
+\titlecontents{subsection}
+  [1.2em]
+  {\footnotesize}
+  {}
+  {}
+  {\titlerule*[0.4pc]{.}\contentspage}
 
 \titleformat{\section}
   {\large\bfseries\color{ruleaccent}}
@@ -82,7 +99,7 @@ This draft combines the scanned rule pages into a single, two-column booklet for
 
 \setcounter{page}{2}
 \begingroup
-\small
+\footnotesize
 \setlength{\columnsep}{12pt}
 \begin{multicols}{3}
 \tableofcontents
