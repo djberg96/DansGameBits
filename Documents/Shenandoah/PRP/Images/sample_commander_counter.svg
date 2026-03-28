@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6in" height="4.8in" viewBox="0 0 600 480">
+  <defs>
+    <style>
+      .counter-border { fill: #ffffff; stroke: #111111; stroke-width: 2; }
+      .counter-name { font: 700 24px Georgia, "Times New Roman", serif; fill: #355f9c; }
+      .counter-band-number { font: 700 20px Georgia, "Times New Roman", serif; fill: #111111; }
+      .counter-rating { font: 700 30px Georgia, "Times New Roman", serif; fill: #355f9c; }
+      .label { font: 700 18px Georgia, "Times New Roman", serif; fill: #111111; }
+      .leader { fill: none; stroke: #111111; stroke-width: 1.8; }
+    </style>
+    <symbol id="star" viewBox="0 0 20 20">
+      <polygon points="10,1.5 12.6,7 18.6,7.5 14,11.4 15.4,17.3 10,14.2 4.6,17.3 6,11.4 1.4,7.5 7.4,7" />
+    </symbol>
+  </defs>
+
+  <rect width="600" height="480" fill="#f8f5ec"/>
+
+  <g transform="translate(185,55)">
+    <rect x="0" y="0" width="170" height="170" class="counter-border"/>
+    <text x="85" y="40" text-anchor="middle" class="counter-name">Sheridan</text>
+
+    <rect x="10" y="62" width="150" height="38" fill="#5f8fc6"/>
+    <use href="#star" x="28" y="71" width="20" height="20" fill="#ffffff"/>
+    <use href="#star" x="63" y="71" width="20" height="20" fill="#ffffff"/>
+    <use href="#star" x="98" y="71" width="20" height="20" fill="#ffffff"/>
+    <text x="145" y="89" text-anchor="middle" class="counter-band-number">1</text>
+
+    <text x="16" y="148" text-anchor="start" class="counter-rating">2</text>
+    <circle cx="43" cy="139" r="4" fill="#355f9c"/>
+    <text x="54" y="148" text-anchor="start" class="counter-rating">3</text>
+    <text x="154" y="148" text-anchor="end" class="counter-rating">+2</text>
+  </g>
+
+  <g>
+    <line x1="205" y1="86" x2="110" y2="70" class="leader"/>
+    <text x="50" y="76" class="label">Name</text>
+
+    <line x1="340" y1="141" x2="444" y2="124" class="leader"/>
+    <text x="456" y="130" class="label">Seniority</text>
+
+    <line x1="194" y1="208" x2="120" y2="255" class="leader"/>
+    <text x="20" y="268" class="label">Command</text>
+    <text x="20" y="289" class="label">Rating</text>
+
+    <line x1="252" y1="212" x2="280" y2="253" class="leader"/>
+    <text x="245" y="272" class="label">Initiative</text>
+    <text x="261" y="293" class="label">Rating</text>
+
+    <line x1="345" y1="196" x2="430" y2="225" class="leader"/>
+    <text x="442" y="226" class="label">Combat Bonus</text>
+    <text x="442" y="247" class="label">Rating</text>
+  </g>
+
+  <g transform="translate(55,345)">
+    <use href="#star" x="0" y="0" width="22" height="22" fill="#355f9c"/>
+    <use href="#star" x="28" y="0" width="22" height="22" fill="#355f9c"/>
+    <use href="#star" x="56" y="0" width="22" height="22" fill="#355f9c"/>
+    <text x="96" y="17" class="label">Supreme Commander</text>
+
+    <use href="#star" x="14" y="42" width="22" height="22" fill="#355f9c"/>
+    <use href="#star" x="42" y="42" width="22" height="22" fill="#355f9c"/>
+    <text x="96" y="59" class="label">Intermediate Commander (Scenario 6 only)</text>
+
+    <use href="#star" x="28" y="84" width="22" height="22" fill="#355f9c"/>
+    <text x="96" y="101" class="label">Cavalry Commander</text>
+  </g>
+</svg>
