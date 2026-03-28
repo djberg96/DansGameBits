@@ -12,6 +12,10 @@
 \usepackage{fancyhdr}
 \usepackage{parskip}
 \usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{pdflscape}
 \usepackage{hyperref}
 
 \hypersetup{
@@ -64,6 +68,8 @@
 \fancyhead[L]{\textsc{Shenandoah: Valley of Fire}}
 \fancyfoot[C]{\thepage}
 \setlength{\headheight}{14pt}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
 
 \newcommand{\rulesection}[1]{\section{#1}}
 \newcommand{\rulesubsection}[1]{\subsection{#1}}
@@ -124,5 +130,8 @@
 \input{sections/credits}
 
 \end{multicols*}
+
+\clearpage
+\input{sections/charts_and_tables}
 
 \end{document}
