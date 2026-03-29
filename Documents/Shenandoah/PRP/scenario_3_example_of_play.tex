@@ -1,0 +1,195 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+\definecolor{titleline}{RGB}{131,44,39}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.25em,topsep=0.25em}
+\setlist[enumerate]{leftmargin=1.4em,itemsep=0.35em,topsep=0.35em}
+
+\begin{document}
+
+{\LARGE\bfseries Scenario 3 Example of Play\par}
+{\large Harper's Ferry to Port Republic, Turn 1\par}
+\vspace{0.25em}
+\color{titleline}\rule{\textwidth}{1.2pt}\par
+\vspace{0.45em}
+
+This example follows one plausible full turn in Scenario 3 and is meant to illustrate command, movement, reaction, combat, retreat, and conclusion procedures. The die rolls are chosen for teaching purposes. The map scan available is not crisp enough for a perfect hex-by-hex movement proof, so the example assumes Jackson advances along the main road corridor from hex 4511 toward Shields in hex 3519.
+
+\textbf{Starting situation.}
+
+\begin{itemize}
+\item Confederate: Jackson, Winder, Ewell, Ashby, and a wagon begin in hex 4511.
+\item Union: Banks, Williams, Brodhead, and Detachment E begin in hex 4502; Saxton is in 4611; Fremont, Blenker, and Bayard are in 2516; Shields, Kimball, and Detachment F are in 3519.
+\item Scenario 3 is a 1862 scenario, so the Confederate player gains the initiative on a die roll of 1--5.
+\end{itemize}
+
+\textbf{1. Initial Phase}
+
+There are no reinforcements and no replacements in this example turn, so the phase ends immediately.
+
+\textbf{2. Initiative Phase}
+
+The Confederate player rolls a \texttt{4}. In a 1862 scenario that gives the Confederates the initiative, so they will be the first player this turn.
+
+\textbf{3. Confederate Command Phase}
+
+Jackson is the only Confederate supreme commander on the map, so only one command-point die roll is needed. The Confederate player rolls a \texttt{5}. On the Command Point Table that gives Jackson \texttt{3} CPs for the turn.
+
+Jackson's command is good enough that \texttt{3} CPs give him the full \texttt{100\%} of his printed movement allowance. Infantry and leaders normally have \texttt{8} MPs, so Jackson's force will be able to use the full infantry allowance before stacking effects.
+
+\textbf{4. Confederate Movement Phase}
+
+Jackson moves with Winder, Ewell, and Ashby as one force. Because more than two divisions are moving together, the force loses \texttt{1} MP for stacking under rule 7.31, so the moving force is treated as having \texttt{7} MPs.
+
+The Confederate player moves the force out of hex 4511 along the road toward Shields in 3519.
+
+\begin{enumerate}
+\item Most of the move uses road movement, so the force advances efficiently down the valley.
+\item Once Jackson enters a hex adjacent to 3519, the Union player checks reaction. Shields's stack is within reaction range, so the Union player declares a reaction attempt with Shields, Kimball, and Detachment F.
+\item The Union player rolls for reaction and fails, so the stack remains in 3519.
+\item Jackson then enters hex 3519. Because it contains enemy combat units, the Confederate force pays the extra \texttt{+1} MP required by rule 7.41 and may spend no more MPs this Movement Phase.
+\end{enumerate}
+
+At the end of Confederate movement, hex 3519 contains both sides, so a battle is now set up for the Combat Phase unless the Union can change the situation during its half of the turn.
+
+\textbf{5. Union Command Phase}
+
+The Union has three supreme commanders in the 1862 scenarios, so Banks, Fremont, and Shields each roll separately for command points.
+
+\begin{itemize}
+\item Banks rolls a \texttt{4} and receives \texttt{2} CPs.
+\item Fremont rolls a \texttt{4} and also receives \texttt{2} CPs.
+\item Shields rolls a \texttt{5} and receives \texttt{3} CPs.
+\end{itemize}
+
+Banks and Fremont therefore get only moderate movement this turn, while Shields's force in 3519 will have full movement available if it tries to leave the hex.
+
+\textbf{6. Union Movement Phase}
+
+The Union player now decides what to do about Jackson's incursion.
+
+\begin{itemize}
+\item Banks keeps his main force at 4502 to protect the depot area and nearby roads.
+\item Saxton stays in 4611.
+\item Fremont advances part of his force eastward, but the distance is too great for Blenker and Bayard to intervene in the 3519 fight this turn.
+\item Shields could attempt to leave the enemy-occupied hex using rule 7.43, but the Union player decides not to. The stack is in entrenchments, has usable command points, and would rather fight from a doubled defensive position than give up 3519.
+\end{itemize}
+
+No other movement changes the impending battle, so the turn proceeds to combat.
+
+\textbf{7. Combat Phase}
+
+Only one battle must be resolved: hex 3519.
+
+\textbf{Supply check.}
+
+Both sides are supplied.
+
+\begin{itemize}
+\item The Confederate force can use the wagon stacked with Jackson.
+\item The Union force can use the wagon in 3519.
+\end{itemize}
+
+\textbf{Combat options.}
+
+The Confederate player chooses \textit{Pitched Battle}. The Union player chooses \textit{Stand}. On the Combat Options Chart, that means the battle will last \texttt{2} rounds.
+
+\textbf{Wagon depletion.}
+
+Because Jackson chose \textit{Pitched Battle}, his wagon may deplete on a die roll of \texttt{5} or \texttt{6}. The Confederate player rolls a \texttt{5}, so the wagon is marked depleted. The Union wagon does not deplete.
+
+\textbf{Commitment.}
+
+Each side now determines how much of its force can be committed.
+
+\begin{itemize}
+\item Jackson rolls \texttt{8} on 2d6, adds \texttt{+1} for \textit{Pitched Battle}, and commits \texttt{100\%} of his force.
+\item Shields rolls \texttt{4} on 2d6. Because the Union force did not move and is entrenched, the roll is heavily improved, so \texttt{80\%} of the defending force is committed.
+\end{itemize}
+
+That gives:
+
+\begin{itemize}
+\item Confederate committed strength: Winder \texttt{24} + Ewell \texttt{22} + Ashby \texttt{3} = \texttt{49} SPs.
+\item Union committed strength: Kimball \texttt{24} + Detachment F \texttt{2} = \texttt{26} SPs total, of which \texttt{80\%} means \texttt{21} SPs committed.
+\item Because the Union is defending in entrenchments, its committed strength is doubled to \texttt{42} for fire purposes, and the Confederate fire column shifts one column left.
+\end{itemize}
+
+\textbf{Round 1.}
+
+\begin{itemize}
+\item Confederate fire: Jackson's \textit{Pitched Battle} and combat bonus produce a modified die roll of \texttt{7}. On the shifted column that inflicts \texttt{6} SP losses on the Union.
+\item Union fire: the defender gets \texttt{+1} to fire and ends with a modified die roll of \texttt{5}. That inflicts \texttt{3} SP losses on the Confederates.
+\end{itemize}
+
+The losses are applied simultaneously. The Union has now lost more than \texttt{10\%} of its initial committed force, so it checks for demoralization at the end of the round.
+
+\begin{itemize}
+\item Union demoralization: the Union has lost \texttt{6} of \texttt{21} committed SPs, which is over \texttt{20\%}. The demoralization modifiers are therefore \texttt{+2} for losses and \texttt{-1} because the defender is entrenched. A sample die roll of \texttt{4} becomes \texttt{5}, so the Union holds.
+\item Confederate demoralization: the Confederates have lost only \texttt{3} of \texttt{49} committed SPs, which is below the \texttt{10\%} threshold, so they do not check.
+\end{itemize}
+
+\textbf{Round 2.}
+
+\begin{itemize}
+\item Confederate fire: a modified die roll of \texttt{6} inflicts \texttt{5} more SP losses.
+\item Union fire: a modified die roll of \texttt{4} inflicts \texttt{3} more SP losses.
+\end{itemize}
+
+After two rounds, the total losses are:
+
+\begin{itemize}
+\item Union: \texttt{11} SPs lost.
+\item Confederate: \texttt{6} SPs lost.
+\end{itemize}
+
+Both sides now check demoralization.
+
+\begin{itemize}
+\item Union demoralization: \texttt{11} losses out of \texttt{21} committed SPs is more than \texttt{50\%}. Using the same modifiers as before, a die roll of \texttt{5} becomes a failure and the Union force is demoralized.
+\item Confederate demoralization: \texttt{6} losses out of \texttt{49} committed SPs is just over \texttt{10\%}. A die roll of \texttt{2}, modified by losses and Jackson's strong command, is low enough that the Confederates remain in good order.
+\end{itemize}
+
+Because the Union becomes demoralized, the battle ends with a Confederate victory.
+
+\textbf{8. Retreat}
+
+The Union force in 3519 must retreat immediately. Under rule 14.21 it retreats \texttt{4} MPs without paying ZOC costs, and the Union player chooses the legal path that pulls the force back toward friendly support while avoiding prohibited enemy-occupied hexes and river restrictions.
+
+Since the retreating side lost fewer than \texttt{15} SPs, the Confederate result is a \textbf{minor victory}, not a major victory.
+
+Jackson remains in 3519 at the end of combat. His wagon remains with the force, but it is now depleted.
+
+\textbf{9. Conclusion Phase}
+
+\begin{itemize}
+\item \textbf{Depletion and replenishment:} the Confederate wagon used in the pitched battle is flipped to its depleted side at the end of the Combat Phase.
+\item \textbf{Morale Recovery:} the Union may attempt to recover the demoralized force in the Morale Recovery Phase. In this example the recovery roll fails, so the force remains demoralized into the next turn.
+\item \textbf{Union Panic Track:} because this is a 1862 scenario, the players now apply the appropriate Panic Track adjustment for the turn's result.
+\end{itemize}
+
+\textbf{What this example showed.}
+
+\begin{itemize}
+\item Initiative in a 1862 scenario
+\item Command-point rolls and movement percentages
+\item Stacking penalties during movement
+\item Reaction movement failure
+\item Entering an enemy-occupied hex
+\item Supply and wagon depletion
+\item Combat options and commitment
+\item Multi-round combat
+\item Demoralization and retreat
+\item End-of-turn morale recovery and depleted wagon status
+\end{itemize}
+
+\end{document}
