@@ -26,9 +26,8 @@
   colorlinks=true,
   linkcolor=accent,
   urlcolor=accent,
-  pdftitle={Shenandoah Scenario Booklet Transcript},
-  pdfauthor={Daniel Berger},
-  pdfsubject={OCR transcript of the Shenandoah scenario scans}
+  pdftitle={Shenandoah Scenario Booklet},
+  pdfsubject={Scenario booklet for Shenandoah}
 }
 
 \pagestyle{fancy}
@@ -59,21 +58,6 @@
 \renewcommand\cftsecpagefont{\small}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
-\newtcolorbox{pageintrobox}[1][]{
-  enhanced,
-  colback=white,
-  colframe=accent,
-  boxrule=0.9pt,
-  arc=6pt,
-  left=10pt,
-  right=10pt,
-  top=8pt,
-  bottom=8pt,
-  before skip=6pt,
-  after skip=10pt,
-  #1
-}
-
 \newtcolorbox{scenariodata}{
   enhanced,
   breakable,
@@ -91,34 +75,15 @@
   fontupper=\footnotesize,
 }
 
-\newcommand{\reflowpage}[3]{%
+\newcommand{\reflowpage}[2]{%
   \clearpage
   \section{#1}
   \markboth{#1}{#1}
-  \begin{pageintrobox}
-    {\small\scshape\color{accent} Source\par}
-    {\normalsize #2\par}
-    {\small\color{titleink!75}Reflowed from column-by-column OCR so the booklet reads like a typeset document rather than a scan transcript.}
-  \end{pageintrobox}
   \begingroup
   \setstretch{1.06}
   \footnotesize
-  \input{#3}
+  \input{#2}
   \endgroup
-}
-
-\newcommand{\transcriptpage}[3]{%
-  \clearpage
-  \section{#1}
-  \markboth{#1}{#1}
-  \begin{pageintrobox}
-    {\small\scshape\color{accent} Transcript Source\par}
-    {\normalsize #2\par}
-    {\small\color{titleink!75}Searchable OCR text, styled for readability while preserving the original scan order and wording.}
-  \end{pageintrobox}
-  \begin{scenariodata}
-  Fallback transcript mode.
-  \end{scenariodata}
 }
 
 \begin{document}
@@ -142,97 +107,73 @@
   \begin{center}
     {\fontsize{30}{34}\selectfont\bfseries\color{titleink} Shenandoah\par}
     \vspace{0.35em}
-    {\Large\color{accent} Scenario Booklet Transcript\par}
+    {\Large\color{accent} Scenario Booklet\par}
     \vspace{1.2em}
     {\large A Civil War Game of the Valley Campaigns 1862 and 1864\par}
-    \vspace{2em}
-    {\normalsize
-      A text-based LaTeX edition transcribed from the
-      \texttt{shenandoah\_scenarios} scan files in
-      \texttt{Documents/Shenandoah/Battleline/images}.
-      \par
-    }
-    \vfill
-    {\large OCR transcript and typesetting by Daniel Berger\par}
-    \vspace{0.5em}
-    {\small Compiled on \today\par}
+    \vspace{1.5em}
+    \begin{minipage}{0.72\textwidth}
+      \renewcommand\contentsname{Contents}
+      \tableofcontents
+    \end{minipage}
   \end{center}
 \end{titlepage}
 
 \clearpage
 \onecolumn
 \hypersetup{pageanchor=true}
-
-\section*{About This Edition}
-This edition uses OCR text extracted from the original scenario scans rather than embedding the scans themselves. The content is therefore searchable and copyable. Because it is scan-derived text, minor OCR artifacts may remain, especially in dense unit setup listings and column transitions.
-
-\tableofcontents
 \clearpage
 \twocolumn
 
 \reflowpage
   {Overview, Hints on Play, and Historical Summary}
-  {Reflowed OCR of scenario booklet page 20}
   {ocr_reflowed/shenandoah_scenarios_page1.tex}
 
 \reflowpage
   {Scenario 1: Kernstown}
-  {Reflowed OCR of scenario booklet page 21}
   {ocr_reflowed/shenandoah_scenarios_page2.tex}
 
 \reflowpage
   {Scenario 2: McDowell and Scenario 3: Winchester}
-  {Reflowed OCR of scenario booklet page 22}
   {ocr_reflowed/shenandoah_scenarios_page3.tex}
 
 \reflowpage
   {Scenario 4 and Scenario 5: Cross Keys / Port Republic}
-  {Reflowed OCR of scenario booklet page 23}
   {ocr_reflowed/shenandoah_scenarios_page4.tex}
 
 \reflowpage
   {Scenario 5 Continuation and Scenario 6: The 1862 Valley Campaign}
-  {Reflowed OCR of scenario booklet page 24}
   {ocr_reflowed/shenandoah_scenarios_page5.tex}
 
 \reflowpage
   {Scenario 7: New Market and Scenario 8: Early's Escape into the Valley}
-  {Reflowed OCR of scenario booklet page 25}
   {ocr_reflowed/shenandoah_scenarios_page6.tex}
 
 \reflowpage
   {Scenario 8 Continuation and Scenario 9: Second Kernstown}
-  {Reflowed OCR of scenario booklet page 26}
   {ocr_reflowed/shenandoah_scenarios_page7.tex}
 
 \reflowpage
   {Scenario 10 and Scenario 11}
-  {Reflowed OCR of scenario booklet page 27}
   {ocr_reflowed/shenandoah_scenarios_page8.tex}
 
 \reflowpage
   {Scenario 11 Continuation and Scenario 12: The Opequon}
-  {Reflowed OCR of scenario booklet page 28}
   {ocr_reflowed/shenandoah_scenarios_page9.tex}
 
 \reflowpage
   {Scenario 13: Fisher's Hill and Scenario 14: The Woodstock Races}
-  {Reflowed OCR of scenario booklet page 29}
   {ocr_reflowed/shenandoah_scenarios_page10.tex}
 
 \reflowpage
   {Scenario 15: Cedar Creek and Scenario 16: Sheridan versus Early}
-  {Reflowed OCR of scenario booklet page 30}
   {ocr_reflowed/shenandoah_scenarios_page11.tex}
 
 \reflowpage
   {Scenarios 17--19 and Credits}
-  {Reflowed OCR of scenario booklet page 31}
   {ocr_reflowed/shenandoah_scenarios_page12.tex}
 
 \reflowpage
   {Victory Points and Weather Tables}
-  {Reflowed OCR of scenario booklet page 32}
   {ocr_reflowed/shenandoah_scenarios_page13.tex}
 
 \end{document}
