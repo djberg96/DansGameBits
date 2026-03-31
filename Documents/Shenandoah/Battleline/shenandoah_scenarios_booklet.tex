@@ -103,77 +103,49 @@
       ($(current page.south east)+(-0.82in,0.82in)$);
   \end{tikzpicture}
 
-  \vspace*{1.2in}
+  \vspace*{0.95in}
   \begin{center}
-    {\fontsize{30}{34}\selectfont\bfseries\color{titleink} Shenandoah\par}
+    {\fontsize{29}{33}\selectfont\bfseries\color{titleink} Shenandoah\par}
     \vspace{0.35em}
     {\Large\color{accent} Scenario Booklet\par}
-    \vspace{1.2em}
+    \vspace{1.1em}
     {\large A Civil War Game of the Valley Campaigns 1862 and 1864\par}
-    \vspace{1.5em}
-    \begin{minipage}{0.72\textwidth}
+    \vspace{1.35em}
+    \begin{minipage}{0.8\textwidth}
+      \begingroup
+      \normalsize
       \renewcommand\contentsname{Contents}
+      \setlength{\cftbeforesecskip}{4pt}
+      \setlength{\parskip}{0pt}
       \tableofcontents
+      \endgroup
     \end{minipage}
   \end{center}
 \end{titlepage}
 
 \clearpage
-\onecolumn
 \hypersetup{pageanchor=true}
-\clearpage
-\twocolumn
 
-\reflowpage
-  {Overview, Hints on Play, and Historical Summary}
-  {ocr_reflowed/shenandoah_scenarios_page1.tex}
-
-\reflowpage
-  {Scenario 1: Kernstown}
-  {ocr_reflowed/shenandoah_scenarios_page2.tex}
-
-\reflowpage
-  {Scenario 2: McDowell and Scenario 3: Winchester}
-  {ocr_reflowed/shenandoah_scenarios_page3.tex}
-
-\reflowpage
-  {Scenario 4 and Scenario 5: Cross Keys / Port Republic}
-  {ocr_reflowed/shenandoah_scenarios_page4.tex}
-
-\reflowpage
-  {Scenario 5 Continuation and Scenario 6: The 1862 Valley Campaign}
-  {ocr_reflowed/shenandoah_scenarios_page5.tex}
-
-\reflowpage
-  {Scenario 7: New Market and Scenario 8: Early's Escape into the Valley}
-  {ocr_reflowed/shenandoah_scenarios_page6.tex}
-
-\reflowpage
-  {Scenario 8 Continuation and Scenario 9: Second Kernstown}
-  {ocr_reflowed/shenandoah_scenarios_page7.tex}
-
-\reflowpage
-  {Scenario 10 and Scenario 11}
-  {ocr_reflowed/shenandoah_scenarios_page8.tex}
-
-\reflowpage
-  {Scenario 11 Continuation and Scenario 12: The Opequon}
-  {ocr_reflowed/shenandoah_scenarios_page9.tex}
-
-\reflowpage
-  {Scenario 13: Fisher's Hill and Scenario 14: The Woodstock Races}
-  {ocr_reflowed/shenandoah_scenarios_page10.tex}
-
-\reflowpage
-  {Scenario 15: Cedar Creek and Scenario 16: Sheridan versus Early}
-  {ocr_reflowed/shenandoah_scenarios_page11.tex}
-
-\reflowpage
-  {Scenarios 17--19 and Credits}
-  {ocr_reflowed/shenandoah_scenarios_page12.tex}
-
-\reflowpage
-  {Victory Points and Weather Tables}
-  {ocr_reflowed/shenandoah_scenarios_page13.tex}
+\input{sections/introduction.tex}
+\input{sections/scenario_01.tex}
+\input{sections/scenario_02.tex}
+\input{sections/scenario_03.tex}
+\input{sections/scenario_04.tex}
+\input{sections/scenario_05.tex}
+\input{sections/scenario_06.tex}
+\input{sections/scenario_07.tex}
+\input{sections/scenario_08.tex}
+\input{sections/scenario_09.tex}
+\input{sections/scenario_10.tex}
+\input{sections/scenario_11.tex}
+\input{sections/scenario_12.tex}
+\input{sections/scenario_13.tex}
+\input{sections/scenario_14.tex}
+\input{sections/scenario_15.tex}
+\input{sections/scenario_16.tex}
+\input{sections/scenario_17.tex}
+\input{sections/scenario_18.tex}
+\input{sections/scenario_19.tex}
+\input{sections/reference.tex}
 
 \end{document}
