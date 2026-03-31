@@ -1,8 +1,8 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt,twocolumn]{article}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[letterpaper,margin=0.75in,footskip=28pt]{geometry}
+\usepackage[letterpaper,margin=0.65in,footskip=24pt]{geometry}
 \usepackage{mathpazo}
 \usepackage{microtype}
 \usepackage{xcolor}
@@ -38,7 +38,8 @@
 \fancyfoot[C]{\thepage}
 \setlength{\headheight}{14pt}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.75em}
+\setlength{\parskip}{0.45em}
+\setlength{\columnsep}{18pt}
 \setcounter{tocdepth}{1}
 
 \titleformat{\section}
@@ -87,7 +88,7 @@
   borderline west={2pt}{0pt}{accent},
   before skip=8pt,
   after skip=10pt,
-  fontupper=\small,
+  fontupper=\footnotesize,
 }
 
 \newcommand{\reflowpage}[3]{%
@@ -101,7 +102,7 @@
   \end{pageintrobox}
   \begingroup
   \setstretch{1.06}
-  \small
+  \footnotesize
   \input{#3}
   \endgroup
 }
@@ -159,12 +160,15 @@
 \end{titlepage}
 
 \clearpage
+\onecolumn
 \hypersetup{pageanchor=true}
 
 \section*{About This Edition}
 This edition uses OCR text extracted from the original scenario scans rather than embedding the scans themselves. The content is therefore searchable and copyable. Because it is scan-derived text, minor OCR artifacts may remain, especially in dense unit setup listings and column transitions.
 
 \tableofcontents
+\clearpage
+\twocolumn
 
 \reflowpage
   {Overview, Hints on Play, and Historical Summary}
