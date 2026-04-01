@@ -21,6 +21,10 @@
 \definecolor{rulegray}{HTML}{C9B59B}
 \definecolor{boxbg}{HTML}{FCFAF5}
 \definecolor{accentfade}{HTML}{E8D8C2}
+\definecolor{unionbg}{HTML}{E6EEF8}
+\definecolor{unionrule}{HTML}{2E5B88}
+\definecolor{confedbg}{HTML}{F5E5E2}
+\definecolor{confedrule}{HTML}{8D4033}
 
 \hypersetup{
   colorlinks=true,
@@ -70,6 +74,40 @@
   top=10pt,
   bottom=10pt,
   borderline west={2pt}{0pt}{accent},
+  before skip=8pt,
+  after skip=10pt,
+  fontupper=\footnotesize,
+}
+
+\newtcolorbox{uniondata}{
+  enhanced,
+  breakable,
+  colback=unionbg,
+  colframe=unionrule,
+  boxrule=0.7pt,
+  arc=7pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt,
+  borderline west={2.5pt}{0pt}{unionrule},
+  before skip=8pt,
+  after skip=10pt,
+  fontupper=\footnotesize,
+}
+
+\newtcolorbox{confeddata}{
+  enhanced,
+  breakable,
+  colback=confedbg,
+  colframe=confedrule,
+  boxrule=0.7pt,
+  arc=7pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt,
+  borderline west={2.5pt}{0pt}{confedrule},
   before skip=8pt,
   after skip=10pt,
   fontupper=\footnotesize,
