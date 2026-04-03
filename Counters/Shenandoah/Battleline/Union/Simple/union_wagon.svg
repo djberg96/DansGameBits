@@ -13,7 +13,7 @@
 
   <rect x="1.5" y="1.5" width="97" height="97" rx="4" fill="url(#unionBlue)" stroke="#111111" stroke-width="3" />
 
-  <g transform="translate(3, 0) scale(0.83)">
+  <g transform="translate(8, -6) scale(0.83)">
     <g stroke="rgb(70, 50, 25)">
       <polygon points="20,40 80,40 72,70 28,70" fill="white" />
       <line x1="31" y1="40" x2="38" y2="70" />
