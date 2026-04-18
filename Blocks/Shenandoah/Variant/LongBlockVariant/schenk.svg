@@ -1,0 +1,47 @@
+<svg width="120" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Schenk's Brigade</title>
+
+  <defs id="common">
+    <rect
+      id="background"
+      width="120"
+      height="80"
+      fill="skyblue"
+      stroke="blue"
+      stroke-width="4"
+    />
+
+    <clipPath id="block">
+      <use xlink:href="#background"/>
+    </clipPath>
+  </defs>
+
+  <g id="unit">
+    <use xlink:href="#background" clip-path="url(#block)"/>
+    <use xlink:href="#border" clip-path="url(#block)"/>
+
+    <g id="unit_name">
+      <text x="38" y="14" font-size="12">Schenk</text>
+    </g>
+
+    <g id="infantry_symbol" text-anchor="middle">
+      <rect x="30" y="20" width="60" height="40" fill="#001B48" stroke="white"/>
+      <line x1="30" y1="20" x2="90" y2="60" stroke="white" />
+      <line x1="30" y1="60" x2="90" y2="20" stroke="white" />
+    </g>
+
+    <g id="strength">
+      <text x="52" y="75">8</text>
+    </g>
+
+    <g id="artillery" text-anchor="middle">
+      <circle r="6" cx="105" cy="40"/>
+      <text x="105" y="43.5" fill="white" font-size="10">1</text>
+    </g>
+
+    <!-- White stripe means independent command -->
+    <g id="command">
+      <rect x="5" y="36" width="22" height="8" fill="white"/>
+    </g>
+  </g>
+</svg>
