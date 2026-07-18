@@ -16,8 +16,9 @@ after editing their palette or labels:
 
 ```sh
 python3 tools/make_counters.py
+python3 tools/make_counter_sheets.py
 ```
 
-The original scans remain in `../../Misc/Images/Tito`. The final scan is used
-as the counter-manifest appendix; all rules prose is editable text in
-`sections/`.
+The original scans remain in `../../Misc/Images/Tito`. The complete counter
+sheet appendix is a vector reconstruction generated from the original
+manifest; all rules prose is editable text in `sections/`.
