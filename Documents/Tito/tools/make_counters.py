@@ -18,6 +18,14 @@ def nato_symbol(kind: str, ink: str = "#17201b") -> str:
     base = f'<rect x="19" y="32" width="62" height="35" rx="1" fill="none" stroke="{ink}" stroke-width="2.5"/>'
     if kind == "infantry":
         return base + f'<path d="M19 32L81 67M19 67L81 32" fill="none" stroke="{ink}" stroke-width="2.5"/>'
+    if kind == "mechanized":
+        return (base
+                + f'<path d="M19 32L81 67M19 67L81 32" fill="none" stroke="{ink}" stroke-width="2.5"/>'
+                + f'<ellipse cx="50" cy="49.5" rx="20" ry="8" fill="none" stroke="{ink}" stroke-width="2.5"/>')
+    if kind == "mountain":
+        return (base
+                + f'<path d="M19 32L81 67M19 67L81 32" fill="none" stroke="{ink}" stroke-width="2.5"/>'
+                + f'<path d="M41 63L50 54L59 63Z" fill="none" stroke="{ink}" stroke-width="2.2"/>')
     if kind == "armor":
         return base + f'<rect x="27" y="39" width="46" height="21" rx="10.5" fill="none" stroke="{ink}" stroke-width="2.5"/>'
     if kind == "cavalry":
@@ -77,6 +85,9 @@ def main() -> None:
     counter("german-parachute", color=german, designation="501 SS", size="II", strength="1", kind="airborne")
     counter("partisan-group", color=partisan, designation="30 GROUP", strength="1")
     counter("partisan-brigade", color=partisan, designation="30", size="X", strength="4")
+    counter("partisan-infantry", color=partisan, designation="48", size="XX", strength="12")
+    counter("german-mechanized-infantry", color=german, designation="4 SS", size="XX", strength="20", kind="mechanized")
+    counter("german-mountain-infantry", color=german, designation="1", size="XX", strength="20", kind="mountain")
     counter("serbian-infantry", color=serbian, designation="1", size="X", strength="1")
     counter("italian-infantry", color=italian, designation="PARMA", size="XX", strength="6")
     counter("croat-infantry", color=croat, designation="1 UST", size="X", strength="2")
