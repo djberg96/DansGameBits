@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="150" viewBox="0 0 350 150">
+  <title>Partisan guerrilla group counter reverse anatomy</title>
+  <desc>A Partisan guerrilla group counter reverse with callouts identifying designation, size, type, and combat strength.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#17201b"/>
+    </marker>
+  </defs>
+  <rect x="90" y="8" width="130" height="130" rx="5" fill="#e34f5f" stroke="#17201b" stroke-width="3"/>
+  <g fill="#17201b" font-family="Arial,Helvetica,sans-serif" font-weight="700" text-anchor="middle">
+    <text x="155" y="30" font-size="17">30</text>
+    <text x="155" y="47" font-size="15">X</text>
+    <text x="155" y="128" font-size="36">4</text>
+  </g>
+  <g fill="none" stroke="#17201b" stroke-width="3.5">
+    <rect x="115" y="53" width="80" height="44" rx="1"/>
+    <path d="M115 53 L195 97 M115 97 L195 53"/>
+  </g>
+  <g fill="#17201b" font-family="Arial,Helvetica,sans-serif" font-size="19" font-style="italic" font-weight="600">
+    <text x="4" y="57">Size</text>
+    <text x="4" y="111">Combat</text>
+    <text x="4" y="129">Strength</text>
+    <text x="232" y="22">Designation</text>
+    <text x="232" y="76">Type</text>
+  </g>
+  <g fill="none" stroke="#17201b" stroke-width="2.2" marker-end="url(#arrow)">
+    <path d="M47 52 L137 45"/>
+    <path d="M74 122 H133"/>
+    <path d="M228 20 L174 27"/>
+    <path d="M228 72 L199 76"/>
+  </g>
+</svg>
