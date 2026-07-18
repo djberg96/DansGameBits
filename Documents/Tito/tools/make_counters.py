@@ -12,30 +12,31 @@ import subprocess
 OUT = Path(__file__).resolve().parents[1] / "figures"
 
 
-def nato_symbol(kind: str) -> str:
+def nato_symbol(kind: str, ink: str = "#17201b") -> str:
     # The lower label was removed after the original counter sheet became
     # available, allowing the NATO symbol and strength to use the full face.
-    base = '<rect x="19" y="32" width="62" height="35" rx="1" fill="none" stroke="#17201b" stroke-width="2.5"/>'
+    base = f'<rect x="19" y="32" width="62" height="35" rx="1" fill="none" stroke="{ink}" stroke-width="2.5"/>'
     if kind == "infantry":
-        return base + '<path d="M19 32L81 67M19 67L81 32" fill="none" stroke="#17201b" stroke-width="2.5"/>'
+        return base + f'<path d="M19 32L81 67M19 67L81 32" fill="none" stroke="{ink}" stroke-width="2.5"/>'
     if kind == "armor":
-        return base + '<rect x="27" y="39" width="46" height="21" rx="10.5" fill="none" stroke="#17201b" stroke-width="2.5"/>'
+        return base + f'<rect x="27" y="39" width="46" height="21" rx="10.5" fill="none" stroke="{ink}" stroke-width="2.5"/>'
     if kind == "cavalry":
-        return base + '<path d="M19 67L81 32" fill="none" stroke="#17201b" stroke-width="2.5"/>'
+        return base + f'<path d="M19 67L81 32" fill="none" stroke="{ink}" stroke-width="2.5"/>'
     if kind == "airborne":
-        return base + '<path d="M22 35Q50 63 78 35M50 36V64" fill="none" stroke="#17201b" stroke-width="2.2"/>'
+        return base + f'<path d="M22 35Q50 63 78 35M50 36V64" fill="none" stroke="{ink}" stroke-width="2.2"/>'
     raise ValueError(kind)
 
 
 def counter(name: str, *, color: str, designation: str, strength: str,
-            size: str = "", kind: str = "infantry") -> None:
-    symbol = nato_symbol(kind)
+            size: str = "", kind: str = "infantry",
+            ink: str = "#17201b") -> None:
+    symbol = nato_symbol(kind, ink)
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
   <rect x="1" y="1" width="98" height="98" rx="4" fill="{color}" stroke="#17201b" stroke-width="2"/>
-  <text x="50" y="17" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#17201b">{designation}</text>
-  <text x="50" y="29" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#17201b">{size}</text>
+  <text x="50" y="17" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="{ink}">{designation}</text>
+  <text x="50" y="29" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="{ink}">{size}</text>
   {symbol}
-  <text x="50" y="91" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#17201b">{strength}</text>
+  <text x="50" y="91" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="{ink}">{strength}</text>
 </svg>'''
     path = OUT / f"{name}.svg"
     path.write_text(svg, encoding="utf-8")
@@ -67,6 +68,7 @@ def main() -> None:
     soviet = "#d997aa"     # pink
     partisan = "#e34f5f"   # red
     chetnik = "#f4f1e7"    # warm white
+    chetnik_ink = "#c9252d" # red printing on the original counters
     marker_color = chetnik
     counter("german-infantry-front", color=german, designation="704", size="XX", strength="12")
     counter("german-infantry-back", color=german, designation="104L", size="XX", strength="15")
@@ -80,7 +82,7 @@ def main() -> None:
     counter("croat-infantry", color=croat, designation="1 UST", size="X", strength="2")
     counter("bulgarian-infantry", color=bulgarian, designation="14", size="XX", strength="12")
     counter("soviet-infantry", color=soviet, designation="4 GD", size="XXX", strength="42")
-    counter("chetnik-group", color=chetnik, designation="1 GROUP", strength="1")
+    counter("chetnik-group", color=chetnik, designation="1 GROUP", strength="1", ink=chetnik_ink)
     marker("tito-unidentified", "TITO", "NOT IDENT.", partisan)
     marker("tito-identified", "TITO", "IDENTIFIED", partisan)
     marker("victory-points", "VP (+)", "×1", marker_color)
