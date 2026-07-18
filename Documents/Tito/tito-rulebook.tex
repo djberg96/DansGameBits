@@ -13,6 +13,7 @@
 \usepackage{enumitem}
 \usepackage[most]{tcolorbox}
 \usepackage{titlesec}
+\usepackage{tocloft}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
 \usepackage{xcolor}
@@ -46,6 +47,9 @@
   {\sffamily\bfseries\MakeUppercase{#1}:}\par\smallskip}
 \newcommand{\counterimage}[2][0.25\linewidth]{%
   \includegraphics[width=#1]{figures/#2.pdf}}
+\makeatletter
+\newcommand{\compacttoc}{\@starttoc{toc}}
+\makeatother
 
 \newtcolorbox{generalrule}{
   enhanced,breakable,boxrule=0pt,frame hidden,
@@ -86,30 +90,62 @@
 
 \begin{titlepage}
   \thispagestyle{empty}
-  \vspace*{0.13\textheight}
-  {\sffamily\bfseries\fontsize{58}{60}\selectfont\color{TitoGreen}TITO\par}
-  \vspace{0.35em}
-  {\sffamily\bfseries\fontsize{25}{30}\selectfont\color{TitoRed}
-    and His Partisan Army\par}
-  \vspace{0.15em}
-  {\sffamily\fontsize{20}{24}\selectfont Yugoslavia, 1941--45\par}
-  \vspace{2em}
-  \color{TitoGreen}\rule{\textwidth}{2pt}
+  \vspace*{-0.2in}
+  \noindent
+  \begin{minipage}[t]{0.69\textwidth}
+    {\sffamily\bfseries\fontsize{46}{46}\selectfont\color{TitoGreen}TITO\par}
+    \vspace{0.18em}
+    {\sffamily\bfseries\fontsize{21}{24}\selectfont\color{TitoRed}
+      and His Partisan Army\par}
+    {\sffamily\fontsize{15}{18}\selectfont Yugoslavia, 1941--45\par}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.27\textwidth}
+    \raggedleft\vspace{0pt}
+    {\sffamily\bfseries\large Rules of Play\par}
+    \vspace{0.25em}
+    {\sffamily\small Restored and re-typeset edition\par}
+    {\sffamily\small version 1.0\par}
+    {\sffamily\small by Daniel J. Berger\par}
+  \end{minipage}
+
+  \vspace{0.55em}
+  {\color{TitoGreen}\rule{\textwidth}{1.5pt}}
+  \vspace{-0.45em}
+
+  \section*{Contents}
+  \vspace{-0.35em}
+  \begingroup
+    \footnotesize
+    \setlength{\parskip}{0pt}
+    \setlength{\columnsep}{0.32in}
+    \setlength{\columnseprule}{0.25pt}
+    \setlength{\cftbeforesecskip}{2.2pt}
+    \setlength{\cftsecindent}{0pt}
+    \setlength{\cftsecnumwidth}{1.8em}
+    \setlength{\cftsubsecindent}{1.15em}
+    \setlength{\cftsubsecnumwidth}{2.6em}
+    \renewcommand{\cftsecfont}{\sffamily\bfseries}
+    \renewcommand{\cftsecpagefont}{\sffamily\bfseries}
+    \renewcommand{\cftsubsecfont}{\sffamily}
+    \renewcommand{\cftsubsecpagefont}{\sffamily}
+    \renewcommand{\cftdotsep}{2}
+    \renewcommand{\cftsecafterpnum}{\nopagebreak[4]}
+    \raggedcolumns
+    \begin{multicols}{2}
+      \compacttoc
+    \end{multicols}
+  \endgroup
+
   \vfill
-  {\Large Rules of Play\par}
-  \vspace{0.5em}
-  {\sffamily Restored and re-typeset edition\par}
-  \vspace{2em}
-  {\small Original game copyright \textcopyright\ 1980, Simulations Publications, Inc.\par}
+  {\sffamily\scriptsize Original game copyright \textcopyright\ 1980,
+    Simulations Publications, Inc.\par}
 \end{titlepage}
 
-\pagenumbering{roman}
-\tableofcontents
-\clearpage
 \pagenumbering{arabic}
 
 \begin{multicols}{2}
 \input{sections/00-frontmatter}
+\columnbreak
 \input{sections/01-introduction}
 \input{sections/02-game-equipment}
 \input{sections/03-glossary}
