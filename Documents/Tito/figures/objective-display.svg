@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="270" viewBox="0 0 500 270">
+  <title>Tuzla objective display</title>
+  <desc>A two-box objective display with a Partisan and Chetnik box at left and an Axis box at right.</desc>
+  <text x="225" y="54" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" text-anchor="middle" fill="#17201b">Tuzla</text>
+  <path d="M334 13 V60 M318 30 H350" fill="none" stroke="#17201b" stroke-width="7"/>
+  <rect x="65" y="75" width="370" height="185" rx="2" fill="#f4f1e7"/>
+  <path d="M65 75 H250 L65 260 Z" fill="#e34f5f"/>
+  <rect x="250" y="75" width="185" height="185" fill="#b9c3c1"/>
+  <rect x="65" y="75" width="370" height="185" rx="2" fill="none" stroke="#17201b" stroke-width="12"/>
+  <path d="M250 75 V260" fill="none" stroke="#17201b" stroke-width="12"/>
+  <g fill="#17201b" font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+    <text x="315" y="192" font-size="44" font-weight="700">&#x00BD;</text>
+    <text x="398" y="207" font-size="76" font-weight="700">2</text>
+  </g>
+</svg>

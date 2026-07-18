@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" viewBox="0 0 520 420">
+  <title>Serbia occupation zone display</title>
+  <desc>Three mountain triangles above three hide-away circles, colored for Partisan, Axis, and Chetnik forces.</desc>
+  <g fill="#17201b" font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+    <text x="260" y="58" font-size="52" font-weight="700">
+      <tspan font-style="italic">Serbia</tspan><tspan dx="18" font-style="normal">4C2</tspan>
+    </text>
+  </g>
+  <g stroke="#17201b" stroke-width="10" stroke-linejoin="round">
+    <path d="M100 82 L20 220 L180 220 Z" fill="#e34f5f"/>
+    <path d="M260 82 L180 220 L340 220 Z" fill="#b9c3c1"/>
+    <path d="M420 82 L340 220 L500 220 Z" fill="#f4f1e7"/>
+    <circle cx="100" cy="320" r="80" fill="#e34f5f"/>
+    <circle cx="260" cy="320" r="80" fill="#b9c3c1"/>
+    <circle cx="420" cy="320" r="80" fill="#f4f1e7"/>
+  </g>
+</svg>
