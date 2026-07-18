@@ -1,0 +1,136 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[letterpaper,margin=0.68in,top=0.72in,bottom=0.72in]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% The rules booklet is intentionally monochrome; color is reserved for counters.
+\definecolor{TitoGreen}{HTML}{111111}
+\definecolor{TitoRed}{HTML}{3A3A3A}
+\definecolor{TitoSand}{HTML}{EEEEEE}
+\definecolor{TitoInk}{HTML}{111111}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=TitoRed,
+  urlcolor=TitoGreen,
+  pdftitle={Tito and His Partisan Army: Yugoslavia, 1941--45},
+  pdfauthor={Dick Rustin; restored edition}
+}
+
+\titleformat{\section}
+  {\sffamily\bfseries\Large\color{TitoGreen}}
+  {\thesection.0}{0.55em}{}[\color{TitoRed}\titlerule]
+\titleformat{\subsection}
+  {\sffamily\bfseries\large\color{TitoRed}}
+  {}{0pt}{}
+\titlespacing*{\section}{0pt}{1.1em}{0.55em}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.3em}
+
+\newcommand{\case}[1]{\par\smallskip\noindent
+  \textcolor{TitoRed}{\sffamily\bfseries[#1]}\enspace}
+\newcommand{\ruleslabel}[1]{\par\smallskip\noindent
+  {\sffamily\bfseries\MakeUppercase{#1}:}\par\smallskip}
+\newcommand{\counterimage}[2][0.25\linewidth]{%
+  \includegraphics[width=#1]{figures/#2.pdf}}
+
+\newtcolorbox{generalrule}{
+  enhanced,breakable,boxrule=0pt,frame hidden,
+  borderline west={2.5pt}{0pt}{TitoGreen},
+  colback=TitoSand!55,left=7pt,right=6pt,top=5pt,bottom=5pt,
+  before skip=3pt,after skip=7pt
+}
+\newtcolorbox{procedure}{
+  enhanced,breakable,boxrule=0pt,frame hidden,
+  borderline west={2.5pt}{0pt}{TitoRed},
+  colback=TitoSand!35,left=7pt,right=6pt,top=5pt,bottom=5pt,
+  before skip=3pt,after skip=7pt
+}
+\newtcolorbox{historicalnote}[1][Historical note]{
+  enhanced,breakable,colback=black!3,colframe=black!30,
+  boxrule=0.4pt,arc=1pt,fonttitle=\sffamily\bfseries,
+  title=#1,left=6pt,right=6pt,top=4pt,bottom=4pt
+}
+
+\setlength{\columnsep}{0.27in}
+\setlength{\columnseprule}{0.25pt}
+\renewcommand{\columnseprulecolor}{\color{TitoGreen!35}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.42em plus 0.12em minus 0.08em}
+\setlist{nosep,leftmargin=1.35em}
+\emergencystretch=1.5em
+\setlength{\headheight}{22pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\small\color{TitoGreen}TITO AND HIS PARTISAN ARMY}
+\fancyhead[R]{\sffamily\small\color{TitoGreen}RULES OF PLAY}
+\fancyfoot[C]{\sffamily\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{TitoRed}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+\begin{titlepage}
+  \thispagestyle{empty}
+  \vspace*{0.13\textheight}
+  {\sffamily\bfseries\fontsize{58}{60}\selectfont\color{TitoGreen}TITO\par}
+  \vspace{0.35em}
+  {\sffamily\bfseries\fontsize{25}{30}\selectfont\color{TitoRed}
+    and His Partisan Army\par}
+  \vspace{0.15em}
+  {\sffamily\fontsize{20}{24}\selectfont Yugoslavia, 1941--45\par}
+  \vspace{2em}
+  \color{TitoGreen}\rule{\textwidth}{2pt}
+  \vfill
+  {\Large Rules of Play\par}
+  \vspace{0.5em}
+  {\sffamily Restored and re-typeset edition\par}
+  \vspace{2em}
+  {\small Original game copyright \textcopyright\ 1980, Simulations Publications, Inc.\par}
+\end{titlepage}
+
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+\begin{multicols}{2}
+\input{sections/00-frontmatter}
+\input{sections/01-introduction}
+\input{sections/02-game-equipment}
+\input{sections/03-glossary}
+\input{sections/04-sequence-of-play}
+\input{sections/05-game-map}
+\input{sections/06-movement}
+\input{sections/07-guerrilla-units}
+\input{sections/08-combat}
+\input{sections/09-tito}
+\input{sections/10-italian-units-and-allied-progress}
+\input{sections/11-weather}
+\input{sections/12-mountain-units}
+\input{sections/13-reinforcements-replacements-and-upgrading}
+\input{sections/14-yugoslav-victory-points}
+\input{sections/15-how-to-start-and-win}
+\input{sections/16-credits}
+\input{sections/17-addenda}
+\input{sections/18-designers-notes}
+\end{multicols}
+
+\clearpage
+\input{sections/19-counter-manifest}
+
+\end{document}
