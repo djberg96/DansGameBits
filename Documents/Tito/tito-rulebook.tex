@@ -13,6 +13,8 @@
 \usepackage{enumitem}
 \usepackage[most]{tcolorbox}
 \usepackage{titlesec}
+\usepackage{needspace}
+\usepackage{etoolbox}
 \usepackage{tocloft}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
@@ -41,9 +43,15 @@
 \titlespacing*{\section}{0pt}{1.1em}{0.55em}
 \titlespacing*{\subsection}{0pt}{0.9em}{0.3em}
 
-\newcommand{\case}[1]{\par\smallskip\noindent
+% Keep headings with enough of the material that introduces them to make the
+% page break feel intentional. Illustrated cases reserve additional space in
+% their section files when the first figure or table is taller than this.
+\pretocmd{\section}{\needspace{9\baselineskip}}{}{}
+\pretocmd{\subsection}{\needspace{8\baselineskip}}{}{}
+
+\newcommand{\case}[1]{\par\needspace{5\baselineskip}\smallskip\noindent
   \textcolor{TitoRed}{\sffamily\bfseries[#1]}\enspace}
-\newcommand{\ruleslabel}[1]{\par\smallskip\noindent
+\newcommand{\ruleslabel}[1]{\par\needspace{5\baselineskip}\smallskip\noindent
   {\sffamily\bfseries\MakeUppercase{#1}:}\par\smallskip}
 \newcommand{\counterimage}[2][0.25\linewidth]{%
   \includegraphics[width=#1]{figures/#2.pdf}}
