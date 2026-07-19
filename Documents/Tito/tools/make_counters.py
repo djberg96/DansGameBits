@@ -97,9 +97,11 @@ def main() -> None:
     marker("tito-unidentified", "TITO", "NOT IDENT.", partisan)
     marker("tito-identified", "TITO", "IDENTIFIED", partisan)
     marker("victory-points", "VP (+)", "×1", marker_color)
+    marker("victory-points-negative", "VP (-)", "×1", marker_color)
     marker("allied-progress", "ALLIED", "PROGRESS", marker_color)
     marker("game-turn", "GAME", "TURN", marker_color)
     marker("drought-turn", "DROUGHT", "TURN", marker_color)
+    marker("anti-guerrilla-operations", "8", "AGO", soviet)
 
 
 if __name__ == "__main__":
