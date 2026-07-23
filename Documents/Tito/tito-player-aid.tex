@@ -30,7 +30,9 @@
 \fancyhf{}
 \fancyfoot[C]{\sffamily\scriptsize TITO PLAYER AID \textbullet\ \thepage}
 \renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 \setlength{\headheight}{12pt}
+\setlength{\footskip}{18pt}
 
 \newcommand{\aidheading}[1]{%
   \par\vspace{4pt}%
@@ -310,11 +312,23 @@ Points as possible without exceeding the number, then retreats. Attacks below
 \vfill
 \colorbox{TitoPale}{%
   \parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+    {\sffamily\bfseries\small Combat Procedure\par}
+    \begin{multicols}{2}
     \small
-    \textbf{Combat procedure:} Total participating Strength Points
-    $\rightarrow$ apply defensive terrain effects $\rightarrow$ form and round
-    down the attacker:defender ratio $\rightarrow$ apply ratio shifts
-    $\rightarrow$ roll one die $\rightarrow$ apply and modify the result
-    $\rightarrow$ retreat if required.}}
+    \begin{enumerate}[
+      leftmargin=1.4em,
+      label=\arabic*.,
+      itemsep=1pt,
+      topsep=2pt
+    ]
+      \item Total the participating Strength Points.
+      \item Apply defensive terrain effects.
+      \item Form the attacker:defender ratio and round down.
+      \item Apply ratio-column shifts.
+      \item Roll one die.
+      \item Apply and modify the combat result.
+      \item Retreat if required.
+    \end{enumerate}
+    \end{multicols}}}
 
 \end{document}
