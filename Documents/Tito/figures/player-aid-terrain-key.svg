@@ -55,9 +55,9 @@
       <text x="194" y="332">City</text>
       <text x="278" y="333" font-size="24">&#x2020;</text>
       <text x="303" y="332">Village</text>
-      <text x="414" y="333" font-size="25">&#x2022;</text>
+      <text x="414" y="333" font-size="24">&#x2021;</text>
       <text x="440" y="332">Town</text>
-      <text x="538" y="333" font-size="24">&#x2021;</text>
+      <text x="538" y="333" font-size="25">&#x2022;</text>
       <text x="565" y="332">Market Town</text>
     </g>
 
