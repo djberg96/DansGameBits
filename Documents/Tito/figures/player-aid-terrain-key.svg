@@ -15,9 +15,9 @@
       <text x="16" y="67">Objective Name</text>
       <text x="610" y="67">Terrain Type</text>
       <text x="16" y="176">Yugoslav</text>
-      <text x="680" y="130">Axis</text>
-      <text x="548" y="169" font-size="16">Recruitment Value</text>
-      <text x="548" y="202" font-size="16">Victory Point Value</text>
+      <text x="680" y="122">Axis</text>
+      <text x="580" y="169" font-size="16">Recruitment Value</text>
+      <text x="580" y="202" font-size="16">Victory Point Value</text>
       <text x="540" y="260" font-size="16">Intrinsic Defense Strength</text>
     </g>
 
@@ -42,23 +42,23 @@
       <path d="M156 62 H292"/>
       <path d="M605 62 H515"/>
       <path d="M106 170 H270"/>
-      <path d="M675 125 H525"/>
-      <path d="M542 164 H451"/>
-      <path d="M542 197 H522"/>
+      <path d="M675 117 H525"/>
+      <path d="M574 164 H530 V135 H437 V145"/>
+      <path d="M574 197 H530 V174 H520"/>
       <path d="M534 254 H465 V234"/>
     </g>
 
     <g font-size="18">
-      <rect x="25" y="286" width="15" height="15" fill="#17201b"/>
-      <text x="52" y="300">Industrial</text>
-      <text x="225" y="301" font-size="25">&#x2605;</text>
-      <text x="257" y="300">City</text>
-      <text x="395" y="301" font-size="24">&#x2020;</text>
-      <text x="420" y="300">Village</text>
-      <text x="548" y="301" font-size="25">&#x2022;</text>
-      <text x="574" y="300">Town</text>
-      <text x="25" y="331" font-size="24">&#x2021;</text>
-      <text x="52" y="330">Market Town</text>
+      <rect x="18" y="286" width="15" height="15" fill="#17201b"/>
+      <text x="43" y="300">Industrial</text>
+      <text x="164" y="301" font-size="25">&#x2605;</text>
+      <text x="194" y="300">City</text>
+      <text x="278" y="301" font-size="24">&#x2020;</text>
+      <text x="303" y="300">Village</text>
+      <text x="414" y="301" font-size="25">&#x2022;</text>
+      <text x="440" y="300">Town</text>
+      <text x="538" y="301" font-size="24">&#x2021;</text>
+      <text x="565" y="300">Market Town</text>
     </g>
 
     <path d="M15 350 H745" fill="none" stroke="#59605c" stroke-width="1.5"/>
@@ -71,9 +71,9 @@
       <text x="600" y="465">Uprising Modifier</text>
       <text x="17" y="538">Mountain</text>
       <text x="17" y="669">Hide-away</text>
-      <text x="154" y="744">Partisan</text>
-      <text x="363" y="744">Axis</text>
-      <text x="554" y="744">Chetnik</text>
+      <text x="245" y="744" text-anchor="middle">Partisan</text>
+      <text x="380" y="744" text-anchor="middle">Axis</text>
+      <text x="515" y="744" text-anchor="middle">Chetnik</text>
     </g>
 
     <g text-anchor="middle" font-size="40" font-weight="700">
@@ -99,19 +99,14 @@
       <tspan x="669">Neutral Chetnik</tspan>
       <tspan x="669" dy="18">Box</tspan>
     </text>
-    <path d="M667 666 V642" fill="none" stroke="#17201b" stroke-width="2.2"
-          marker-end="url(#arrow)"/>
 
     <g fill="none" stroke="#17201b" stroke-width="2.2" marker-end="url(#arrow)">
       <path d="M67 424 H235"/>
       <path d="M594 380 H420 V407"/>
-      <path d="M594 420 H476"/>
-      <path d="M594 460 H492 V449"/>
-      <path d="M101 533 H206"/>
-      <path d="M101 664 H181"/>
-      <path d="M207 738 L245 706"/>
-      <path d="M393 738 L380 718"/>
-      <path d="M590 738 L540 704"/>
+      <path d="M594 420 H540 V392 H456 V407"/>
+      <path d="M594 460 L507 439"/>
+      <path d="M101 533 H194"/>
+      <path d="M115 664 H170"/>
     </g>
   </g>
 </svg>
