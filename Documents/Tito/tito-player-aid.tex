@@ -42,7 +42,7 @@
   \par\vspace{3pt}{\sffamily\bfseries\color{TitoInk}#1\par}\vspace{1pt}%
 }
 
-\newcommand{\unitpic}[1]{\includegraphics[width=0.62in]{figures/#1.pdf}}
+\newcommand{\nationpic}[1]{\includegraphics[width=0.50in]{figures/#1.pdf}}
 
 \newcommand{\stage}[1]{%
   \par\smallskip\noindent{\sffamily\bfseries\color{TitoInk}#1}\par%
@@ -75,77 +75,36 @@
 \begin{minipage}[t]{0.47\textwidth}
 \vspace{0pt}
 \aidheading{Terrain Key}
-
-\aidsubhead{Objective Display}
-\begin{minipage}[c]{0.55\linewidth}
-  \centering
-  \includegraphics[width=0.92\linewidth]{figures/objective-display.pdf}
-\end{minipage}
-\hfill
-\begin{minipage}[c]{0.42\linewidth}
-  \footnotesize
-  Name and terrain symbol appear above the display. The split red/white box is
-  Yugoslav; the gray box is Axis. Values in the Axis box are Recruitment and
-  Victory Points; a parenthetical value is intrinsic Defense Strength.
-\end{minipage}
-
-\vspace{3pt}
-\begin{tabularx}{\linewidth}{@{}>{\bfseries}l X >{\bfseries}l X@{}}
-  \rule{1.1ex}{1.1ex} & Industrial & $\star$ & City \\
-  $\dagger$ & Village & $\bullet$ & Town \\
-  $\ddagger$ & Market town & & \\
-\end{tabularx}
-
-\aidsubhead{Occupation Zone Display}
 \begin{center}
-  \includegraphics[width=0.68\linewidth]{figures/occupation-zone-display.pdf}
+  \includegraphics[width=0.98\linewidth]{figures/player-aid-terrain-key.pdf}
 \end{center}
-\vspace{-3pt}
-\footnotesize
-Triangles are Mountains; circles are Hide-aways. From left to right, the
-colored locations belong to Partisans, Axis, and Chetniks. The values following
-the Zone name are Garrison Value, Alignment Value, and Uprising Modifier.
-
-\vspace{3pt}
-\begin{minipage}[c]{0.29\linewidth}
-  \centering
-  \includegraphics[width=0.54in]{figures/neutral-chetnik-box.pdf}
-\end{minipage}
-\begin{minipage}[c]{0.68\linewidth}
-  \footnotesize
-  \textbf{Neutral Chetnik box.} Place Chetnik units here when they are
-  controlled by neither Player.
-\end{minipage}
 
 \aidheading{Unit Key}
-\centering
-\begin{tabular}{@{}c c c@{}}
-  \unitpic{italian-infantry} &
-  \unitpic{german-mechanized-infantry} &
-  \unitpic{german-mountain-infantry} \\
-  \footnotesize Infantry &
-  \footnotesize \shortstack{Mechanized\\Infantry} &
-  \footnotesize \shortstack{Mountain\\Infantry} \\
-  \addlinespace[3pt]
-  \unitpic{german-panzer} &
-  \unitpic{german-cavalry} &
-  \unitpic{german-parachute} \\
-  \footnotesize Panzer &
-  \footnotesize Cavalry &
-  \footnotesize Parachute \\
-  \addlinespace[3pt]
-  \unitpic{partisan-group} &
-  \unitpic{partisan-brigade} &
-  \unitpic{tito-unidentified} \\
-  \footnotesize \shortstack{Guerrilla\\Group} &
-  \footnotesize Brigade &
-  \footnotesize Tito
-\end{tabular}
-
-\vspace{3pt}
-\raggedright\footnotesize
+\begin{center}
+  \includegraphics[width=0.98\linewidth]{figures/counter-anatomy.pdf}
+\end{center}
+\vspace{-2pt}
+\footnotesize
 \textbf{Size symbols:} II Battalion; III Regiment; X Brigade; XX Division;
 XXX Corps. Guerrilla groups have no size symbol.
+
+\aidsubhead{Nationality Colors}
+\centering
+\begin{tabular}{@{}c c c c@{}}
+  \nationpic{german-infantry-front} &
+  \nationpic{serbian-infantry} &
+  \nationpic{italian-infantry} &
+  \nationpic{croat-infantry} \\
+  \footnotesize German & \footnotesize Serbian & \footnotesize Italian &
+  \footnotesize Croat \\
+  \addlinespace[3pt]
+  \nationpic{bulgarian-infantry} &
+  \nationpic{soviet-infantry} &
+  \nationpic{partisan-group} &
+  \nationpic{chetnik-group} \\
+  \footnotesize Bulgarian & \footnotesize Soviet & \footnotesize Partisan &
+  \footnotesize Chetnik
+\end{tabular}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.50\textwidth}

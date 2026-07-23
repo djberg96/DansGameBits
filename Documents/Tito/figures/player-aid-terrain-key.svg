@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760">
+  <title>Tito annotated terrain key</title>
+  <desc>Objective and Occupation Zone displays with lead lines identifying their terrain and game values.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5"
+            markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#17201b"/>
+    </marker>
+  </defs>
+
+  <g font-family="Arial,Helvetica,sans-serif" fill="#17201b">
+    <text x="18" y="28" font-size="24" font-weight="700">Objective Display</text>
+
+    <g font-size="18" font-style="italic" font-weight="600">
+      <text x="16" y="67">Objective Name</text>
+      <text x="610" y="67">Terrain Type</text>
+      <text x="16" y="176">Yugoslav</text>
+      <text x="680" y="130">Axis</text>
+      <text x="548" y="169" font-size="16">Recruitment Value</text>
+      <text x="548" y="202" font-size="16">Victory Point Value</text>
+      <text x="540" y="260" font-size="16">Intrinsic Defense Strength</text>
+    </g>
+
+    <g font-weight="700" text-anchor="middle">
+      <text x="372" y="73" font-size="39">Trieste</text>
+      <text x="500" y="73" font-size="38">&#x2605;</text>
+    </g>
+
+    <rect x="245" y="91" width="300" height="150" rx="2" fill="#f4f1e7"/>
+    <path d="M245 91 H395 L245 241 Z" fill="#e34f5f"/>
+    <rect x="395" y="91" width="150" height="150" fill="#b9c3c1"/>
+    <rect x="245" y="91" width="300" height="150" rx="2"
+          fill="none" stroke="#17201b" stroke-width="8"/>
+    <path d="M395 91 V241" fill="none" stroke="#17201b" stroke-width="8"/>
+    <g font-weight="700" text-anchor="middle">
+      <text x="437" y="176" font-size="36">3</text>
+      <text x="501" y="190" font-size="54">5</text>
+      <text x="465" y="226" font-size="24">(16)</text>
+    </g>
+
+    <g fill="none" stroke="#17201b" stroke-width="2.2" marker-end="url(#arrow)">
+      <path d="M156 62 H292"/>
+      <path d="M605 62 H515"/>
+      <path d="M106 170 H270"/>
+      <path d="M675 125 H525"/>
+      <path d="M542 164 H451"/>
+      <path d="M542 197 H522"/>
+      <path d="M534 254 H465 V234"/>
+    </g>
+
+    <g font-size="18">
+      <rect x="25" y="286" width="15" height="15" fill="#17201b"/>
+      <text x="52" y="300">Industrial</text>
+      <text x="225" y="301" font-size="25">&#x2605;</text>
+      <text x="257" y="300">City</text>
+      <text x="395" y="301" font-size="24">&#x2020;</text>
+      <text x="420" y="300">Village</text>
+      <text x="548" y="301" font-size="25">&#x2022;</text>
+      <text x="574" y="300">Town</text>
+      <text x="25" y="331" font-size="24">&#x2021;</text>
+      <text x="52" y="330">Market Town</text>
+    </g>
+
+    <path d="M15 350 H745" fill="none" stroke="#59605c" stroke-width="1.5"/>
+    <text x="18" y="382" font-size="24" font-weight="700">Occupation Zone Display</text>
+
+    <g font-size="17" font-style="italic" font-weight="600">
+      <text x="16" y="429">Name</text>
+      <text x="600" y="385">Garrison Value</text>
+      <text x="600" y="425">Alignment Value</text>
+      <text x="600" y="465">Uprising Modifier</text>
+      <text x="17" y="538">Mountain</text>
+      <text x="17" y="669">Hide-away</text>
+      <text x="154" y="744">Partisan</text>
+      <text x="363" y="744">Axis</text>
+      <text x="554" y="744">Chetnik</text>
+    </g>
+
+    <g text-anchor="middle" font-size="40" font-weight="700">
+      <text x="300" y="440" font-style="italic">Serbia</text>
+      <text x="420" y="440">4</text>
+      <text x="456" y="440">C</text>
+      <text x="492" y="440">2</text>
+    </g>
+
+    <g stroke="#17201b" stroke-width="8" stroke-linejoin="round">
+      <path d="M245 470 L185 575 L305 575 Z" fill="#e34f5f"/>
+      <path d="M380 470 L320 575 L440 575 Z" fill="#b9c3c1"/>
+      <path d="M515 470 L455 575 L575 575 Z" fill="#f4f1e7"/>
+      <circle cx="245" cy="656" r="60" fill="#e34f5f"/>
+      <circle cx="380" cy="656" r="60" fill="#b9c3c1"/>
+      <circle cx="515" cy="656" r="60" fill="#f4f1e7"/>
+    </g>
+
+    <rect x="625" y="560" width="88" height="88" rx="12"
+          fill="#f4f1e7" stroke="#17201b" stroke-width="7"/>
+    <text x="669" y="677" font-size="17" font-style="italic" font-weight="600"
+          text-anchor="middle">
+      <tspan x="669">Neutral Chetnik</tspan>
+      <tspan x="669" dy="18">Box</tspan>
+    </text>
+    <path d="M667 666 V642" fill="none" stroke="#17201b" stroke-width="2.2"
+          marker-end="url(#arrow)"/>
+
+    <g fill="none" stroke="#17201b" stroke-width="2.2" marker-end="url(#arrow)">
+      <path d="M67 424 H235"/>
+      <path d="M594 380 H420 V407"/>
+      <path d="M594 420 H476"/>
+      <path d="M594 460 H492 V449"/>
+      <path d="M101 533 H206"/>
+      <path d="M101 664 H181"/>
+      <path d="M207 738 L245 706"/>
+      <path d="M393 738 L380 718"/>
+      <path d="M590 738 L540 704"/>
+    </g>
+  </g>
+</svg>
