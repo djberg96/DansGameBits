@@ -82,21 +82,43 @@
 \end{center}
 
 \aidheading{Unit Key}
-\begin{center}
-  {\sffamily\bfseries Axis Unit\par}
+\noindent
+\begin{minipage}[t]{0.49\linewidth}
+  \centering
+  {\sffamily\bfseries\small Axis Unit\par}
   \vspace{2pt}
-  \includegraphics[width=0.98\linewidth]{figures/counter-anatomy.pdf}
-
-  \vspace{4pt}
-  {\sffamily\bfseries Partisan Unit\par}
+  \includegraphics[width=\linewidth]{figures/counter-anatomy.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\linewidth}
+  \centering
+  {\sffamily\bfseries\small Partisan Unit\par}
   \vspace{2pt}
-  \includegraphics[width=0.98\linewidth]{figures/counter-anatomy-partisan-front.pdf}
-\end{center}
-\vspace{-2pt}
+  \includegraphics[width=\linewidth]{figures/counter-anatomy-partisan-front.pdf}
+\end{minipage}
+\vspace{2pt}
 
 \footnotesize
 \textbf{Size symbols:} II Battalion; III Regiment; X Brigade; XX Division;
 XXX Corps. Guerrilla groups have no size symbol.
+
+\aidheading{Nationality Colors}
+\centering
+\begin{tabular}{@{}c c c c@{}}
+  \nationpic{german-infantry-front} &
+  \nationpic{serbian-infantry} &
+  \nationpic{italian-infantry} &
+  \nationpic{croat-infantry} \\
+  \footnotesize German & \footnotesize Serbian & \footnotesize Italian &
+  \footnotesize Croat \\
+  \addlinespace[3pt]
+  \nationpic{bulgarian-infantry} &
+  \nationpic{soviet-infantry} &
+  \nationpic{partisan-group} &
+  \nationpic{chetnik-group} \\
+  \footnotesize Bulgarian & \footnotesize Soviet & \footnotesize Partisan &
+  \footnotesize Chetnik
+\end{tabular}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.50\textwidth}
@@ -165,28 +187,81 @@ XXX Corps. Guerrilla groups have no size symbol.
     Zone, normally ending in a Mountain or Hide-away.
   \item Axis units may enter a Hide-away only during an Anti-Guerrilla
     Operation.
-  \item A location may contain no more than seven divisions or equivalents at
-    the end of a Movement Phase; guerrilla groups stack for free.
 \end{itemize}
 
-\aidheading{Nationality Colors}
-\centering
-\begin{tabular}{@{}c c c c@{}}
-  \nationpic{german-infantry-front} &
-  \nationpic{serbian-infantry} &
-  \nationpic{italian-infantry} &
-  \nationpic{croat-infantry} \\
-  \footnotesize German & \footnotesize Serbian & \footnotesize Italian &
-  \footnotesize Croat \\
-  \addlinespace[3pt]
-  \nationpic{bulgarian-infantry} &
-  \nationpic{soviet-infantry} &
-  \nationpic{partisan-group} &
-  \nationpic{chetnik-group} \\
-  \footnotesize Bulgarian & \footnotesize Soviet & \footnotesize Partisan &
-  \footnotesize Chetnik
-\end{tabular}
+\aidheading{Stacking Cost Summary}
+\footnotesize
+\rowcolors{2}{TitoBlue!48}{white}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}X >{\raggedleft\arraybackslash}p{0.95in}@{}}
+  \rowcolor{TitoInk!15}
+  Formation & Stacking Points \\
+  Division or Soviet corps & 6 \\
+  Brigade & 3 \\
+  Regiment & 2 \\
+  Battalion & 1 \\
+  Guerrilla group & 0 \\
+\end{tabularx}
+\rowcolors{2}{}{}
+
+\vspace{3pt}
+\colorbox{TitoPale}{%
+  \parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+    \centering\bfseries
+    6 battalions = 3 regiments = 2 brigades = 1 division = 6 points}}
+
+\vspace{2pt}
+\begin{itemize}[leftmargin=1.2em,itemsep=1.5pt]
+  \item Maximum: 42 stacking points per location at the end of a friendly
+    Movement Phase.
+  \item Guerrilla groups stack for free and are unlimited.
+  \item Friendly nationalities may stack together; Partisan and Chetnik units
+    may not.
+\end{itemize}
 \end{minipage}
+
+\vspace{3pt}
+\aidheading{[14.2--14.3] Victory Point Stage Checklist}
+\begingroup
+\scriptsize
+\begin{minipage}[t]{0.315\textwidth}
+  \vspace{0pt}
+  {\sffamily\bfseries\color{TitoInk}Add Victory Points\par}
+  \begin{itemize}[leftmargin=1.1em,itemsep=1pt,topsep=2pt]
+    \item \textbf{Occupied Objective Display:} printed Victory Point Value.
+    \item \textbf{Occupied Mountain:} Yugoslav Strength Points divided by 4,
+      rounded down; maximum equal to the number of occupying Yugoslav units.
+    \item \textbf{Overdue German transfer:} 5 per unit still on the map.
+  \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.315\textwidth}
+  \vspace{0pt}
+  {\sffamily\bfseries\color{TitoInk}Deduct: Tito and Forces\par}
+  \begin{itemize}[leftmargin=1.1em,itemsep=1pt,topsep=2pt]
+    \item \textbf{Tito withdrawn:} 5.
+    \item \textbf{Tito eliminated:} 25 in the ensuing Stage; 5 in every later
+      Stage.
+    \item \textbf{No Partisan units:} 25 (except on Game-Turn 1).
+  \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.335\textwidth}
+  \vspace{0pt}
+  {\sffamily\bfseries\color{TitoInk}Deduct: Chetniks and Reinforcements\par}
+  \begin{itemize}[leftmargin=1.1em,itemsep=1pt,topsep=2pt]
+    \item \textbf{No Chetnik guerrillas:} 5; \textbf{no Chetnik units:} 15
+      instead. Ignore after Allied Support Withdrawal.
+    \item \textbf{Game-Turns 16--17:} 20 per Soviet or pro-Yugoslav Bulgarian
+      unit on the map.
+    \item \textbf{Optional Soviet reinforcement deployed:} 5 per unit.
+  \end{itemize}
+\end{minipage}
+
+\vspace{1pt}
+\textit{No-unit penalties use the position at the beginning of the immediately
+preceding Yugoslav Movement Phase; optional Soviet deployment is checked in
+that Movement Phase.}
+\endgroup
 
 \clearpage
 
@@ -310,25 +385,42 @@ Points as possible without exceeding the number, then retreats. Attacks below
 \end{multicols}
 
 \vfill
-\colorbox{TitoPale}{%
-  \parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
-    {\sffamily\bfseries\small Combat Procedure\par}
-    \begin{multicols}{2}
-    \small
-    \begin{enumerate}[
-      leftmargin=1.4em,
-      label=\arabic*.,
-      itemsep=1pt,
-      topsep=2pt
-    ]
-      \item Total the participating Strength Points.
-      \item Apply defensive terrain effects.
-      \item Form the attacker:defender ratio and round down.
-      \item Apply ratio-column shifts.
-      \item Roll one die.
-      \item Apply and modify the combat result.
-      \item Retreat if required.
-    \end{enumerate}
-    \end{multicols}}}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \vspace{0pt}
+  \aidheading{Combat Procedure}
+  \footnotesize
+  \begin{enumerate}[
+    leftmargin=1.4em,
+    label=\arabic*.,
+    itemsep=1pt,
+    topsep=1pt
+  ]
+    \item Total the participating Strength Points.
+    \item Apply defensive terrain effects.
+    \item Form the attacker:defender ratio and round down.
+    \item Apply ratio-column shifts.
+    \item Roll one die.
+    \item Apply and modify the combat result.
+    \item Retreat if required.
+  \end{enumerate}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \vspace{0pt}
+  \aidheading{Special Event Triggers}
+  \footnotesize
+  {\sffamily\bfseries\color{TitoInk}[10.1--10.3] Allied Progress\par}
+  Beginning on Game-Turn 6, a roll of 1--5 advances the marker; 6 stalls it.
+  A stalled marker adds 1 to later rolls, but a 6 or 7 leaves it stalled.
+  \textbf{Box 3:} Italian Pullback. \textbf{Box 6:} Italian Withdrawal.
+  \textbf{Box 7:} Italian Surrender.
+
+  \vspace{4pt}
+  {\sffamily\bfseries\color{TitoInk}[7.26] Allied Support Withdrawal\par}
+  Withdrawal occurs if the percentage of Chetnik units that are pro-Yugoslav
+  is less than: \textbf{GT9 20\%; GT10 40\%; GT11 60\%; GT12 80\%.}
+  It occurs automatically on \textbf{GT13} if it has not occurred already.
+\end{minipage}
 
 \end{document}
