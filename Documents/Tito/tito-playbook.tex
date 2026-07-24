@@ -1,0 +1,159 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[letterpaper,margin=0.56in,top=0.48in,bottom=0.52in]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage[table]{xcolor}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+
+\graphicspath{{figures/}}
+
+\definecolor{TitoInk}{HTML}{17201B}
+\definecolor{TitoRed}{HTML}{B72831}
+\definecolor{TitoRule}{HTML}{59605C}
+\definecolor{TitoPale}{HTML}{F2F1EC}
+\definecolor{TitoBlue}{HTML}{DDE8E6}
+\definecolor{TitoTan}{HTML}{D8C69F}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\columnsep}{0.25in}
+\setlength{\multicolsep}{6pt}
+\setlist{nosep}
+\renewcommand{\arraystretch}{1.12}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\scriptsize\color{TitoRule}TITO \textbullet\ PLAYBOOK}
+\fancyhead[R]{\sffamily\scriptsize\color{TitoRule}GAME-TURNS 1--5}
+\fancyfoot[C]{\sffamily\scriptsize TITO PLAYBOOK \textbullet\ \thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{13pt}
+\setlength{\footskip}{18pt}
+
+\titleformat{\section}
+  {\sffamily\bfseries\LARGE\color{TitoInk}}
+  {}{0pt}{}
+\titlespacing*{\section}{0pt}{7pt}{5pt}
+
+\titleformat{\subsection}
+  {\sffamily\bfseries\large\color{TitoInk}}
+  {}{0pt}{}
+\titlespacing*{\subsection}{0pt}{6pt}{3pt}
+
+\newcommand{\rulesref}[1]{%
+  {\sffamily\bfseries\color{TitoRed}[#1]}%
+}
+
+\newcommand{\phase}[1]{%
+  \par\needspace{3\baselineskip}\vspace{4pt}%
+  {\sffamily\bfseries\color{TitoInk}#1\par}%
+  \vspace{1pt}{\color{TitoRule}\hrule height 0.35pt}\vspace{2pt}%
+}
+
+\newcommand{\turntitle}[3]{%
+  \noindent
+  \begin{minipage}[t]{0.16\textwidth}
+    \vspace{0pt}
+    {\sffamily\bfseries\fontsize{38}{38}\selectfont\color{TitoRed}#1\par}
+    {\sffamily\bfseries\small GAME-TURN\par}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.80\textwidth}
+    \vspace{3pt}
+    {\sffamily\bfseries\fontsize{23}{25}\selectfont\color{TitoInk}#2\par}
+    \vspace{2pt}
+    {\itshape #3\par}
+  \end{minipage}
+  \vspace{3pt}
+  {\color{TitoInk}\hrule height 1pt}
+  \vspace{5pt}
+}
+
+\newcommand{\die}[1]{%
+  \tcbox[
+    on line,
+    colback=TitoRed,
+    colframe=TitoRed,
+    coltext=white,
+    boxsep=0.2pt,
+    left=3pt,right=3pt,top=1pt,bottom=1pt,
+    arc=2pt
+  ]{\sffamily\bfseries #1}%
+}
+
+\newtcolorbox{lessonbox}[1][]{
+  enhanced,
+  colback=TitoBlue!42,
+  colframe=TitoRule,
+  boxrule=0.45pt,
+  arc=2pt,
+  left=6pt,right=6pt,top=5pt,bottom=5pt,
+  before skip=5pt,after skip=5pt,
+  fonttitle=\sffamily\bfseries,
+  coltitle=TitoInk,
+  title={Rules in focus},
+  #1
+}
+
+\newtcolorbox{commentarybox}[1][]{
+  enhanced,
+  colback=TitoPale,
+  colframe=TitoPale,
+  boxrule=0pt,
+  arc=1pt,
+  left=6pt,right=6pt,top=5pt,bottom=5pt,
+  before skip=5pt,after skip=5pt,
+  fonttitle=\sffamily\bfseries,
+  coltitle=TitoInk,
+  title={Play note},
+  #1
+}
+
+\newcommand{\counterpic}[2][0.48in]{%
+  \includegraphics[width=#1]{#2.pdf}%
+}
+
+\newcommand{\turnledger}[5]{%
+  \begin{tcolorbox}[
+    colback=TitoPale,
+    colframe=TitoRule,
+    boxrule=0.4pt,
+    arc=1pt,
+    left=5pt,right=5pt,top=4pt,bottom=4pt,
+    before skip=5pt,after skip=2pt
+  ]
+  \sffamily\footnotesize
+  \begin{tabularx}{\linewidth}{@{}>{\bfseries}l X >{\bfseries}l X@{}}
+    VP this turn & #1 & Running VP & #2 \\
+    Partisans & #3 & Chetniks (Y/A/N) & #4 \\
+    AGO expended & #5 & & \\
+  \end{tabularx}
+  \end{tcolorbox}
+}
+
+\begin{document}
+
+\input{playbook-sections/00-frontmatter}
+\input{playbook-sections/01-setup}
+\input{playbook-sections/02-turn-one}
+\input{playbook-sections/03-turn-two}
+\input{playbook-sections/04-turn-three}
+\input{playbook-sections/05-turn-four}
+\input{playbook-sections/06-turn-five}
+\input{playbook-sections/07-after-five-turns}
+
+\end{document}

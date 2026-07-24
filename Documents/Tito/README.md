@@ -17,6 +17,14 @@ pdflatex tito-player-aid.tex
 pdflatex tito-player-aid.tex
 ```
 
+Build the five-turn scripted playbook with:
+
+```sh
+python3 tools/make_playbook_maps.py
+pdflatex tito-playbook.tex
+pdflatex tito-playbook.tex
+```
+
 The SVGs are accompanied by PDF renderings because pdfLaTeX embeds those
 directly without requiring shell escape. To regenerate the vector examples
 after editing their palette or labels:
