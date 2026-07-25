@@ -2,10 +2,6 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     width="600" height="430" viewBox="420 170 600 430">
   <defs>
-    <marker id="arrow" markerWidth="24" markerHeight="24" refX="20" refY="10"
-      orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M0,0 L21,10 L0,20 z" fill="#b72831"/>
-    </marker>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity=".45"/>
     </filter>
@@ -17,6 +13,6 @@
   <text x="454" y="217" font-family="Arial,Helvetica,sans-serif"
     font-size="25" font-weight="700" fill="#17201b">GT3: Bosnia and Croatia</text>
   <g filter="url(#shadow)">
-    <path d="M1005 385 L980 315 L885 265" fill="none" stroke="#b72831" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/><path d="M920 250 L895 250" fill="none" stroke="#b72831" stroke-width="3" stroke-linecap="round"/><circle cx="938" cy="250" r="17" fill="#b72831" stroke="#17201b" stroke-width="2"/><text x="938" y="256" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#ffffff">2</text><path d="M657 500 L638 485" fill="none" stroke="#b72831" stroke-width="3" stroke-linecap="round"/><circle cx="675" cy="510" r="17" fill="#b72831" stroke="#17201b" stroke-width="2"/><text x="675" y="516" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#ffffff">3</text><path d="M837 290 L817 285" fill="none" stroke="#b72831" stroke-width="3" stroke-linecap="round"/><circle cx="855" cy="295" r="17" fill="#b72831" stroke="#17201b" stroke-width="2"/><text x="855" y="301" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#ffffff">4</text>
+    <circle cx="938" cy="250" r="17" fill="#b72831" stroke="#17201b" stroke-width="2"/><text x="938" y="256" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#ffffff">2</text><circle cx="790" cy="550" r="17" fill="#b72831" stroke="#17201b" stroke-width="2"/><text x="790" y="556" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#ffffff">3</text><circle cx="910" cy="420" r="17" fill="#b72831" stroke="#17201b" stroke-width="2"/><text x="910" y="426" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#ffffff">4</text>
   </g>
 </svg>

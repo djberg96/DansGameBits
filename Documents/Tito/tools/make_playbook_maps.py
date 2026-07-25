@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Generate annotated map excerpts for the Tito five-turn playbook.
-
-The excerpts deliberately use numbered callouts rather than trying to reproduce
-every stack on the map.  The corresponding playbook text supplies the exact
-unit counts and die rolls.
-"""
+"""Generate annotated map excerpts for the Tito five-turn playbook."""
 
 from pathlib import Path
 import base64
@@ -40,26 +35,48 @@ def badge(number: int, x: int, y: int) -> str:
     )
 
 
-def arrow(x1: int, y1: int, x2: int, y2: int, *, dashed: bool = False,
-          via: tuple[tuple[int, int], ...] = ()) -> str:
-    dash = ' stroke-dasharray="12 8"' if dashed else ""
-    points = [(x1, y1), *via, (x2, y2)]
-    path = " ".join(
-        ("M" if index == 0 else "L") + f"{x} {y}"
-        for index, (x, y) in enumerate(points)
-    )
-    return (
-        f'<path d="{path}" fill="none" '
-        f'stroke="#b72831" stroke-width="6" stroke-linecap="round" '
-        f'stroke-linejoin="round" '
-        f'marker-end="url(#arrow)"{dash}/>'
-    )
+def counter_data_uri(filename: str, replacements: dict[str, str] | None = None) -> str:
+    """Return a counter SVG as an embedded data URI, with optional text changes."""
+    counter_svg = (OUT / filename).read_text(encoding="utf-8")
+    for old, new in (replacements or {}).items():
+        counter_svg = counter_svg.replace(f">{old}<", f">{new}<")
+    encoded = base64.b64encode(counter_svg.encode("utf-8")).decode("ascii")
+    return f"data:image/svg+xml;base64,{encoded}"
 
 
-def leader(x1: int, y1: int, x2: int, y2: int) -> str:
+def counter_stack(
+    filename: str,
+    x: int,
+    y: int,
+    size: int,
+    count: int = 1,
+    replacements: dict[str, str] | None = None,
+    count_side: str = "right",
+) -> str:
+    """Draw a compact stack of identical counters with an explicit unit count."""
+    href = counter_data_uri(filename, replacements)
+    visible_counters = min(count, 3)
+    offset = 2
+    images = "".join(
+        f'<image x="{x + layer * offset}" y="{y - layer * offset}" '
+        f'width="{size}" height="{size}" xlink:href="{href}"/>'
+        for layer in reversed(range(visible_counters))
+    )
+    if count == 1:
+        return images
+
+    tab_width = 25
+    tab_height = 16
+    tab_x = x - 18 if count_side == "left" else x + size - 6
+    tab_y = y + size - 11
     return (
-        f'<path d="M{x1} {y1} L{x2} {y2}" fill="none" '
-        f'stroke="#b72831" stroke-width="3" stroke-linecap="round"/>'
+        images
+        + f'<rect x="{tab_x}" y="{tab_y}" width="{tab_width}" '
+        f'height="{tab_height}" rx="5" '
+        f'fill="#17201b" stroke="#f7f5ee" stroke-width="1.5"/>'
+        f'<text x="{tab_x + tab_width / 2}" y="{tab_y + 12}" '
+        f'font-family="Arial,Helvetica,sans-serif" font-size="11" '
+        f'font-weight="700" text-anchor="middle" fill="#ffffff">×{count}</text>'
     )
 
 
@@ -72,10 +89,6 @@ def write_map(name: str, title: str, viewbox: tuple[int, int, int, int],
     xmlns:xlink="http://www.w3.org/1999/xlink"
     width="{width}" height="{height}" viewBox="{x} {y} {width} {height}">
   <defs>
-    <marker id="arrow" markerWidth="24" markerHeight="24" refX="20" refY="10"
-      orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M0,0 L21,10 L0,20 z" fill="#b72831"/>
-    </marker>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity=".45"/>
     </filter>
@@ -108,14 +121,20 @@ def main() -> None:
         "GT1: Pančevo",
         (1030, 170, 670, 520),
         [
-            leader(1450, 455, 1428, 455),
-            badge(1, 1468, 455),
-            arrow(1435, 430, 1360, 270, via=((1460, 340),)),
-            leader(1400, 245, 1378, 245),
-            badge(2, 1418, 245),
-            arrow(1515, 365, 1375, 265, dashed=True, via=((1460, 320),)),
-            leader(1570, 390, 1525, 375),
-            badge(4, 1588, 396),
+            counter_stack(
+                "chetnik-group.svg", 1310, 235, 32, 3, count_side="left"
+            ),
+            counter_stack(
+                "german-infantry-front.svg",
+                1355,
+                235,
+                32,
+                replacements={"704": "714"},
+            ),
+            counter_stack("chetnik-group.svg", 1435, 395, 32, 2),
+            badge(1, 1482, 380),
+            badge(2, 1408, 220),
+            badge(4, 1587, 337),
         ],
     )
 
@@ -124,9 +143,8 @@ def main() -> None:
         "GT1: Cetinje",
         (960, 650, 470, 330),
         [
-            arrow(1210, 815, 1200, 905, via=((1260, 835), (1260, 890))),
-            leader(1245, 915, 1210, 915),
-            badge(3, 1263, 915),
+            counter_stack("chetnik-group.svg", 1141, 903, 32, 2),
+            badge(3, 1120, 950),
         ],
     )
 
@@ -135,11 +153,8 @@ def main() -> None:
         "GT2: Serbia",
         (1080, 280, 520, 430),
         [
-            badge(1, 1450, 525),
-            arrow(1380, 520, 1210, 495),
+            badge(1, 1455, 555),
             badge(2, 1178, 480),
-            arrow(1390, 540, 1310, 590),
-            leader(1362, 612, 1342, 600),
             badge(3, 1380, 622),
         ],
     )
@@ -158,7 +173,6 @@ def main() -> None:
         "GT2: Montenegro",
         (980, 650, 440, 330),
         [
-            leader(1222, 930, 1202, 920),
             badge(5, 1240, 935),
         ],
     )
@@ -168,8 +182,7 @@ def main() -> None:
         "GT3: Serbia AGO",
         (980, 260, 560, 460),
         [
-            badge(1, 1450, 540),
-            arrow(1340, 485, 1010, 390, via=((1250, 505), (1120, 480))),
+            badge(1, 1510, 500),
             badge(2, 1035, 360),
         ],
     )
@@ -179,13 +192,9 @@ def main() -> None:
         "GT3: Bosnia and Croatia",
         (420, 170, 600, 430),
         [
-            arrow(1005, 385, 885, 265, via=((980, 315),)),
-            leader(920, 250, 895, 250),
             badge(2, 938, 250),
-            leader(657, 500, 638, 485),
-            badge(3, 675, 510),
-            leader(837, 290, 817, 285),
-            badge(4, 855, 295),
+            badge(3, 790, 550),
+            badge(4, 910, 420),
         ],
     )
 
@@ -194,10 +203,7 @@ def main() -> None:
         "GT4: Escalation west",
         (400, 130, 700, 560),
         [
-            leader(902, 260, 887, 260),
             badge(1, 920, 260),
-            arrow(1080, 440, 660, 610),
-            leader(690, 647, 670, 615),
             badge(2, 700, 665),
         ],
     )
@@ -207,11 +213,8 @@ def main() -> None:
         "GT4: Serbia",
         (1080, 280, 440, 380),
         [
-            leader(1382, 610, 1358, 600),
             badge(3, 1400, 620),
-            leader(1372, 390, 1352, 405),
-            badge(4, 1390, 380),
-            arrow(1340, 410, 1090, 420, via=((1250, 390),)),
+            badge(4, 1475, 370),
         ],
     )
 
@@ -220,13 +223,8 @@ def main() -> None:
         "GT5: The hunt in Croatia",
         (420, 220, 650, 440),
         [
-            leader(662, 495, 645, 480),
             badge(1, 680, 495),
-            leader(518, 405, 540, 420),
             badge(2, 500, 395),
-            arrow(630, 465, 875, 275, dashed=True,
-                  via=((720, 420), (825, 335))),
-            leader(917, 275, 897, 275),
             badge(3, 935, 275),
         ],
     )
@@ -236,9 +234,7 @@ def main() -> None:
         "GT5: Recruitment",
         (1100, 190, 500, 520),
         [
-            leader(1382, 270, 1352, 252),
             badge(4, 1400, 280),
-            leader(1372, 640, 1350, 610),
             badge(5, 1390, 650),
         ],
     )
