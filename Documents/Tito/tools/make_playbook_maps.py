@@ -8,7 +8,10 @@ unit counts and die rolls.
 
 from pathlib import Path
 import base64
+from io import BytesIO
 import subprocess
+
+from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -16,8 +19,14 @@ OUT = Path(__file__).resolve().parents[1] / "figures"
 MAP_PATH = ROOT / "Misc/Images/Tito/tito_map.jpg"
 
 
-def map_data_uri() -> str:
-    encoded = base64.b64encode(MAP_PATH.read_bytes()).decode("ascii")
+def map_data_uri(viewbox: tuple[int, int, int, int]) -> str:
+    """Return only the requested map crop as an embedded JPEG."""
+    x, y, width, height = viewbox
+    with Image.open(MAP_PATH) as source:
+        crop = source.crop((x, y, x + width, y + height)).convert("RGB")
+        buffer = BytesIO()
+        crop.save(buffer, format="JPEG", quality=91, optimize=True)
+    encoded = base64.b64encode(buffer.getvalue()).decode("ascii")
     return f"data:image/jpeg;base64,{encoded}"
 
 
@@ -53,7 +62,7 @@ def arrow(x1: int, y1: int, x2: int, y2: int, *, dashed: bool = False) -> str:
 def write_map(name: str, title: str, viewbox: tuple[int, int, int, int],
               overlays: list[str]) -> None:
     x, y, width, height = viewbox
-    map_href = map_data_uri()
+    map_href = map_data_uri(viewbox)
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     width="{width}" height="{height}" viewBox="{x} {y} {width} {height}">
@@ -66,7 +75,7 @@ def write_map(name: str, title: str, viewbox: tuple[int, int, int, int],
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity=".45"/>
     </filter>
   </defs>
-  <image x="0" y="0" width="1900" height="1267"
+  <image x="{x}" y="{y}" width="{width}" height="{height}"
     xlink:href="{map_href}" opacity=".93"/>
   <rect x="{x + 14}" y="{y + 14}" width="{min(width - 28, 560)}" height="48"
     rx="7" fill="#f7f5ee" fill-opacity=".94" stroke="#17201b" stroke-width="2"/>
@@ -91,41 +100,76 @@ def main() -> None:
 
     write_map(
         "playbook-turn-1-map",
-        "Game-Turn 1: Chetnik probes",
-        (950, 170, 850, 790),
+        "GT1: Pančevo",
+        (1030, 170, 670, 520),
         [
             badge(1, 1405, 455, "Start"),
             arrow(1405, 455, 1355, 245),
             badge(2, 1355, 245, "Pančevo"),
-            badge(3, 1195, 920, "Cetinje"),
             arrow(1535, 380, 1365, 255, dashed=True),
-            badge(4, 1540, 380, "Axis reply"),
+            badge(4, 1510, 380, "Axis reply"),
+        ],
+    )
+
+    write_map(
+        "playbook-turn-1-south-map",
+        "GT1: Cetinje",
+        (960, 650, 470, 330),
+        [
+            arrow(1120, 760, 1195, 920),
+            badge(3, 1195, 920, "Cetinje"),
         ],
     )
 
     write_map(
         "playbook-turn-2-map",
-        "Game-Turn 2: Tito and the Partisans",
-        (120, 80, 1600, 880),
+        "GT2: Serbia",
+        (1080, 280, 520, 430),
         [
             badge(1, 1390, 535, "10 groups + Tito"),
             arrow(1380, 520, 1210, 495),
             badge(2, 1210, 495, "Užice"),
             arrow(1390, 540, 1310, 590),
             badge(3, 1310, 590, "Novi Pazar"),
+        ],
+    )
+
+    write_map(
+        "playbook-turn-2-slovenia-map",
+        "GT2: Slovenia",
+        (100, 120, 520, 360),
+        [
             badge(4, 280, 295, "4 groups"),
+        ],
+    )
+
+    write_map(
+        "playbook-turn-2-south-map",
+        "GT2: Montenegro",
+        (980, 650, 440, 330),
+        [
             badge(5, 1165, 885, "3 groups"),
         ],
     )
 
     write_map(
         "playbook-turn-3-map",
-        "Game-Turn 3: The war spreads",
-        (330, 100, 1230, 820),
+        "GT3: Serbia AGO",
+        (980, 260, 560, 460),
         [
             badge(1, 1390, 535, "AGO: Serbia"),
-            arrow(1370, 515, 760, 360),
-            badge(2, 760, 350, "Tito escapes"),
+            arrow(1370, 515, 1010, 390),
+            badge(2, 1035, 385, "Reaction west"),
+        ],
+    )
+
+    write_map(
+        "playbook-turn-3-west-map",
+        "GT3: Bosnia and Croatia",
+        (420, 170, 600, 430),
+        [
+            arrow(1005, 385, 760, 360),
+            badge(2, 760, 350, "Tito arrives"),
             badge(3, 580, 430, "Croatia uprising"),
             badge(4, 780, 290, "Bosnia uprising"),
         ],
@@ -133,28 +177,46 @@ def main() -> None:
 
     write_map(
         "playbook-turn-4-map",
-        "Game-Turn 4: Winter and escalation",
-        (330, 100, 1230, 830),
+        "GT4: Escalation west",
+        (400, 130, 700, 560),
         [
             badge(1, 760, 295, "Tito identified"),
-            badge(2, 1310, 590, "25th + 27th"),
-            arrow(1390, 360, 660, 610),
-            badge(3, 660, 610, "342 enters Croatia"),
-            badge(4, 470, 245, "Winter"),
+            arrow(1080, 440, 660, 610),
+            badge(2, 660, 610, "342 enters Croatia"),
+        ],
+    )
+
+    write_map(
+        "playbook-turn-4-east-map",
+        "GT4: Serbia",
+        (1080, 280, 440, 380),
+        [
+            badge(3, 1310, 590, "25th + 27th"),
+            badge(4, 1415, 405, "342 starts"),
+            arrow(1390, 420, 1090, 450),
         ],
     )
 
     write_map(
         "playbook-turn-5-map",
-        "Game-Turn 5: The hunt for Tito",
-        (330, 100, 1230, 830),
+        "GT5: The hunt in Croatia",
+        (420, 220, 650, 440),
         [
             badge(1, 535, 455, "Tito located"),
-            arrow(1370, 370, 600, 430),
             badge(2, 865, 390, "AGO"),
             arrow(600, 455, 760, 350, dashed=True),
             badge(3, 760, 350, "Retreat"),
-            badge(4, 495, 185, "Recruitment halved"),
+        ],
+    )
+
+    write_map(
+        "playbook-turn-5-east-map",
+        "GT5: Recruitment",
+        (1100, 190, 500, 520),
+        [
+            arrow(1190, 325, 1360, 250),
+            badge(4, 1190, 325, "Pančevo: none"),
+            badge(5, 1310, 590, "Novi Pazar: +1"),
         ],
     )
 
