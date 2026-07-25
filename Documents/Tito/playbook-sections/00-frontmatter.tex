@@ -1,4 +1,7 @@
-\thispagestyle{empty}
+\iftextonly
+\else
+  \thispagestyle{empty}
+\fi
 
 \vspace*{0.25in}
 {\sffamily\bfseries\fontsize{48}{48}\selectfont\color{TitoInk}TITO\par}
@@ -9,11 +12,16 @@
 {\sffamily\bfseries\fontsize{18}{21}\selectfont\color{TitoRed}
   A Scripted Example of Play\par}
 {\sffamily\large Game-Turns 1--5\par}
+\iftextonly
+  {\sffamily\large Text-Only Edition\par}
+\fi
 
 \vspace{10pt}
 {\color{TitoInk}\hrule height 1.2pt}
 \vspace{9pt}
 
+\iftextonly
+\else
 \begin{center}
 \begin{minipage}[b]{0.38\linewidth}
   \centering
@@ -35,6 +43,7 @@
     Josip Broz Tito with members of his staff\par}
 \end{minipage}
 \end{center}
+\fi
 
 \vspace{10pt}
 \begin{minipage}[t]{0.57\textwidth}
@@ -53,32 +62,48 @@
   {\sffamily \today\par}
 \end{minipage}
 
-\vfill
+\iftextonly
+  \medskip
+\else
+  \vfill
+\fi
 \begin{center}
 \begin{tabularx}{0.94\linewidth}{@{}>{\centering\arraybackslash}X
   >{\centering\arraybackslash}X >{\centering\arraybackslash}X@{}}
   \sffamily\bfseries PREPARE THE GAME &
     \sffamily\bfseries PLAY THE EXAMPLE &
     \sffamily\bfseries CONTINUE THE CAMPAIGN \\
+\iftextonly
+  \small Use the complete setup on page 2 &
+\else
   \small Use the complete setup on page 3 &
+\fi
   \small Resolve GT1--5 with the displayed results &
   \small Begin GT6 from the final checkpoint
 \end{tabularx}
 \end{center}
 
-\clearpage
+\playbookbreak
 
 \section{How to Use This Playbook}
 
 \begin{multicols}{2}
 \small
 The example follows the complete Sequence of Play, but compresses phases in
-which no choice or game-state change occurs. Every prescribed die roll is
-shown in a red box. Rules citations point to the restored rulebook.
+which no choice or game-state change occurs.
+\iftextonly
+Every prescribed die roll and rule citation appears as a plain number. This
+edition omits the map snapshots and counter diagrams; location names, movement
+instructions, checkpoint tables, and turn ledgers provide the complete game
+state needed to follow the example.
+\else
+Every prescribed die roll is shown in a red box. Rules citations point to
+the restored rulebook.
 
 The map illustrations are snapshots, not stack inventories. Numbered callouts
 match the accompanying prose; exact stacks are stated in the text and in each
 turn ledger. Counters are not drawn to scale.
+\fi
 
 \begin{lessonbox}
 \begin{itemize}[leftmargin=1.2em,itemsep=2pt]
@@ -95,6 +120,15 @@ turn ledger. Counters are not drawn to scale.
 \subsection{Contents}
 
 \begin{tabularx}{\linewidth}{@{}Xr@{}}
+\iftextonly
+  Preparing the Game & 2 \\
+  Game-Turn 1: Testing the Occupation & 3 \\
+  Game-Turn 2: Tito Enters the War & 3 \\
+  Game-Turn 3: The War Spreads & 4 \\
+  Game-Turn 4: Winter and Escalation & 6 \\
+  Game-Turn 5: The Hunt for Tito & 7 \\
+  After Five Turns & 8 \\
+\else
   Preparing the Game & 3 \\
   Game-Turn 1: Testing the Occupation & 4 \\
   Game-Turn 2: Tito Enters the War & 5 \\
@@ -102,6 +136,7 @@ turn ledger. Counters are not drawn to scale.
   Game-Turn 4: Winter and Escalation & 8 \\
   Game-Turn 5: The Hunt for Tito & 9 \\
   After Five Turns & 10 \\
+\fi
 \end{tabularx}
 
 \subsection{Conventions}
@@ -144,15 +179,35 @@ locate the action in the complete sequence.
 \subsection{Before You Begin}
 
 \begin{enumerate}[leftmargin=1.45em,itemsep=3pt]
+\iftextonly
+  \item Turn to ``Preparing the Game'' on page 2 and follow its complete
+    setup instructions.
+\else
   \item Turn to ``Preparing the Game'' on page 3 and follow its complete
     setup instructions.
+\fi
   \item Keep the rulebook and player aid beside the map. The playbook explains
     the example; it does not repeat every restriction.
+\iftextonly
+  \item Use the printed results rather than rolling. Update the displayed
+    VP, Partisan, Chetnik, and AGO totals at the end of every turn.
+\else
   \item Use the red-boxed results rather than rolling. Update the displayed
     VP, Partisan, Chetnik, and AGO totals at the end of every turn.
+\fi
 \end{enumerate}
 
 \columnbreak
+\iftextonly
+\subsection{Following the Positions}
+
+\begin{itemize}[leftmargin=1.2em,itemsep=3pt]
+  \item Location names identify every origin, destination, and combat site.
+  \item The text states each active stack when it moves or fights.
+  \item Checkpoint tables and turn ledgers are the authoritative inventories.
+  \item Use the physical map or the separate player aid for spatial reference.
+\end{itemize}
+\else
 \subsection{Reading the Detail Panels}
 
 \begin{itemize}[leftmargin=1.2em,itemsep=3pt]
@@ -164,8 +219,22 @@ locate the action in the complete sequence.
     \textbf{\(\times N\)} tab gives the number of identical counters.
     The text and checkpoint tables remain the authoritative stack inventory.
 \end{itemize}
+\fi
 \end{multicols}
 
+\iftextonly
+\subsection{Units You Will Meet First}
+
+\begin{center}
+\begin{tabularx}{0.86\linewidth}{@{}>{\bfseries}l X@{}}
+  German infantry division & Axis combat unit \\
+  Chetnik group & Guerrilla group whose allegiance may change \\
+  Tito, unidentified & Partisan leader before Axis identification \\
+  Partisan group & Basic Partisan unit \\
+  Partisan brigade & Organized Partisan unit formed from three groups \\
+\end{tabularx}
+\end{center}
+\else
 \subsection{Counters You Will Meet First}
 
 \begin{center}
@@ -179,4 +248,5 @@ locate the action in the complete sequence.
   \scriptsize Partisan group & \scriptsize Partisan brigade
 \end{tabular}
 \end{center}
-\clearpage
+\fi
+\playbookbreak

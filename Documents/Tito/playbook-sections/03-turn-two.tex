@@ -1,16 +1,21 @@
-\clearpage
+\playbookbreak
 \turntitle{2}{Tito Enters the War}
   {Weather, collaboration, and predetermined Partisan reinforcements transform
   the map.}
 
-\noindent
-\begin{minipage}[t]{0.49\linewidth}
-\vspace{0pt}
-\centering
-\includegraphics[width=\linewidth]{playbook-turn-2-map.pdf}
-\mapcaption{Serbia: Tito and ten groups divide}
+\iftextonly
+  \begin{multicols}{2}
+  \small
+\else
+  \noindent
+  \begin{minipage}[t]{0.49\linewidth}
+  \vspace{0pt}
+  \centering
+  \includegraphics[width=\linewidth]{playbook-turn-2-map.pdf}
+  \mapcaption{Serbia: Tito and ten groups divide}
 
-\raggedright\small
+  \raggedright\small
+\fi
 \phase{A. Special Events Stage}
 
 \textbf{Weather.} The Yugoslav Player rolls \die{2}; drought is in effect for
@@ -31,7 +36,7 @@ Croatia \rulesref{13.91}.
   \midrule
   Serbia Mountain (2) & \die{2} & +1 & Neutral \\
   Serbia Hide-away (1) & \die{4} & +1 & pro-Yugoslav \\
-  Cetinje (4) & \die{1} & +1 & pro-Axis \\
+  Peć (4) & \die{1} & +1 & pro-Axis \\
   \bottomrule
 \end{tabularx}
 
@@ -49,7 +54,7 @@ still has the starting-Zone restriction, move them as follows:
   \item Serbia: three groups to Užice~\mapbadge{2}, three to Novi Pazar
     ~\mapbadge{3}, and four plus Tito to the Partisan Mountain~\mapbadge{1}.
   \item Slovenia: all four groups to the Partisan Mountain~\mapbadge{4}.
-  \item Montenegro: all three groups to Cetinje~\mapbadge{5}.
+  \item Montenegro: all three groups to Peć~\mapbadge{5}.
 \end{itemize}
 
 \begin{commentarybox}
@@ -57,28 +62,32 @@ Tito is a unit for movement and reaction purposes, but has no Combat Strength.
 His immediate value is organizational: he generates Partisan groups and must
 be present when the first Partisan brigade is formed.
 \end{commentarybox}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.49\linewidth}
-\vspace{0pt}
-\centering
-\includegraphics[width=0.78\linewidth]{playbook-turn-2-slovenia-map.pdf}
-\mapcaption{Slovenia}
+\iftextonly
+\else
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.49\linewidth}
+  \vspace{0pt}
+  \centering
+  \includegraphics[width=0.78\linewidth]{playbook-turn-2-slovenia-map.pdf}
+  \mapcaption{Slovenia}
 
-\includegraphics[width=0.78\linewidth]{playbook-turn-2-south-map.pdf}
-\mapcaption{Montenegro}
+  \includegraphics[width=0.78\linewidth]{playbook-turn-2-south-map.pdf}
+  \mapcaption{Montenegro}
 
-\raggedright\small
+  \raggedright\small
+\fi
 \phase{C. Victory Point Stage}
 
-Užice, Novi Pazar, and Cetinje yield 4 VP. The Serbia and Slovenia Mountains
+Užice, Novi Pazar, and Peć yield 4 VP. The Serbia and Slovenia Mountains
 each contain 4 Partisan SP and yield 1 VP. Gain \textbf{6 VP}; the running
 total is \textbf{9}.
 
 \phase{D. Axis Player-Turn}
 
 \textbf{Movement.} German 704 moves from Belgrade to the Axis box at Užice.
-Italian Macerata moves from Padgorica to the Axis box at Cetinje. Both units
+Italian Macerata moves from Padjorica to the Axis box at Peć, while Italian Re
+moves from Cetinje to the newly vacated Axis box at Padjorica. All three units
 remain within their starting Zones \rulesref{6.16, 6.63}.
 
 \smallskip
@@ -86,7 +95,7 @@ remain within their starting Zones \rulesref{6.16, 6.63}.
 ratio is 4:1; a \die{3} produces D1, doubled to D2 for the town. Two groups
 are removed and one retreats to the Serbia Partisan Hide-away.
 
-Italian Macerata attacks Cetinje at 6:3, or 2:1. A \die{5} produces D1,
+Italian Macerata attacks Peć at 6:3, or 2:1. A \die{5} produces D1,
 doubled to D2. Again, two groups are removed and the survivor retreats.
 
 \phase{E. Terminal Stage}
@@ -103,6 +112,10 @@ doubled to D2. Again, two groups are removed and the survivor retreats.
 \smallskip
 The Partisans finish with $17-4+5=\textbf{18 groups}$. There are still no
 uprisings and no organization upgrades.
-\end{minipage}
+\iftextonly
+  \end{multicols}
+\else
+  \end{minipage}
+\fi
 
 \turnledger{+6}{9}{18 groups}{1 / 4 / 2}{0 of 8}

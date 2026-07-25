@@ -25,6 +25,13 @@ pdflatex tito-playbook.tex
 pdflatex tito-playbook.tex
 ```
 
+Build the separate text-only playbook with:
+
+```sh
+pdflatex tito-playbook-text.tex
+pdflatex tito-playbook-text.tex
+```
+
 The SVGs are accompanied by PDF renderings because pdfLaTeX embeds those
 directly without requiring shell escape. To regenerate the vector examples
 after editing their palette or labels:

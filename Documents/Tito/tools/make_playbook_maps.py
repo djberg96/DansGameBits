@@ -154,11 +154,13 @@ def main() -> None:
 
     write_map(
         "playbook-turn-1-south-map",
-        "GT1: Cetinje",
+        "GT1: Peć",
         (960, 650, 470, 330),
         [
-            counter_stack("chetnik-group.svg", 1141, 903, 32, 2),
-            badge(3, 1120, 950),
+            counter_stack(
+                "chetnik-group.svg", 1341, 759, 32, 2, count_side="left"
+            ),
+            badge(3, 1395, 830),
         ],
     )
 
@@ -202,17 +204,24 @@ def main() -> None:
         (980, 650, 440, 330),
         [
             counter_stack(
-                "partisan-group.svg", 1141, 903, 32, 3, count_side="left"
+                "partisan-group.svg", 1341, 759, 32, 3, count_side="left"
             ),
             counter_stack(
                 "italian-infantry.svg",
-                1184,
-                903,
+                1384,
+                759,
                 32,
                 replacements={"PARMA": "MACERATA"},
             ),
+            counter_stack(
+                "italian-infantry.svg",
+                1238,
+                833,
+                32,
+                replacements={"PARMA": "RE"},
+            ),
             counter_stack("chetnik-group.svg", 1219, 662, 30, 4),
-            badge(5, 1240, 935),
+            badge(5, 1395, 830),
         ],
         compact_title=True,
     )

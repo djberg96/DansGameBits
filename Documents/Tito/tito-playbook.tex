@@ -1,5 +1,12 @@
 \documentclass[10pt,letterpaper]{article}
 
+\newif\iftextonly
+\ifdefined\TitoTextOnly
+  \textonlytrue
+\else
+  \textonlyfalse
+\fi
+
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{newtxtext,newtxmath}
@@ -27,6 +34,16 @@
 \definecolor{TitoBlue}{HTML}{DDE8E6}
 \definecolor{TitoDieBlue}{HTML}{2F6F8F}
 \definecolor{TitoTan}{HTML}{D8C69F}
+\colorlet{TitoBoxTitle}{TitoRule}
+
+\iftextonly
+  \colorlet{TitoInk}{black}
+  \colorlet{TitoRed}{black}
+  \colorlet{TitoRule}{black}
+  \colorlet{TitoPale}{white}
+  \colorlet{TitoBlue}{white}
+  \colorlet{TitoBoxTitle}{white}
+\fi
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{3pt}
@@ -39,7 +56,7 @@
 \fancyhf{}
 \fancyhead[L]{\sffamily\scriptsize\color{TitoRule}TITO \textbullet\ PLAYBOOK}
 \fancyhead[R]{\sffamily\scriptsize\color{TitoRule}GAME-TURNS 1--5}
-\fancyfoot[C]{\sffamily\scriptsize TITO PLAYBOOK \textbullet\ \thepage}
+\fancyfoot[C]{\sffamily\scriptsize\thepage}
 \renewcommand{\headrulewidth}{0.35pt}
 \renewcommand{\footrulewidth}{0pt}
 \setlength{\headheight}{13pt}
@@ -56,7 +73,11 @@
 \titlespacing*{\subsection}{0pt}{6pt}{3pt}
 
 \newcommand{\rulesref}[1]{%
-  {\sffamily\bfseries\color{TitoRed}[#1]}%
+  \iftextonly
+    #1%
+  \else
+    {\sffamily\bfseries\color{TitoRed}[#1]}%
+  \fi
 }
 
 \newcommand{\phase}[1]{%
@@ -65,7 +86,18 @@
   \vspace{1pt}{\color{TitoRule}\hrule height 0.35pt}\vspace{2pt}%
 }
 
+\newcommand{\playbookbreak}{%
+  \iftextonly
+    \par\vspace{0.8em}\needspace{8\baselineskip}%
+  \else
+    \clearpage
+  \fi
+}
+
 \newcommand{\turntitle}[3]{%
+  \iftextonly
+    \par\needspace{10\baselineskip}%
+  \fi
   \noindent
   \begin{minipage}[t]{0.16\textwidth}
     \vspace{0pt}
@@ -84,35 +116,54 @@
   \vspace{5pt}
 }
 
+\newcommand{\turncontinuation}[2]{%
+  \par\needspace{12\baselineskip}%
+  {\sffamily\bfseries\fontsize{20}{22}\selectfont\color{TitoInk}#1\par}
+  \vspace{2pt}
+  {\itshape #2\par}
+  \vspace{3pt}
+  {\color{TitoInk}\hrule height 0.8pt}
+  \vspace{5pt}
+}
+
 \newcommand{\die}[1]{%
-  \tcbox[
-    on line,
-    colback=TitoDieBlue,
-    colframe=TitoDieBlue,
-    coltext=white,
-    boxsep=0.2pt,
-    left=3pt,right=3pt,top=1pt,bottom=1pt,
-    arc=2pt
-  ]{\sffamily\bfseries #1}%
+  \iftextonly
+    #1%
+  \else
+    \tcbox[
+      on line,
+      colback=TitoDieBlue,
+      colframe=TitoDieBlue,
+      coltext=white,
+      boxsep=0.2pt,
+      left=3pt,right=3pt,top=1pt,bottom=1pt,
+      arc=2pt
+    ]{\sffamily\bfseries #1}%
+  \fi
 }
 
 \newcommand{\mapbadge}[1]{%
-  \tikz[baseline=(badge.base)]{
-    \node[
-      circle,
-      fill=TitoRed,
-      text=white,
-      font=\sffamily\bfseries\scriptsize,
-      inner sep=1.2pt,
-      minimum size=1.35em
-    ] (badge) {#1};
-  }%
+  \iftextonly
+    \unskip\unpenalty\unskip
+  \else
+    \tikz[baseline=(badge.base)]{
+      \node[
+        circle,
+        fill=TitoRed,
+        text=white,
+        font=\sffamily\bfseries\scriptsize,
+        inner sep=1.2pt,
+        minimum size=1.35em
+      ] (badge) {#1};
+    }%
+  \fi
 }
 
 \newtcolorbox{lessonbox}[1][]{
   enhanced,
   colback=TitoBlue!42,
   colframe=TitoRule,
+  colbacktitle=TitoBoxTitle,
   boxrule=0.45pt,
   arc=2pt,
   left=6pt,right=6pt,top=5pt,bottom=5pt,
@@ -138,12 +189,18 @@
 }
 
 \newcommand{\counterpic}[2][0.48in]{%
-  \includegraphics[width=#1]{#2.pdf}%
+  \iftextonly
+  \else
+    \includegraphics[width=#1]{#2.pdf}%
+  \fi
 }
 
 \newcommand{\mapcaption}[1]{%
-  \par\vspace{2pt}{\centering\sffamily\bfseries\scriptsize
-  \color{TitoRule}#1\par}%
+  \iftextonly
+  \else
+    \par\vspace{2pt}{\centering\sffamily\bfseries\scriptsize
+    \color{TitoRule}#1\par}%
+  \fi
 }
 
 \newcommand{\turnledger}[5]{%
@@ -163,6 +220,12 @@
   \end{tabularx}
   \end{tcolorbox}
 }
+
+\iftextonly
+  \renewcommand{\includegraphics}[2][]{}
+  \fancyhead[L]{\sffamily\scriptsize\color{TitoRule}
+    TITO \textbullet\ TEXT-ONLY PLAYBOOK}
+\fi
 
 \begin{document}
 
