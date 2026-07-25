@@ -80,11 +80,25 @@ def counter_stack(
     )
 
 
-def write_map(name: str, title: str, viewbox: tuple[int, int, int, int],
-              overlays: list[str]) -> None:
+def write_map(
+    name: str,
+    title: str,
+    viewbox: tuple[int, int, int, int],
+    overlays: list[str],
+    compact_title: bool = False,
+) -> None:
     x, y, width, height = viewbox
     map_href = map_data_uri(viewbox)
-    title_width = min(width - 28, max(170, len(title) * 14 + 38))
+    if compact_title:
+        title_width = min(width - 28, max(150, len(title) * 11 + 32))
+        title_height = 40
+        title_font_size = 20
+        title_baseline = y + 41
+    else:
+        title_width = min(width - 28, max(170, len(title) * 14 + 38))
+        title_height = 48
+        title_font_size = 25
+        title_baseline = y + 47
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     width="{width}" height="{height}" viewBox="{x} {y} {width} {height}">
@@ -95,10 +109,10 @@ def write_map(name: str, title: str, viewbox: tuple[int, int, int, int],
   </defs>
   <image x="{x}" y="{y}" width="{width}" height="{height}"
     xlink:href="{map_href}" opacity=".93"/>
-  <rect x="{x + 14}" y="{y + 14}" width="{title_width}" height="48"
+  <rect x="{x + 14}" y="{y + 14}" width="{title_width}" height="{title_height}"
     rx="7" fill="#f7f5ee" fill-opacity=".94" stroke="#17201b" stroke-width="2"/>
-  <text x="{x + 34}" y="{y + 47}" font-family="Arial,Helvetica,sans-serif"
-    font-size="25" font-weight="700" fill="#17201b">{title}</text>
+  <text x="{x + 34}" y="{title_baseline}" font-family="Arial,Helvetica,sans-serif"
+    font-size="{title_font_size}" font-weight="700" fill="#17201b">{title}</text>
   <g filter="url(#shadow)">
     {''.join(overlays)}
   </g>
@@ -153,9 +167,22 @@ def main() -> None:
         "GT2: Serbia",
         (1080, 280, 520, 430),
         [
-            badge(1, 1455, 555),
-            badge(2, 1178, 480),
-            badge(3, 1380, 622),
+            counter_stack(
+                "partisan-group.svg", 1167, 510, 32, 3, count_side="left"
+            ),
+            counter_stack("german-infantry-front.svg", 1210, 510, 32),
+            counter_stack(
+                "partisan-group.svg", 1308, 602, 32, 3, count_side="left"
+            ),
+            counter_stack(
+                "partisan-group.svg", 1338, 403, 30, 4, count_side="left"
+            ),
+            counter_stack("tito-unidentified.svg", 1346, 395, 30),
+            counter_stack("chetnik-group.svg", 1427, 457, 30),
+            counter_stack("chetnik-group.svg", 1461, 523, 30, 2),
+            badge(1, 1435, 575),
+            badge(2, 1160, 500),
+            badge(3, 1410, 622),
         ],
     )
 
@@ -164,6 +191,7 @@ def main() -> None:
         "GT2: Slovenia",
         (100, 120, 520, 360),
         [
+            counter_stack("partisan-group.svg", 231, 214, 30, 4),
             badge(4, 350, 315),
         ],
     )
@@ -173,8 +201,20 @@ def main() -> None:
         "GT2: Montenegro",
         (980, 650, 440, 330),
         [
+            counter_stack(
+                "partisan-group.svg", 1141, 903, 32, 3, count_side="left"
+            ),
+            counter_stack(
+                "italian-infantry.svg",
+                1184,
+                903,
+                32,
+                replacements={"PARMA": "MACERATA"},
+            ),
+            counter_stack("chetnik-group.svg", 1219, 662, 30, 4),
             badge(5, 1240, 935),
         ],
+        compact_title=True,
     )
 
     write_map(
