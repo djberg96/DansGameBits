@@ -222,6 +222,43 @@ def main() -> None:
         "GT3: Serbia AGO",
         (980, 260, 560, 460),
         [
+            counter_stack(
+                "german-infantry-front.svg",
+                1342,
+                392,
+                30,
+                replacements={"704": "714"},
+            ),
+            counter_stack(
+                "german-infantry-front.svg",
+                1347,
+                387,
+                30,
+                replacements={"704": "717"},
+            ),
+            counter_stack(
+                "german-infantry-front.svg", 1342, 452, 30
+            ),
+            counter_stack(
+                "german-infantry-front.svg",
+                1347,
+                447,
+                30,
+                replacements={"704": "342", "12": "18"},
+            ),
+            counter_stack(
+                "chetnik-group.svg", 1387, 395, 30, 2, count_side="left"
+            ),
+            counter_stack(
+                "partisan-group.svg", 1437, 395, 30, 4
+            ),
+            counter_stack("partisan-group.svg", 1437, 452, 30),
+            counter_stack(
+                "chetnik-group.svg", 1462, 527, 30
+            ),
+            counter_stack(
+                "partisan-group.svg", 1308, 602, 30, 5, count_side="left"
+            ),
             badge(1, 1510, 500),
             badge(2, 1035, 360),
         ],
@@ -232,7 +269,11 @@ def main() -> None:
         "GT3: Bosnia and Croatia",
         (420, 170, 600, 430),
         [
-            badge(2, 938, 250),
+            counter_stack(
+                "partisan-group.svg", 795, 245, 30, 2, count_side="left"
+            ),
+            counter_stack("tito-unidentified.svg", 803, 237, 30),
+            badge(2, 850, 235),
             badge(3, 790, 550),
             badge(4, 910, 420),
         ],
