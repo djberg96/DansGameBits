@@ -180,7 +180,7 @@ def main() -> None:
             counter_stack("tito-unidentified.svg", 1346, 395, 30),
             counter_stack("chetnik-group.svg", 1427, 457, 30),
             counter_stack("chetnik-group.svg", 1461, 523, 30, 2),
-            badge(1, 1435, 575),
+            badge(1, 1310, 455),
             badge(2, 1160, 500),
             badge(3, 1410, 622),
         ],
