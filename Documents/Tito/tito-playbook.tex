@@ -95,6 +95,19 @@
   ]{\sffamily\bfseries #1}%
 }
 
+\newcommand{\mapbadge}[1]{%
+  \tikz[baseline=(badge.base)]{
+    \node[
+      circle,
+      fill=TitoRed,
+      text=white,
+      font=\sffamily\bfseries\scriptsize,
+      inner sep=1.2pt,
+      minimum size=1.35em
+    ] (badge) {#1};
+  }%
+}
+
 \newtcolorbox{lessonbox}[1][]{
   enhanced,
   colback=TitoBlue!42,
