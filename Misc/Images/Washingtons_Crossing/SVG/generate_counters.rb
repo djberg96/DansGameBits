@@ -202,13 +202,13 @@ end
 
 def troop_counter(faction, strength)
   label = "#{faction.capitalize} troops #{strength}"
-  flag = faction == :american ? american_flag(65, 90) : british_flag(91, 94)
+  flag = faction == :american ? american_flag(65, 90) : british_flag(55, 105, 190, 62)
   base = faction == :british ? '<rect width="300" height="300" fill="url(#britishStarTexture)"/>' : counter_base(faction)
   body = <<~SVG
     #{base}
-    <text x="150" y="63" fill="#f8f4e9" font-family="Arial, sans-serif" font-size="48" letter-spacing="1.5" text-anchor="middle">TROOPS</text>
+    <text x="150" y="84" fill="#f8f4e9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="48" letter-spacing="1.5" text-anchor="middle">TROOPS</text>
     #{flag}
-    <text x="150" y="245" fill="#fff" font-family="Georgia, serif" font-size="76" font-weight="bold" text-anchor="middle">#{strength}</text>
+    <text x="150" y="260" fill="#fff" font-family="Times New Roman, Times, serif" font-size="96" text-anchor="middle">#{strength}</text>
   SVG
   document(label, body, star_texture: faction == :british ? :british : nil)
 end
