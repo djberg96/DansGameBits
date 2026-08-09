@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
-  <title id="title">Durham Boats</title>
-  <desc id="desc">Vector recreation of the Durham Boats counter from Washington's Crossing.</desc>
+  <title id="title">Pennsylvania Navy</title>
+  <desc id="desc">Vector recreation of the Pennsylvania Navy counter from Washington's Crossing.</desc>
   <defs>
     <pattern id="blueTexture" width="6" height="6" patternUnits="userSpaceOnUse">
       <rect width="6" height="6" fill="#083d4c"/>
@@ -32,7 +32,7 @@
   <path d="M50 9.67L37 35 50 28L63 35z" fill="#47bee8"/>
   <text x="75.67" y="31.33" fill="#f8f4e9" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle">12</text>
   <rect y="42" width="100" height="19.33" fill="#34869f"/>
-  <text x="50" y="56.33" fill="#f8f4e9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle">Durham</text>
-  <text x="50" y="84" fill="#f8f4e9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle">BOATS</text>
+  <text x="50" y="56.33" fill="#f8f4e9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.33" text-anchor="middle">Pennsylvania</text>
+  <text x="50" y="84" fill="#f8f4e9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle">NAVY</text>
 
 </svg>

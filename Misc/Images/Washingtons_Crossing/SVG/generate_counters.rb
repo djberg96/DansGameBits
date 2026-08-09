@@ -303,6 +303,19 @@ def trench_counter(faction)
   SVG
 end
 
+def transport_counter(label, bottom)
+  title_size = label.length > 11 ? 40 : 51
+  document(label, <<~SVG, star_texture: :american)
+    <rect width="300" height="300" fill="url(#americanStarTexture)"/>
+    <text x="73" y="94" fill="#f8f4e9" font-family="Times New Roman, Times, serif" font-size="66" text-anchor="middle">24</text>
+    <path d="M150 29L111 105 150 84 189 105z" fill="#47bee8"/>
+    <text x="227" y="94" fill="#f8f4e9" font-family="Times New Roman, Times, serif" font-size="66" text-anchor="middle">12</text>
+    <rect y="126" width="300" height="58" fill="#34869f"/>
+    <text x="150" y="169" fill="#f8f4e9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="#{title_size}" text-anchor="middle">#{escape(label)}</text>
+    <text x="150" y="252" fill="#f8f4e9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="57" text-anchor="middle">#{escape(bottom)}</text>
+  SVG
+end
+
 def day_counter
   document('Day turn', <<~SVG)
     <rect width="300" height="300" fill="url(#blackTexture)"/>
@@ -363,8 +376,6 @@ end
   'turn.svg' => marker('Turn', 'TURN', nil, accent: '#b48b53', symbol: '↻'),
   'day.svg' => day_counter,
   'weather.svg' => weather_counter,
-  'durham-boats.svg' => marker('Durham Boats', 'DURHAM', 'BOATS', accent: '#bde3f7', symbol: '⛵'),
-  'navy.svg' => marker('Navy', 'NAVY', nil, accent: '#bde3f7', symbol: '⚓'),
   'dawn-attack.svg' => points_counter('Dawn Attack', 'DAWN', '#f9d334')
 }.each do |filename, content|
   write_counter(filename, content)
@@ -373,6 +384,9 @@ end
 %i[american british].each do |faction|
   write_counter("#{faction}-trench.svg", trench_counter(faction))
 end
+
+write_counter('durham-boats.svg', transport_counter('Durham', 'BOATS'))
+write_counter('pennsylvania-navy.svg', transport_counter('Pennsylvania', 'NAVY'))
 
 readme = <<~README
   # Washington's Crossing SVG counters
