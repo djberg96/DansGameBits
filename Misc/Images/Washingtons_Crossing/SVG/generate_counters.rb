@@ -7,7 +7,7 @@
 
 require 'fileutils'
 
-OUTPUT = File.expand_path(__dir__)
+OUTPUT = File.expand_path('../../../../Counters/Washingtons_Crossing', __dir__)
 SIZE = 300
 
 AMERICAN_LEADERS = [
@@ -303,6 +303,6 @@ readme = <<~README
   The leader counters retain the source scan's sparse numerical layout, name
   band, and side colour. American Detachments 1--6 are supplied individually.
 README
-File.write(File.join(OUTPUT, 'README.md'), readme)
+File.write(File.join(__dir__, 'README.md'), readme)
 
 puts "Generated #{Dir.glob(File.join(OUTPUT, '*.svg')).length} SVG counters in #{OUTPUT}"
