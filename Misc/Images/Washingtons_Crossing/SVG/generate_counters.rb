@@ -93,16 +93,18 @@ def counter_base(faction)
   "<rect width=\"300\" height=\"300\" fill=\"#{color}\"/>"
 end
 
-def american_flag(x, y, width = 118, height = 62)
-  stripes = (0...7).map { |i| "<rect x=\"#{x}\" y=\"#{y + i * height / 7}\" width=\"#{width}\" height=\"#{height / 7.0 + 1}\" fill=\"#{i.even? ? '#d93639' : '#f8eee1'}\"/>" }.join
+def american_flag(x, y, width = 170, height = 64)
+  stripes = (0...13).map { |i| "<rect x=\"#{x}\" y=\"#{y + i * height / 13}\" width=\"#{width}\" height=\"#{height / 13.0 + 1}\" fill=\"#{i.even? ? '#d93639' : '#f8eee1'}\"/>" }.join
+  canton_width = width * 0.34
+  canton_height = height * 0.57
   # The Continental Colours used a thirteen-star circle rather than a modern grid.
   stars = (0...13).map do |index|
     angle = -Math::PI / 2 + index * 2 * Math::PI / 13
-    cx = x + 20 + 12 * Math.cos(angle)
-    cy = y + 18 + 12 * Math.sin(angle)
+    cx = x + canton_width / 2 + canton_height * 0.34 * Math.cos(angle)
+    cy = y + canton_height / 2 + canton_height * 0.34 * Math.sin(angle)
     "<text x=\"#{format('%.2f', cx)}\" y=\"#{format('%.2f', cy + 2)}\" fill=\"#fff\" font-family=\"Georgia, serif\" font-size=\"6\" text-anchor=\"middle\">★</text>"
   end.join
-  "<g filter=\"url(#shadow)\"><rect x=\"#{x}\" y=\"#{y}\" width=\"#{width}\" height=\"#{height}\" fill=\"#f8eee1\" stroke=\"#eee\"/>#{stripes}<rect x=\"#{x}\" y=\"#{y}\" width=\"40\" height=\"36\" fill=\"#2d3e8f\"/>#{stars}</g>"
+  "<g filter=\"url(#shadow)\"><rect x=\"#{x}\" y=\"#{y}\" width=\"#{width}\" height=\"#{height}\" fill=\"#f8eee1\" stroke=\"#eee\"/>#{stripes}<rect x=\"#{x}\" y=\"#{y}\" width=\"#{canton_width}\" height=\"#{canton_height}\" fill=\"#2d3e8f\"/>#{stars}</g>"
 end
 
 def british_flag(x, y, width = 118, height = 62)
@@ -121,10 +123,10 @@ end
 
 def troop_counter(faction, strength)
   label = "#{faction.capitalize} troops #{strength}"
-  flag = faction == :american ? american_flag(91, 94) : british_flag(91, 94)
+  flag = faction == :american ? american_flag(65, 90) : british_flag(91, 94)
   body = <<~SVG
     #{counter_base(faction)}
-    <text x="150" y="63" fill="#f8f4e9" font-family="Georgia, serif" font-size="35" text-anchor="middle">TROOPS</text>
+    <text x="150" y="63" fill="#f8f4e9" font-family="Arial, sans-serif" font-size="48" letter-spacing="1.5" text-anchor="middle">TROOPS</text>
     #{flag}
     <text x="150" y="245" fill="#fff" font-family="Georgia, serif" font-size="76" font-weight="bold" text-anchor="middle">#{strength}</text>
   SVG
