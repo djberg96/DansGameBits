@@ -371,7 +371,7 @@ end
 
 {
   'fatigue.svg' => marker('Fatigue', 'FATIGUE', '(12.0)', squares: true, solid_background: true),
-  'disorder.svg' => marker('Disorder', 'DISORDER', '(18.2)', accent: '#f8edaa', symbol: '↗', solid_background: true),
+  'disorder.svg' => marker('Disorder', 'DISORDER', '(18.1)', accent: '#f8edaa', symbol: '?', solid_background: true),
   'orders.svg' => marker('Orders', 'ORDERS', '(18.3)', symbol: '↪'),
   'turn.svg' => marker('Turn', 'TURN', nil, accent: '#b48b53', symbol: '↻'),
   'day.svg' => day_counter,
