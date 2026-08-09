@@ -18,7 +18,6 @@ AMERICAN_LEADERS = [
   ['st-clair', 'St. Clair', '1 ★ 2', '5', '1', '1 • 3'],
   ['sargent', 'Sargent', '1 ★ 1', '4', '1', '1 • 3'],
   ['putnam', 'Putnam', '2 ★ 2', '2', '1', '2 • 5'],
-  ['detachment-7', '( 7 )', '1 ★ 1', '3', '1', '1 • 3'],
   ['mifflin', 'Mifflin', '1 ★ 2', '5', '1', '1 • 4'],
   ['mercer', 'Mercer', '1 ★ 1', '5', '1', '1 • 4'],
   ['mcdougall', 'McDougall', '1 ★ 1', '5', '1', '1 • 4'],
@@ -126,8 +125,12 @@ def troop_counter(faction, strength)
   document(label, body)
 end
 
-LEADER_TILES = %w[
-  washington putnam detachment-7 mifflin dickinson cadwalader griffin glover ewing
+AMERICAN_LEADER_TILES = %w[
+  washington putnam detachment-1 detachment-2 detachment-3 detachment-4 detachment-5 detachment-6
+  mifflin dickinson cadwalader griffin glover ewing
+].freeze
+
+BRITISH_LEADER_TILES = %w[
   cornwallis grant-1 rall von-donop hessian-detachment-1 hessian-detachment-2
 ].freeze
 
@@ -143,7 +146,8 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
   top_markup = top_parts.zip(top_positions).map do |part, position|
     "<text x=\"#{position}\" y=\"70\" fill=\"#fff\" font-family=\"Georgia, serif\" font-size=\"52\" text-anchor=\"middle\">#{escape(part)}</text>"
   end.join
-  tile = if LEADER_TILES.include?(slug)
+  tile_slugs = faction == :american ? AMERICAN_LEADER_TILES : BRITISH_LEADER_TILES
+  tile = if tile_slugs.include?(slug)
            '<rect x="112" y="176" width="76" height="36" fill="#f7f6f0"/>'
          else
            ''
@@ -223,6 +227,14 @@ AMERICAN_LEADERS.each do |slug, name, top, left, right, bottom|
   File.write(File.join(OUTPUT, "american-leader-#{slug}.svg"), leader_counter(:american, slug, name, top, left, right, bottom))
 end
 
+(1..6).each do |number|
+  slug = "detachment-#{number}"
+  File.write(
+    File.join(OUTPUT, "american-#{slug}.svg"),
+    leader_counter(:american, slug, "( #{number} )", '1 ★ 1', '3', '1', '')
+  )
+end
+
 BRITISH_LEADERS.each do |slug, name, top, left, right, bottom|
   File.write(File.join(OUTPUT, "british-leader-#{slug}.svg"), leader_counter(:british, slug, name, top, left, right, bottom))
 end
@@ -252,9 +264,8 @@ readme = <<~README
   duplicated standardized markers with one reusable SVG per design. All SVGs
   are standalone and contain no embedded raster artwork.
 
-  The leader counters use crisp initials in place of the source scan's tiny
-  portrait artwork, while retaining the side colour, flag, name band, and
-  visible numerical layout.
+  The leader counters retain the source scan's sparse numerical layout, name
+  band, and side colour. American Detachments 1--6 are supplied individually.
 README
 File.write(File.join(OUTPUT, 'README.md'), readme)
 

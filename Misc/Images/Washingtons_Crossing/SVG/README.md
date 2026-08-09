@@ -5,6 +5,5 @@ These are vector recreations of the distinct counter designs in
 duplicated standardized markers with one reusable SVG per design. All SVGs
 are standalone and contain no embedded raster artwork.
 
-The leader counters use crisp initials in place of the source scan's tiny
-portrait artwork, while retaining the side colour, flag, name band, and
-visible numerical layout.
+The leader counters retain the source scan's sparse numerical layout, name
+band, and side colour. American Detachments 1--6 are supplied individually.
