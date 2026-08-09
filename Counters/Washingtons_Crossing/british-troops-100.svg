@@ -13,6 +13,12 @@
       <path d="M0 0L8 8M8 0L0 8" stroke="#ffc0a4" stroke-opacity=".14" stroke-width="0.67"/>
       <path d="M2 0V8M6 0V8" stroke="#831e22" stroke-opacity=".14" stroke-width="0.67"/>
     </pattern>
+    <pattern id="britishStarTexture" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#db322c"/>
+      <text x="3.33" y="5" fill="#ffd3b2" fill-opacity=".11" font-family="Georgia, serif" font-size="4.33" text-anchor="middle">★</text>
+      <text x="10.33" y="11.67" fill="#ffd3b2" fill-opacity=".08" font-family="Georgia, serif" font-size="4.33" text-anchor="middle">★</text>
+      <text x="13.33" y="2.67" fill="#ffd3b2" fill-opacity=".05" font-family="Georgia, serif" font-size="3" text-anchor="middle">★</text>
+    </pattern>
     <pattern id="blackTexture" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
       <rect width="4" height="4" fill="#101214"/>
       <path d="M0 0.67H4" stroke="#6a6a6a" stroke-opacity=".35" stroke-width="0.33"/>
@@ -20,10 +26,11 @@
     <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
       <feDropShadow dx="0" dy="0.67" stdDeviation="0.67" flood-opacity=".38"/>
     </filter>
+    <clipPath id="britishFlagClip"><rect x="30.33" y="31.33" width="39.33" height="20.67"/></clipPath>
   </defs>
-  <rect width="100" height="100" fill="url(#redTexture)"/>
+  <rect width="100" height="100" fill="url(#britishStarTexture)"/>
 <text x="50" y="21" fill="#f8f4e9" font-family="Arial, sans-serif" font-size="16" letter-spacing="0.5" text-anchor="middle">TROOPS</text>
-<g filter="url(#shadow)">  <rect x="30.33" y="31.33" width="39.33" height="20.67" fill="#243e80" stroke="#eee"/>  <path d="M30.33 31.33L69.67 52M69.67 31.33L30.33 52" stroke="#fff" stroke-width="4.67"/>  <path d="M30.33 31.33L69.67 52M69.67 31.33L30.33 52" stroke="#d63136" stroke-width="2"/>  <path d="M50 31.33V52M30.33 41.67H69.67" stroke="#fff" stroke-width="8"/>  <path d="M50 31.33V52M30.33 41.67H69.67" stroke="#d63136" stroke-width="4"/></g>
+<g filter="url(#shadow)">  <rect x="30.33" y="31.33" width="39.33" height="20.67" fill="#243e80" stroke="#eee"/>  <g clip-path="url(#britishFlagClip)"><path d="M30.33 31.33L69.67 52M69.67 31.33L30.33 52" stroke="#fff" stroke-width="4.67"/>  <path d="M30.33 31.33L69.67 52M69.67 31.33L30.33 52" stroke="#d63136" stroke-width="2"/></g>  <path d="M50 31.33V52M30.33 41.67H69.67" stroke="#fff" stroke-width="8"/>  <path d="M50 31.33V52M30.33 41.67H69.67" stroke="#d63136" stroke-width="4"/></g>
 <text x="50" y="81.67" fill="#fff" font-family="Georgia, serif" font-size="25.33" font-weight="bold" text-anchor="middle">100</text>
 
 </svg>

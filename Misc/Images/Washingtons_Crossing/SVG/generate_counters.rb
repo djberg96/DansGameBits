@@ -187,10 +187,13 @@ def british_flag(x, y, width = 118, height = 62)
   cx = x + width / 2.0
   cy = y + height / 2.0
   <<~SVG.gsub("\n", '')
+    <defs><clipPath id="britishFlagClip"><rect x="#{x}" y="#{y}" width="#{width}" height="#{height}"/></clipPath></defs>
     <g filter="url(#shadow)">
       <rect x="#{x}" y="#{y}" width="#{width}" height="#{height}" fill="#243e80" stroke="#eee"/>
-      <path d="M#{x} #{y}L#{x + width} #{y + height}M#{x + width} #{y}L#{x} #{y + height}" stroke="#fff" stroke-width="14"/>
-      <path d="M#{x} #{y}L#{x + width} #{y + height}M#{x + width} #{y}L#{x} #{y + height}" stroke="#d63136" stroke-width="6"/>
+      <g clip-path="url(#britishFlagClip)">
+        <path d="M#{x} #{y}L#{x + width} #{y + height}M#{x + width} #{y}L#{x} #{y + height}" stroke="#fff" stroke-width="14"/>
+        <path d="M#{x} #{y}L#{x + width} #{y + height}M#{x + width} #{y}L#{x} #{y + height}" stroke="#d63136" stroke-width="6"/>
+      </g>
       <path d="M#{cx} #{y}V#{y + height}M#{x} #{cy}H#{x + width}" stroke="#fff" stroke-width="24"/>
       <path d="M#{cx} #{y}V#{y + height}M#{x} #{cy}H#{x + width}" stroke="#d63136" stroke-width="12"/>
     </g>
@@ -200,13 +203,14 @@ end
 def troop_counter(faction, strength)
   label = "#{faction.capitalize} troops #{strength}"
   flag = faction == :american ? american_flag(65, 90) : british_flag(91, 94)
+  base = faction == :british ? '<rect width="300" height="300" fill="url(#britishStarTexture)"/>' : counter_base(faction)
   body = <<~SVG
-    #{counter_base(faction)}
+    #{base}
     <text x="150" y="63" fill="#f8f4e9" font-family="Arial, sans-serif" font-size="48" letter-spacing="1.5" text-anchor="middle">TROOPS</text>
     #{flag}
     <text x="150" y="245" fill="#fff" font-family="Georgia, serif" font-size="76" font-weight="bold" text-anchor="middle">#{strength}</text>
   SVG
-  document(label, body)
+  document(label, body, star_texture: faction == :british ? :british : nil)
 end
 
 AMERICAN_LEADER_TILES = %w[
