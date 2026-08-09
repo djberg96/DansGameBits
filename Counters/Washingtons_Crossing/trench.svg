@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
   <title id="title">Trench</title>
   <desc id="desc">Vector recreation of the Trench counter from Washington's Crossing.</desc>
   <defs>
-    <pattern id="blueTexture" width="18" height="18" patternUnits="userSpaceOnUse">
-      <rect width="18" height="18" fill="#083d4c"/>
-      <path d="M0 3H18 M0 12H18" stroke="#b7d0c6" stroke-opacity=".11" stroke-width="1"/>
-      <path d="M5 0V18 M14 0V18" stroke="#d3e0d2" stroke-opacity=".08" stroke-width="1"/>
+    <pattern id="blueTexture" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#083d4c"/>
+      <path d="M0 1H6 M0 4H6" stroke="#b7d0c6" stroke-opacity=".11" stroke-width="0.33"/>
+      <path d="M1.67 0V6 M4.67 0V6" stroke="#d3e0d2" stroke-opacity=".08" stroke-width="0.33"/>
     </pattern>
-    <pattern id="redTexture" width="24" height="24" patternUnits="userSpaceOnUse">
-      <rect width="24" height="24" fill="#d94234"/>
-      <path d="M0 0L24 24M24 0L0 24" stroke="#ffc0a4" stroke-opacity=".14" stroke-width="2"/>
-      <path d="M6 0V24M18 0V24" stroke="#831e22" stroke-opacity=".14" stroke-width="2"/>
+    <pattern id="redTexture" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#d94234"/>
+      <path d="M0 0L8 8M8 0L0 8" stroke="#ffc0a4" stroke-opacity=".14" stroke-width="0.67"/>
+      <path d="M2 0V8M6 0V8" stroke="#831e22" stroke-opacity=".14" stroke-width="0.67"/>
     </pattern>
-    <pattern id="blackTexture" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
-      <rect width="12" height="12" fill="#101214"/>
-      <path d="M0 2H12" stroke="#6a6a6a" stroke-opacity=".35" stroke-width="1"/>
+    <pattern id="blackTexture" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <rect width="4" height="4" fill="#101214"/>
+      <path d="M0 0.67H4" stroke="#6a6a6a" stroke-opacity=".35" stroke-width="0.33"/>
     </pattern>
     <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".38"/>
+      <feDropShadow dx="0" dy="0.67" stdDeviation="0.67" flood-opacity=".38"/>
     </filter>
   </defs>
-  <rect width="300" height="300" fill="url(#blueTexture)"/>
-<text x="150" y="120" fill="#fff" font-family="Arial, sans-serif" font-size="39" text-anchor="middle">TRENCH</text>
-<path d="M35 176l25 43 25-43z" fill="#111"/><path d="M85 176l25 43 25-43z" fill="#111"/><path d="M135 176l25 43 25-43z" fill="#111"/><path d="M185 176l25 43 25-43z" fill="#111"/><path d="M235 176l25 43 25-43z" fill="#111"/>
+  <rect width="100" height="100" fill="url(#blueTexture)"/>
+<text x="50" y="40" fill="#fff" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">TRENCH</text>
+<path d="M11.67 58.67l8.33 14.33 8.33-14.33z" fill="#111"/><path d="M28.33 58.67l8.33 14.33 8.33-14.33z" fill="#111"/><path d="M45 58.67l8.33 14.33 8.33-14.33z" fill="#111"/><path d="M61.67 58.67l8.33 14.33 8.33-14.33z" fill="#111"/><path d="M78.33 58.67l8.33 14.33 8.33-14.33z" fill="#111"/>
 
 </svg>

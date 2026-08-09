@@ -8,7 +8,8 @@
 require 'fileutils'
 
 OUTPUT = File.expand_path('../../../../Counters/Washingtons_Crossing', __dir__)
-SIZE = 300
+SOURCE_SIZE = 300
+SIZE = 100
 
 AMERICAN_LEADERS = [
   ['washington', 'Washington', '4 ★ ★ ★ 6', '8', '4', '1 • 5'],
@@ -74,7 +75,7 @@ def document(label, body, american_leader: false)
                              end
   <<~SVG
     <?xml version="1.0" encoding="UTF-8"?>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 #{SIZE} #{SIZE}" role="img" aria-labelledby="title desc">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 #{SOURCE_SIZE} #{SOURCE_SIZE}" role="img" aria-labelledby="title desc">
       <title id="title">#{escape(label)}</title>
       <desc id="desc">Vector recreation of the #{escape(label)} counter from Washington's Crossing.</desc>
       <defs>
@@ -99,6 +100,37 @@ def document(label, body, american_leader: false)
       #{body}
     </svg>
   SVG
+end
+
+def scaled_number(value)
+  number = value.to_f / 3
+  format('%.2f', number).sub(/\.00\z/, '').sub(/(\.\d)0\z/, '\\1')
+end
+
+def scale_path(path)
+  path.gsub(/-?\d+(?:\.\d+)?/) { |value| scaled_number(value) }
+end
+
+def scale_to_counter_size(svg)
+  scaled = svg.sub('viewBox="0 0 300 300"', 'viewBox="0 0 100 100"')
+  scaled = scaled.gsub(/((?:x|y|width|height|font-size|stroke-width|letter-spacing|dx|dy|stdDeviation)=")(-?\d+(?:\.\d+)?)(?=")/) do
+    "#{$1}#{scaled_number($2)}"
+  end
+  scaled.gsub(/(d=")([^"]+)(")/) { "#{$1}#{scale_path($2)}#{$3}" }
+end
+
+def apply_sullivan_leader_layout(svg)
+  adjusted = svg.gsub(/(<text x="14\.33" y=")26(?=" fill)/) { "#{$1}21.67" }
+  adjusted = adjusted.gsub(/(<text x="85\.67" y=")26(?=" fill)/) { "#{$1}21.67" }
+  adjusted = adjusted.gsub(/(<text x="(?:42\.67|57\.33)" y=")25\.33(?=" fill)/) { "#{$1}20" }
+  adjusted = adjusted.gsub(/(<text x="14\.33" y=")91\.67(?=" fill)/) { "#{$1}86.67" }
+  adjusted.gsub(/(<text x="85\.67" y=")91\.67(?=" fill)/) { "#{$1}89.33" }
+end
+
+def write_counter(filename, content, leader: false)
+  output = scale_to_counter_size(content)
+  output = apply_sullivan_leader_layout(output) if leader
+  File.write(File.join(OUTPUT, filename), output)
 end
 
 def counter_base(faction)
@@ -211,8 +243,8 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
     <rect y="112" width="300" height="62" fill="#{band}"/>
     <text x="150" y="156" fill="#fff" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle">#{escape(name)}</text>
     #{tile}
-    <text x="43" y="275" fill="#fff" font-family="Georgia, serif" font-size="72" text-anchor="middle">#{left}</text>
-    <text x="257" y="275" fill="#fff" font-family="Georgia, serif" font-size="72" text-anchor="middle">#{right}</text>
+    <text x="43" y="275" fill="#fff" font-family="Georgia, serif" font-size="64" text-anchor="middle">#{left}</text>
+    <text x="257" y="275" fill="#fff" font-family="Georgia, serif" font-size="64" text-anchor="middle">#{right}</text>
   SVG
   document("#{faction.capitalize} leader: #{name}", body, american_leader: faction == :american)
 end
@@ -272,24 +304,25 @@ FileUtils.mkdir_p(OUTPUT)
 
 [:american, :british].each do |faction|
   %w[10 100 1000].each do |strength|
-    File.write(File.join(OUTPUT, "#{faction}-troops-#{strength}.svg"), troop_counter(faction, strength))
+    write_counter("#{faction}-troops-#{strength}.svg", troop_counter(faction, strength))
   end
 end
 
 AMERICAN_LEADERS.each do |slug, name, top, left, right, bottom|
-  File.write(File.join(OUTPUT, "american-leader-#{slug}.svg"), leader_counter(:american, slug, name, top, left, right, bottom))
+  write_counter("american-leader-#{slug}.svg", leader_counter(:american, slug, name, top, left, right, bottom), leader: true)
 end
 
 (1..6).each do |number|
   slug = "detachment-#{number}"
-  File.write(
-    File.join(OUTPUT, "american-#{slug}.svg"),
-    leader_counter(:american, slug, "( #{number} )", '1 ★ 1', '3', '1', '')
+  write_counter(
+    "american-#{slug}.svg",
+    leader_counter(:american, slug, "( #{number} )", '1 ★ 1', '3', '1', ''),
+    leader: true
   )
 end
 
 BRITISH_LEADERS.each do |slug, name, top, left, right, bottom|
-  File.write(File.join(OUTPUT, "british-leader-#{slug}.svg"), leader_counter(:british, slug, name, top, left, right, bottom))
+  write_counter("british-leader-#{slug}.svg", leader_counter(:british, slug, name, top, left, right, bottom), leader: true)
 end
 
 {
@@ -306,7 +339,7 @@ end
   'activation-points.svg' => points_counter('Activation Points', 'AP', '#fff'),
   'dawn-attack.svg' => points_counter('Dawn Attack', 'DAWN', '#f9d334')
 }.each do |filename, content|
-  File.write(File.join(OUTPUT, filename), content)
+  write_counter(filename, content)
 end
 
 readme = <<~README
