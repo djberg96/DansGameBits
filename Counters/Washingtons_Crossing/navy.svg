@@ -22,7 +22,7 @@
     </filter>
   </defs>
   <rect width="100" height="100" fill="url(#blackTexture)"/>
-<g transform="rotate(45 150 150)">
+<g transform="rotate(45 50 50)">
   <text x="50" y="38.33" fill="#bde3f7" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">⚓</text>
   <text x="50" y="55.33" fill="#bde3f7" font-family="Arial, sans-serif" font-size="14.33" font-weight="bold" text-anchor="middle">NAVY</text>
   <!-- no subtitle -->

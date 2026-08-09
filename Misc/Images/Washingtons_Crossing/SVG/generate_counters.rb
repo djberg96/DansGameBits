@@ -130,6 +130,9 @@ def scale_to_counter_size(svg)
   scaled = scaled.gsub(/((?:x|y|width|height|font-size|stroke-width|letter-spacing|dx|dy|stdDeviation)=")(-?\d+(?:\.\d+)?)(?=")/) do
     "#{$1}#{scaled_number($2)}"
   end
+  scaled = scaled.gsub(/(rotate\(\s*-?\d+(?:\.\d+)?\s+)(-?\d+(?:\.\d+)?)(\s+)(-?\d+(?:\.\d+)?)(\s*\))/) do
+    "#{$1}#{scaled_number($2)}#{$3}#{scaled_number($4)}#{$5}"
+  end
   scaled.gsub(/(d=")([^"]+)(")/) { "#{$1}#{scale_path($2)}#{$3}" }
 end
 
