@@ -8,6 +8,12 @@
       <path d="M0 3H18 M0 12H18" stroke="#b7d0c6" stroke-opacity=".11" stroke-width="1"/>
       <path d="M5 0V18 M14 0V18" stroke="#d3e0d2" stroke-opacity=".08" stroke-width="1"/>
     </pattern>
+        <pattern id="americanLeaderTexture" width="42" height="42" patternUnits="userSpaceOnUse">
+          <rect width="42" height="42" fill="#083d4c"/>
+          <text x="10" y="15" fill="#b7d0c6" fill-opacity=".11" font-family="Georgia, serif" font-size="13" text-anchor="middle">★</text>
+          <text x="31" y="35" fill="#b7d0c6" fill-opacity=".08" font-family="Georgia, serif" font-size="13" text-anchor="middle">★</text>
+          <text x="40" y="8" fill="#b7d0c6" fill-opacity=".05" font-family="Georgia, serif" font-size="9" text-anchor="middle">★</text>
+        </pattern>
     <pattern id="redTexture" width="24" height="24" patternUnits="userSpaceOnUse">
       <rect width="24" height="24" fill="#d94234"/>
       <path d="M0 0L24 24M24 0L0 24" stroke="#ffc0a4" stroke-opacity=".14" stroke-width="2"/>
@@ -21,7 +27,7 @@
       <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".38"/>
     </filter>
   </defs>
-  <rect width="300" height="300" fill="url(#blueTexture)"/>
+  <rect width="300" height="300" fill="url(#americanLeaderTexture)"/>
 <text x="43" y="78" fill="#fff" font-family="Georgia, serif" font-size="64" text-anchor="middle">1</text><text x="150" y="76" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">★</text><text x="257" y="78" fill="#fff" font-family="Georgia, serif" font-size="64" text-anchor="middle">1</text>
 <rect y="112" width="300" height="62" fill="#c9283e"/>
 <text x="150" y="156" fill="#fff" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle">( 3 )</text>

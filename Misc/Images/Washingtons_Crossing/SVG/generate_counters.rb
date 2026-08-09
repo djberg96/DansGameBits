@@ -58,7 +58,20 @@ def escape(value)
   value.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
 end
 
-def document(label, body)
+def document(label, body, american_leader: false)
+  american_leader_texture = if american_leader
+                               pattern = <<~SVG
+                                 <pattern id="americanLeaderTexture" width="42" height="42" patternUnits="userSpaceOnUse">
+                                   <rect width="42" height="42" fill="#083d4c"/>
+                                   <text x="10" y="15" fill="#b7d0c6" fill-opacity=".11" font-family="Georgia, serif" font-size="13" text-anchor="middle">★</text>
+                                   <text x="31" y="35" fill="#b7d0c6" fill-opacity=".08" font-family="Georgia, serif" font-size="13" text-anchor="middle">★</text>
+                                   <text x="40" y="8" fill="#b7d0c6" fill-opacity=".05" font-family="Georgia, serif" font-size="9" text-anchor="middle">★</text>
+                                 </pattern>
+                               SVG
+                               "\n#{pattern.lines.map { |line| "        #{line}" }.join.chomp}"
+                             else
+                               ''
+                             end
   <<~SVG
     <?xml version="1.0" encoding="UTF-8"?>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 #{SIZE} #{SIZE}" role="img" aria-labelledby="title desc">
@@ -69,7 +82,7 @@ def document(label, body)
           <rect width="18" height="18" fill="#083d4c"/>
           <path d="M0 3H18 M0 12H18" stroke="#b7d0c6" stroke-opacity=".11" stroke-width="1"/>
           <path d="M5 0V18 M14 0V18" stroke="#d3e0d2" stroke-opacity=".08" stroke-width="1"/>
-        </pattern>
+        </pattern>#{american_leader_texture}
         <pattern id="redTexture" width="24" height="24" patternUnits="userSpaceOnUse">
           <rect width="24" height="24" fill="#d94234"/>
           <path d="M0 0L24 24M24 0L0 24" stroke="#ffc0a4" stroke-opacity=".14" stroke-width="2"/>
@@ -104,6 +117,10 @@ def british_leader_background
     </g>
     <rect width="300" height="300" fill="url(#redTexture)" opacity=".16"/>
   SVG
+end
+
+def american_leader_background
+  '<rect width="300" height="300" fill="url(#americanLeaderTexture)"/>'
 end
 
 def american_flag(x, y, width = 170, height = 64)
@@ -156,7 +173,7 @@ BRITISH_LEADER_TILES = %w[
 ].freeze
 
 def leader_counter(faction, slug, name, top, left, right, _bottom)
-  base = faction == :british ? british_leader_background : counter_base(faction)
+  base = faction == :british ? british_leader_background : american_leader_background
   band = faction == :american ? '#c9283e' : '#073d4d'
   top_parts = top.split
   star_count = top_parts.count('★')
@@ -197,7 +214,7 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
     <text x="43" y="275" fill="#fff" font-family="Georgia, serif" font-size="72" text-anchor="middle">#{left}</text>
     <text x="257" y="275" fill="#fff" font-family="Georgia, serif" font-size="72" text-anchor="middle">#{right}</text>
   SVG
-  document("#{faction.capitalize} leader: #{name}", body)
+  document("#{faction.capitalize} leader: #{name}", body, american_leader: faction == :american)
 end
 
 def marker(label, title, subtitle = nil, accent: '#f4ef24', symbol: nil)
