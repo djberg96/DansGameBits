@@ -123,29 +123,30 @@ Leaders do not have a fixed movement allowance. They roll a ten-sided die on the
 
 \begin{playchart}[0.72\linewidth]
   \charttitle{Movement Matrix (11.0)}
-  \begin{tabular}{lccc}
-    \toprule
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.27\linewidth}|*{3}{>{\centering\arraybackslash}p{0.16\linewidth}|}}
+    \hline
     \rowcolor{black!10}
-    \textbf{Modified Die Roll\,*} & \textbf{2--4} & \textbf{5--6} & \textbf{7--8} \\
-    \midrule
-    $-6$ or less & 0 MP & 0 MP & 0 MP \\
-    $-5$ to $-3$ & 3 MP & 4 MP & 5 MP \\
-    $-2$ to 0 & 4 MP & 5 MP & 6 MP \\
-    1 to 3 & 5 MP & 6 MP & 7 MP \\
-    4 to 6 & 6 MP & 7 MP & 8 MP \\
-    7 to 9 & 7 MP & 8 MP & 9 MP \\
-    10 or more & 8 MP & 9 MP & 10 MP \\
-    \bottomrule
+    \textbf{\shortstack[l]{Modified\\Die Roll *}} & \textbf{2--4} & \textbf{5--6} & \textbf{7--8} \\
+    \hline
+    $-6$ or less & 0 MP & 0 MP & 0 MP \\ \hline
+    $-5$ to $-3$ & 3 MP & 4 MP & 5 MP \\ \hline
+    $-2$ to 0 & 4 MP & 5 MP & 6 MP \\ \hline
+    1 to 3 & 5 MP & 6 MP & 7 MP \\ \hline
+    4 to 6 & 6 MP & 7 MP & 8 MP \\ \hline
+    7 to 9 & 7 MP & 8 MP & 9 MP \\ \hline
+    10 or more & 8 MP & 9 MP & 10 MP \\ \hline
   \end{tabular}
-  \chartnote{\textit{* Movement Matrix Die Roll Modifiers}\par\smallskip
-  \begin{tabularx}{\linewidth}{rY rY}
-    +4 & Night Move (American) & $-1$ & Disordered \\
-    +2 & British Vanguard & $-1$ & Fatigue 1 \\
-    $-2$ & All other British & $-2$ & Fatigue 2 \\
-    $-1$ & Snow & $-3$ & Fatigue 3 \\
-    $-2$ & Rain & $-4$ & Fatigue 4 \\
-    +1 & Freeze & & \\
-  \end{tabularx}}
+  \par\vspace{1.35em}
+  \textit{* Movement Matrix Die Roll Modifiers}\par\smallskip
+  \begin{tabular}{|c|>{\centering\arraybackslash}p{0.34\linewidth}|c|>{\centering\arraybackslash}p{0.27\linewidth}|}
+    \hline
+    +4 & Night Move (American) & $-1$ & Disordered \\ \hline
+    +2 & British Vanguard & $-1$ & Fatigue 1 \\ \hline
+    $-2$ & All other British & $-2$ & Fatigue 2 \\ \hline
+    $-1$ & Snow & $-3$ & Fatigue 3 \\ \hline
+    $-2$ & Rain & $-4$ & Fatigue 4 \\ \hline
+    +1 & Freeze & \multicolumn{2}{c|}{} \\ \hline
+  \end{tabular}
   \chartcaption{Movement Matrix (11.0).}
 \end{playchart}
 
@@ -225,17 +226,16 @@ The first thing that happens during each turn is weather determination. Weather 
 
 \begin{playchart}[0.72\linewidth]
   \charttitle{Continuing Weather (7.0)}
-  \begin{tabularx}{\linewidth}{lY}
-    \toprule
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.19\linewidth}|>{\centering\arraybackslash}p{0.69\linewidth}|}
+    \hline
     \rowcolor{black!10}\textbf{Die Roll} & \textbf{Result} \\
-    \midrule
-    0--2 & Continues \\
-    3 & Continues if Freeze, otherwise New Weather \\
-    4--5 & Continues if Rain, otherwise New Weather \\
-    6--8 & Continues if Snow, otherwise New Weather \\
-    9 & New Weather (see table below) \\
-    \bottomrule
-  \end{tabularx}
+    \hline
+    0--2 & Continues \\ \hline
+    3 & Continues if Freeze, otherwise New Weather \\ \hline
+    4--5 & Continues if Rain, otherwise New Weather \\ \hline
+    6--8 & Continues if Snow, otherwise New Weather \\ \hline
+    9 & New Weather (see table below) \\ \hline
+  \end{tabular}
   \chartcaption{Continuing Weather table (7.0).}
 \end{playchart}
 
@@ -244,17 +244,16 @@ If the weather does not continue, players consult the New Weather Table to check
 \begin{playchart}[0.72\linewidth]
   \charttitle{New Weather (7.0)}
   \chartnote{If night, subtract one from the die roll.}
-  \begin{tabularx}{\linewidth}{lY}
-    \toprule
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.19\linewidth}|>{\centering\arraybackslash}p{0.69\linewidth}|}
+    \hline
     \rowcolor{black!10}\textbf{Die Roll} & \textbf{Result} \\
-    \midrule
-    $-1$ & Freeze \\
-    0 & Snow \\
-    1--4 & Freeze \\
-    5 & Rain \\
-    6--9 & Fair \\
-    \bottomrule
-  \end{tabularx}
+    \hline
+    $-1$ & Freeze \\ \hline
+    0 & Snow \\ \hline
+    1--4 & Freeze \\ \hline
+    5 & Rain \\ \hline
+    6--9 & Fair \\ \hline
+  \end{tabular}
   \chartcaption{New Weather table (7.0).}
 \end{playchart}
 
@@ -266,46 +265,43 @@ The American player rolls a 2 on the Raid Table, which indicates that a raid is 
 
 \begin{playchart}[0.68\linewidth]
   \charttitle{A. Raid Table (8.0)}
-  \begin{tabularx}{\linewidth}{lY}
-    \toprule
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.20\linewidth}|>{\centering\arraybackslash}p{0.70\linewidth}|}
+    \hline
     \rowcolor{black!10}\textbf{Die Roll} & \textbf{Result} \\
-    \midrule
-    0--2 & Raid --- consult Raid Leader Table \\
-    3--6 & No effect \\
-    \bottomrule
-  \end{tabularx}
-  \medskip
+    \hline
+    0--2 & Raid --- consult Raid Leader Table \\ \hline
+    3--6 & No effect \\ \hline
+  \end{tabular}
+  \par\medskip
   \charttitle{B. Raid Leader Table (8.0)}
-  \begin{tabularx}{\linewidth}{lY}
-    \toprule
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.20\linewidth}|>{\centering\arraybackslash}p{0.70\linewidth}|}
+    \hline
     \rowcolor{black!10}\textbf{Die Roll} & \textbf{Leader} \\
-    \midrule
-    0--1 & Griffin \\
-    2--3 & Ewing \\
-    4--5 & Dickinson \\
-    6--7 & Stephen \\
-    8--9 & McDougall \\
-    \bottomrule
-  \end{tabularx}
+    \hline
+    0--1 & Griffin \\ \hline
+    2--3 & Ewing \\ \hline
+    4--5 & Dickinson \\ \hline
+    6--7 & Stephen \\ \hline
+    8--9 & McDougall \\ \hline
+  \end{tabular}
   \chartcaption{Raid and Raid Leader tables (8.0).}
 \end{playchart}
 \begin{playchart}[0.75\linewidth]
   \charttitle{C. Raid Result Table (8.0)}
   \chartnote{On night turns, the defending leader receives one additional fatigue on all results.}
-  \begin{tabularx}{\linewidth}{lY}
-    \toprule
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.14\linewidth}|>{\centering\arraybackslash}p{0.76\linewidth}|}
+    \hline
     \rowcolor{black!10}\textbf{Die Roll} & \textbf{Result} \\
-    \midrule
-    0 & Attacker loses 20 troops \\
-    1--2 & Attacker loses 10 troops \\
-    3 & No effect \\
-    4--5 & Defender loses 10 troops and takes 1 Fatigue \\
-    6 & Defender loses 20 troops and takes 1 Fatigue \\
-    7 & Defender loses 20 troops and the British player loses 1 Activation Point \\
-    8 & Defender loses 30 troops and takes 1 Fatigue \\
-    9 & Defender loses 30 troops and the British player loses 1 Activation Point \\
-    \bottomrule
-  \end{tabularx}
+    \hline
+    0 & Attacker loses 20 troops \\ \hline
+    1--2 & Attacker loses 10 troops \\ \hline
+    3 & No effect \\ \hline
+    4--5 & Defender loses 10 troops and takes 1 Fatigue \\ \hline
+    6 & Defender loses 20 troops and takes 1 Fatigue \\ \hline
+    7 & Defender loses 20 troops and the British player loses 1 Activation Point \\ \hline
+    8 & Defender loses 30 troops and takes 1 Fatigue \\ \hline
+    9 & Defender loses 30 troops and the British player loses 1 Activation Point \\ \hline
+  \end{tabular}
   \chartcaption{Raid Result Table (8.0).}
 \end{playchart}
 
@@ -407,26 +403,25 @@ Washington's stack has 2,890 troops attacking Rall's 1,250. First determine Surp
 
 \begin{playchart}[0.72\linewidth]
   \charttitle{Surprise Table (17.1)}
-  \begin{tabular}{lcc}
-    \toprule
-    \rowcolor{black!10}\textbf{Modified Die Roll\,*} & \textbf{CRT Modifier} & \textbf{Attacker \%} \\
-    \midrule
-    $-4$ or less & $-6$ & +15 \\
-    $-3$ & $-5$ & +10 \\
-    $-2$ & $-4$ & +10 \\
-    $-1$ & $-3$ & +10 \\
-    0--1 & $-2$ & +5 \\
-    2 & $-1$ & +5 \\
-    3 & $-1$ & --- \\
-    4--5 & 0 & --- \\
-    6--7 & +1 & --- \\
-    8--9 & +2 & $-5$ \\
-    10 & +3 & $-5$ \\
-    11 & +3 & $-10$ \\
-    12 & +4 & $-10$ \\
-    13 & +5 & $-10$ \\
-    14 or more & +6 & $-15$ \\
-    \bottomrule
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.38\linewidth}|>{\centering\arraybackslash}p{0.25\linewidth}|>{\centering\arraybackslash}p{0.25\linewidth}|}
+    \hline
+    \rowcolor{black!10}\textbf{\shortstack[l]{Modified\\Die Roll *}} & \textbf{CRT Modifier} & \textbf{Attacker \%} \\
+    \hline
+    $-4$ or less & $-6$ & +15 \\ \hline
+    $-3$ & $-5$ & +10 \\ \hline
+    $-2$ & $-4$ & +10 \\ \hline
+    $-1$ & $-3$ & +10 \\ \hline
+    0--1 & $-2$ & +5 \\ \hline
+    2 & $-1$ & +5 \\ \hline
+    3 & $-1$ & --- \\ \hline
+    4--5 & 0 & --- \\ \hline
+    6--7 & +1 & --- \\ \hline
+    8--9 & +2 & $-5$ \\ \hline
+    10 & +3 & $-5$ \\ \hline
+    11 & +3 & $-10$ \\ \hline
+    12 & +4 & $-10$ \\ \hline
+    13 & +5 & $-10$ \\ \hline
+    14 or more & +6 & $-15$ \\ \hline
   \end{tabular}
   \chartcaption{Surprise Table (17.1).}
 \end{playchart}
