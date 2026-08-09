@@ -335,8 +335,6 @@ end
   'weather.svg' => weather_counter,
   'durham-boats.svg' => marker('Durham Boats', 'DURHAM', 'BOATS', accent: '#bde3f7', symbol: '⛵'),
   'navy.svg' => marker('Navy', 'NAVY', nil, accent: '#bde3f7', symbol: '⚓'),
-  'victory-points.svg' => points_counter('Victory Points', 'VP', '#fff'),
-  'activation-points.svg' => points_counter('Activation Points', 'AP', '#fff'),
   'dawn-attack.svg' => points_counter('Dawn Attack', 'DAWN', '#f9d334')
 }.each do |filename, content|
   write_counter(filename, content)
