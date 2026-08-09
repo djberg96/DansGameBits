@@ -59,10 +59,11 @@ def escape(value)
   value.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
 end
 
-def document(label, body, american_leader: false)
-  american_leader_texture = if american_leader
+def document(label, body, american_leader: false, star_texture: nil)
+  american_leader_texture = if american_leader || star_texture == :american
+                               texture_id = american_leader ? 'americanLeaderTexture' : 'americanStarTexture'
                                pattern = <<~SVG
-                                 <pattern id="americanLeaderTexture" width="42" height="42" patternUnits="userSpaceOnUse">
+                                 <pattern id="#{texture_id}" width="42" height="42" patternUnits="userSpaceOnUse">
                                    <rect width="42" height="42" fill="#083d4c"/>
                                    <text x="10" y="15" fill="#b7d0c6" fill-opacity=".11" font-family="Georgia, serif" font-size="13" text-anchor="middle">★</text>
                                    <text x="31" y="35" fill="#b7d0c6" fill-opacity=".08" font-family="Georgia, serif" font-size="13" text-anchor="middle">★</text>
@@ -73,6 +74,19 @@ def document(label, body, american_leader: false)
                              else
                                ''
                              end
+  british_star_texture = if star_texture == :british
+                            pattern = <<~SVG
+                              <pattern id="britishStarTexture" width="42" height="42" patternUnits="userSpaceOnUse">
+                                <rect width="42" height="42" fill="#db322c"/>
+                                <text x="10" y="15" fill="#ffd3b2" fill-opacity=".11" font-family="Georgia, serif" font-size="13" text-anchor="middle">★</text>
+                                <text x="31" y="35" fill="#ffd3b2" fill-opacity=".08" font-family="Georgia, serif" font-size="13" text-anchor="middle">★</text>
+                                <text x="40" y="8" fill="#ffd3b2" fill-opacity=".05" font-family="Georgia, serif" font-size="9" text-anchor="middle">★</text>
+                              </pattern>
+                            SVG
+                            "\n#{pattern.lines.map { |line| "        #{line}" }.join.chomp}"
+                          else
+                            ''
+                          end
   <<~SVG
     <?xml version="1.0" encoding="UTF-8"?>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 #{SOURCE_SIZE} #{SOURCE_SIZE}" role="img" aria-labelledby="title desc">
@@ -83,7 +97,7 @@ def document(label, body, american_leader: false)
           <rect width="18" height="18" fill="#083d4c"/>
           <path d="M0 3H18 M0 12H18" stroke="#b7d0c6" stroke-opacity=".11" stroke-width="1"/>
           <path d="M5 0V18 M14 0V18" stroke="#d3e0d2" stroke-opacity=".08" stroke-width="1"/>
-        </pattern>#{american_leader_texture}
+        </pattern>#{american_leader_texture}#{british_star_texture}
         <pattern id="redTexture" width="24" height="24" patternUnits="userSpaceOnUse">
           <rect width="24" height="24" fill="#d94234"/>
           <path d="M0 0L24 24M24 0L0 24" stroke="#ffc0a4" stroke-opacity=".14" stroke-width="2"/>
@@ -263,12 +277,15 @@ def marker(label, title, subtitle = nil, accent: '#f4ef24', symbol: nil)
   document(label, body)
 end
 
-def trench_counter
-  teeth = (0...5).map { |i| x = 35 + i * 50; "<path d=\"M#{x} 176l25 43 25-43z\" fill=\"#111\"/>" }.join
-  document('Trench', <<~SVG)
-    #{counter_base(:american)}
-    <text x="150" y="120" fill="#fff" font-family="Arial, sans-serif" font-size="39" text-anchor="middle">TRENCH</text>
-    #{teeth}
+def trench_counter(faction)
+  top_teeth = [58, 150, 242].map { |x| "<path d=\"M#{x - 38} 108H#{x + 38}L#{x} 35z\" fill=\"#07090b\"/>" }.join
+  bottom_teeth = [58, 150, 242].map { |x| "<path d=\"M#{x - 38} 205H#{x + 38}L#{x} 278z\" fill=\"#07090b\"/>" }.join
+  texture = faction == :american ? 'americanStarTexture' : 'britishStarTexture'
+  document("#{faction.capitalize} trench", <<~SVG, star_texture: faction)
+    <rect width="300" height="300" fill="url(##{texture})"/>
+    #{top_teeth}
+    <text x="150" y="176" fill="#fff" font-family="Arial, sans-serif" font-size="51" font-weight="bold" text-anchor="middle">TRENCH</text>
+    #{bottom_teeth}
   SVG
 end
 
@@ -330,7 +347,6 @@ end
   'routed.svg' => marker('Routed', 'ROUTED', '(18.2)', accent: '#fff', symbol: '↗'),
   'orders.svg' => marker('Orders', 'ORDERS', '(18.3)', symbol: '↪'),
   'turn.svg' => marker('Turn', 'TURN', nil, accent: '#b48b53', symbol: '↻'),
-  'trench.svg' => trench_counter,
   'day.svg' => day_counter,
   'weather.svg' => weather_counter,
   'durham-boats.svg' => marker('Durham Boats', 'DURHAM', 'BOATS', accent: '#bde3f7', symbol: '⛵'),
@@ -338,6 +354,10 @@ end
   'dawn-attack.svg' => points_counter('Dawn Attack', 'DAWN', '#f9d334')
 }.each do |filename, content|
   write_counter(filename, content)
+end
+
+%i[american british].each do |faction|
+  write_counter("#{faction}-trench.svg", trench_counter(faction))
 end
 
 readme = <<~README
