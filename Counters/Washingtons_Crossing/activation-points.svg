@@ -8,10 +8,11 @@
       <path d="M0 1H6 M0 4H6" stroke="#b7d0c6" stroke-opacity=".11" stroke-width="0.33"/>
       <path d="M1.67 0V6 M4.67 0V6" stroke="#d3e0d2" stroke-opacity=".08" stroke-width="0.33"/>
     </pattern>
-    <pattern id="redTexture" width="8" height="8" patternUnits="userSpaceOnUse">
-      <rect width="8" height="8" fill="#d94234"/>
-      <path d="M0 0L8 8M8 0L0 8" stroke="#ffc0a4" stroke-opacity=".14" stroke-width="0.67"/>
-      <path d="M2 0V8M6 0V8" stroke="#831e22" stroke-opacity=".14" stroke-width="0.67"/>
+    <pattern id="redStarTexture" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#db322c"/>
+      <text x="3.33" y="5" fill="#ffd3b2" fill-opacity=".11" font-family="Georgia, serif" font-size="4.33" text-anchor="middle">★</text>
+      <text x="10.33" y="11.67" fill="#ffd3b2" fill-opacity=".08" font-family="Georgia, serif" font-size="4.33" text-anchor="middle">★</text>
+      <text x="13.33" y="2.67" fill="#ffd3b2" fill-opacity=".05" font-family="Georgia, serif" font-size="3" text-anchor="middle">★</text>
     </pattern>
     <pattern id="blackTexture" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
       <rect width="4" height="4" fill="#101214"/>
@@ -21,8 +22,30 @@
       <feDropShadow dx="0" dy="0.67" stdDeviation="0.67" flood-opacity=".38"/>
     </filter>
   </defs>
-  <rect width="100" height="100" fill="url(#redTexture)"/>
-<text x="50" y="38.67" fill="#fff" font-family="Georgia, serif" font-size="14" text-anchor="middle">AP</text>
-<text x="50" y="55.33" fill="#fff" font-family="Arial, sans-serif" font-size="11.33" text-anchor="middle">Activation Points</text>
+  <rect width="100" height="100" fill="url(#redStarTexture)"/>
+
+  <g transform="translate(50 57)" fill="none" stroke="#f2ceb0" stroke-opacity=".20" stroke-width="1.5">
+    <path d="M-17-23h34l-3 9H-14z"/>
+    <path d="M-13-23l5-7 8 7 8-7 5 7"/>
+    <circle cx="-8" cy="-30" r="1.5" fill="#f2ceb0" fill-opacity=".20" stroke="none"/>
+    <circle cy="-33" r="1.5" fill="#f2ceb0" fill-opacity=".20" stroke="none"/>
+    <circle cx="8" cy="-30" r="1.5" fill="#f2ceb0" fill-opacity=".20" stroke="none"/>
+    <path d="M-17-11q0 20 17 25 17-5 17-25v-8h-34z"/>
+    <path d="M0-19v31M-17-3h34"/>
+  </g>
+  <text x="50" y="62" fill="#f2ceb0" fill-opacity=".18" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle">GR</text>
+
+  <g font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle">
+    <g fill="#631b20" fill-opacity=".55">
+      <text x="51" y="39" font-size="14">Activation</text>
+      <text x="51" y="56" font-size="15">POINTS</text>
+      <text x="51" y="73" font-size="15">(AP)</text>
+    </g>
+    <g fill="#fff4e8">
+      <text x="50" y="38" font-size="14">Activation</text>
+      <text x="50" y="55" font-size="15">POINTS</text>
+      <text x="50" y="72" font-size="15">(AP)</text>
+    </g>
+  </g>
 
 </svg>
