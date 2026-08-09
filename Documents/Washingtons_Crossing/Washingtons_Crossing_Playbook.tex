@@ -4,6 +4,9 @@
 \usepackage{lmodern}
 \usepackage[margin=0.85in]{geometry}
 \usepackage{graphicx}
+\usepackage[inkscape=false,inkscapelatex=false,inkscapepath=svgsubdir]{svg}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 \usepackage{caption}
 \usepackage{hyperref}
 \usepackage{microtype}
@@ -16,6 +19,50 @@
     \centering
     \includegraphics[width=0.9\linewidth,height=0.82\textheight,keepaspectratio]{#1}
     \caption{#2}
+  \end{figure}%
+}
+\newcommand{\countergraphic}[2]{%
+  \includesvg[width=#2]{../../Counters/Washingtons_Crossing/#1}%
+}
+\newcommand{\counterimage}[3]{%
+  \begin{figure}[htbp]
+    \centering
+    \countergraphic{#1}{#2}
+    \caption{#3}
+  \end{figure}%
+}
+\newcommand{\smallplayimage}[2]{%
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[height=0.45in,keepaspectratio]{#1}
+    \caption{#2}
+  \end{figure}%
+}
+\newcommand{\leadercounterdiagram}{%
+  \begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[font=\footnotesize, >=latex, counterarrow/.style={->,draw=gray!75,line width=0.45pt}]
+      \node[inner sep=0] (commander) at (0,0) {\countergraphic{american-leader-cadwalader}{2.25cm}};
+      \node[font=\bfseries, above=1.05cm of commander] {Commanding Leader};
+      \node[anchor=east] (cost) at (-2.7,1.45) {Activation Cost};
+      \draw[counterarrow] (cost.east) -- (commander.north west);
+      \node[anchor=west] (span) at (2.2,1.45) {Command Span};
+      \draw[counterarrow] (span.west) -- (commander.north east);
+      \node[anchor=east] (rating) at (-2.7,-1.45) {Leader Rating};
+      \draw[counterarrow] (rating.east) -- (commander.south west);
+      \node[anchor=west] (radius) at (2.2,-1.45) {Command Radius};
+      \draw[counterarrow] (radius.west) -- (commander.south east);
+      \node[align=left,anchor=west] (militia) at (1.9,-0.22) {White box identifies\\Militia Leader};
+      \draw[counterarrow] (militia.west) -- ([yshift=-0.22cm]commander.east);
+
+      \node[inner sep=0] (subordinate) at (10.0,0) {\countergraphic{british-leader-rall}{2.25cm}};
+      \node[font=\bfseries, above=1.05cm of subordinate] {Subordinate Leader};
+      \node[anchor=east] (subcost) at (7.4,1.45) {Activation Cost};
+      \draw[counterarrow] (subcost.east) -- (subordinate.north west);
+      \node[anchor=east] (subrating) at (7.4,-1.45) {Leader Rating};
+      \draw[counterarrow] (subrating.east) -- (subordinate.south west);
+    \end{tikzpicture}
+    \caption{Leader counters and their values.}
   \end{figure}%
 }
 
@@ -42,7 +89,7 @@ The primary maneuver pieces in the game are leaders. There are two leader displa
 
 There are two types of leaders: those who can command other leaders (Commanding Leaders) and those who cannot (Subordinate Leaders).
 
-\playimage{Introduction_files/LeaderCounter_w7rE.JPG}{Leader counter.}
+\leadercounterdiagram
 
 Leaders may move or attack only by spending activation points equal to their activation-point cost. Activated Commanding Leaders may activate other commanding and subordinate leaders. In this way, multiple leaders are activated by one overall commander. The following is an example of Washington's maximum command.
 
@@ -61,7 +108,7 @@ Leaders do not have a fixed movement allowance. They roll a ten-sided die on the
 
 The Campaign Game setup allows some variation in the American deployment. The British deployment is fixed. This gives the American player flexibility in planning the initial Delaware River crossings and strategy for attacking the starting British positions.
 
-\playimage{WC_GameSetup_files/DurhamBoatSetup_hY4C.JPG}{Durham Boat setup marker.}
+\counterimage{durham-boats}{0.28\linewidth}{Durham Boats setup marker (placed on a hexside next to hex 1330 or 1631).}
 
 \subsection{American setup}
 
@@ -271,7 +318,7 @@ The British are moving the Hessian detachments north to put distance between the
 
 Weather is Fair. There is no American raid and no reinforcements for either side.
 
-\playimage{WC_Turn5_files/FairWeatherSymbol_FQ5g.JPG}{Fair weather symbol.}
+\smallplayimage{WC_Turn5_files/FairWeatherSymbol_FQ5g.JPG}{Fair weather symbol.}
 
 \subsection{American Turn}
 
@@ -296,7 +343,7 @@ If you wish to move a short distance during the night and were not previously fa
 
 Weather is Fair. There is no American raid and no reinforcements for either side.
 
-\playimage{WC_Turn6_files/FairWeatherSymbol_Cvqs.JPG}{Fair weather symbol.}
+\smallplayimage{WC_Turn6_files/FairWeatherSymbol_Cvqs.JPG}{Fair weather symbol.}
 
 \subsection{American Turn}
 
