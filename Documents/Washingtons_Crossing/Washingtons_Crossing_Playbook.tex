@@ -8,6 +8,11 @@
 \usepackage{tikz}
 \usetikzlibrary{positioning}
 \usepackage{caption}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{microtype}
 \usepackage{parskip}
@@ -38,6 +43,21 @@
     \caption{#2}
   \end{figure}%
 }
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newenvironment{playchart}[1][0.78\linewidth]{%
+  \begin{figure}[htbp]
+    \centering
+    \begin{minipage}{#1}
+      \centering\small
+      \renewcommand{\arraystretch}{1.16}
+      \setlength{\tabcolsep}{6pt}
+}{%
+    \end{minipage}
+  \end{figure}%
+}
+\newcommand{\charttitle}[1]{\textbf{\large #1}\par\smallskip}
+\newcommand{\chartnote}[1]{\par\smallskip\begin{minipage}{\linewidth}\footnotesize\raggedright #1\end{minipage}\par}
+\newcommand{\chartcaption}[1]{\par\medskip\caption{#1}}
 \newcommand{\leadercounterdiagram}{%
   \begin{figure}[htbp]
     \centering
@@ -101,7 +121,33 @@ As leaders move and attack, their troops become fatigued. Fatigue is tracked on 
 
 Leaders do not have a fixed movement allowance. They roll a ten-sided die on the Movement Matrix chart to determine the number of movement points they have. Movement points can range from 0 to 10. The number across the top is the leader's rating; a leader with a rating of 5 uses the middle column. Several modifiers affect the die roll. Each time a leader moves, his troops gain 1 fatigue.
 
-\playimage{Introduction_files/Movement_Chart_w7rE.JPG}{Movement Matrix chart.}
+\begin{playchart}[0.72\linewidth]
+  \charttitle{Movement Matrix (11.0)}
+  \begin{tabular}{lccc}
+    \toprule
+    \rowcolor{black!10}
+    \textbf{Modified Die Roll\,*} & \textbf{2--4} & \textbf{5--6} & \textbf{7--8} \\
+    \midrule
+    $-6$ or less & 0 MP & 0 MP & 0 MP \\
+    $-5$ to $-3$ & 3 MP & 4 MP & 5 MP \\
+    $-2$ to 0 & 4 MP & 5 MP & 6 MP \\
+    1 to 3 & 5 MP & 6 MP & 7 MP \\
+    4 to 6 & 6 MP & 7 MP & 8 MP \\
+    7 to 9 & 7 MP & 8 MP & 9 MP \\
+    10 or more & 8 MP & 9 MP & 10 MP \\
+    \bottomrule
+  \end{tabular}
+  \chartnote{\textit{* Movement Matrix Die Roll Modifiers}\par\smallskip
+  \begin{tabularx}{\linewidth}{rY rY}
+    +4 & Night Move (American) & $-1$ & Disordered \\
+    +2 & British Vanguard & $-1$ & Fatigue 1 \\
+    $-2$ & All other British & $-2$ & Fatigue 2 \\
+    $-1$ & Snow & $-3$ & Fatigue 3 \\
+    $-2$ & Rain & $-4$ & Fatigue 4 \\
+    +1 & Freeze & & \\
+  \end{tabularx}}
+  \chartcaption{Movement Matrix (11.0).}
+\end{playchart}
 
 \clearpage
 \section{Game Setup}
@@ -139,17 +185,78 @@ In this game, the American player plans to attack Trenton with a surrounding att
 \clearpage
 \section{Turn 1: December 25, 1776, 5 p.m. (Night Turn)}
 
-\playimage{WC_turn1_files/SequenceOfPlay_JvYc.JPG}{Sequence of play.}
+\begin{playchart}[0.76\linewidth]
+  \charttitle{Sequence of Play}
+  \raggedright
+  \begin{enumerate}[label=\arabic*., leftmargin=1.9em, itemsep=0.2em, topsep=0.1em]
+    \item Weather Phase
+    \item American Raid Phase
+    \item Reinforcement Phase
+    \item American Command Phase
+      \begin{enumerate}[label=\alph*., leftmargin=1.8em, itemsep=0pt, topsep=0pt]
+        \item American player activates leaders with Activation Points.
+      \end{enumerate}
+    \item American Action Phase
+      \begin{enumerate}[label=\alph*., leftmargin=1.8em, itemsep=0pt, topsep=0pt]
+        \item Move and perform Normal/Hasty attacks with leaders activated by activation points (Defender may react; see 11.3 Reaction Movement).
+        \item Move and perform Normal/Hasty attacks with leaders activated by initiative roll (one leader per day turn) (Defender may react; see 11.3 Reaction Movement).
+        \item Conduct all Prepared attacks (Defender may react; see 11.3 Reaction Movement).
+      \end{enumerate}
+    \item American Recovery Phase \textit{(Night Turns Only)}
+    \item British Command Phase
+      \begin{enumerate}[label=\alph*., leftmargin=1.8em, itemsep=0pt, topsep=0pt]
+        \item British player activates leaders with Activation Points.
+      \end{enumerate}
+    \item British Action Phase
+      \begin{enumerate}[label=\alph*., leftmargin=1.8em, itemsep=0pt, topsep=0pt]
+        \item Move and perform Normal/Hasty attacks with leaders activated by activation points (Defender may react; see 11.3 Reaction Movement).
+        \item Move and perform Normal/Hasty attacks with leaders activated by initiative roll (one leader per day turn) (Defender may react; see 11.3 Reaction Movement).
+        \item Conduct all Prepared attacks (Defender may react; see 11.3 Reaction Movement).
+      \end{enumerate}
+    \item British Recovery Phase \textit{(Night Turns Only)}
+    \item End of Turn
+  \end{enumerate}
+  \chartcaption{Sequence of play.}
+\end{playchart}
 
 \subsection{Weather Phase}
 
 The first thing that happens during each turn is weather determination. Weather determination in \textit{Washington's Crossing} is a two-step process. Players first check whether the previous turn's weather continues for this turn: roll one die and consult the Continuing Weather table.
 
-\playimage{WC_turn1_files/ContinuingWeather_JvYc.JPG}{Continuing Weather table.}
+\begin{playchart}[0.72\linewidth]
+  \charttitle{Continuing Weather (7.0)}
+  \begin{tabularx}{\linewidth}{lY}
+    \toprule
+    \rowcolor{black!10}\textbf{Die Roll} & \textbf{Result} \\
+    \midrule
+    0--2 & Continues \\
+    3 & Continues if Freeze, otherwise New Weather \\
+    4--5 & Continues if Rain, otherwise New Weather \\
+    6--8 & Continues if Snow, otherwise New Weather \\
+    9 & New Weather (see table below) \\
+    \bottomrule
+  \end{tabularx}
+  \chartcaption{Continuing Weather table (7.0).}
+\end{playchart}
 
 If the weather does not continue, players consult the New Weather Table to check what the current turn's weather will be.
 
-\playimage{WC_turn1_files/NewWeather_JvYc.JPG}{New Weather table.}
+\begin{playchart}[0.72\linewidth]
+  \charttitle{New Weather (7.0)}
+  \chartnote{If night, subtract one from the die roll.}
+  \begin{tabularx}{\linewidth}{lY}
+    \toprule
+    \rowcolor{black!10}\textbf{Die Roll} & \textbf{Result} \\
+    \midrule
+    $-1$ & Freeze \\
+    0 & Snow \\
+    1--4 & Freeze \\
+    5 & Rain \\
+    6--9 & Fair \\
+    \bottomrule
+  \end{tabularx}
+  \chartcaption{New Weather table (7.0).}
+\end{playchart}
 
 For the first game turn, the previous turn's weather is Fair. The American player prays that this continues in the hope of an easy crossing of the Delaware River. A die roll of 4 indicates that the previous turn's weather would continue if it was Rain; since the previous turn was not Rain, move on to the New Weather table. A die roll of 2, modified down 1 because it is a night turn, yields Freeze.
 
@@ -157,8 +264,50 @@ For the first game turn, the previous turn's weather is Fair. The American playe
 
 The American player rolls a 2 on the Raid Table, which indicates that a raid is possible. He rolls on the Raid Leader Table to see which leader conducts the raid, and rolls a 7: Stephen's brigade. Stephen may choose any British leader within 15 hexes as his target, and chooses the Hessian leader Rall in Trenton, trying to soften him up before Washington's attack. A die roll of 0, however, causes Stephen to lose 20 men and does no damage to Rall other than 1 fatigue level, since all raids at night increase the target's fatigue by 1. Rall is now at fatigue level 3.
 
-\playimage{WC_turn1_files/RaidTable1_JvYc.JPG}{Raid Table.}
-\playimage{WC_turn1_files/RaidTable2_JvYc.JPG}{Raid Leader Table.}
+\begin{playchart}[0.68\linewidth]
+  \charttitle{A. Raid Table (8.0)}
+  \begin{tabularx}{\linewidth}{lY}
+    \toprule
+    \rowcolor{black!10}\textbf{Die Roll} & \textbf{Result} \\
+    \midrule
+    0--2 & Raid --- consult Raid Leader Table \\
+    3--6 & No effect \\
+    \bottomrule
+  \end{tabularx}
+  \medskip
+  \charttitle{B. Raid Leader Table (8.0)}
+  \begin{tabularx}{\linewidth}{lY}
+    \toprule
+    \rowcolor{black!10}\textbf{Die Roll} & \textbf{Leader} \\
+    \midrule
+    0--1 & Griffin \\
+    2--3 & Ewing \\
+    4--5 & Dickinson \\
+    6--7 & Stephen \\
+    8--9 & McDougall \\
+    \bottomrule
+  \end{tabularx}
+  \chartcaption{Raid and Raid Leader tables (8.0).}
+\end{playchart}
+\begin{playchart}[0.75\linewidth]
+  \charttitle{C. Raid Result Table (8.0)}
+  \chartnote{On night turns, the defending leader receives one additional fatigue on all results.}
+  \begin{tabularx}{\linewidth}{lY}
+    \toprule
+    \rowcolor{black!10}\textbf{Die Roll} & \textbf{Result} \\
+    \midrule
+    0 & Attacker loses 20 troops \\
+    1--2 & Attacker loses 10 troops \\
+    3 & No effect \\
+    4--5 & Defender loses 10 troops and takes 1 Fatigue \\
+    6 & Defender loses 20 troops and takes 1 Fatigue \\
+    7 & Defender loses 20 troops and the British player loses 1 Activation Point \\
+    8 & Defender loses 30 troops and takes 1 Fatigue \\
+    9 & Defender loses 30 troops and the British player loses 1 Activation Point \\
+    \bottomrule
+  \end{tabularx}
+  \chartcaption{Raid Result Table (8.0).}
+\end{playchart}
 
 \subsection{Reinforcement Phase}
 
@@ -256,7 +405,31 @@ Glover, Sargent, Lord Stirling, and Fermoy roll together and receive 6 movement 
 
 Washington's stack has 2,890 troops attacking Rall's 1,250. First determine Surprise modifiers. The American player rolls 6 on the Surprise table, then applies -1 for the hasty attack and +7 for attacking Trenton in the game's first a.m. turn---``think Pearl Harbor surprise''---for a result of 12. The American receives +4 to the combat die roll and -10\% casualties from surprise.
 
-\playimage{WC_Turn3_files/SurpriseTable_SpxH.JPG}{Surprise table.}
+\begin{playchart}[0.72\linewidth]
+  \charttitle{Surprise Table (17.1)}
+  \begin{tabular}{lcc}
+    \toprule
+    \rowcolor{black!10}\textbf{Modified Die Roll\,*} & \textbf{CRT Modifier} & \textbf{Attacker \%} \\
+    \midrule
+    $-4$ or less & $-6$ & +15 \\
+    $-3$ & $-5$ & +10 \\
+    $-2$ & $-4$ & +10 \\
+    $-1$ & $-3$ & +10 \\
+    0--1 & $-2$ & +5 \\
+    2 & $-1$ & +5 \\
+    3 & $-1$ & --- \\
+    4--5 & 0 & --- \\
+    6--7 & +1 & --- \\
+    8--9 & +2 & $-5$ \\
+    10 & +3 & $-5$ \\
+    11 & +3 & $-10$ \\
+    12 & +4 & $-10$ \\
+    13 & +5 & $-10$ \\
+    14 or more & +6 & $-15$ \\
+    \bottomrule
+  \end{tabular}
+  \chartcaption{Surprise Table (17.1).}
+\end{playchart}
 
 The American player rolls on the Combat Result Table using the 7--8 column because Washington has a Leader Rating of 8. He rolls 2, modified -1 for the hasty attack, +1 for Americans attacking, +4 for surprise, +2 for outnumbering Rall 2 to 1, and +4 because American leaders occupy all six hexes around Rall. The final result is 12: 20/60! The attacker result is on the left, so Washington would take 20\% of the defender's strength in casualties. Surprise decreases Washington's casualties by 10\%, so the Americans lose 10\% of Rall's strength: 130 troops. The player distributes all of these losses to Lord Stirling, reducing him from 570 to 440 troops.
 
