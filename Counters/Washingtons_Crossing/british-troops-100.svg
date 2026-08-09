@@ -33,4 +33,5 @@
 <g filter="url(#shadow)">  <rect x="18.33" y="35" width="63.33" height="20.67" fill="#243e80" stroke="#eee"/>  <g clip-path="url(#britishFlagClip)"><path d="M18.33 35L81.67 55.67M81.67 35L18.33 55.67" stroke="#fff" stroke-width="4.67"/>  <path d="M18.33 35L81.67 55.67M81.67 35L18.33 55.67" stroke="#d63136" stroke-width="2"/></g>  <path d="M50 35V55.67M18.33 45.33H81.67" stroke="#fff" stroke-width="8"/>  <path d="M50 35V55.67M18.33 45.33H81.67" stroke="#d63136" stroke-width="4"/></g>
 <text x="50" y="86.67" fill="#fff" font-family="Times New Roman, Times, serif" font-size="32" text-anchor="middle">100</text>
 
+  <rect x="0.5" y="0.5" width="99" height="99" fill="none" stroke="#000" stroke-width="1"/>
 </svg>

@@ -20,4 +20,5 @@
     <path d="M68 68.33H93.33L80.67 92.67z"/>
   </g>
   <text x="50" y="58.67" fill="#fff" font-family="Arial, sans-serif" font-size="17" font-weight="bold" text-anchor="middle">TRENCH</text>
+  <rect x="0.5" y="0.5" width="99" height="99" fill="none" stroke="#fff" stroke-width="1"/>
 </svg>

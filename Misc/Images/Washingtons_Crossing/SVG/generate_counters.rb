@@ -59,7 +59,7 @@ def escape(value)
   value.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
 end
 
-def document(label, body, american_leader: false, star_texture: nil)
+def document(label, body, american_leader: false, star_texture: nil, border: nil)
   american_leader_texture = if american_leader || star_texture == :american
                                texture_id = american_leader ? 'americanLeaderTexture' : 'americanStarTexture'
                                pattern = <<~SVG
@@ -112,6 +112,7 @@ def document(label, body, american_leader: false, star_texture: nil)
         </filter>
       </defs>
       #{body}
+      #{border ? %(<rect x="1.5" y="1.5" width="297" height="297" fill="none" stroke="#{border == :american ? '#fff' : '#000'}" stroke-width="3"/>) : ''}
     </svg>
   SVG
 end
@@ -213,7 +214,7 @@ def troop_counter(faction, strength)
     #{flag}
     <text x="150" y="260" fill="#fff" font-family="Times New Roman, Times, serif" font-size="96" text-anchor="middle">#{strength}</text>
   SVG
-  document(label, body, star_texture: faction)
+  document(label, body, star_texture: faction, border: faction)
 end
 
 AMERICAN_LEADER_TILES = %w[
@@ -267,7 +268,7 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
     <text x="43" y="275" fill="#fff" font-family="Georgia, serif" font-size="64" text-anchor="middle">#{left}</text>
     <text x="257" y="275" fill="#fff" font-family="Georgia, serif" font-size="64" text-anchor="middle">#{right}</text>
   SVG
-  document("#{faction.capitalize} leader: #{name}", body, american_leader: faction == :american)
+  document("#{faction.capitalize} leader: #{name}", body, american_leader: faction == :american, border: faction)
 end
 
 def marker(label, title, subtitle = nil, accent: '#f4ef24', symbol: nil, squares: false, route_symbol: false, solid_background: false)
@@ -297,7 +298,7 @@ def trench_counter(faction)
   top_teeth = [58, 150, 242].map { |x| "<path d=\"M#{x - 38} 108H#{x + 38}L#{x} 35z\" fill=\"#07090b\"/>" }.join
   bottom_teeth = [58, 150, 242].map { |x| "<path d=\"M#{x - 38} 205H#{x + 38}L#{x} 278z\" fill=\"#07090b\"/>" }.join
   texture = faction == :american ? 'americanStarTexture' : 'britishStarTexture'
-  document("#{faction.capitalize} trench", <<~SVG, star_texture: faction)
+  document("#{faction.capitalize} trench", <<~SVG, star_texture: faction, border: faction)
     <rect width="300" height="300" fill="url(##{texture})"/>
     #{top_teeth}
     <text x="150" y="176" fill="#fff" font-family="Arial, sans-serif" font-size="51" font-weight="bold" text-anchor="middle">TRENCH</text>
@@ -307,7 +308,7 @@ end
 
 def transport_counter(label, bottom)
   title_size = label.length > 11 ? 40 : 51
-  document(label, <<~SVG, star_texture: :american)
+  document(label, <<~SVG, star_texture: :american, border: :american)
     <rect width="300" height="300" fill="url(#americanStarTexture)"/>
     <text x="73" y="94" fill="#f8f4e9" font-family="Times New Roman, Times, serif" font-size="66" text-anchor="middle">24</text>
     <path d="M150 29L111 105 150 84 189 105z" fill="#47bee8"/>
@@ -339,7 +340,7 @@ def weather_counter
 end
 
 def points_counter(kind, abbreviation, color)
-  document(kind, <<~SVG)
+  document(kind, <<~SVG, border: :british)
     <rect width="300" height="300" fill="url(#redTexture)"/>
     <text x="150" y="116" fill="#fff" font-family="Georgia, serif" font-size="42" text-anchor="middle">#{abbreviation}</text>
     <text x="150" y="166" fill="#fff" font-family="Arial, sans-serif" font-size="34" text-anchor="middle">#{escape(kind)}</text>

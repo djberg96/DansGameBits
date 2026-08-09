@@ -25,4 +25,5 @@
 <text x="50" y="38.67" fill="#fff" font-family="Georgia, serif" font-size="14" text-anchor="middle">DAWN</text>
 <text x="50" y="55.33" fill="#fff" font-family="Arial, sans-serif" font-size="11.33" text-anchor="middle">Dawn Attack</text>
 
+  <rect x="0.5" y="0.5" width="99" height="99" fill="none" stroke="#000" stroke-width="1"/>
 </svg>
