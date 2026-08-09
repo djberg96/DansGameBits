@@ -21,6 +21,7 @@
     <rect x="800" y="0" width="100" height="100"/>
     <rect x="900" y="0" width="100" height="100"/>
   </g>
+  <rect x="2" y="2" width="996" height="96" fill="none" stroke="#101214" stroke-width="4"/>
 
   <g fill="#f8f4e9" font-family="Times New Roman, Times, serif" font-size="62" text-anchor="middle">
     <text x="50" y="72">0</text>
@@ -35,9 +36,14 @@
     <text x="950" y="72">9</text>
   </g>
 
-  <image x="0" y="0" width="100" height="100" href="fatigue.svg" xlink:href="fatigue.svg"/>
-  <image x="100" y="0" width="100" height="100" href="american-troops-100.svg" xlink:href="american-troops-100.svg"/>
-  <image x="400" y="0" width="100" height="100" href="american-troops-10.svg" xlink:href="american-troops-10.svg"/>
+  <g fill="#050708" fill-opacity=".75">
+    <rect x="13" y="13" width="82" height="82"/>
+    <rect x="113" y="13" width="82" height="82"/>
+    <rect x="413" y="13" width="82" height="82"/>
+  </g>
+  <image x="10" y="10" width="82" height="82" href="fatigue.svg" xlink:href="fatigue.svg"/>
+  <image x="110" y="10" width="82" height="82" href="american-troops-100.svg" xlink:href="american-troops-100.svg"/>
+  <image x="410" y="10" width="82" height="82" href="american-troops-10.svg" xlink:href="american-troops-10.svg"/>
 
   <text x="1030" y="60" fill="#111" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="31">Washington (140)</text>
 </svg>
