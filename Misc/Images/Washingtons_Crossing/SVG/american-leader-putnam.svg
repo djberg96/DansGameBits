@@ -22,7 +22,7 @@
     </filter>
   </defs>
   <rect width="300" height="300" fill="url(#blueTexture)"/>
-<text x="43" y="70" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">2</text><text x="150" y="70" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">★</text><text x="257" y="70" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">2</text>
+<text x="43" y="70" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">2</text><text x="128" y="70" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">★</text><text x="172" y="70" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">★</text><text x="257" y="70" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">2</text>
 <rect y="115" width="300" height="50" fill="#c9283e"/>
 <text x="150" y="151" fill="#fff" font-family="Arial, sans-serif" font-size="31" text-anchor="middle">Putnam</text>
 <rect x="112" y="176" width="76" height="36" fill="#f7f6f0"/>

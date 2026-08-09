@@ -11,13 +11,13 @@ OUTPUT = File.expand_path(__dir__)
 SIZE = 300
 
 AMERICAN_LEADERS = [
-  ['washington', 'Washington', '4 ★ 6', '8', '4', '1 • 5'],
-  ['sullivan', 'Sullivan', '3 ★ 4', '5', '2', '3 • 3'],
+  ['washington', 'Washington', '4 ★ ★ ★ 6', '8', '4', '1 • 5'],
+  ['sullivan', 'Sullivan', '3 ★ ★ 4', '5', '2', '3 • 3'],
   ['lord-stirling', 'Lord Stirling', '1 ★ 1', '5', '1', '2 • 2'],
   ['stephen', 'Stephen', '1 ★ 2', '4', '1', '1 • 3'],
   ['st-clair', 'St. Clair', '1 ★ 2', '5', '1', '1 • 3'],
   ['sargent', 'Sargent', '1 ★ 1', '4', '1', '1 • 3'],
-  ['putnam', 'Putnam', '2 ★ 2', '2', '1', '2 • 5'],
+  ['putnam', 'Putnam', '2 ★ ★ 2', '2', '1', '2 • 5'],
   ['mifflin', 'Mifflin', '1 ★ 2', '5', '1', '1 • 4'],
   ['mercer', 'Mercer', '1 ★ 1', '5', '1', '1 • 4'],
   ['mcdougall', 'McDougall', '1 ★ 1', '5', '1', '1 • 4'],
@@ -26,7 +26,7 @@ AMERICAN_LEADERS = [
   ['griffin', 'Griffin', '1 ★ 1', '3', '1', '1 • 3'],
   ['hitchcock', 'Hitchcock', '1 ★ 1', '4', '1', '1 • 4'],
   ['glover', 'Glover', '1 ★ 1', '5', '1', '1 • 5'],
-  ['greene', 'Greene', '3 ★ 5', '6', '2', '2 • 6'],
+  ['greene', 'Greene', '3 ★ ★ 5', '6', '2', '2 • 6'],
   ['fermoy', 'Fermoy', '1 ★ 1', '2', '1', '1 • 2'],
   ['ewing', 'Ewing', '1 ★ 1', '4', '1', '1 • 4']
 ].freeze
@@ -138,13 +138,28 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
   base = counter_base(faction)
   band = faction == :american ? '#c9283e' : '#073d4d'
   top_parts = top.split
-  top_positions = case top_parts.length
-                  when 1 then [43]
-                  when 2 then [43, 257]
-                  else [43, 150, 257]
-                  end
-  top_markup = top_parts.zip(top_positions).map do |part, position|
-    "<text x=\"#{position}\" y=\"70\" fill=\"#fff\" font-family=\"Georgia, serif\" font-size=\"52\" text-anchor=\"middle\">#{escape(part)}</text>"
+  star_count = top_parts.count('★')
+  non_stars = top_parts.reject { |part| part == '★' }
+  star_positions = case star_count
+                   when 1 then [150]
+                   when 2 then [128, 172]
+                   when 3 then [106, 150, 194]
+                   else []
+                   end
+  number_index = 0
+  star_index = 0
+  top_markup = top_parts.map do |part|
+    if part == '★'
+      position = star_positions[star_index]
+      color = slug == 'washington' && star_count == 3 && star_index == 1 ? '#e4b322' : '#fff'
+      font_size = slug == 'washington' && star_count == 3 ? 46 : 52
+      star_index += 1
+      "<text x=\"#{position}\" y=\"70\" fill=\"#{color}\" font-family=\"Georgia, serif\" font-size=\"#{font_size}\" text-anchor=\"middle\">★</text>"
+    else
+      position = non_stars.length == 1 ? 43 : [43, 257][number_index]
+      number_index += 1
+      "<text x=\"#{position}\" y=\"70\" fill=\"#fff\" font-family=\"Georgia, serif\" font-size=\"52\" text-anchor=\"middle\">#{escape(part)}</text>"
+    end
   end.join
   tile_slugs = faction == :american ? AMERICAN_LEADER_TILES : BRITISH_LEADER_TILES
   tile = if tile_slugs.include?(slug)
