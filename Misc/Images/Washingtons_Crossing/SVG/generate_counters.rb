@@ -206,14 +206,14 @@ end
 def troop_counter(faction, strength)
   label = "#{faction.capitalize} troops #{strength}"
   flag = faction == :american ? american_flag(65, 90) : british_flag(55, 105, 190, 62)
-  base = faction == :british ? '<rect width="300" height="300" fill="url(#britishStarTexture)"/>' : counter_base(faction)
+  base = faction == :british ? '<rect width="300" height="300" fill="url(#britishStarTexture)"/>' : '<rect width="300" height="300" fill="url(#americanStarTexture)"/>'
   body = <<~SVG
     #{base}
     <text x="150" y="84" fill="#f8f4e9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="48" letter-spacing="1.5" text-anchor="middle">TROOPS</text>
     #{flag}
     <text x="150" y="260" fill="#fff" font-family="Times New Roman, Times, serif" font-size="96" text-anchor="middle">#{strength}</text>
   SVG
-  document(label, body, star_texture: faction == :british ? :british : nil)
+  document(label, body, star_texture: faction)
 end
 
 AMERICAN_LEADER_TILES = %w[
