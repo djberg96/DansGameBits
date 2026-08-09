@@ -95,7 +95,13 @@ end
 
 def american_flag(x, y, width = 118, height = 62)
   stripes = (0...7).map { |i| "<rect x=\"#{x}\" y=\"#{y + i * height / 7}\" width=\"#{width}\" height=\"#{height / 7.0 + 1}\" fill=\"#{i.even? ? '#d93639' : '#f8eee1'}\"/>" }.join
-  stars = (0...3).map { |row| (0...3).map { |col| "<circle cx=\"#{x + 10 + col * 10}\" cy=\"#{y + 10 + row * 10}\" r=\"1.8\" fill=\"#fff\"/>" }.join }.join
+  # The Continental Colours used a thirteen-star circle rather than a modern grid.
+  stars = (0...13).map do |index|
+    angle = -Math::PI / 2 + index * 2 * Math::PI / 13
+    cx = x + 20 + 12 * Math.cos(angle)
+    cy = y + 18 + 12 * Math.sin(angle)
+    "<text x=\"#{format('%.2f', cx)}\" y=\"#{format('%.2f', cy + 2)}\" fill=\"#fff\" font-family=\"Georgia, serif\" font-size=\"6\" text-anchor=\"middle\">★</text>"
+  end.join
   "<g filter=\"url(#shadow)\"><rect x=\"#{x}\" y=\"#{y}\" width=\"#{width}\" height=\"#{height}\" fill=\"#f8eee1\" stroke=\"#eee\"/>#{stripes}<rect x=\"#{x}\" y=\"#{y}\" width=\"40\" height=\"36\" fill=\"#2d3e8f\"/>#{stars}</g>"
 end
 
