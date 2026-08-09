@@ -32,11 +32,11 @@ AMERICAN_LEADERS = [
 ].freeze
 
 BRITISH_LEADERS = [
-  ['cornwallis', 'Cornwallis', '4', '6', '3', '5'],
-  ['grant-1', 'Grant', '6', '3', '2', '3'],
+  ['cornwallis', 'Cornwallis', '4 6', '6', '3', '5'],
+  ['grant-1', 'Grant', '3 3', '2', '2', '3'],
   ['grant-2', 'Grant', '3', '3', '2', '3'],
   ['webster', 'Webster', '1', '3', '1', '3'],
-  ['leslie', 'Leslie', '2', '4', '2', '3'],
+  ['leslie', 'Leslie', '2 1', '4', '2', '3'],
   ['matthew', 'Matthew', '1', '3', '2', '3'],
   ['vaughan', 'Vaughan', '1', '3', '2', '3'],
   ['light-infantry', 'Light Infantry', '1', '3', '2', '3'],
@@ -51,7 +51,7 @@ BRITISH_LEADERS = [
   ['hessian-detachment-1', '( 1 )', '1', '3', '1', '3'],
   ['hessian-detachment-2', '( 2 )', '1', '3', '1', '3'],
   ['rall', 'Rall', '1', '5', '3', '5'],
-  ['von-donop', 'von Donop', '2', '5', '1', '2']
+  ['von-donop', 'von Donop', '2 1', '5', '2', '2']
 ].freeze
 
 def escape(value)
@@ -91,6 +91,19 @@ end
 def counter_base(faction)
   color = faction == :american ? 'url(#blueTexture)' : 'url(#redTexture)'
   "<rect width=\"300\" height=\"300\" fill=\"#{color}\"/>"
+end
+
+def british_leader_background
+  <<~SVG
+    <rect width="300" height="300" fill="#c84739"/>
+    <g opacity=".42">
+      <path d="M-35 0L300 335M335 0L0 335" stroke="#f4a17f" stroke-width="72"/>
+      <path d="M-35 0L300 335M335 0L0 335" stroke="#a82f2b" stroke-width="31"/>
+      <path d="M150 0V300M0 150H300" stroke="#f29a78" stroke-width="78"/>
+      <path d="M150 0V300M0 150H300" stroke="#b52f2c" stroke-width="35"/>
+    </g>
+    <rect width="300" height="300" fill="url(#redTexture)" opacity=".16"/>
+  SVG
 end
 
 def american_flag(x, y, width = 170, height = 64)
@@ -143,7 +156,7 @@ BRITISH_LEADER_TILES = %w[
 ].freeze
 
 def leader_counter(faction, slug, name, top, left, right, _bottom)
-  base = counter_base(faction)
+  base = faction == :british ? british_leader_background : counter_base(faction)
   band = faction == :american ? '#c9283e' : '#073d4d'
   top_parts = top.split
   star_count = top_parts.count('★')

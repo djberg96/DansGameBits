@@ -21,7 +21,15 @@
       <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".38"/>
     </filter>
   </defs>
-  <rect width="300" height="300" fill="url(#redTexture)"/>
+  <rect width="300" height="300" fill="#c84739"/>
+<g opacity=".42">
+  <path d="M-35 0L300 335M335 0L0 335" stroke="#f4a17f" stroke-width="72"/>
+  <path d="M-35 0L300 335M335 0L0 335" stroke="#a82f2b" stroke-width="31"/>
+  <path d="M150 0V300M0 150H300" stroke="#f29a78" stroke-width="78"/>
+  <path d="M150 0V300M0 150H300" stroke="#b52f2c" stroke-width="35"/>
+</g>
+<rect width="300" height="300" fill="url(#redTexture)" opacity=".16"/>
+
 <text x="43" y="70" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">1</text>
 <rect y="115" width="300" height="50" fill="#073d4d"/>
 <text x="150" y="151" fill="#fff" font-family="Arial, sans-serif" font-size="31" text-anchor="middle">Webster</text>
