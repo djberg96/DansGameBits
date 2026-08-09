@@ -291,7 +291,7 @@ def marker(label, title, subtitle = nil, accent: '#f4ef24', symbol: nil, squares
       #{subtitle_markup}
     </g>
   SVG
-  document(label, body)
+  document(label, body, border: :american)
 end
 
 def trench_counter(faction)
@@ -320,7 +320,7 @@ def transport_counter(label, bottom)
 end
 
 def day_counter
-  document('Day turn', <<~SVG)
+  document('Day turn', <<~SVG, border: :american)
     <rect width="300" height="300" fill="url(#blackTexture)"/>
     <g transform="rotate(45 150 150)">
       <text x="150" y="148" fill="#d6a75e" font-family="Arial, sans-serif" font-size="52" text-anchor="middle">DAY</text>
@@ -329,7 +329,7 @@ def day_counter
 end
 
 def weather_counter
-  document('Weather', <<~SVG)
+  document('Weather', <<~SVG, border: :american)
     <rect width="300" height="300" fill="url(#blackTexture)"/>
     <g transform="rotate(45 150 150)">
       <text x="150" y="150" fill="#e6cd21" font-family="Arial, sans-serif" font-size="37" font-weight="bold" text-anchor="middle">WEATHER</text>
