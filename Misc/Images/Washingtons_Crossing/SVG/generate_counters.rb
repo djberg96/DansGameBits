@@ -270,9 +270,11 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
   document("#{faction.capitalize} leader: #{name}", body, american_leader: faction == :american)
 end
 
-def marker(label, title, subtitle = nil, accent: '#f4ef24', symbol: nil, squares: false, solid_background: false)
+def marker(label, title, subtitle = nil, accent: '#f4ef24', symbol: nil, squares: false, route_symbol: false, solid_background: false)
   symbol_markup = if squares
                     [105, 143, 181].map { |x| "<rect x=\"#{x}\" y=\"96\" width=\"14\" height=\"14\" fill=\"#{accent}\"/>" }.join
+                  elsif route_symbol
+                    "<text x=\"150\" y=\"115\" fill=\"#{accent}\" font-family=\"Arial, sans-serif\" font-size=\"54\" font-weight=\"bold\" text-anchor=\"middle\">!</text>"
                   elsif symbol
                     "<text x=\"150\" y=\"115\" fill=\"#{accent}\" font-family=\"Arial, sans-serif\" font-size=\"42\" text-anchor=\"middle\">#{symbol}</text>"
                   else
@@ -284,7 +286,7 @@ def marker(label, title, subtitle = nil, accent: '#f4ef24', symbol: nil, squares
     #{background}
     <g transform="rotate(45 150 150)">
       #{symbol_markup}
-      <text x="150" y="#{symbol ? 166 : 148}" fill="#{accent}" font-family="Arial, sans-serif" font-size="#{title.length > 9 ? 34 : 43}" font-weight="bold" text-anchor="middle">#{escape(title)}</text>
+      <text x="150" y="#{symbol || route_symbol ? 166 : 148}" fill="#{accent}" font-family="Arial, sans-serif" font-size="#{title.length > 9 ? 34 : 43}" font-weight="bold" text-anchor="middle">#{escape(title)}</text>
       #{subtitle_markup}
     </g>
   SVG
@@ -372,7 +374,7 @@ end
 {
   'fatigue.svg' => marker('Fatigue', 'FATIGUE', '(12.0)', squares: true, solid_background: true),
   'disorder.svg' => marker('Disorder', 'DISORDER', '(18.1)', accent: '#f8edaa', symbol: '?', solid_background: true),
-  'orders.svg' => marker('Orders', 'ORDERS', '(18.3)', symbol: '↪'),
+  'routed.svg' => marker('Routed', 'ROUTED', '(18.2)', accent: '#fff', route_symbol: true, solid_background: true),
   'turn.svg' => marker('Turn', 'TURN', nil, accent: '#b48b53', symbol: '↻'),
   'day.svg' => day_counter,
   'weather.svg' => weather_counter,
