@@ -31,7 +31,7 @@
 <text x="14.33" y="21.67" fill="#fff" font-family="Georgia, serif" font-size="21.33" text-anchor="middle">4</text><text x="35.33" y="25.33" fill="#fff" font-family="Georgia, serif" font-size="15.33" text-anchor="middle">★</text><text x="50" y="25.33" fill="#e4b322" font-family="Georgia, serif" font-size="15.33" text-anchor="middle">★</text><text x="64.67" y="25.33" fill="#fff" font-family="Georgia, serif" font-size="15.33" text-anchor="middle">★</text><text x="85.67" y="21.67" fill="#fff" font-family="Georgia, serif" font-size="21.33" text-anchor="middle">6</text>
 <rect y="37.33" width="100" height="20.67" fill="#c9283e"/>
 <text x="50" y="52" fill="#fff" font-family="Arial, sans-serif" font-size="12.67" font-weight="bold" text-anchor="middle">Washington</text>
-<rect x="37.33" y="58.67" width="25.33" height="12" fill="#f7f6f0"/>
+  <rect x="25" y="58.67" width="50" height="12" fill="#f7f6f0"/>
 <text x="14.33" y="86.67" fill="#fff" font-family="Georgia, serif" font-size="21.33" text-anchor="middle">8</text>
 <text x="85.67" y="89.33" fill="#fff" font-family="Georgia, serif" font-size="21.33" text-anchor="middle">4</text>
 

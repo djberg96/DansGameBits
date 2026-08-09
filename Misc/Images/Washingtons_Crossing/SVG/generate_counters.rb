@@ -254,7 +254,7 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
   end.join
   tile_slugs = faction == :american ? AMERICAN_LEADER_TILES : BRITISH_LEADER_TILES
   tile = if tile_slugs.include?(slug)
-           '<rect x="112" y="176" width="76" height="36" fill="#f7f6f0"/>'
+           '<rect x="75" y="176" width="150" height="36" fill="#f7f6f0"/>'
          else
            ''
          end
