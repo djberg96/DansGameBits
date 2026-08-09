@@ -30,11 +30,11 @@
 </g>
 <rect width="300" height="300" fill="url(#redTexture)" opacity=".16"/>
 
-<text x="43" y="70" fill="#fff" font-family="Georgia, serif" font-size="52" text-anchor="middle">1</text>
-<rect y="115" width="300" height="50" fill="#073d4d"/>
-<text x="150" y="151" fill="#fff" font-family="Arial, sans-serif" font-size="31" text-anchor="middle">Mawhood</text>
+<text x="43" y="78" fill="#fff" font-family="Georgia, serif" font-size="64" text-anchor="middle">1</text>
+<rect y="112" width="300" height="62" fill="#073d4d"/>
+<text x="150" y="156" fill="#fff" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle">Mawhood</text>
 
-<text x="43" y="266" fill="#fff" font-family="Georgia, serif" font-size="56" text-anchor="middle">5</text>
-<text x="257" y="266" fill="#fff" font-family="Georgia, serif" font-size="56" text-anchor="middle">3</text>
+<text x="43" y="275" fill="#fff" font-family="Georgia, serif" font-size="72" text-anchor="middle">5</text>
+<text x="257" y="275" fill="#fff" font-family="Georgia, serif" font-size="72" text-anchor="middle">3</text>
 
 </svg>

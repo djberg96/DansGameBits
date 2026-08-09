@@ -175,11 +175,11 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
       color = slug == 'washington' && star_count == 3 && star_index == 1 ? '#e4b322' : '#fff'
       font_size = slug == 'washington' && star_count == 3 ? 46 : 52
       star_index += 1
-      "<text x=\"#{position}\" y=\"70\" fill=\"#{color}\" font-family=\"Georgia, serif\" font-size=\"#{font_size}\" text-anchor=\"middle\">★</text>"
+      "<text x=\"#{position}\" y=\"76\" fill=\"#{color}\" font-family=\"Georgia, serif\" font-size=\"#{font_size}\" text-anchor=\"middle\">★</text>"
     else
       position = non_stars.length == 1 ? 43 : [43, 257][number_index]
       number_index += 1
-      "<text x=\"#{position}\" y=\"70\" fill=\"#fff\" font-family=\"Georgia, serif\" font-size=\"52\" text-anchor=\"middle\">#{escape(part)}</text>"
+      "<text x=\"#{position}\" y=\"78\" fill=\"#fff\" font-family=\"Georgia, serif\" font-size=\"64\" text-anchor=\"middle\">#{escape(part)}</text>"
     end
   end.join
   tile_slugs = faction == :american ? AMERICAN_LEADER_TILES : BRITISH_LEADER_TILES
@@ -191,11 +191,11 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
   body = <<~SVG
     #{base}
     #{top_markup}
-    <rect y="115" width="300" height="50" fill="#{band}"/>
-    <text x="150" y="151" fill="#fff" font-family="Arial, sans-serif" font-size="31" text-anchor="middle">#{escape(name)}</text>
+    <rect y="112" width="300" height="62" fill="#{band}"/>
+    <text x="150" y="156" fill="#fff" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle">#{escape(name)}</text>
     #{tile}
-    <text x="43" y="266" fill="#fff" font-family="Georgia, serif" font-size="56" text-anchor="middle">#{left}</text>
-    <text x="257" y="266" fill="#fff" font-family="Georgia, serif" font-size="56" text-anchor="middle">#{right}</text>
+    <text x="43" y="275" fill="#fff" font-family="Georgia, serif" font-size="72" text-anchor="middle">#{left}</text>
+    <text x="257" y="275" fill="#fff" font-family="Georgia, serif" font-size="72" text-anchor="middle">#{right}</text>
   SVG
   document("#{faction.capitalize} leader: #{name}", body)
 end
