@@ -8,6 +8,6 @@ counter_dir="$script_dir/../../Counters/Washingtons_Crossing"
 output_dir="$counter_dir/svg-inkscape"
 
 mkdir -p "$output_dir"
-for counter in american-leader-cadwalader british-leader-rall durham-boats; do
+for counter in american-leader-cadwalader british-leader-rall durham-boats washington-leader-display; do
   rsvg-convert -f pdf -o "$output_dir/${counter}_svg-raw.pdf" "$counter_dir/$counter.svg"
 done
