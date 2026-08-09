@@ -270,11 +270,18 @@ def leader_counter(faction, slug, name, top, left, right, _bottom)
   document("#{faction.capitalize} leader: #{name}", body, american_leader: faction == :american)
 end
 
-def marker(label, title, subtitle = nil, accent: '#f4ef24', symbol: nil)
-  symbol_markup = symbol ? "<text x=\"150\" y=\"115\" fill=\"#{accent}\" font-family=\"Arial, sans-serif\" font-size=\"42\" text-anchor=\"middle\">#{symbol}</text>" : ''
+def marker(label, title, subtitle = nil, accent: '#f4ef24', symbol: nil, squares: false, solid_background: false)
+  symbol_markup = if squares
+                    [105, 143, 181].map { |x| "<rect x=\"#{x}\" y=\"96\" width=\"14\" height=\"14\" fill=\"#{accent}\"/>" }.join
+                  elsif symbol
+                    "<text x=\"150\" y=\"115\" fill=\"#{accent}\" font-family=\"Arial, sans-serif\" font-size=\"42\" text-anchor=\"middle\">#{symbol}</text>"
+                  else
+                    ''
+                  end
   subtitle_markup = subtitle ? "<text x=\"150\" y=\"202\" fill=\"#{accent}\" font-family=\"Georgia, serif\" font-size=\"28\" text-anchor=\"middle\">#{escape(subtitle)}</text>" : '<!-- no subtitle -->'
+  background = solid_background ? '<rect width="300" height="300" fill="#101214"/>' : '<rect width="300" height="300" fill="url(#blackTexture)"/>'
   body = <<~SVG
-    <rect width="300" height="300" fill="url(#blackTexture)"/>
+    #{background}
     <g transform="rotate(45 150 150)">
       #{symbol_markup}
       <text x="150" y="#{symbol ? 166 : 148}" fill="#{accent}" font-family="Arial, sans-serif" font-size="#{title.length > 9 ? 34 : 43}" font-weight="bold" text-anchor="middle">#{escape(title)}</text>
@@ -350,8 +357,8 @@ BRITISH_LEADERS.each do |slug, name, top, left, right, bottom|
 end
 
 {
-  'fatigue.svg' => marker('Fatigue', 'FATIGUE', '(12.0)', symbol: '✦'),
-  'routed.svg' => marker('Routed', 'ROUTED', '(18.2)', accent: '#fff', symbol: '↗'),
+  'fatigue.svg' => marker('Fatigue', 'FATIGUE', '(12.0)', squares: true, solid_background: true),
+  'disorder.svg' => marker('Disorder', 'DISORDER', '(18.2)', accent: '#f8edaa', symbol: '↗', solid_background: true),
   'orders.svg' => marker('Orders', 'ORDERS', '(18.3)', symbol: '↪'),
   'turn.svg' => marker('Turn', 'TURN', nil, accent: '#b48b53', symbol: '↻'),
   'day.svg' => day_counter,
