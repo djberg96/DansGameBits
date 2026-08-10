@@ -128,7 +128,7 @@ end
 
 def scale_to_counter_size(svg)
   scaled = svg.sub('viewBox="0 0 300 300"', 'viewBox="0 0 100 100"')
-  scaled = scaled.gsub(/((?:x|y|width|height|font-size|stroke-width|letter-spacing|dx|dy|stdDeviation)=")(-?\d+(?:\.\d+)?)(?=")/) do
+  scaled = scaled.gsub(/((?:x|y|width|height|r|font-size|stroke-width|letter-spacing|dx|dy|stdDeviation)=")(-?\d+(?:\.\d+)?)(?=")/) do
     "#{$1}#{scaled_number($2)}"
   end
   scaled = scaled.gsub(/(rotate\(\s*-?\d+(?:\.\d+)?\s+)(-?\d+(?:\.\d+)?)(\s+)(-?\d+(?:\.\d+)?)(\s*\))/) do
@@ -321,20 +321,32 @@ end
 
 def day_counter
   document('Day turn', <<~SVG, border: :american)
-    <rect width="300" height="300" fill="url(#blackTexture)"/>
+    <rect width="300" height="300" fill="#101214"/>
     <g transform="rotate(45 150 150)">
-      <text x="150" y="148" fill="#d6a75e" font-family="Arial, sans-serif" font-size="52" text-anchor="middle">DAY</text>
+      <text x="150" y="176" fill="#c99352" font-family="Arial, sans-serif" font-size="78" font-weight="bold" text-anchor="middle">DAY</text>
+    </g>
+  SVG
+end
+
+def turn_counter
+  document('Turn', <<~SVG, border: :american)
+    <rect width="300" height="300" fill="#101214"/>
+    <g transform="rotate(45 150 150)">
+      <text x="150" y="174" fill="#c99352" font-family="Arial, sans-serif" font-size="69" font-weight="bold" text-anchor="middle">TURN</text>
     </g>
   SVG
 end
 
 def weather_counter
   document('Weather', <<~SVG, border: :american)
-    <rect width="300" height="300" fill="url(#blackTexture)"/>
+    <rect width="300" height="300" fill="#101214"/>
     <g transform="rotate(45 150 150)">
-      <text x="150" y="150" fill="#e6cd21" font-family="Arial, sans-serif" font-size="37" font-weight="bold" text-anchor="middle">WEATHER</text>
-      <text x="113" y="208" fill="#e6cd21" font-family="Arial, sans-serif" font-size="35">☀</text>
-      <text x="168" y="208" fill="#e6cd21" font-family="Arial, sans-serif" font-size="35">❄</text>
+      <circle cx="150" cy="61" r="24" fill="#f4d022"/>
+      <text x="150" y="170" fill="#c99352" font-family="Arial, sans-serif" font-size="50" font-weight="bold" text-anchor="middle">WEATHER</text>
+      <g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round">
+        <path d="M150 220V278M124 235L176 265M176 235L124 265"/>
+        <path d="M150 220l-10 12M150 220l10 12M124 235l16 1M124 235l4 15M176 235l-16 1M176 235l-4 15M150 278l-10-12M150 278l10-12M124 265l16-1M124 265l4-15M176 265l-16-1M176 265l-4-15"/>
+      </g>
     </g>
   SVG
 end
@@ -376,7 +388,7 @@ end
   'fatigue.svg' => marker('Fatigue', 'FATIGUE', '(12.0)', squares: true, solid_background: true),
   'disorder.svg' => marker('Disorder', 'DISORDER', '(18.1)', accent: '#f8edaa', symbol: '?', solid_background: true),
   'routed.svg' => marker('Routed', 'ROUTED', '(18.2)', accent: '#fff', route_symbol: true, solid_background: true),
-  'turn.svg' => marker('Turn', 'TURN', nil, accent: '#b48b53', symbol: '↻'),
+  'turn.svg' => turn_counter,
   'day.svg' => day_counter,
   'weather.svg' => weather_counter,
   'dawn-attack.svg' => points_counter('Dawn Attack', 'DAWN', '#f9d334')
