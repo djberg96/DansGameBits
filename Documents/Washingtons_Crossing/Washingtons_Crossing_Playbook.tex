@@ -76,7 +76,7 @@
 \newcommand{\leadercounterdiagram}{%
   \begin{figure}[htbp]
     \centering
-    \scalebox{0.80}{%
+    \scalebox{0.75}{%
     \begin{tikzpicture}[font=\footnotesize, >=latex, counterarrow/.style={->,draw=gray!75,line width=0.45pt}]
       \node[inner sep=0] (commander) at (0,0) {\countergraphic{american-leader-cadwalader}{2.25cm}};
       \node[font=\bfseries, above=1.05cm of commander] {Commanding Leader};
@@ -107,7 +107,7 @@
   \setlength{\intextsep}{4pt}%
   \begin{figure}[H]
     \centering
-    \scalebox{0.90}{%
+    \scalebox{0.85}{%
     \begin{tikzpicture}[x=1cm,y=1cm,font=\scriptsize,>=latex,
       commandarrow/.style={->,draw=black,line width=0.45pt},
       commandline/.style={draw=black,line width=0.45pt}]
@@ -210,6 +210,8 @@ This playbook presents an example of the Campaign Game of \textit{Washington's C
 The primary maneuver pieces in the game are leaders. There are two leader displays in the game, one for the British player and one for the American player. Troop strengths and fatigue are tracked on the leader display. The number in parentheses next to Washington's name is the maximum number of troops he may have assigned to him: 140.
 
 \counterimage{washington-leader-display}{0.9\linewidth}{Leader display.}
+
+Note that in practice you may find it easier to use a spreadsheet and pencil instead of the leader display. There are player aids both on the Revolution Games website as well as Boardgamegeek that you can use.
 
 There are two types of leaders: those who can command other leaders (Commanding Leaders) and those who cannot (Subordinate Leaders).
 
@@ -383,7 +385,7 @@ The American player rolls a 2 on the Raid Table, which indicates that a raid is 
     \rowcolor{black!10}\textbf{Die Roll} & \textbf{Result} \\
     \hline
     0--2 & Raid --- consult Raid Leader Table \\ \hline
-    3--6 & No effect \\ \hline
+    3--9 & No effect \\ \hline
   \end{tabular}
   \par\medskip
   \charttitle{B. Raid Leader Table (8.0)}
