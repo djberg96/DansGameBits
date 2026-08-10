@@ -34,6 +34,13 @@
     \caption{#2}
   \end{figure}%
 }
+\newcommand{\anchoredplayimage}[2]{%
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth,height=0.82\textheight,keepaspectratio]{#1}
+    \caption{#2}
+  \end{figure}%
+}
 \newcommand{\countergraphic}[2]{%
   \includesvg[width=#2]{../../Counters/Washingtons_Crossing/#1}%
 }
@@ -510,9 +517,10 @@ Washington's stack has 2,890 troops attacking Rall's 1,250. First determine Surp
 
 \begin{playchart}[0.72\linewidth]
   \charttitle{Surprise Table (17.1)}
-  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.38\linewidth}|>{\centering\arraybackslash}p{0.25\linewidth}|>{\centering\arraybackslash}p{0.25\linewidth}|}
+  {\renewcommand{\arraystretch}{1.30}
+  \begin{tabular}{|>{\raggedright\arraybackslash}m{0.38\linewidth}|>{\centering\arraybackslash}m{0.25\linewidth}|>{\centering\arraybackslash}m{0.25\linewidth}|}
     \hline
-    \rowcolor{black!10}\textbf{\shortstack[l]{Modified\\Die Roll *}} & \textbf{CRT Modifier} & \textbf{Attacker \%} \\
+    \rowcolor{black!10}\textbf{\shortstack[l]{\strut Modified\\[-0.15em]Die Roll *\strut}} & \textbf{CRT Modifier} & \textbf{Attacker \%} \\
     \hline
     $-4$ or less & $-6$ & +15 \\ \hline
     $-3$ & $-5$ & +10 \\ \hline
@@ -526,10 +534,11 @@ Washington's stack has 2,890 troops attacking Rall's 1,250. First determine Surp
     8--9 & +2 & $-5$ \\ \hline
     10 & +3 & $-5$ \\ \hline
     11 & +3 & $-10$ \\ \hline
-    12 & +4 & $-10$ \\ \hline
+    \rowcolor{yellow!20}12 & +4 & $-10$ \\ \hline
     13 & +5 & $-10$ \\ \hline
     14 or more & +6 & $-15$ \\ \hline
   \end{tabular}
+  }
   \chartcaption{Surprise Table (17.1).}
 \end{playchart}
 
@@ -539,7 +548,7 @@ Rall takes 60\% of 1,250, or 750 casualties, leaving 500. The exclamation mark m
 
 Washington must advance after combat into Trenton and may continue moving with troops that still have movement points. The other leaders with troops rolled 6 and have used all 6, so only Washington and Greene, who always have 13, can keep moving. The American player is content with their positions and halts in Trenton. Washington, Glover, Sargent, Lord Stirling, and Fermoy gain 2 fatigue: 1 for moving and 1 for attacking. Washington, Glover, and Sargent are at 2; Fermoy and Lord Stirling are at 4. Greene has no troops assigned and gains none. The American player earns 6 victory points for a major victory. Sullivan moves to 2130. Since he has no troops assigned and activated no other leaders, he may activate for free and move 13 without fatigue.
 
-\playimage{WC_Turn3_files/Rall_attack_SpxH.JPG}{Attack on Rall at Trenton.}
+\mediumplayimage{WC_Turn3_files/Rall_attack_SpxH.JPG}{Attack on Rall at Trenton.}
 
 The American player may now activate by die roll one leader with an activation cost of 2 or less, on day turns only. He tries Detachment 4, with leadership rating 3, so must roll 3 or less. A roll of 2 activates the detachment. It rolls 7 movement points, moves to 2346, and reaches fatigue 1.
 
@@ -582,9 +591,9 @@ The American army is waiting for night to rest, moving only leaders who are ligh
 
 The British are moving the Hessian detachments north to put distance between themselves and Washington's main force. von Donop is trying to attack one of the smaller American forces before it can be reinforced or dig in. Now that Griffin has met Detachment 4 and begun to dig, both sides must decide whether this is the time and place for a battle on the next morning.
 
-\playimage{WC_turn4_files/North_Turn4_HlS6.JPG}{Situation after Turn 4: British northern positions.}
-\playimage{WC_turn4_files/Central_Turn4_HlS6.JPG}{Situation after Turn 4: American central position.}
-\playimage{WC_turn4_files/southern_turn4_HlS6.JPG}{Situation after Turn 4: Southern Front.}
+\mediumplayimage{WC_turn4_files/North_Turn4_HlS6.JPG}{Situation after Turn 4: British northern positions.}
+\anchoredplayimage{WC_turn4_files/Central_Turn4_HlS6.JPG}{Situation after Turn 4: American central position.}
+\mediumplayimage{WC_turn4_files/southern_turn4_HlS6.JPG}{Situation after Turn 4: Southern Front.}
 
 \clearpage
 \section{Turn 5: December 26, 1776, 7 p.m. (Night Turn)}
