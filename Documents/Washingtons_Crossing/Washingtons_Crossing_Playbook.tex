@@ -69,6 +69,7 @@
 \newcommand{\leadercounterdiagram}{%
   \begin{figure}[htbp]
     \centering
+    \scalebox{0.80}{%
     \begin{tikzpicture}[font=\footnotesize, >=latex, counterarrow/.style={->,draw=gray!75,line width=0.45pt}]
       \node[inner sep=0] (commander) at (0,0) {\countergraphic{american-leader-cadwalader}{2.25cm}};
       \node[font=\bfseries, above=1.05cm of commander] {Commanding Leader};
@@ -90,12 +91,16 @@
       \node[anchor=east] (subrating) at (7.4,-1.45) {Leader Rating};
       \draw[counterarrow] (subrating.east) -- (subordinate.south west);
     \end{tikzpicture}
+    }
     \caption{Leader counters and their values.}
   \end{figure}%
 }
 \newcommand{\americancommanddiagram}{%
-  \begin{figure}[htbp]
+  \begingroup
+  \setlength{\intextsep}{4pt}%
+  \begin{figure}[H]
     \centering
+    \scalebox{0.90}{%
     \begin{tikzpicture}[x=1cm,y=1cm,font=\scriptsize,>=latex,
       commandarrow/.style={->,draw=black,line width=0.45pt},
       commandline/.style={draw=black,line width=0.45pt}]
@@ -146,8 +151,10 @@
 
       \node[align=left,anchor=west,font=\footnotesize] at (0.2,-11.65) {AP = Activation Point Cost\\CS = Command Span Used};
     \end{tikzpicture}
+    }
     \caption{Example of Washington's maximum command.}
   \end{figure}%
+  \endgroup
 }
 \newcommand{\washingtonsetupdiagram}{%
   \begin{figure}[htbp]
@@ -180,7 +187,10 @@
 
 \begin{document}
 \maketitle
+\begingroup
+\setlength{\parskip}{0pt}
 \tableofcontents
+\endgroup
 
 \section{Introduction}
 
