@@ -8,6 +8,7 @@
 \usepackage{tikz}
 \usetikzlibrary{positioning}
 \usepackage{caption}
+\usepackage{float}
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{array}
@@ -23,6 +24,13 @@
   \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.9\linewidth,height=0.82\textheight,keepaspectratio]{#1}
+    \caption{#2}
+  \end{figure}%
+}
+\newcommand{\mediumplayimage}[2]{%
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\linewidth,height=0.38\textheight,keepaspectratio]{#1}
     \caption{#2}
   \end{figure}%
 }
@@ -442,13 +450,13 @@ The American player receives 8 activation points, as in every 12 a.m. turn excep
 
 The American player starts by rolling for Stephen's movement. This turn Stephen uses his own leadership value of 4 because he was not activated by another leader. He receives 6 movement points and again tries to cross the Delaware River to hex 1329. This time he rolls a 6, and a maximum of 2,000 troops may cross the Ferry. Stephen moves to 1329, using 4 movement points for the Ferry crossing, 1 for hex 1329, and 1 for 1328.
 
-\playimage{WC_Turn2_files/Stephen_Crossing_haxh.JPG}{Stephen's crossing.}
+\mediumplayimage{WC_Turn2_files/Stephen_Crossing_haxh.JPG}{Stephen's crossing.}
 
 Dickinson rolls for movement, gets 6 movement points, and tries to cross the Delaware River to hex 1930. His modified 8 on the one-Ferry column allows 1,250 troops to cross. Dickinson has only 400 troops, so he enters 1930, using 4 movement points for the Ferry, 1 for the hex, and 1 for Rall's Zone of Control in Trenton.
 
 Ewing rolls 8 movement points and attempts to cross to hex 2130. A modified 5 allows 500 troops to cross, but Ewing has 720 troops. The rules require the American player to cross as many troops as possible from the unit attempting the crossing. Ewing crosses with 500 and leaves Detachment Militia No. 5, with 220 troops, behind. Ewing ends in 2130, cutting off Rall's retreat and remaining next to the Ferry in the hope of getting his remaining troops across in later turns. The detachment has also finished moving, because when a detachment is created during movement, either the parent unit or the detachment must cease moving. Ewing continued, so the detachment is done moving.
 
-\playimage{WC_Turn2_files/EwingMove_haxh.JPG}{Ewing's move and Detachment Militia No. 5.}
+\mediumplayimage{WC_Turn2_files/EwingMove_haxh.JPG}{Ewing's move and Detachment Militia No. 5.}
 
 St. Clair, Lord Stirling, and Fermoy roll together because they are stacked and activated by the same leader, receiving 9 movement points. Fermoy tries to cross to hex 1630; a modified 6 allows 1,500 troops to cross, and Fermoy has 620. Fermoy continues to 1629. It is a good idea to check the river crossing with a single leader so that, if it goes poorly, other leaders have not spent the 4 movement points for a crossing attempt or fatigued themselves. Lord Stirling, with 570 troops, also moves to 1629. St. Clair, with 420 troops, cannot get all his troops across because only 310 capacity remains, so he chooses not to move. Mercer rolls 9 movement points and moves to 2129, cutting off another hex of Rall's potential retreat.
 
