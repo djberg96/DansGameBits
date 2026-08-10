@@ -141,6 +141,30 @@
     \caption{Example of Washington's maximum command.}
   \end{figure}%
 }
+\newcommand{\washingtonsetupdiagram}{%
+  \begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[font=\small]
+      \fill[black!12,rounded corners=4pt] (-5.55,0.95) rectangle (5.55,-5.35);
+      \node[font=\large] at (0,0.42) {Within one hex of 1335};
+
+      \node[inner sep=0] at (-3.5,-1.15) {\countergraphic{american-leader-lord-stirling}{1.35cm}};
+      \node[inner sep=0] at (0,-1.15) {\countergraphic{american-leader-st-clair}{1.35cm}};
+      \node[inner sep=0] at (3.5,-1.15) {\countergraphic{american-leader-fermoy}{1.35cm}};
+      \node at (-3.5,-2.15) {\textbf{Troops:} 570};
+      \node at (0,-2.15) {\textbf{Troops:} 420};
+      \node at (3.5,-2.15) {\textbf{Troops:} 620};
+
+      \node[inner sep=0] at (-3.5,-3.45) {\countergraphic{american-leader-glover}{1.35cm}};
+      \node[inner sep=0] at (0,-3.45) {\countergraphic{american-leader-sargent}{1.35cm}};
+      \node[inner sep=0] at (3.5,-3.45) {\countergraphic{american-leader-washington}{1.35cm}};
+      \node at (-3.5,-4.45) {\textbf{Troops:} 850};
+      \node at (0,-4.45) {\textbf{Troops:} 710};
+      \node at (3.5,-4.45) {\textbf{Troops:} 140};
+    \end{tikzpicture}
+    \caption{Washington's initial setup.}
+  \end{figure}%
+}
 
 \title{Washington's Crossing\\\large Campaign Game Example of Play}
 \author{Roger Miller (original example)\\\small Collated from the locally archived Revolution Games web pages}
@@ -227,7 +251,7 @@ Right away, the American player must decide where to place his Durham Boats. He 
 
 \playimage{WC_GameSetup_files/DurhamBoatLocations_hY4C.JPG}{Possible Durham Boat locations.}
 
-\playimage{WC_GameSetup_files/WashingtonSetup_hY4C.JPG}{Washington's initial setup.}
+\washingtonsetupdiagram
 
 Washington, Sargent, Glover, Fermoy, St. Clair, and Lord Stirling all start within one hex of Newtown. All leaders except Lord Stirling are placed in 1434, planning to move to 1631 and cross the river at Howell's and Yardley's Ferry with the assistance of the Durham Boats (red arrow). Lord Stirling is placed in 1334, planning to move to 1330 and cross the river at Johnson's and McConkey's Ferry (red arrow).
 

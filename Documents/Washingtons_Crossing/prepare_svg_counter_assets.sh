@@ -13,6 +13,7 @@ for counter in \
   american-leader-cadwalader \
   american-leader-dickinson \
   american-leader-fermoy \
+  american-leader-glover \
   american-leader-greene \
   american-leader-hitchcock \
   american-leader-lord-stirling \
@@ -20,6 +21,7 @@ for counter in \
   american-leader-mercer \
   american-leader-mifflin \
   american-leader-sargent \
+  american-leader-st-clair \
   american-leader-sullivan \
   american-leader-washington \
   british-leader-rall \
