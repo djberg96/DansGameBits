@@ -76,10 +76,10 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
   \node[inner sep=0] (unit) at (1.16,.57)
     {\includegraphics[width=.66in]{images/rulebook-counters/urry-front.pdf}};
   \node[inner sep=0] at (2.66,.57)
-    {\includegraphics[width=.55in]{images/rulebook-counters/urry-back.pdf}};
+    {\includegraphics[width=.66in]{images/rulebook-counters/urry-back.pdf}};
 
   \node[piece label,anchor=west] (uname) at (.02,1.01) {Name};
-  \draw[piece lead] (uname.east) -- (1.16,.82);
+  \draw[piece lead] (uname.east) -- (1.09,.76);
   \node[piece label,anchor=west] (utype) at (.02,.70) {Type};
   \draw[piece lead] (utype.east) -- (1.03,.59);
   \node[piece label,anchor=east] (usetup) at (2.10,1.01) {Set-up Hex};
@@ -102,7 +102,7 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
     {\includegraphics[width=.66in]{images/rulebook-counters/cromwell-leader-front.pdf}};
 
   \node[piece label,anchor=west] (lname) at (.02,1.01) {Name};
-  \draw[piece lead] (lname.east) -- (1.16,.82);
+  \draw[piece lead] (lname.east) -- (1.01,.76);
   \node[piece label,anchor=west] (ltype) at (.02,.68) {Leader Type\\Symbol};
   \draw[piece lead] (ltype.east) -- (1.03,.58);
   \node[piece label,anchor=east] (lsetup) at (2.10,1.01) {Set-up Hex};
@@ -124,7 +124,7 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
   \node[inner sep=0] at (1.16,.54)
     {\includegraphics[width=.66in]{images/rulebook-counters/leven-artillery-1-front.pdf}};
   \node[inner sep=0] at (2.66,.54)
-    {\includegraphics[width=.55in]{images/rulebook-counters/leven-artillery-1-back.pdf}};
+    {\includegraphics[width=.66in]{images/rulebook-counters/leven-artillery-1-back.pdf}};
 
   \node[piece label,anchor=west] (atype) at (.02,.67) {Artillery\\Type Symbol};
   \draw[piece lead] (atype.east) -- (1.14,.52);
@@ -132,9 +132,9 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
   \draw[piece lead] (asetup.west) -- (1.16,.67);
 
   \node[piece label] at (1.16,1.00) {Front (ready)};
-  \node[piece label] at (2.66,1.12) {Back (captured)};
-  \node[piece label,anchor=south] (abcaptured) at (2.66,.86) {Indicates\\Captured};
-  \draw[piece lead] (abcaptured.south) -- (2.66,.63);
+  \node[piece label] at (2.66,1.00) {Back (captured)};
+  \node[piece label,anchor=east] (abcaptured) at (2.18,.69) {Indicates\\Captured};
+  \draw[piece lead] (abcaptured.east) -- (2.50,.69);
 \end{tikzpicture}
 \endgroup
 \end{tcolorbox}
