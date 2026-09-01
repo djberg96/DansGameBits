@@ -15,6 +15,10 @@ rsvg-convert -f pdf -o "$output_dir/urry-back.pdf" \
   "$counter_dir/Rupert/urry_back.svg"
 rsvg-convert -f pdf -o "$output_dir/cromwell-leader-front.pdf" \
   "$counter_dir/Manchester/cromwell_leader.svg"
+rsvg-convert -f pdf -o "$output_dir/rupert-leader.pdf" \
+  "$counter_dir/Rupert/rupert_leader.svg"
+rsvg-convert -f pdf -o "$output_dir/leven-leader.pdf" \
+  "$counter_dir/Leven/leven_leader.svg"
 rsvg-convert -f pdf -o "$output_dir/leven-artillery-1-front.pdf" \
   "$counter_dir/Leven/artillery_1.svg"
 rsvg-convert -f pdf -o "$output_dir/leven-artillery-1-back.pdf" \
