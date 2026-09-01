@@ -1,0 +1,80 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[letterpaper,margin=.48in,top=.55in,bottom=.52in]{geometry}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\definecolor{cvblue}{HTML}{243746}
+\definecolor{cvred}{HTML}{7A2E2E}
+\definecolor{cvsand}{HTML}{F0EBE1}
+\definecolor{cvink}{HTML}{202020}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=cvred,
+  pdftitle={Cromwell's Victory Player Aid},
+  pdfsubject={Sequence of play, charts, and tables},
+  pdfauthor={Daniel J. Berger}
+}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcommand{\dash}{\textemdash}
+\newcommand{\refnum}[1]{{\sffamily\bfseries\color{cvred}[#1]}}
+\newcommand{\aidheading}[1]{%
+  \par\smallskip\noindent
+  {\sffamily\bfseries\color{cvblue}#1}\par
+  \vspace{1pt}{\color{cvred}\rule{\linewidth}{.45pt}}\vspace{2pt}}
+\newcommand{\phaseheading}[2]{%
+  \noindent{\sffamily\bfseries\color{cvblue}#1}\hfill
+  {\sffamily\bfseries\small\color{cvred}#2}\par}
+
+\newtcolorbox{aidbox}[1]{
+  enhanced,
+  colback=cvsand!42,
+  colframe=cvblue!65,
+  boxrule=.45pt,
+  arc=1pt,
+  left=5pt,right=5pt,top=4pt,bottom=4pt,
+  before skip=4pt,after skip=5pt,
+  title={\sffamily\bfseries\small #1},
+  coltitle=white,
+  colbacktitle=cvblue
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{.22em plus .08em minus .05em}
+\setlength{\columnsep}{.24in}
+\setlength{\columnseprule}{.2pt}
+\renewcommand{\columnseprulecolor}{\color{cvblue!24}}
+\renewcommand{\arraystretch}{1.08}
+\setlist[itemize]{leftmargin=1.12em,itemsep=.12em,topsep=.14em,parsep=0pt}
+\setlist[enumerate]{leftmargin=1.3em,itemsep=.12em,topsep=.14em,parsep=0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\small\color{cvblue}CROMWELL'S VICTORY}
+\fancyhead[R]{\sffamily\small\color{cvblue}PLAYER AID}
+\fancyfoot[C]{\sffamily\small\thepage}
+\renewcommand{\headrulewidth}{.35pt}
+\setlength{\headheight}{14pt}
+
+\begin{document}
+
+\input{player-aid-sections/01-sequence-of-play}
+\clearpage
+\input{player-aid-sections/02-movement-visibility-rally}
+\clearpage
+\input{player-aid-sections/03-artillery-combat}
+
+\end{document}

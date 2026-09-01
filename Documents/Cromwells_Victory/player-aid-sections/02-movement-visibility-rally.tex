@@ -1,0 +1,113 @@
+{\sffamily\bfseries\fontsize{23}{25}\selectfont\color{cvblue}
+  Movement, Visibility \& Rally}\par
+\vspace{2pt}{\color{cvred}\rule{\textwidth}{1pt}}
+
+\aidheading{Terrain Effects Chart \hfill \refnum{8.6--8.8, 10.1--10.3}}
+
+\begin{tcolorbox}[colback=cvsand!28,colframe=cvblue,boxrule=.55pt,arc=1pt,left=7pt,right=7pt,top=6pt,bottom=6pt]
+\fontsize{8.2}{9.2}\selectfont
+\begin{tabularx}{\textwidth}{@{}XYYY@{}}
+  \toprule
+  \textbf{Action Type} & \multicolumn{3}{c}{\textbf{Unit Type MP Cost}} \\
+  \cmidrule(l){2-4}
+  & \textbf{Foot} & \textbf{Light Horse} & \textbf{Heavy Horse} \\
+  \midrule
+  Enter Clear Hex & 1 & 1 & 1 \\
+  Enter Hilltop Hex & 1 & 1 & 1 \\
+  Enter Slope Hex & 1 & 1 & 1 \\
+  Enter Woods Hex & 2 & P & P \\
+  Enter Town Hex & P & P & P \\
+  Enter Marsh Hex & 2 & 2 & 3 \\
+  Enter Train Hex & 2 & 2 & 2 \\
+  Enter Close Hex & 2 & 3 & 3 \\
+  Enter Any Hex (except Town) via Lane Hexside & 1 & 1 & 1 \\
+  Cross Stream Hexside & +2 & +2 & +3 \\
+  Cross Ditch Hexside & +2 & +3 & +4 \\
+  Cross Slope Hexside & \dash & +1 & +1 \\
+  \midrule
+  \textbf{Action Type} & \multicolumn{3}{c}{\textbf{Attacking Effects}} \\
+  \cmidrule(l){2-4}
+  & \textbf{Foot} & \textbf{Light Horse} & \textbf{Heavy Horse} \\
+  \midrule
+  Attack into/out of Clear Hex & \dash & \dash & C \\
+  Attack into/out of Hilltop Hex & \dash & \dash & C \\
+  Attack into/out of Slope Hex & \dash & \dash & C \\
+  Attack into/out of Train Hex & \dash & \dash & \dash \\
+  Attack into/out of Close Hex & \dash & \dash & \dash \\
+  Attack into Woods Hex & \dash & P & P \\
+  Attack into Town Hex & P & P & P \\
+  Attack out of Marsh Hex & H & H & H \\
+  Attack Across Ditch Hexside & H & H & HC \\
+  Attack Across Stream Hexside & H & H & HC \\
+  Attack Up Across Slope Hexside & H & H & HC \\
+  Attack Down Across Slope Hexside & \dash & \dash & \dash \\
+  \bottomrule
+\end{tabularx}
+
+\smallskip
+\textbf{Key:} \textbf{\#} = MP cost to enter. \textbf{+\#} = additional hexside cost. \textbf{P} = prohibited. \textbf{H} = halve this unit's combat strength. \textbf{C} = Heavy Horse may charge into, out of, or across this terrain. Apply charge and halving modifiers to each unit before combining strengths.
+\end{tcolorbox}
+
+\vspace{3pt}
+\begin{minipage}[t]{.49\textwidth}\vspace{0pt}
+\begin{aidbox}{Visibility Check \hfill \normalfont\small Rules 5.0}
+\fontsize{8.1}{9.2}\selectfont
+Turns 1--6 are automatically \textbf{Clear}. On turns 7--12 the Royalist player rolls one die:
+
+\begin{tabularx}{\linewidth}{@{}lY@{}}
+  \toprule
+  \textbf{Game Turn} & \textbf{Modifier} \\
+  \midrule
+  7 & +0 \\
+  8--9 & +2 \\
+  10 & +3 \\
+  11 & +4 \\
+  12 & +5 \\
+  \bottomrule
+\end{tabularx}
+
+\smallskip
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+  \toprule
+  \textbf{Modified Roll} & \textbf{Visibility} \\
+  \midrule
+  1--3 & Clear: no effect \\
+  4--5 & Obscured: ordered Foot MA halved; +1 to rally rolls \\
+  6+ & Minimal: Obscured effects; artillery range 2; Heavy Horse charge requires a same-force leader stacked or adjacent at the end of movement \\
+  \bottomrule
+\end{tabularx}
+
+\smallskip
+\textbf{First unmodified 6 only \refnum{5.4}:} Treat visibility as Clear; skip both Rally and Artillery phases; $-2$ to all Combat Table rolls; disrupt attackers that remain ordered after combat.
+\end{aidbox}
+\end{minipage}\hfill
+\begin{minipage}[t]{.49\textwidth}\vspace{0pt}
+\begin{aidbox}{Rally Check \hfill \normalfont\small Rules 6.0}
+\fontsize{8.1}{9.2}\selectfont
+\textbf{Modified morale target:}
+
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+  \toprule
+  Printed morale & base \\
+  Same-force leader in/adjacent & + command \\
+  Foot in Close & +2 \\
+  Unit in friendly Train & +1 \\
+  Unit in enemy Train & $-2$ \\
+  \bottomrule
+\end{tabularx}
+
+\smallskip
+Roll one die; add \textbf{+1 to the roll} in Obscured or Minimal visibility. A modified roll less than or equal to modified morale rallies the unit. Rolls above 6 count as 6.
+
+\textbf{Ineligible if \refnum{6.2}:}
+\begin{itemize}
+  \item Adjacent to an ordered enemy, unless the disrupted unit is Foot in woods, close, or train and every adjacent ordered enemy is Horse.
+  \item Part of a demoralized army, unless stacked with a same-force leader or exempt under 6.2/13.2.
+\end{itemize}
+
+Every eligible disrupted unit must check once in its friendly Rally phase.
+\end{aidbox}
+\end{minipage}
+
+\vfill
+{\footnotesize\color{cvink!80}\textbf{Movement reminders \refnum{8.0}:} Leaders ignore hexside costs and pay 1 MP per entered hex. Disrupted units use the reverse-side movement allowance as a number of hexes and ignore applicable terrain costs. Enemy ZOCs do not restrict movement. Artillery cannot move.}

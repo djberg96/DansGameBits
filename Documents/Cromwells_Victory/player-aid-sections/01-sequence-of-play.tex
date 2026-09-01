@@ -1,0 +1,110 @@
+\thispagestyle{fancy}
+
+{\sffamily\bfseries\fontsize{27}{29}\selectfont\color{cvblue}
+  CROMWELL'S VICTORY}\par
+{\sffamily\bfseries\Large\color{cvred}Sequence of Play}\par
+\vspace{2pt}{\color{cvred}\rule{\textwidth}{1pt}}
+
+\begin{aidbox}{Game Turn Sequence \hfill \normalfont\small Rules 4.0}
+\begin{minipage}[t]{.485\textwidth}
+\begin{enumerate}[label=\textbf{\arabic*.},leftmargin=1.4em,itemsep=.16em]
+  \item \textbf{Visibility Phase} \hfill \refnum{5.0}
+  \item \textbf{Allied Rally Phase} \hfill \refnum{6.0}
+  \item \textbf{Allied Artillery Phase} \hfill \refnum{7.0}
+  \item \textbf{Allied March Phase} \hfill \refnum{8.0}
+  \item \textbf{Allied Combat Phase} \hfill \refnum{9.0--11.0}
+\end{enumerate}
+\end{minipage}\hfill
+\begin{minipage}[t]{.485\textwidth}
+\begin{enumerate}[label=\textbf{\arabic*.},leftmargin=1.55em,itemsep=.16em,start=6]
+  \item \textbf{Royalist Rally Phase} \hfill \refnum{6.0}
+  \item \textbf{Royalist Artillery Phase} \hfill \refnum{7.0}
+  \item \textbf{Royalist March Phase} \hfill \refnum{8.0}
+  \item \textbf{Royalist Combat Phase} \hfill \refnum{9.0--11.0}
+  \item \textbf{Game Turn Record Phase} \hfill \refnum{4.0}
+\end{enumerate}
+\end{minipage}
+\end{aidbox}
+
+\begingroup
+\fontsize{8.25}{9.35}\selectfont
+\begin{multicols}{2}
+
+\phaseheading{1. Visibility Phase}{5.0}
+Turns 1--6 are Clear; skip the phase. On turns 7--12 the Royalist player rolls one die, applies the turn modifier, and determines visibility from the table on page 2. The result lasts for the entire turn.
+
+The \emph{first} unmodified 6 rolled for visibility instead triggers the special rule in 5.4: visibility is Clear; skip both Rally and both Artillery phases; apply $-2$ to every Combat Table roll; disrupt every attacking unit that remains ordered after its combat.
+
+\begin{aidbox}{2/6. Rally Phases \hfill \normalfont\small Rules 6.0, 12.4--12.6}
+The active player \textbf{must} check every eligible disrupted unit.
+\begin{enumerate}[label=\textbf{\arabic*.}]
+  \item Start with the unit's printed morale.
+  \item Add one same-force leader's command rating if that leader is in or adjacent to the unit's hex.
+  \item Apply terrain/train modifiers from page 2.
+  \item Roll one die; add 1 in Obscured or Minimal visibility. A modified roll $\leq$ modified morale rallies the unit.
+\end{enumerate}
+Units adjacent to ordered enemies normally cannot rally. Demoralized units normally require a same-force leader stacked in their hex. See 6.2 and 13.6 for exceptions.
+\end{aidbox}
+
+\begin{aidbox}{3/7. Artillery Phases \hfill \normalfont\small Rules 7.0}
+Each controlled artillery piece may bombard one enemy unit. Resolve one bombardment completely before declaring the next.
+\begin{enumerate}[label=\textbf{\arabic*.}]
+  \item Trace the shortest straight-line range and check LOS.
+  \item Roll one die; add 1 if the target is in woods, close, or train terrain.
+  \item Cross-index range and modified roll on the Artillery Table (page 3).
+\end{enumerate}
+Artillery can only disrupt an ordered target; a Dd against an already disrupted target has no effect. Artillery and leaders are never affected. Minimal visibility limits range to 2 hexes.
+\end{aidbox}
+
+\begin{aidbox}{4/8. March Phases \hfill \normalfont\small Rules 8.0, 11.8, 12.3}
+Move pieces one at a time. Movement is voluntary; unused MPs are lost.
+\begin{itemize}
+  \item Ordered units spend MPs using the Terrain Effects Chart (page 2).
+  \item Disrupted units move the number of hexes on their reverse side and ignore costs for terrain they may legally enter.
+  \item Leaders pay 1 MP per hex, ignore hexside costs, and cannot enter towns.
+  \item Artillery cannot move. Enemy ZOCs do not affect movement.
+  \item At phase end: one unit per hex, plus any leaders and artillery.
+  \item A unit entering enemy artillery captures it. A lone enemy leader is displaced to the nearest unit friendly to that leader.
+\end{itemize}
+\end{aidbox}
+
+\columnbreak
+
+\begin{aidbox}{5/9. Combat Phases: Declare \hfill \normalfont\small Rules 9.0}
+Before resolving anything, announce \textbf{all} attacks.
+\begin{itemize}
+  \item Ordered units exert ZOCs into all six adjacent hexes.
+  \item Every active ordered unit in an enemy ZOC must attack.
+  \item Every inactive ordered unit in an active unit's ZOC must be attacked.
+  \item Disrupted units have no ZOC and cannot attack; attacking them is optional.
+  \item Each unit can attack or be attacked only once. Adjacent units may combine when every attacker is adjacent to every defender.
+\end{itemize}
+\end{aidbox}
+
+\begin{aidbox}{5/9. Combat Phases: Resolve \hfill \normalfont\small Rules 10.0--11.0}
+Resolve each declared combat separately and apply its result immediately.
+\begin{enumerate}[label=\textbf{\arabic*.}]
+  \item Declare eligible Heavy Horse charges; double charging strength.
+  \item Halve each attacker fighting out of marsh, across ditch or stream, or upslope; drop fractions before combining.
+  \item Total attacker and defender strengths. An eligible stacked leader adds up to the unit's printed strength.
+  \item Select the Combat Table terrain line most favorable to the defender. Form attacker-to-defender ratio and round down to a listed ratio.
+  \item Roll one die and apply the result from the Combat Table (page 3).
+\end{enumerate}
+Heavy Horse may charge only disrupted Foot, subject to 10.2, visibility, and demoralization. Charging units that remain ordered after combat become disrupted. There are no retreats or advances after combat.
+\end{aidbox}
+
+\begin{aidbox}{10. Game Turn Record Phase \hfill \normalfont\small Rules 4.0, 15.0}
+The Allied player advances the Game Turn Marker one box. If it is already in the turn 12 box, the game ends. Total victory points and compare the larger score to the smaller as a ratio.
+\end{aidbox}
+
+\aidheading{Continuing Reminders}
+\textbf{Leaders \refnum{12.0}.} Leaders affect only units of their own force. Use no more than one leader per unit for a rally check or combat. If a stacked unit is eliminated, make the leader evasion roll in 11.9.
+
+\textbf{Demoralization \refnum{13.0}.} Track loss points as they occur. Royalists demoralize at 100; Allies at 115. Only one army can demoralize. Apply the rally, movement, exit, and charge restrictions in 13.6--13.9.
+
+\textbf{Trains \refnum{14.0}.} Ordered Foot entering the enemy train is disrupted. On first entry, eligible ordered units within 3 hexes make looting checks. Royalist entry of the Allied train also removes Leven from play.
+
+\textbf{Victory \refnum{15.0}.} Award VPs for eliminated units and leaders, disrupted enemy Foot, captured artillery, looted trains, and enemy demoralization. Values and victory levels appear on page 3.
+
+\end{multicols}
+\endgroup

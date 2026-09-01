@@ -1,0 +1,92 @@
+{\sffamily\bfseries\fontsize{23}{25}\selectfont\color{cvblue}
+  Artillery, Combat \& Scoring}\par
+\vspace{2pt}{\color{cvred}\rule{\textwidth}{1pt}}
+
+\aidheading{Artillery Table \hfill \refnum{7.0}}
+\begin{tcolorbox}[colback=cvsand!28,colframe=cvblue,boxrule=.55pt,arc=1pt,left=7pt,right=7pt,top=6pt,bottom=6pt]
+\fontsize{8.1}{9.1}\selectfont
+\begin{tabularx}{\textwidth}{@{}l*{6}{Y}@{}}
+  \toprule
+  \textbf{Die Roll} & \multicolumn{6}{c}{\textbf{Range in Hexes from Artillery to Target}} \\
+  \cmidrule(l){2-7}
+  & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6+} \\
+  \midrule
+  1 & Dd & Dd & Dd & Dd & Dd & Dd \\
+  2 & Dd & Dd & Dd & Dd & Dd & \dash \\
+  3 & Dd & Dd & Dd & \dash & \dash & \dash \\
+  4 & Dd & \dash & \dash & \dash & \dash & \dash \\
+  5 & \dash & \dash & \dash & \dash & \dash & \dash \\
+  6 & \dash & \dash & \dash & \dash & \dash & \dash \\
+  \bottomrule
+\end{tabularx}
+\smallskip
+\textbf{Dd = Defender Disrupted.} Disrupt an ordered target; no effect on a disrupted target. \textbf{\dash{} = No Effect.} Add 1 to the roll if the target is in woods, close, or train. Ranges below 1 are impossible; ranges above 6 count as 6. Minimal visibility limits range to 2.
+\end{tcolorbox}
+
+\aidheading{Combat Table \hfill \refnum{9.0--11.0}}
+\begin{tcolorbox}[colback=cvsand!28,colframe=cvblue,boxrule=.55pt,arc=1pt,left=7pt,right=7pt,top=6pt,bottom=6pt]
+\fontsize{7.8}{8.8}\selectfont
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}l*{11}{c}@{}}
+  \toprule
+  \textbf{Terrain} & \multicolumn{11}{c}{\textbf{Combat Ratio}} \\
+  \midrule
+  Marsh & 1--6 & 1--5 & 1--4 & 1--3 & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 \\
+  Clear/Slope/Hilltop & 1--5 & 1--4 & 1--3 & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 & \\
+  Train/Close---Horse & 1--4 & 1--3 & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 & & \\
+  Train/Woods---Foot & 1--3 & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 & & & \\
+  Close---Foot & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 & & & & \\
+  \midrule
+  \textbf{Die Roll} & \multicolumn{11}{c}{\textbf{Result}} \\
+  \midrule
+  1 & Ad & \dash & \dash & Dx & Dd & Dd & Dd & De & De & De & De \\
+  2 & Ad & Ad & \dash & \dash & Dx & Dd & Dd & Dd & De & De & De \\
+  3 & Ae & Ad & Ad & \dash & \dash & Dx & Dd & Dd & Dd & De & De \\
+  4 & Ae & Ad & Ad & Dx & \dash & \dash & Dx & Dd & Dd & Dd & De \\
+  5 & Ae & Ae & Ad & Ad & Dx & \dash & \dash & Dx & Dd & Dd & Dd \\
+  6 & Ae & Ae & Ae & Ad & Ad & Dx & \dash & \dash & Dx & Dd & Dd \\
+  \bottomrule
+\end{tabular}}
+
+\smallskip
+\textbf{Ad:} disrupt all attackers. \textbf{Dd:} eliminate disrupted defenders; disrupt ordered defenders. \textbf{Dx:} eliminate disrupted defenders, disrupt ordered defenders, then the attacker selects participating units with combined printed strength at least equal to the defenders' face-up strength and disrupts them. \textbf{De/Ae:} eliminate all defenders/attackers. \textbf{\dash:} no effect. Ratios below/above the line's limits use its lowest/highest column. There are no retreats or advances.
+\end{tcolorbox}
+
+\vspace{3pt}
+\begin{minipage}[t]{.49\textwidth}\vspace{0pt}
+\begin{aidbox}{Demoralization Loss Points \hfill \normalfont\small Rules 13.0}
+\fontsize{7.8}{8.8}\selectfont
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+  \toprule
+  \textbf{Event affecting an army} & \textbf{Loss Points} \\
+  \midrule
+  Friendly unit eliminated & + front combat strength \\
+  Friendly leader eliminated (not Leven) & + $5\times$ command \\
+  Enemy captures/recaptures artillery & +5; captor $-5$ \\
+  Enemy first enters friendly train & +20; enemy $-5$ \\
+  \bottomrule
+\end{tabularx}
+\smallskip
+\textbf{Thresholds:} Royalists 100; Allies 115. Only the first army to reach its threshold demoralizes. Newcastle Foot and Manchester Horse never demoralize.
+\end{aidbox}
+\end{minipage}\hfill
+\begin{minipage}[t]{.49\textwidth}\vspace{0pt}
+\begin{aidbox}{Victory Points \hfill \normalfont\small Rules 15.0}
+\fontsize{7.8}{8.8}\selectfont
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+  \toprule
+  \textbf{Scoring event} & \textbf{VP} \\
+  \midrule
+  Enemy unit eliminated & front combat strength \\
+  Enemy leader eliminated & $3\times$ command \\
+  Cromwell / Rupert / Leven eliminated & 30 / 15 / 0 \\
+  Enemy Foot disrupted at game end & $\lfloor$front strength$/2\rfloor$ \\
+  Enemy artillery captured at game end & 10 \\
+  Royalist / Allied train looted & 20 / 35 to enemy \\
+  Royalist / Allied army demoralized & 50 / 75 to enemy \\
+  \bottomrule
+\end{tabularx}
+\smallskip
+\textbf{Victory ratio:} below 1.5--1 draw; 1.5--1 marginal; 2--1 major; 2.5--1 crushing.
+\end{aidbox}
+\end{minipage}
