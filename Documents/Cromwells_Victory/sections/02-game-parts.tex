@@ -149,7 +149,33 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
 
 \textbf{Type} is the general category into which a piece fits, and determines the piece's capabilities. Unit types are Foot, Light Horse, and Heavy Horse.
 
-The Manchester Heavy Horse unit contains a dragoon symbol on its front face to indicate that the troops composing that regiment were trained to fight as Dragoons as well as Heavy Horse. This unit is treated in all ways as a Heavy Horse unit; however, when defending in a close or train hex, it is considered a foot unit and uses the appropriate foot line of the Combat Table.
+\begin{tcolorbox}[
+  colback=cvsand!35,
+  colframe=cvblue!55,
+  boxrule=.4pt,
+  arc=1pt,
+  left=4pt,right=4pt,top=3pt,bottom=3pt,
+  before skip=5pt,after skip=6pt
+]
+\centering
+{\sffamily\bfseries\small Unit Type Symbols}\par\vspace{2pt}
+\begingroup
+\setlength{\tabcolsep}{8pt}
+\renewcommand{\arraystretch}{.95}
+\begin{tabular}{@{}c c c@{}}
+  \includegraphics[height=.34in]{images/rulebook-symbols/foot.pdf} &
+  \includegraphics[height=.34in]{images/rulebook-symbols/light-horse.pdf} &
+  \includegraphics[height=.34in]{images/rulebook-symbols/heavy-horse.pdf} \\
+  {\sffamily\scriptsize Foot} &
+  {\sffamily\scriptsize Light Horse} &
+  {\sffamily\scriptsize Heavy Horse}
+\end{tabular}
+\endgroup
+\end{tcolorbox}
+
+The Manchester Heavy Horse unit contains a
+\raisebox{-.12em}{\includegraphics[height=.75em,trim=16 22 16 22,clip]{images/rulebook-symbols/dragoon.pdf}}
+dragoon symbol on its front face to indicate that the troops composing that regiment were trained to fight as Dragoons as well as Heavy Horse. This unit is treated in all ways as a Heavy Horse unit; however, when defending in a close or train hex, it is considered a foot unit and uses the appropriate foot line of the Combat Table.
 
 \textbf{Name} is the most common name by which a unit or leader was known at the time of the battle, and is used for purposes of identification.
 
