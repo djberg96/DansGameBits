@@ -40,6 +40,102 @@ There are three basic types of playing pieces:
 
 Units contain six items of information: the unit's name, type, set-up hex, combat strength, morale rating, and movement allowance. Leaders contain five items of information: the leader's name, type symbol, set-up hex, command rating, and movement allowance. Artillery pieces contain only two items of information: a type symbol and set-up hex.
 
+\begin{tcolorbox}[
+  enhanced,
+  colback=cvsand!35,
+  colframe=cvblue,
+  boxrule=.5pt,
+  arc=1pt,
+  left=4pt,right=4pt,top=4pt,bottom=4pt,
+  before skip=6pt,after skip=7pt,
+  title={\sffamily\bfseries\small Sample Playing Pieces},
+  coltitle=cvblue,
+  colbacktitle=cvsand!35,
+  attach title to upper={\par\smallskip}
+]
+\centering
+\begingroup
+\tikzset{
+  piece label/.style={
+    font=\sffamily\fontsize{5.6}{6.1}\selectfont,
+    text=cvink,
+    align=center,
+    inner sep=.5pt
+  },
+  piece lead/.style={draw=cvink!75,line width=.3pt}
+}
+
+{\sffamily\bfseries\small Unit}\par\vspace{-2pt}
+\begin{tikzpicture}[x=1in,y=1in]
+  \path[use as bounding box] (0,0) rectangle (3.02,1.12);
+  \node[inner sep=0] (unit) at (1.16,.57)
+    {\includegraphics[width=.66in]{images/rulebook-counters/urry-front.pdf}};
+  \node[inner sep=0] at (2.66,.57)
+    {\includegraphics[width=.55in]{images/rulebook-counters/urry-back.pdf}};
+
+  \node[piece label,anchor=west] (uname) at (.02,1.01) {Name};
+  \draw[piece lead] (uname.east) -- (1.16,.82);
+  \node[piece label,anchor=west] (utype) at (.02,.70) {Type};
+  \draw[piece lead] (utype.east) -- (1.03,.59);
+  \node[piece label,anchor=east] (usetup) at (2.10,1.01) {Set-up Hex};
+  \draw[piece lead] (usetup.west) -- (1.34,.60);
+  \node[piece label,anchor=south west] (ucombat) at (.02,.02) {Combat\\Strength};
+  \draw[piece lead] (ucombat.north east) -- (1.08,.31);
+  \node[piece label,anchor=south] (umorale) at (1.18,.02) {Morale\\Rating};
+  \draw[piece lead] (umorale.north) -- (1.16,.31);
+  \node[piece label,anchor=south west] (umove) at (1.70,.02) {Movement\\Allowance};
+  \draw[piece lead] (umove.north west) -- (1.25,.31);
+
+  \node[piece label,font=\sffamily\fontsize{5.4}{5.8}\selectfont] at (1.16,1.08) {Front (ordered)};
+  \node[piece label] at (2.66,1.01) {Back\\(disrupted)};
+\end{tikzpicture}
+
+\vspace{1pt}{\sffamily\bfseries\small Leader}\par\vspace{-2pt}
+\begin{tikzpicture}[x=1in,y=1in]
+  \path[use as bounding box] (0,0) rectangle (3.02,1.12);
+  \node[inner sep=0] at (1.16,.57)
+    {\includegraphics[width=.66in]{images/rulebook-counters/cromwell-leader-front.pdf}};
+
+  \node[piece label,anchor=west] (lname) at (.02,1.01) {Name};
+  \draw[piece lead] (lname.east) -- (1.16,.82);
+  \node[piece label,anchor=west] (ltype) at (.02,.68) {Leader Type\\Symbol};
+  \draw[piece lead] (ltype.east) -- (1.03,.58);
+  \node[piece label,anchor=east] (lsetup) at (2.10,1.01) {Set-up Hex};
+  \draw[piece lead] (lsetup.west) -- (1.34,.60);
+  \node[piece label,anchor=south west] (lcommand) at (.02,.02) {Command\\Rating};
+  \draw[piece lead] (lcommand.north east) -- (1.11,.31);
+  \node[piece label,anchor=south west] (lmove) at (1.70,.02) {Movement\\Allowance};
+  \draw[piece lead] (lmove.north west) -- (1.22,.31);
+
+  \node[piece label] at (1.16,1.08) {Front};
+  \node[piece label,font=\sffamily\scriptsize\itshape,align=center]
+    at (2.66,.57) {Reverse side\\blank};
+  \node[piece label] at (2.66,1.01) {Back};
+\end{tikzpicture}
+
+\vspace{1pt}{\sffamily\bfseries\small Artillery Piece}\par\vspace{-2pt}
+\begin{tikzpicture}[x=1in,y=1in]
+  \path[use as bounding box] (0,0) rectangle (3.02,1.08);
+  \node[inner sep=0] at (1.16,.54)
+    {\includegraphics[width=.66in]{images/rulebook-counters/leven-artillery-1-front.pdf}};
+  \node[inner sep=0] at (2.66,.54)
+    {\includegraphics[width=.55in]{images/rulebook-counters/leven-artillery-1-back.pdf}};
+
+  \node[piece label,anchor=west] (atype) at (.02,.67) {Artillery\\Type Symbol};
+  \draw[piece lead] (atype.east) -- (1.14,.52);
+  \node[piece label,anchor=east] (asetup) at (2.10,.94) {Set-up Hex};
+  \draw[piece lead] (asetup.west) -- (1.16,.67);
+
+  \node[piece label] at (1.16,1.04) {Front (ready)};
+  \node[piece label] at (2.66,1.04) {Back (captured)};
+  \node[piece label,anchor=east] (abtype) at (2.24,.28) {Artillery\\Type Symbol};
+  \draw[piece lead] (abtype.north east) -- (2.64,.48);
+  \node[piece label,anchor=east] (abcaptured) at (3.00,.82) {Indicates\\Captured};
+  \draw[piece lead] (abcaptured.south west) -- (2.66,.63);
+\end{tikzpicture}
+\endgroup
+\end{tcolorbox}
+
 \textbf{Combat Strength} is the relative strength of a unit when attacking and defending, expressed in terms of strength points. Each strength point represents between 75 and 100 men, depending on unit type.
 
 \textbf{Morale Rating} is the relative level of training and motivation of a unit, expressed as a numerical rating. It is used when a unit attempts to rally.
