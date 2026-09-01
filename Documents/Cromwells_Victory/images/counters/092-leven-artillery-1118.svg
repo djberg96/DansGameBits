@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Artillery — Leven's force — setup 1118</title>
+  <desc id="desc">A vector recreation of a counter from Cromwell's Victory.</desc>
+  <style>
+    text { fill: #111510; font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; }
+    .name { font-weight: 700; text-anchor: middle; }
+    .setup { font-size: 9.5px; font-weight: 700; text-anchor: middle; }
+    .factors { font-size: 18px; font-weight: 800; text-anchor: middle; letter-spacing: -0.25px; }
+    .turn { font-size: 17px; font-weight: 800; text-anchor: middle; }
+  </style>
+  <rect x="0.5" y="0.5" width="99" height="99" fill="#B9DDEA" stroke="#263326" stroke-width="1"/>
+  
+  <svg x="15" y="43" width="68" height="34" viewBox="0 0 1960 960" preserveAspectRatio="xMidYMid meet">
+  <g transform="translate(0 960) scale(1 -1)" fill="#111510">
+    <path d="M1065 694c-49-25-88-56-132-103-61-67-63-68-124-75-66-6-159-54-159-81 0-8-11-22-24-32-13-10-30-32-39-48-8-17-32-40-54-51-21-11-85-47-143-80-104-58-106-59-177-57-64 2-74 0-88-20-20-29-19-53 3-75 16-16 37-19 130-20 124-2 157 7 254 64 60 35 152 74 230 97 46 14 79-1 100-47 9-17 34-47 57-66 23-19 58-50 78-67l35-33h120l65 68c111 115 154 219 160 384 4 111 7 118 57 143 23 11 33 60 17 85-8 12-17 13-56 2-66-17-102-15-176 12-36 13-92 27-125 30-55 6-64 4-129-30zm275-314c0-5-9-10-20-10s-20 5-20 10c0 6 9 10 20 10s20-4 20-10zm-10-113c0-17-20-37-37-37-13 0-18 32-6 43 11 12 43 7 43-6zm-372-87c-4-20-28-19-41 2-8 12-7 21 3 33 13 16 15 16 27-1 8-10 12-25 11-34zm72-30c24-15 1-64-33-68-25-3-27 0-27 31 0 18 3 37 7 40 9 10 35 8 53-3zm89-40c42-22 31-70-15-70-28 0-43 42-24 65 15 18 16 18 39 5zm121-9c0-17-12-41-20-41-11 0-21 30-14 41 7 12 34 12 34 0z"/>
+  </g>
+</svg>
+
+  <text class="setup" x="50" y="35">1118</text>
+  
+</svg>

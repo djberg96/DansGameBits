@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Rae — Leven's force — setup 1115 — 7-1-4</title>
+  <desc id="desc">A vector recreation of a counter from Cromwell's Victory.</desc>
+  <style>
+    text { fill: #111510; font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; }
+    .name { font-weight: 700; text-anchor: middle; }
+    .setup { font-size: 9.5px; font-weight: 700; text-anchor: middle; }
+    .factors { font-size: 18px; font-weight: 800; text-anchor: middle; letter-spacing: -0.25px; }
+    .turn { font-size: 17px; font-weight: 800; text-anchor: middle; }
+  </style>
+  <rect x="0.5" y="0.5" width="99" height="99" fill="#B9DDEA" stroke="#263326" stroke-width="1"/>
+  <text class="name" x="50" y="26" font-size="13">Rae</text>
+  <svg x="13" y="32" width="43" height="42" viewBox="0 0 1280 1080" preserveAspectRatio="xMidYMid meet">
+  <g transform="translate(0 1080) scale(1 -1)" fill="#111510">
+    <path d="M707 1052c-23-25-21-39 8-58 17-11 25-26 25-44 0-29-51-107-75-117-24-9-17-45 13-69 29-24 29-20-10-84-10-16-10-24 0-40 18-29 15-81-8-117-11-19-15-35-10-38 18-11 44-69 60-135 12-46 21-66 34-68 28-6 37 11 25 44-10 24-8 37 10 76 11 26 21 58 21 72 0 16 6 26 14 26 15 0 26-21 26-50 0-23 40-113 54-122 15-11 56-10 56 1 0 5-7 22-15 37-11 21-15 61-15 140 0 119 7 138 48 127 29-7 30 23 2 70-29 49-18 88 39 137 25 22 53 40 62 40 24 0 45 28 32 41-8 8-19 6-40-5-15-8-47-24-69-35-23-11-45-24-48-30-10-15-56-14-60 2-2 6-10 41-18 77-13 60-18 68-64 102-55 43-74 46-97 20z"/>
+    <path d="M1002 549c2-18 9-34 16-37 10-3 13 5 10 29-2 18-9 34-16 37-10 3-13-5-10-29z"/>
+    <path d="M1050 426c0-8 5-18 10-21 6-3 10 3 10 14 0 12-4 21-10 21-5 0-10-6-10-14z"/>
+  </g>
+</svg>
+
+  <text class="setup" x="74" y="56">1115</text>
+  <text class="factors" x="50" y="89">7-1-4</text>
+</svg>
