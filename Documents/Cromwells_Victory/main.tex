@@ -12,6 +12,7 @@
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{enumitem}
+\usepackage{etoolbox}
 \usepackage[most]{tcolorbox}
 \usepackage{titlesec}
 \usepackage{needspace}
@@ -45,7 +46,14 @@
 \newcommand{\dash}{\textemdash}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 \makeatletter
-\newcommand{\compacttoc}{\@starttoc{toc}}
+\newcommand{\compacttoc}{%
+  \begingroup
+    \patchcmd{\l@section}
+      {\addvspace{1.0em \@plus\p@}}
+      {\addvspace{0.22em}}
+      {}{}
+    \@starttoc{toc}%
+  \endgroup}
 \makeatother
 
 \newtcolorbox{rulebox}[1]{
@@ -85,9 +93,9 @@
 \pagenumbering{gobble}
 \begin{titlepage}
   \thispagestyle{empty}
-  \vspace*{-0.15in}
+  \vspace*{-0.35in}
   {\color{cvred}\rule{\textwidth}{2pt}}\par
-  \vspace{0.22in}
+  \vspace{0.12in}
   {\sffamily\bfseries\fontsize{43}{45}\selectfont\color{cvblue}
     CROMWELL'S\par VICTORY\par}
   \vspace{0.1in}
@@ -99,14 +107,24 @@
   \begin{tcolorbox}[colback=cvsand,colframe=cvred,boxrule=.6pt,arc=1pt]
     {\sffamily\bfseries\large Rules of Play}\par
     \smallskip
-    A text-only restored edition, transcribed from the original rules booklet. Graphic examples and counter illustrations are reserved for a later edition.
+    A restored edition, transcribed from the original rules booklet. Graphic examples and counter illustrations are reserved for a later edition.
     \medskip
 
     This implementation of the rules created by Daniel J. Berger.\par
     \today
   \end{tcolorbox}
 
-  \vspace{0.05in}
+  \vspace{0.01in}
+  \begingroup
+    \setlength{\fboxsep}{0pt}
+    \setlength{\fboxrule}{0.6pt}
+    \noindent\hfill
+    \fcolorbox{cvred}{white}{%
+      \includegraphics[width=0.82\textwidth]{images/battle-of-marston-moor-john-joseph-barker.png}}
+    \hfill\mbox{}\par
+  \endgroup
+
+  \vspace{0.01in}
   {\sffamily\bfseries\large\color{cvblue}Contents}\par
   \vspace{0.04in}
   {\color{cvred}\rule{\textwidth}{0.7pt}}\par
