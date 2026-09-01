@@ -62,7 +62,12 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
     align=center,
     inner sep=.5pt
   },
-  piece lead/.style={draw=cvink!75,line width=.3pt}
+  piece lead/.style={
+    draw=cvink!75,
+    line width=.3pt,
+    shorten <=2.5pt,
+    shorten >=3pt
+  }
 }
 
 {\sffamily\bfseries\small Unit}\par\vspace{-2pt}
@@ -79,12 +84,12 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
   \draw[piece lead] (utype.east) -- (1.03,.59);
   \node[piece label,anchor=east] (usetup) at (2.10,1.01) {Set-up Hex};
   \draw[piece lead] (usetup.west) -- (1.34,.60);
-  \node[piece label,anchor=south west] (ucombat) at (.02,.02) {Combat\\Strength};
-  \draw[piece lead] (ucombat.north east) -- (1.08,.31);
+  \node[piece label,anchor=west] (ucombat) at (.02,.15) {Combat\\Strength};
+  \draw[piece lead] (ucombat.east) -- (1.08,.31);
   \node[piece label,anchor=south] (umorale) at (1.18,.02) {Morale\\Rating};
   \draw[piece lead] (umorale.north) -- (1.16,.31);
-  \node[piece label,anchor=south west] (umove) at (1.70,.02) {Movement\\Allowance};
-  \draw[piece lead] (umove.north west) -- (1.25,.31);
+  \node[piece label,anchor=west] (umove) at (1.70,.15) {Movement\\Allowance};
+  \draw[piece lead] (umove.west) -- (1.25,.31);
 
   \node[piece label,font=\sffamily\fontsize{5.4}{5.8}\selectfont] at (1.16,1.08) {Front (ordered)};
   \node[piece label] at (2.66,1.01) {Back\\(disrupted)};
@@ -102,10 +107,10 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
   \draw[piece lead] (ltype.east) -- (1.03,.58);
   \node[piece label,anchor=east] (lsetup) at (2.10,1.01) {Set-up Hex};
   \draw[piece lead] (lsetup.west) -- (1.34,.60);
-  \node[piece label,anchor=south west] (lcommand) at (.02,.02) {Command\\Rating};
-  \draw[piece lead] (lcommand.north east) -- (1.11,.31);
-  \node[piece label,anchor=south west] (lmove) at (1.70,.02) {Movement\\Allowance};
-  \draw[piece lead] (lmove.north west) -- (1.22,.31);
+  \node[piece label,anchor=west] (lcommand) at (.02,.15) {Command\\Rating};
+  \draw[piece lead] (lcommand.east) -- (1.11,.31);
+  \node[piece label,anchor=west] (lmove) at (1.70,.15) {Movement\\Allowance};
+  \draw[piece lead] (lmove.west) -- (1.22,.31);
 
   \node[piece label] at (1.16,1.08) {Front};
   \node[piece label,font=\sffamily\scriptsize\itshape,align=center]
@@ -115,7 +120,7 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
 
 \vspace{1pt}{\sffamily\bfseries\small Artillery Piece}\par\vspace{-2pt}
 \begin{tikzpicture}[x=1in,y=1in]
-  \path[use as bounding box] (0,0) rectangle (3.02,1.08);
+  \path[use as bounding box] (0,0) rectangle (3.02,1.16);
   \node[inner sep=0] at (1.16,.54)
     {\includegraphics[width=.66in]{images/rulebook-counters/leven-artillery-1-front.pdf}};
   \node[inner sep=0] at (2.66,.54)
@@ -126,12 +131,12 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
   \node[piece label,anchor=east] (asetup) at (2.10,.94) {Set-up Hex};
   \draw[piece lead] (asetup.west) -- (1.16,.67);
 
-  \node[piece label] at (1.16,1.04) {Front (ready)};
-  \node[piece label] at (2.66,1.04) {Back (captured)};
+  \node[piece label] at (1.16,1.12) {Front (ready)};
+  \node[piece label] at (2.66,1.12) {Back (captured)};
   \node[piece label,anchor=east] (abtype) at (2.24,.28) {Artillery\\Type Symbol};
-  \draw[piece lead] (abtype.north east) -- (2.64,.48);
-  \node[piece label,anchor=east] (abcaptured) at (3.00,.82) {Indicates\\Captured};
-  \draw[piece lead] (abcaptured.south west) -- (2.66,.63);
+  \draw[piece lead] (abtype.east) -- (2.64,.48);
+  \node[piece label,anchor=south] (abcaptured) at (2.66,.86) {Indicates\\Captured};
+  \draw[piece lead] (abcaptured.south) -- (2.66,.63);
 \end{tikzpicture}
 \endgroup
 \end{tcolorbox}
