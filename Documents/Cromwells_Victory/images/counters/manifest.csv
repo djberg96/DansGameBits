@@ -39,7 +39,7 @@ file,army,name,type,setup,factors
 038-manchester-cromwell-1307.svg,manchester,Cromwell,cavalry,1307,7-4-8
 039-manchester-sidney-1306.svg,manchester,Sidney,cavalry,1306,7-4-8
 040-manchester-vermydn-1206.svg,manchester,Vermydn,cavalry,1206,7-4-8
-041-leven-fraser-1304.svg,leven,Fraser,cavalry,1304,7-1-6
+041-leven-frasier-1304.svg,leven,Frasier,light_cavalry,1304,7-1-6
 042-newcastle-newcastle-2210.svg,newcastle,Newcastle,leader,2210,1-8
 043-newcastle-newcastle-1813.svg,newcastle,Newcastle,infantry,1813,6-3-4
 044-newcastle-newcastle-1812.svg,newcastle,Newcastle,infantry,1812,6-3-4
@@ -49,7 +49,7 @@ file,army,name,type,setup,factors
 048-newcastle-newcastle-2012.svg,newcastle,Newcastle,infantry,2012,6-3-4
 049-newcastle-newcastle-2013.svg,newcastle,Newcastle,infantry,2013,6-3-4
 050-manchester-1-crfrd-1308.svg,manchester,1/Crfrd,infantry,1308,18-2-3
-051-leven-leslie-1006.svg,leven,Leslie,cavalry,1006,4-1-6
+051-leven-leslie-1006.svg,leven,Leslie,light_cavalry,1006,4-1-6
 052-newcastle-eythin-1916.svg,newcastle,Eythin,leader,1916,2-8
 053-newcastle-goring-1421.svg,newcastle,Goring,leader,1421,2-8
 054-newcastle-widdring-2210.svg,newcastle,Widdring,cavalry,2210,6-2-8
@@ -59,9 +59,9 @@ file,army,name,type,setup,factors
 058-newcastle-carnaby-1422.svg,newcastle,Carnaby,cavalry,1422,3-2-8
 059-newcastle-langdale-1421.svg,newcastle,Langdale,cavalry,1421,10-2-6
 060-manchester-2-crfrd-1309.svg,manchester,2/Crfrd,infantry,1309,12-2-4
-061-leven-kirkcud-1007.svg,leven,Kirkcud,cavalry,1007,4-1-6
-062-leven-balgonie-0819.svg,leven,Balgonie,cavalry,0819,4-1-6
-063-leven-eglinton-0820.svg,leven,Eglinton,cavalry,0820,4-1-6
+061-leven-kirkeud-1007.svg,leven,Kirkeud,light_cavalry,1007,4-1-6
+062-leven-balgonie-0819.svg,leven,Balgonie,light_cavalry,0819,4-1-6
+063-leven-eglinton-0820.svg,leven,Eglinton,light_cavalry,0820,4-1-6
 064-leven-reserve-0812.svg,leven,Reserve,infantry,0812,7-1-4
 065-leven-sinclair-0813.svg,leven,Sinclair,infantry,0813,7-1-4
 066-leven-erskine-0913.svg,leven,Erskine,infantry,0913,7-1-4
@@ -69,8 +69,8 @@ file,army,name,type,setup,factors
 068-leven-yester-1210.svg,leven,Yester,infantry,1210,7-1-4
 069-leven-livgstn-1211.svg,leven,Livgstn,infantry,1211,7-1-4
 070-leven-coupar-1212.svg,leven,Coupar,infantry,1212,7-1-4
-071-leven-balcarres-1008.svg,leven,Balcarres,cavalry,1008,4-1-6
-072-leven-balhsie-0821.svg,leven,Balhsie,cavalry,0821,3-1-6
+071-leven-balcares-1008.svg,leven,Balcares,light_cavalry,1008,4-1-6
+072-leven-balhsie-0821.svg,leven,Balhsie,light_cavalry,0821,3-1-6
 073-leven-leven-0813.svg,leven,Leven,leader,0813,1-8
 074-leven-dunfer-1213.svg,leven,Dunfer,infantry,1213,7-1-4
 075-leven-killhead-1014.svg,leven,Killhead,infantry,1014,7-1-4
