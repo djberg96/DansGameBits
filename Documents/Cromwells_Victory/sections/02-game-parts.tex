@@ -85,13 +85,13 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
   \node[piece label,anchor=east] (usetup) at (2.10,1.01) {Set-up Hex};
   \draw[piece lead] (usetup.west) -- (1.34,.60);
   \node[piece label,anchor=west] (ucombat) at (.02,.15) {Combat\\Strength};
-  \draw[piece lead] (ucombat.east) -- (1.08,.31);
+  \draw[piece lead] (ucombat.east) -- (1.08,.36);
   \node[piece label,anchor=south] (umorale) at (1.18,.02) {Morale\\Rating};
-  \draw[piece lead] (umorale.north) -- (1.16,.31);
+  \draw[piece lead] (umorale.north) -- (1.16,.36);
   \node[piece label,anchor=west] (umove) at (1.70,.15) {Movement\\Allowance};
-  \draw[piece lead] (umove.west) -- (1.25,.31);
+  \draw[piece lead] (umove.west) -- (1.25,.36);
 
-  \node[piece label,font=\sffamily\fontsize{5.4}{5.8}\selectfont] at (1.16,1.08) {Front (ordered)};
+  \node[piece label,font=\sffamily\fontsize{5.4}{5.8}\selectfont] at (1.16,.98) {Front (ordered)};
   \node[piece label] at (2.66,1.01) {Back\\(disrupted)};
 \end{tikzpicture}
 
@@ -108,11 +108,11 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
   \node[piece label,anchor=east] (lsetup) at (2.10,1.01) {Set-up Hex};
   \draw[piece lead] (lsetup.west) -- (1.34,.60);
   \node[piece label,anchor=west] (lcommand) at (.02,.15) {Command\\Rating};
-  \draw[piece lead] (lcommand.east) -- (1.11,.31);
+  \draw[piece lead] (lcommand.east) -- (1.11,.36);
   \node[piece label,anchor=west] (lmove) at (1.70,.15) {Movement\\Allowance};
-  \draw[piece lead] (lmove.west) -- (1.22,.31);
+  \draw[piece lead] (lmove.west) -- (1.22,.36);
 
-  \node[piece label] at (1.16,1.08) {Front};
+  \node[piece label] at (1.16,.98) {Front};
   \node[piece label,font=\sffamily\scriptsize\itshape,align=center]
     at (2.66,.57) {Reverse side\\blank};
   \node[piece label] at (2.66,1.01) {Back};
@@ -131,10 +131,8 @@ Units contain six items of information: the unit's name, type, set-up hex, comba
   \node[piece label,anchor=east] (asetup) at (2.10,.94) {Set-up Hex};
   \draw[piece lead] (asetup.west) -- (1.16,.67);
 
-  \node[piece label] at (1.16,1.12) {Front (ready)};
+  \node[piece label] at (1.16,1.00) {Front (ready)};
   \node[piece label] at (2.66,1.12) {Back (captured)};
-  \node[piece label,anchor=east] (abtype) at (2.24,.28) {Artillery\\Type Symbol};
-  \draw[piece lead] (abtype.east) -- (2.64,.48);
   \node[piece label,anchor=south] (abcaptured) at (2.66,.86) {Indicates\\Captured};
   \draw[piece lead] (abcaptured.south) -- (2.66,.63);
 \end{tikzpicture}
