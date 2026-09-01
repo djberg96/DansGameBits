@@ -1,0 +1,29 @@
+This is a brief article to help new players avoid getting shot down when things are looking bad.
+
+So, you've got a plane on your tail. Now what? The short version is maneuver, climb or dive. Let's look at the advantages of each.
+
+For the first option, we have maneuver. This is the most common choice I see, because it's the simplest, and it offers the possibility of turning the tables on the plane following you. Perhaps your plane has a slightly better rating than your opponent, and you've got a matching card, so you go for it.
+
+But, there are problems. First, we have the hand management issue. First, this is really only practical if the position level is 1 or 2. More than that will probably only reduce your opponent's position while still leaving you tailed.
+
+Second, maneuvering might let you get behind your pursuer briefly, but it probably means using one of your better cards to do so. And if your opponent has a full hand, there's a pretty good chance he'll be able to match you, or to at least minimize the difference.
+
+Third, even if you do turn the tables, any uncommitted aircraft at the same altitude could commit to tailing you later (i.e. tail the tailer), and now your opponent knows that you've used up one of your better cards. Or, if the plane you just outmanuevered is uncommitted then it, too, could end up right back on your tail. In the end, you'll have accomplished little.
+
+So, the timing here is important. If you're going to try to outmaneuver a tailing plane, try to wait until your opponent has already activated the plane tailing you and/or any other planes.
+
+For the second choice, we have diving. This has several strategic advantages over simple maneuvering, and some possible tactical ones as well.
+
+Tactically, if you have a better dive rating, you'll automatically be able to reduce position by one or two points. If your opponent has weak wings, even following you comes with risk, as they'll have to check for wing damage.
+
+Strategically, any enemy planes that are at a higher altitude will no longer be able to target you and you can at least avoid being tailed by two planes, at least temporarily, since they'll have to spend an activation just to drop altitude. This could put this out of position against other planes in your squadron, so they might be unwilling to follow you anyway. Once you've got your opponent isolated, plain maneuvering (the first option) becomes more attractive.
+
+Of course, once you're at treetop level you won't be able to use this maneuver.
+
+That brings us to our third option, climbing.
+
+Unlike diving, climbing isn't automatic. It usually takes a couple turns to complete the climb, but that's somewhat irrelevant when your goal is simple to get out of being tailed. You see, even though your opponent can follow you without playing a card, he's restricted to playing climb cards to target you. So, from a hand management point of view, you've already significantly reduced the odds of being targeted and/or tailed by a second aircraft.
+
+Bonus points if your plane has a better climb rating which, like diving, will automatically reduce position on your plane by one or two points. And, like diving, once you've completed the maneuver, the other enemy planes will have to spend time to match your altitude before they can target you.
+
+On these last two options, what I do to get out of trouble will generally depend on the type of plane I have versus what you hae. If I have a better dive rating, I'll be inclined to dive (especially if you have weak wings). If I have a better climb rating, I'm more likely to climb.
