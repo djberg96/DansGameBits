@@ -1,0 +1,131 @@
+\section{Charts \& Tables}
+
+\subsection*{[17.1] Terrain Effects Chart}
+
+\begin{tcolorbox}[colback=cvsand!35,colframe=cvblue,boxrule=.6pt,arc=1pt]
+\small
+\begin{tabularx}{\textwidth}{@{}XYYY@{}}
+  \toprule
+  \textbf{Action Type} & \multicolumn{3}{c}{\textbf{Unit Type MP Cost}} \\
+  \cmidrule(l){2-4}
+   & \textbf{Foot} & \textbf{Light Horse} & \textbf{Heavy Horse} \\
+  \midrule
+  Enter Clear Hex & 1 & 1 & 1 \\
+  Enter Hilltop Hex & 1 & 1 & 1 \\
+  Enter Slope Hex & 1 & 1 & 1 \\
+  Enter Woods Hex & 2 & P & P \\
+  Enter Town Hex & P & P & P \\
+  Enter Marsh Hex & 2 & 2 & 3 \\
+  Enter Train Hex & 2 & 2 & 2 \\
+  Enter Close Hex & 2 & 3 & 3 \\
+  Enter Any Hex (except Town) via Lane Hexside & 1 & 1 & 1 \\
+  Cross Stream Hexside & +2 & +2 & +3 \\
+  Cross Ditch Hexside & +2 & +3 & +4 \\
+  Cross Slope Hexside & \dash & +1 & +1 \\
+  \bottomrule
+\end{tabularx}
+
+\vspace{1em}
+
+\begin{tabularx}{\textwidth}{@{}XYYY@{}}
+  \toprule
+  \textbf{Action Type} & \multicolumn{3}{c}{\textbf{Attacking Effects}} \\
+  \cmidrule(l){2-4}
+   & \textbf{Foot} & \textbf{Light Horse} & \textbf{Heavy Horse} \\
+  \midrule
+  Attack into/out of Clear Hex & \dash & \dash & C \\
+  Attack into/out of Hilltop Hex & \dash & \dash & C \\
+  Attack into/out of Slope Hex & \dash & \dash & C \\
+  Attack into/out of Train Hex & \dash & \dash & \dash \\
+  Attack into/out of Close Hex & \dash & \dash & \dash \\
+  Attack into Woods Hex & \dash & P & P \\
+  Attack into Town Hex & P & P & P \\
+  Attack out of Marsh Hex & H & H & H \\
+  Attack Across Ditch Hexside & H & H & HC \\
+  Attack Across Stream Hexside & H & H & HC \\
+  Attack Up Across Slope Hexside & H & H & HC \\
+  Attack Down Across Slope Hexside & \dash & \dash & \dash \\
+  \bottomrule
+\end{tabularx}
+
+\smallskip
+\textbf{Key:} \textbf{\#} = the MP cost to enter the hex. \textbf{+\#} = the additional cost to enter the hex through this type of hexside. \textbf{P} = entering or attacking into this hex type is prohibited to this unit type. \textbf{H} = this unit type's combat strength is halved when it is executing this action. \textbf{C} = Heavy Horse units can charge into, out of, or across this terrain type.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=cvsand!55,colframe=cvred,boxrule=.6pt,arc=1pt,title={\sffamily\bfseries Course of Play},coltitle=cvblue]
+\begin{multicols}{2}
+\small
+\begin{enumerate}[label=\textbf{Step \arabic*:},leftmargin=*,itemsep=.15em,topsep=0pt]
+  \item Visibility Phase
+  \item Allied Rally Phase
+  \item Allied Artillery Phase
+  \item Allied March Phase
+  \item Allied Combat Phase
+  \item Royalist Rally Phase
+  \item Royalist Artillery Phase
+  \item Royalist March Phase
+  \item Royalist Combat Phase
+  \item Game Turn Record Phase
+\end{enumerate}
+\end{multicols}
+\end{tcolorbox}
+
+\clearpage
+\subsection*{[17.2] Artillery Table}
+
+\begin{tcolorbox}[colback=cvsand!35,colframe=cvblue,boxrule=.6pt,arc=1pt]
+\small
+\begin{tabularx}{\textwidth}{@{}c*{6}{Y}@{}}
+  \toprule
+  \textbf{Die Roll} & \multicolumn{6}{c}{\textbf{Range in Hexes from Artillery Unit to Target}} \\
+  \cmidrule(l){2-7}
+    & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6+} \\
+  \midrule
+  1 & Dd & Dd & Dd & Dd & Dd & Dd \\
+  2 & Dd & Dd & Dd & Dd & Dd & \dash \\
+  3 & Dd & Dd & Dd & \dash & \dash & \dash \\
+  4 & Dd & \dash & \dash & \dash & \dash & \dash \\
+  5 & \dash & \dash & \dash & \dash & \dash & \dash \\
+  6 & \dash & \dash & \dash & \dash & \dash & \dash \\
+  \bottomrule
+\end{tabularx}
+
+\smallskip
+\textbf{Key: Dd = Defender Disrupted:} The target unit is disrupted. \textbf{\dash{} = No Effect.} Range is always counted from the artillery unit's hex (exclusive) to the target hex (inclusive). Ranges less than 1 are not possible. Ranges greater than 6 are treated as 6. Disrupted units that suffer a Dd result due to artillery fire treat the result as if it were No Effect. A unit can never be eliminated as a direct result of artillery fire (though a unit disrupted by artillery fire can be eliminated due to a Dd result during combat).
+\end{tcolorbox}
+
+\subsection*{[17.3] Combat Table}
+
+\begin{tcolorbox}[colback=cvsand!35,colframe=cvblue,boxrule=.6pt,arc=1pt]
+\centering
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}l*{11}{c}@{}}
+  \toprule
+  \textbf{Terrain} & \multicolumn{11}{c}{\textbf{Combat Ratio}} \\
+  \midrule
+  Marsh & 1--6 & 1--5 & 1--4 & 1--3 & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 \\
+  Clear/Slope/Hilltop & 1--5 & 1--4 & 1--3 & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 & \\
+  Train/Close---Horse & 1--4 & 1--3 & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 & & \\
+  Train/Woods---Foot & 1--3 & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 & & & \\
+  Close---Foot & 1--2 & 1--1 & 2--1 & 3--1 & 4--1 & 5--1 & 6--1 & & & & \\
+  \midrule
+  \textbf{Die Roll} & \multicolumn{11}{c}{\textbf{Result}} \\
+  \midrule
+  1 & Ad & \dash & \dash & Dx & Dd & Dd & Dd & De & De & De & De \\
+  2 & Ad & Ad & \dash & \dash & Dx & Dd & Dd & Dd & De & De & De \\
+  3 & Ae & Ad & Ad & \dash & \dash & Dx & Dd & Dd & Dd & De & De \\
+  4 & Ae & Ad & Ad & Dx & \dash & \dash & Dx & Dd & Dd & Dd & De \\
+  5 & Ae & Ae & Ad & Ad & Dx & \dash & \dash & Dx & Dd & Dd & Dd \\
+  6 & Ae & Ae & Ae & Ad & Ad & Dx & \dash & \dash & Dx & Dd & Dd \\
+  \bottomrule
+\end{tabular}}
+
+\raggedright\smallskip
+\textbf{Key: Ad = Attacker Disrupted:} All attacking units are disrupted.
+\textbf{Dd = Defender Disrupted:} All disrupted defending units are eliminated and all ordered defending units are disrupted.
+\textbf{Dx = Disruption Exchange:} All disrupted defending units are eliminated; all ordered defending units are disrupted; attacking units whose printed combat strength is at least equal to the printed combat strengths of defending units are disrupted (attacker's choice of which units to disrupt).
+\textbf{De = Defender Eliminated:} All defending units are immediately and permanently removed from play.
+\textbf{Ae = Attacker Eliminated:} All attacking units are immediately and permanently removed from play.
+\textbf{\dash{} = No Effect.} Attacks executed at a ratio less than the lowest ratio shown on a line are resolved at the lowest column shown on that line. Attacks executed at a ratio greater than 6--1 are resolved on the 6--1 column of that line.
+\end{tcolorbox}

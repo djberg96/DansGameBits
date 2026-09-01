@@ -1,0 +1,145 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[letterpaper,margin=0.68in,top=0.74in,bottom=0.72in]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\definecolor{cvblue}{HTML}{243746}
+\definecolor{cvred}{HTML}{7A2E2E}
+\definecolor{cvsand}{HTML}{F0EBE1}
+\definecolor{cvink}{HTML}{202020}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=cvred,
+  urlcolor=cvblue,
+  pdftitle={Cromwell's Victory: The Battle of Marston Moor},
+  pdfsubject={Rules of play},
+  pdfauthor={David James Ritchie; restored text edition}
+}
+
+\titleformat{\section}
+  {\sffamily\bfseries\Large\color{cvblue}\raggedright}
+  {[\thesection.0]}{0.55em}{}[\color{cvred}\titlerule]
+\titlespacing*{\section}{0pt}{1.2em}{0.55em}
+\newcommand{\caseheading}[1]{%
+  \par\needspace{4\baselineskip}\smallskip\noindent
+  {\sffamily\bfseries\color{cvred}[#1]}\enspace}
+\newcommand{\ruleslabel}[1]{%
+  \par\needspace{4\baselineskip}\medskip\noindent
+  {\sffamily\bfseries\small\MakeUppercase{#1}}\par\smallskip}
+\newcommand{\dash}{\textemdash}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\newtcolorbox{rulebox}[1]{
+  enhanced,breakable,boxrule=0pt,frame hidden,
+  colback=cvsand!65,left=7pt,right=7pt,top=5pt,bottom=5pt,
+  before skip=4pt,after skip=7pt,
+  title={\sffamily\bfseries\small\MakeUppercase{#1}},
+  coltitle=cvblue,colbacktitle=cvsand!65,
+  attach title to upper={\par\smallskip}
+}
+
+\newenvironment{steps}
+  {\begin{enumerate}[label=\textbf{Step \arabic*:},leftmargin=*,itemsep=.35em,topsep=.25em]}
+  {\end{enumerate}}
+\newenvironment{tightitems}
+  {\begin{itemize}[leftmargin=1.25em,itemsep=.28em,topsep=.25em]}
+  {\end{itemize}}
+
+\setlength{\columnsep}{0.28in}
+\setlength{\columnseprule}{0.25pt}
+\renewcommand{\columnseprulecolor}{\color{cvblue!25}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.42em plus 0.12em minus 0.08em}
+\emergencystretch=1.5em
+\setlength{\headheight}{15pt}
+\renewcommand{\arraystretch}{1.12}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\small\color{cvblue}CROMWELL'S VICTORY}
+\fancyhead[R]{\sffamily\small\color{cvblue}RULES OF PLAY}
+\fancyfoot[C]{\sffamily\small\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+
+\begin{document}
+
+\pagenumbering{gobble}
+\begin{titlepage}
+  \thispagestyle{empty}
+  \vspace*{0.5in}
+  {\color{cvred}\rule{\textwidth}{2pt}}\par
+  \vspace{0.35in}
+  {\sffamily\bfseries\fontsize{43}{45}\selectfont\color{cvblue}
+    CROMWELL'S\par VICTORY\par}
+  \vspace{0.18in}
+  {\sffamily\bfseries\fontsize{21}{24}\selectfont\color{cvred}
+    The Battle of Marston Moor\par}
+  \vspace{0.15in}
+  {\sffamily\large England, 2 July 1644\par}
+  \vfill
+  \begin{tcolorbox}[colback=cvsand,colframe=cvred,boxrule=.6pt,arc=1pt]
+    {\sffamily\bfseries\large Rules of Play}\par
+    \smallskip
+    A text-only restored edition, transcribed from the original rules booklet. Graphic examples and counter illustrations are reserved for a later edition.
+  \end{tcolorbox}
+  \vfill
+  {\small
+  \textbf{Game design and development:} David James Ritchie\par
+  \textbf{Rules editing:} Jon Pickens\quad
+  \textbf{Illustration:} Roger Raupp\par
+  \textbf{Graphic design:} Patrick L. Price\quad
+  \textbf{Cartography:} David S. LaForce\par
+  \textbf{Production:} Dawn Kist, Kim Lindau, Colleen O'Malley, Dave Sutherland\par
+  \textbf{Playtesting:} Neal Baedke, Tony Best, Jeff Brown, Wes Divin,
+  Richard A. Edwards, James Lambrinos, Deborah C. Ritchie, Steve Sickels,
+  Phil Taterczynski, Al Walczak\par
+  \textbf{Special thanks:} Brad Hessel, who got the ball rolling.\par}
+  \vspace{0.28in}
+  {\footnotesize CROMWELL'S VICTORY is a trademark owned by TSR, Inc.
+  Original game copyright \textcopyright\ 1985 TSR, Inc. All rights reserved.}
+\end{titlepage}
+
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+\begin{multicols}{2}
+\input{sections/01-introduction}
+\input{sections/02-game-parts}
+\input{sections/03-how-to-set-up}
+\input{sections/04-how-to-play}
+\input{sections/05-visibility}
+\input{sections/06-how-to-rally}
+\input{sections/07-artillery}
+\input{sections/08-how-to-move}
+\input{sections/09-who-must-attack}
+\input{sections/10-how-to-attack}
+\input{sections/11-combat-results}
+\input{sections/12-leaders}
+\input{sections/13-demoralization}
+\input{sections/14-trains-and-looting}
+\input{sections/15-how-to-win}
+\input{sections/16-the-short-game}
+\end{multicols}
+
+\clearpage
+\input{sections/17-charts-and-tables}
+
+\end{document}
