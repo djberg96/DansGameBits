@@ -44,6 +44,9 @@
   {\sffamily\bfseries\small\MakeUppercase{#1}}\par\smallskip}
 \newcommand{\dash}{\textemdash}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
+\makeatletter
+\newcommand{\compacttoc}{\@starttoc{toc}}
+\makeatother
 
 \newtcolorbox{rulebox}[1]{
   enhanced,breakable,boxrule=0pt,frame hidden,
@@ -82,17 +85,17 @@
 \pagenumbering{gobble}
 \begin{titlepage}
   \thispagestyle{empty}
-  \vspace*{0.5in}
+  \vspace*{-0.15in}
   {\color{cvred}\rule{\textwidth}{2pt}}\par
-  \vspace{0.35in}
+  \vspace{0.22in}
   {\sffamily\bfseries\fontsize{43}{45}\selectfont\color{cvblue}
     CROMWELL'S\par VICTORY\par}
-  \vspace{0.18in}
+  \vspace{0.1in}
   {\sffamily\bfseries\fontsize{21}{24}\selectfont\color{cvred}
     The Battle of Marston Moor\par}
-  \vspace{0.15in}
+  \vspace{0.08in}
   {\sffamily\large England, 2 July 1644\par}
-  \vfill
+  \vspace{0.2in}
   \begin{tcolorbox}[colback=cvsand,colframe=cvred,boxrule=.6pt,arc=1pt]
     {\sffamily\bfseries\large Rules of Play}\par
     \smallskip
@@ -102,26 +105,25 @@
     This implementation of the rules created by Daniel J. Berger.\par
     \today
   \end{tcolorbox}
+
+  \vspace{0.05in}
+  {\sffamily\bfseries\large\color{cvblue}Contents}\par
+  \vspace{0.04in}
+  {\color{cvred}\rule{\textwidth}{0.7pt}}\par
+  \vspace{0.04in}
+  \begingroup
+    \small
+    \setlength{\parskip}{0pt}
+    \setlength{\columnsep}{0.42in}
+    \renewcommand{\contentsname}{}
+    \begin{multicols}{2}
+      \compacttoc
+    \end{multicols}
+  \endgroup
+
   \vfill
-  {\small
-  \textbf{Game design and development:} David James Ritchie\par
-  \textbf{Rules editing:} Jon Pickens\quad
-  \textbf{Illustration:} Roger Raupp\par
-  \textbf{Graphic design:} Patrick L. Price\quad
-  \textbf{Cartography:} David S. LaForce\par
-  \textbf{Production:} Dawn Kist, Kim Lindau, Colleen O'Malley, Dave Sutherland\par
-  \textbf{Playtesting:} Neal Baedke, Tony Best, Jeff Brown, Wes Divin,
-  Richard A. Edwards, James Lambrinos, Deborah C. Ritchie, Steve Sickels,
-  Phil Taterczynski, Al Walczak\par
-  \textbf{Special thanks:} Brad Hessel, who got the ball rolling.\par}
-  \vspace{0.28in}
-  {\footnotesize CROMWELL'S VICTORY is a trademark owned by TSR, Inc.
-  Original game copyright \textcopyright\ 1985 TSR, Inc. All rights reserved.}
 \end{titlepage}
 
-\pagenumbering{roman}
-\tableofcontents
-\clearpage
 \pagenumbering{arabic}
 
 \begin{multicols}{2}
@@ -143,6 +145,7 @@
 \input{sections/16-the-short-game}
 \end{multicols}
 
+\input{sections/credits}
 \clearpage
 \input{sections/17-charts-and-tables}
 
