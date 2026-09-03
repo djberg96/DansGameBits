@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
-  <title id="title">Skirmish — Return marker</title>
-  <desc id="desc">A neutral marker showing crossed muskets, used to reserve a skirmishing unit's return hex.</desc>
+  <title id="title">Skirmish marker</title>
+  <desc id="desc">A neutral marker showing crossed muskets, used to reserve the temporary skirmishing hex against units ending movement there.</desc>
   <style>
     text {
       fill: #111510;
@@ -13,7 +13,7 @@
       font-weight: 800;
       letter-spacing: -0.25px;
     }
-    .return {
+    .notice {
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 1.25px;
@@ -50,5 +50,5 @@
   </g>
 
   <circle cx="50" cy="53" r="3.2" fill="#D9C28E" stroke="#111510" stroke-width="1.5"/>
-  <text class="return" x="50" y="91">RETURN</text>
+  <text class="notice" x="50" y="91">NO STOP</text>
 </svg>

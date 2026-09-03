@@ -24,10 +24,11 @@ committed before the skirmish dice are rolled.
 \begin{minipage}[c]{.38\linewidth}
 \small
 The Cromwell leader designates 1/Crfrd, an ordered Foot unit of his force that
-begins adjacent to him. The Skirmish---Return marker is placed on 1/Crfrd.
+begins adjacent to him. Urry is exactly two hexes away, with an empty hex between
+the two units, so it is an eligible target.
 
-The Allied player will send 1/Crfrd against Urry while moving Cromwell's Heavy
-Horse into attack position. Tillier is not the declared target.
+The Allied player intends to place the Skirmish marker in that empty hex.
+Tillier is not the declared target.
 \end{minipage}
 \end{examplebox}
 
@@ -37,13 +38,8 @@ Horse into attack position. Tillier is not the declared target.
 \begin{tikzpicture}[scale=.83,>=Latex]
   \hexmap
 
-  \draw[<->,cvred,line width=1.15pt]
-    ($(h-1-0)+(-.66,.42)$) to[bend left=26]
-    node[left=2pt,font=\sffamily\scriptsize,text=cvred,align=right,
-         fill=white,inner sep=1.5pt]{advance\\[-1pt]return}
-    ($(h-1-1)+(-.66,-.42)$);
-  \counterimage{h-1-1}{images/rulebook-counters/crfrd-1-front.pdf}
-  \counterimage{h-1-0}{images/rulebook-counters/skirmish-marker.pdf}
+  \counterimage{h-1-0}{images/rulebook-counters/crfrd-1-front.pdf}
+  \counterimage{h-1-1}{images/rulebook-counters/skirmish-marker.pdf}
   \counterimage{h-0-0}{images/rulebook-counters/cromwell-leader-front.pdf}
   \counterimage{h-3-1}{images/rulebook-counters/cromwell-heavy-horse.pdf}
   \counterimage{h-2-2}{images/rulebook-counters/urry-front.pdf}
@@ -64,9 +60,10 @@ Horse into attack position. Tillier is not the declared target.
 \end{minipage}\hfill
 \begin{minipage}[c]{.38\linewidth}
 \small
-1/Crfrd pays its normal entry cost, then reserves 2 MPs. Its marker is moved to
-the return hex. Cromwell's Heavy Horse completes its move adjacent to Urry; all
-other Allied movement then ends.
+The marker is placed in the intervening hex, while 1/Crfrd remains in its
+original hex. Other Allied units could pass through the marked hex, but none may
+end its movement there. Cromwell's Heavy Horse moves adjacent to Urry; all other
+Allied movement then ends.
 
 Both sides now roll on the 6+ column:
 \begin{itemize}
@@ -77,7 +74,7 @@ The results are recorded but not yet applied.
 \end{minipage}
 \end{examplebox}
 
-\begin{examplebox}{After: withdraw first, then apply the results}
+\begin{examplebox}{After: apply the results and remove the marker}
 \begin{minipage}[c]{.58\linewidth}
 \centering
 \begin{tikzpicture}[scale=.83,>=Latex]
@@ -101,9 +98,8 @@ The results are recorded but not yet applied.
 \end{minipage}\hfill
 \begin{minipage}[c]{.38\linewidth}
 \small
-Before either result takes effect, 1/Crfrd returns to the marked hex. The marker
-is removed. The recorded results are then applied simultaneously: 1/Crfrd
-remains ordered and Urry is flipped to its disrupted side.
+The recorded results are applied simultaneously: 1/Crfrd remains ordered and
+Urry is flipped to its disrupted side. The Skirmish marker is removed.
 
 The Allied Combat Phase now begins. Cromwell's Heavy Horse is already adjacent
 and must attack normally. It may exploit Urry's disruption because its charge
