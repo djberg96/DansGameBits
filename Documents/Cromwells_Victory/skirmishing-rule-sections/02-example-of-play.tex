@@ -41,16 +41,17 @@ position before anyone knows whether Urry will be disrupted.
     node[left=2pt,font=\sffamily\scriptsize,text=cvred,align=right,
          fill=white,inner sep=1.5pt]{advance\\[-1pt]return}
     ($(h-1-1)+(-.66,-.42)$);
-  \draw[->,cvred,line width=1.25pt]
-    ($(h-3-0)+(.48,.42)$) to[bend right=21]
-    node[right=3pt,font=\sffamily\scriptsize,text=cvred,
-         fill=white,inner sep=1.5pt]{move}
-    ($(h-3-1)+(.48,-.42)$);
   \counterimage{h-1-1}{images/rulebook-counters/crfrd-1-front.pdf}
   \counterimage{h-1-0}{images/rulebook-counters/skirmish-marker.pdf}
   \counterimage{h-3-1}{images/rulebook-counters/cromwell-heavy-horse.pdf}
   \counterimage{h-2-2}{images/rulebook-counters/urry-front.pdf}
   \counterimage{h-4-2}{images/rulebook-counters/tillier-front.pdf}
+
+  \draw[-{Stealth[length=4pt,width=4pt]},cvred,line width=1.05pt]
+    ($(h-3-0)+(.12,.08)$) --
+    node[pos=.45,right=3pt,font=\sffamily\scriptsize,text=cvred,
+         fill=white,inner sep=1.5pt]{move}
+    ($(h-3-1)+(.12,-.82)$);
 
   \draw[<->,cvblue,line width=1.2pt]
     ($(h-1-1)+(-.58,.34)$) to[out=155,in=135,looseness=1.12]
@@ -92,7 +93,7 @@ The results are recorded but not yet applied.
   \node[font=\sffamily\bfseries\scriptsize,text=cvred,align=center,
         fill=white,draw=cvred!55,rounded corners=1pt,
         inner xsep=4pt,inner ysep=2pt]
-    at (h-4-1) {NEXT: COMBAT\\PHASE};
+    at ($(h-4-1)+(.42,-.3)$) {NEXT: COMBAT\\PHASE};
 \end{tikzpicture}
 \end{minipage}\hfill
 \begin{minipage}[c]{.38\linewidth}
