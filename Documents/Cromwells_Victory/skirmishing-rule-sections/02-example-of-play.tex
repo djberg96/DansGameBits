@@ -35,28 +35,28 @@ position before anyone knows whether Urry will be disrupted.
 \centering
 \begin{tikzpicture}[scale=.83,>=Latex]
   \hexmap
+
+  \draw[<->,cvred,line width=1.15pt]
+    ($(h-1-0)+(-.66,.42)$) to[bend left=26]
+    node[left=2pt,font=\sffamily\scriptsize,text=cvred,align=right,
+         fill=white,inner sep=1.5pt]{advance\\[-1pt]return}
+    ($(h-1-1)+(-.66,-.42)$);
+  \draw[->,cvred,line width=1.25pt]
+    ($(h-3-0)+(.48,.42)$) to[bend right=21]
+    node[right=3pt,font=\sffamily\scriptsize,text=cvred,
+         fill=white,inner sep=1.5pt]{move}
+    ($(h-3-1)+(.48,-.42)$);
   \counterimage{h-1-1}{images/rulebook-counters/crfrd-1-front.pdf}
   \counterimage{h-1-0}{images/rulebook-counters/skirmish-marker.pdf}
   \counterimage{h-3-1}{images/rulebook-counters/cromwell-heavy-horse.pdf}
   \counterimage{h-2-2}{images/rulebook-counters/urry-front.pdf}
   \counterimage{h-4-2}{images/rulebook-counters/tillier-front.pdf}
 
-  \draw[->,cvred,line width=1.25pt]
-    ($(h-1-0)+(-.15,.48)$) to[bend left=18]
-    node[left,font=\sffamily\scriptsize,fill=white,inner sep=1pt]{advance}
-    ($(h-1-1)+(-.15,-.48)$);
-  \draw[->,cvred,line width=1.25pt]
-    ($(h-3-0)+(.18,.48)$) to[bend right=18]
-    node[right,font=\sffamily\scriptsize,fill=white,inner sep=1pt]{move}
-    ($(h-3-1)+(.18,-.48)$);
-  \draw[<->,cvblue,line width=1.35pt,double=white,double distance=.55pt]
-    ($(h-1-1)+(.42,.35)$) --
-    node[above left,font=\sffamily\bfseries\scriptsize,fill=white,inner sep=1pt]{fire}
-    ($(h-2-2)+(-.42,-.35)$);
-  \draw[->,cvred,densely dashed,line width=1.1pt]
-    ($(h-1-1)+(-.46,-.18)$) to[bend right=21]
-    node[left,font=\sffamily\scriptsize,fill=white,inner sep=1pt]{return}
-    ($(h-1-0)+(-.46,.18)$);
+  \draw[<->,cvblue,line width=1.2pt]
+    ($(h-1-1)+(-.58,.34)$) to[out=155,in=135,looseness=1.12]
+    node[above,font=\sffamily\bfseries\scriptsize,text=cvblue,
+         fill=white,inner sep=1.5pt]{fire / react}
+    ($(h-2-2)+(-.3,.6)$);
 \end{tikzpicture}
 \end{minipage}\hfill
 \begin{minipage}[c]{.38\linewidth}
@@ -79,18 +79,20 @@ The results are recorded but not yet applied.
 \centering
 \begin{tikzpicture}[scale=.83,>=Latex]
   \hexmap
+
   \counterimage{h-1-0}{images/rulebook-counters/crfrd-1-front.pdf}
   \counterimage{h-3-1}{images/rulebook-counters/cromwell-heavy-horse.pdf}
   \counterimage{h-2-2}{images/rulebook-counters/urry-back.pdf}
   \counterimage{h-4-2}{images/rulebook-counters/tillier-front.pdf}
+  \draw[->,cvred,line width=1.3pt,shorten <=.5cm,shorten >=.5cm]
+    (h-3-1) -- (h-2-2);
   \node[font=\sffamily\bfseries\scriptsize,text=white,fill=cvred,rounded corners=1pt,
         inner xsep=4pt,inner ysep=2pt]
     at ($(h-2-2)+(0,1.02)$) {URRY DISRUPTED};
-  \draw[->,cvred,line width=1.3pt]
-    ($(h-3-1)+(.45,.25)$) to[bend left=18]
-    node[right,font=\sffamily\bfseries\scriptsize,fill=white,inner sep=1pt]
-      {Combat Phase}
-    ($(h-2-2)+(.43,-.28)$);
+  \node[font=\sffamily\bfseries\scriptsize,text=cvred,align=center,
+        fill=white,draw=cvred!55,rounded corners=1pt,
+        inner xsep=4pt,inner ysep=2pt]
+    at (h-4-1) {NEXT: COMBAT\\PHASE};
 \end{tikzpicture}
 \end{minipage}\hfill
 \begin{minipage}[c]{.38\linewidth}
