@@ -23,6 +23,14 @@ rsvg-convert -f pdf -o "$output_dir/leven-artillery-1-front.pdf" \
   "$counter_dir/Leven/artillery_1.svg"
 rsvg-convert -f pdf -o "$output_dir/leven-artillery-1-back.pdf" \
   "$counter_dir/Leven/artillery_1_back.svg"
+rsvg-convert -f pdf -o "$output_dir/skirmish-marker.pdf" \
+  "$counter_dir/skirmish.svg"
+rsvg-convert -f pdf -o "$output_dir/crfrd-1-front.pdf" \
+  "$counter_dir/Manchester/crfrd_1.svg"
+rsvg-convert -f pdf -o "$output_dir/cromwell-heavy-horse.pdf" \
+  "$counter_dir/Manchester/cromwell_heavy_cavalry.svg"
+rsvg-convert -f pdf -o "$output_dir/tillier-front.pdf" \
+  "$counter_dir/Rupert/tillier.svg"
 
 rsvg-convert -f pdf -o "$symbol_dir/foot.pdf" \
   "$symbol_dir/foot.svg"

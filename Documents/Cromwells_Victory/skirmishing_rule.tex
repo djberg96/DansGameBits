@@ -1,0 +1,125 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[letterpaper,margin=.62in,top=.68in,bottom=.62in]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,positioning}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\definecolor{cvblue}{HTML}{243746}
+\definecolor{cvred}{HTML}{7A2E2E}
+\definecolor{cvsand}{HTML}{F0EBE1}
+\definecolor{cvink}{HTML}{202020}
+\definecolor{cvgreen}{HTML}{75B957}
+\definecolor{cvpink}{HTML}{DC5964}
+\definecolor{cvbuff}{HTML}{D9C28E}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=cvred,
+  urlcolor=cvblue,
+  pdftitle={Cromwell's Victory: Optional Skirmishing Rule},
+  pdfsubject={Experimental optional rule and illustrated example of play},
+  pdfauthor={Daniel J. Berger}
+}
+
+\titleformat{\section}
+  {\sffamily\bfseries\Large\color{cvblue}\raggedright}
+  {}{0pt}{}[\color{cvred}\titlerule]
+\titlespacing*{\section}{0pt}{.65em}{.45em}
+\titleformat{\subsection}
+  {\sffamily\bfseries\normalsize\color{cvred}\raggedright}
+  {}{0pt}{}
+\titlespacing*{\subsection}{0pt}{.65em}{.22em}
+
+\newcommand{\dash}{\textemdash}
+\newcommand{\ruleref}[1]{{\sffamily\bfseries\color{cvred}[#1]}}
+\newcommand{\counterimage}[2]{%
+  \node[inner sep=0pt] at (#1) {\includegraphics[width=1.22cm]{#2}};}
+\newcommand{\hexmap}{%
+  \foreach \q in {0,...,5}{%
+    \pgfmathsetmacro{\hexshift}{mod(\q,2)*0.8660254}%
+    \foreach \r in {0,...,2}{%
+      \coordinate (h-\q-\r) at ({1.5*\q},{1.7320508*\r+\hexshift});%
+      \draw[fill=cvsand!34,draw=cvblue!40,line width=.35pt]
+        ($(h-\q-\r)+(0:1)$) -- ($(h-\q-\r)+(60:1)$) --
+        ($(h-\q-\r)+(120:1)$) -- ($(h-\q-\r)+(180:1)$) --
+        ($(h-\q-\r)+(240:1)$) -- ($(h-\q-\r)+(300:1)$) -- cycle;%
+    }%
+  }%
+}
+
+\newtcolorbox{rulebox}[1]{
+  enhanced,
+  colback=cvsand!48,
+  colframe=cvblue!70,
+  boxrule=.55pt,
+  arc=1pt,
+  left=7pt,right=7pt,top=5pt,bottom=5pt,
+  before skip=5pt,after skip=6pt,
+  title={\sffamily\bfseries\small #1},
+  coltitle=white,
+  colbacktitle=cvblue
+}
+
+\newtcolorbox{examplebox}[1]{
+  enhanced,
+  colback=white,
+  colframe=cvblue!70,
+  boxrule=.55pt,
+  arc=1pt,
+  left=6pt,right=6pt,top=4pt,bottom=4pt,
+  before skip=4pt,after skip=5pt,
+  title={\sffamily\bfseries #1},
+  coltitle=white,
+  colbacktitle=cvred
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{.34em plus .09em minus .06em}
+\setlength{\columnsep}{.3in}
+\setlength{\columnseprule}{.2pt}
+\renewcommand{\columnseprulecolor}{\color{cvblue!24}}
+\renewcommand{\arraystretch}{1.1}
+\setlist[itemize]{leftmargin=1.18em,itemsep=.22em,topsep=.2em,parsep=0pt}
+\setlist[enumerate]{leftmargin=1.45em,itemsep=.28em,topsep=.2em,parsep=0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\small\color{cvblue}CROMWELL'S VICTORY}
+\fancyhead[R]{\sffamily\small\color{cvblue}OPTIONAL SKIRMISHING RULE}
+\fancyfoot[C]{\sffamily\small\thepage}
+\renewcommand{\headrulewidth}{.35pt}
+\setlength{\headheight}{14pt}
+
+\begin{document}
+
+\begin{center}
+  {\color{cvred}\rule{\textwidth}{1.5pt}}\par\vspace{7pt}
+  {\sffamily\bfseries\fontsize{27}{30}\selectfont\color{cvblue}
+    OPTIONAL SKIRMISHING RULE}\\[2pt]
+  {\sffamily\large\color{cvred}Commanded shot before the main engagement}\\[3pt]
+  {\sffamily\small Daniel J. Berger \textbullet{} \today}
+\end{center}
+
+\input{skirmishing-rule-sections/01-optional-rule}
+\clearpage
+\thispagestyle{fancy}
+\input{skirmishing-rule-sections/02-example-of-play}
+
+\end{document}
