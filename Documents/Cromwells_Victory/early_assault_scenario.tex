@@ -1,0 +1,99 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[letterpaper,margin=.65in,top=.7in,bottom=.65in]{geometry}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\definecolor{cvblue}{HTML}{243746}
+\definecolor{cvred}{HTML}{7A2E2E}
+\definecolor{cvsand}{HTML}{F0EBE1}
+\definecolor{cvink}{HTML}{202020}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=cvred,
+  urlcolor=cvblue,
+  pdftitle={Cromwell's Victory: Rupert Strikes at Noon},
+  pdfsubject={Experimental alternate scenario for the Battle of Marston Moor},
+  pdfauthor={Daniel J. Berger}
+}
+
+\titleformat{\section}
+  {\sffamily\bfseries\Large\color{cvblue}\raggedright}
+  {}{0pt}{}[\color{cvred}\titlerule]
+\titlespacing*{\section}{0pt}{.8em}{.45em}
+\titleformat{\subsection}
+  {\sffamily\bfseries\normalsize\color{cvred}\raggedright}
+  {}{0pt}{}
+\titlespacing*{\subsection}{0pt}{.55em}{.2em}
+
+\newtcolorbox{scenarioBox}[1]{
+  enhanced,breakable,
+  colback=cvsand!48,colframe=cvblue!72,
+  boxrule=.55pt,arc=1pt,
+  left=7pt,right=7pt,top=4pt,bottom=4pt,
+  before skip=5pt,after skip=6pt,
+  title={\sffamily\bfseries\small #1},
+  coltitle=white,colbacktitle=cvblue
+}
+
+\newtcolorbox{redBox}[1]{
+  enhanced,breakable,
+  colback=cvsand!35,colframe=cvred!82,
+  boxrule=.55pt,arc=1pt,
+  left=7pt,right=7pt,top=4pt,bottom=4pt,
+  before skip=5pt,after skip=6pt,
+  title={\sffamily\bfseries\small #1},
+  coltitle=white,colbacktitle=cvred
+}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\turn}[1]{{\sffamily\bfseries\color{cvred}Turn #1}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{.38em plus .1em minus .06em}
+\renewcommand{\arraystretch}{1.13}
+\setlist[itemize]{leftmargin=1.2em,itemsep=.22em,topsep=.2em,parsep=0pt}
+\setlist[enumerate]{leftmargin=1.45em,itemsep=.28em,topsep=.2em,parsep=0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\small\color{cvblue}CROMWELL'S VICTORY}
+\fancyhead[R]{\sffamily\small\color{cvblue}RUPERT STRIKES AT NOON}
+\fancyfoot[C]{\sffamily\small\thepage}
+\renewcommand{\headrulewidth}{.35pt}
+\setlength{\headheight}{14pt}
+
+\begin{document}
+
+\begin{center}
+  {\color{cvred}\rule{\textwidth}{1.5pt}}\par\vspace{8pt}
+  {\sffamily\bfseries\fontsize{29}{32}\selectfont\color{cvblue}
+    RUPERT STRIKES AT NOON}\\[2pt]
+  {\sffamily\large\color{cvred}An alternate scenario for \textsc{Cromwell's Victory}}\\[4pt]
+  {\sffamily\small Daniel J. Berger \textbullet{} \today}
+\end{center}
+
+\begin{redBox}{Experimental Scenario}
+This scenario has not yet been balanced by repeated play. It is meant to test
+the battle Prince Rupert wanted: Newcastle's York infantry reaches the moor in
+time for a noon attack, before the Allied foot and artillery have returned and
+formed their line.
+\end{redBox}
+
+\input{early-assault-scenario-sections/01-historical-situation}
+\input{early-assault-scenario-sections/02-setup-and-arrivals}
+\input{early-assault-scenario-sections/03-rules-and-victory}
+
+\end{document}
