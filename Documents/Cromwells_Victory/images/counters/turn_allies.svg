@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Allies turn marker</title>
+  <desc id="desc">The Allied face of a two-sided turn marker for Cromwell's Victory.</desc>
+  <style>
+    text {
+      fill: #F0EBE1;
+      font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      text-anchor: middle;
+    }
+    .turn { font-size: 15px; letter-spacing: 2px; }
+    .side { font-size: 21px; letter-spacing: 0.5px; }
+    .active { font-size: 10px; letter-spacing: 1.5px; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="99" height="99" fill="#243746" stroke="#263326" stroke-width="1"/>
+  <rect x="5.5" y="5.5" width="89" height="89" fill="none" stroke="#F0EBE1" stroke-width="1" opacity="0.75"/>
+  <text class="turn" x="50" y="27">TURN</text>
+  <path d="M18 37 H82" stroke="#F0EBE1" stroke-width="1.5" opacity="0.75"/>
+  <text class="side" x="50" y="63">ALLIES</text>
+  <text class="active" x="50" y="82">ACTIVE</text>
+</svg>
