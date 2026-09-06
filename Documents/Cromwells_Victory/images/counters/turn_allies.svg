@@ -4,7 +4,7 @@
   <desc id="desc">The Allied face of a two-sided turn marker for Cromwell's Victory.</desc>
   <style>
     text {
-      fill: #F0EBE1;
+      fill: #FFFFFF;
       font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
       font-weight: 800;
       text-anchor: middle;
@@ -14,10 +14,10 @@
     .active { font-size: 10px; letter-spacing: 1.5px; }
   </style>
 
-  <rect x="0.5" y="0.5" width="99" height="99" fill="#243746" stroke="#263326" stroke-width="1"/>
-  <rect x="5.5" y="5.5" width="89" height="89" fill="none" stroke="#F0EBE1" stroke-width="1" opacity="0.75"/>
+  <rect x="0.5" y="0.5" width="99" height="99" fill="#B33F4A" stroke="#263326" stroke-width="1"/>
+  <rect x="5.5" y="5.5" width="89" height="89" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
   <text class="turn" x="50" y="27">TURN</text>
-  <path d="M18 37 H82" stroke="#F0EBE1" stroke-width="1.5" opacity="0.75"/>
+  <path d="M18 37 H82" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
   <text class="side" x="50" y="63">ALLIES</text>
   <text class="active" x="50" y="82">ACTIVE</text>
 </svg>
