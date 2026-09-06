@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Directional attack marker at 4-1 odds</title>
+  <desc id="desc">An attack marker with an arrow indicating the defending hex and a 4-1 odds reminder.</desc>
+  <style>
+    text { fill: #F0EBE1; font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; text-anchor: middle; }
+    .title { font-size: 14px; font-weight: 800; letter-spacing: 0.2px; }
+    .odds { font-size: 20px; font-weight: 800; }
+  </style>
+  <rect x="0.5" y="0.5" width="99" height="99" fill="#344D5C" stroke="#202B30" stroke-width="1"/>
+  <text class="title" x="50" y="17">ATTACK</text>
+  <path d="M50 61 V35" fill="none" stroke="#F0EBE1" stroke-width="8" stroke-linecap="round"/>
+  <path d="M31 38 L50 20 L69 38 Z" fill="#F0EBE1"/>
+  <text class="odds" x="50" y="88">4-1</text>
+</svg>
