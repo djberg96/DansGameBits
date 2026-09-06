@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Directional attack marker</title>
+  <desc id="desc">A neutral attack marker with an arrow indicating the defending hex.</desc>
+  <style>
+    text {
+      fill: #F0EBE1;
+      font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+      text-anchor: middle;
+    }
+    .title {
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 0.2px;
+    }
+    .notice {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="99" height="99" fill="#344D5C" stroke="#202B30" stroke-width="1"/>
+  <text class="title" x="50" y="18">ATTACK</text>
+
+  <!-- Rotate the marker so this arrow points toward the defending hex. -->
+  <path d="M50 75 V38" fill="none" stroke="#F0EBE1" stroke-width="8"
+        stroke-linecap="round"/>
+  <path d="M31 41 L50 22 L69 41 Z" fill="#F0EBE1"/>
+
+  <text class="notice" x="50" y="91">DECLARED</text>
+</svg>

@@ -27,6 +27,8 @@ rsvg-convert -f pdf -o "$output_dir/skirmish-marker.pdf" \
   "$counter_dir/skirmish.svg"
 rsvg-convert -f pdf -o "$output_dir/charge-marker.pdf" \
   "$counter_dir/charge.svg"
+rsvg-convert -f pdf -o "$output_dir/attack-marker.pdf" \
+  "$counter_dir/attack.svg"
 rsvg-convert -f pdf -o "$output_dir/turn-royalists.pdf" \
   "$counter_dir/turn_royalists.svg"
 rsvg-convert -f pdf -o "$output_dir/turn-allies.pdf" \
