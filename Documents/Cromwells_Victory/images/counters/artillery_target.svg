@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Artillery target marker</title>
+  <desc id="desc">An ochre marker with a crosshair identifying an artillery target.</desc>
+  <style>
+    text {
+      fill: #172126;
+      font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+      text-anchor: middle;
+    }
+    .title {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.1px;
+    }
+    .notice {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="99" height="99" fill="#C9A85E" stroke="#263326" stroke-width="1"/>
+  <text class="title" x="50" y="17">ARTILLERY</text>
+
+  <g fill="none" stroke="#172126" stroke-linecap="round">
+    <circle cx="50" cy="52" r="20" stroke-width="4"/>
+    <circle cx="50" cy="52" r="7" stroke-width="4"/>
+    <path d="M50 25 V39 M50 65 V79 M23 52 H37 M63 52 H77" stroke-width="4"/>
+  </g>
+  <circle cx="50" cy="52" r="2.5" fill="#172126"/>
+
+  <text class="notice" x="50" y="92">TARGET</text>
+</svg>

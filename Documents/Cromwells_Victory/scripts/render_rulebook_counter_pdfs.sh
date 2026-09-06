@@ -33,6 +33,8 @@ for odds in 1-2 1-1 2-1 3-1 4-1; do
   rsvg-convert -f pdf -o "$output_dir/attack-$odds-marker.pdf" \
     "$counter_dir/attack_$odds.svg"
 done
+rsvg-convert -f pdf -o "$output_dir/artillery-target-marker.pdf" \
+  "$counter_dir/artillery_target.svg"
 rsvg-convert -f pdf -o "$output_dir/turn-royalists.pdf" \
   "$counter_dir/turn_royalists.svg"
 rsvg-convert -f pdf -o "$output_dir/turn-allies.pdf" \
